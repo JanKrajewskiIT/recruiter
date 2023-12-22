@@ -1,0 +1,20 @@
+{
+    "recommendations": [
+      "aaron-bond.better-comments",
+      "davidanson.vscode-markdownlint",
+      "dbaeumer.vscode-eslint",
+      "dsznajder.es7-react-js-snippets",
+      "eamodio.gitlens",
+      "figma.figma-vscode-extension",
+      "github.copilot-chat",
+      "github.copilot",
+      "iulian-radu-at.fix-relative-imports-to-baseurl",
+      "ms-azuretools.vscode-docker",
+      "ms-playwright.playwright",
+      "ms-vscode-remote.remote-containers",
+      "ms-vscode-remote.remote-wsl",
+      "streetsidesoftware.code-spell-checker-polish",
+      "streetsidesoftware.code-spell-checker",
+      "styled-components.vscode-styled-components"
+    ]
+  }

@@ -5,7 +5,7 @@ export default function MyDocument(props: DocumentProps & DocumentHeadTagsProps)
   return (
     <Html lang="en">
       <Head >
-        <DocumentHeadTags {...props} />
+        <DocumentHeadTags {...props} /> 
       </Head>
       <body>
         <Main />
