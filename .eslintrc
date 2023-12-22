@@ -1,32 +1,35 @@
 {
-  "env": {
-    "browser": true,
-    "es2021": true
-  },
-  "parser": "@typescript-eslint/parser",
-  "parserOptions": {
-    "ecmaVersion": "latest",
-    "ecmaFeatures": {
-      "jsx": true
+    "env": {
+        "browser": true,
+        "es2021": true
     },
-    "sourceType": "module",
-    "project": [
-      "./tsconfig.json"
-    ]
-  },
-  "plugins": [
-    "prettier"
-  ],
-  "extends": [
-    "next",
-    "prettier"
-  ],
-  "rules": {
-    "prettier/prettier": [
-      "error",
-      {
-        "endOfLine": "auto"
-      }
-    ]
-  }
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "sourceType": "module",
+        "project": [
+            "./tsconfig.json"
+        ]
+    },
+    "plugins": [
+        "react",
+        "prettier"
+    ],
+    "extends": [
+        "standard-with-typescript",
+        "plugin:react/recommended",
+        "next",
+        "prettier"
+    ],
+    "rules": {
+        "prettier/prettier": [
+            "error",
+            {
+                "endOfLine": "auto"
+            }
+        ]
+    }
 }

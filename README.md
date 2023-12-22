@@ -42,3 +42,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ```bash
 npx npm-check-updates
 ```
+
+## For generating eslint from scratch
+
+```bash
+npm init @eslint/config
+```
