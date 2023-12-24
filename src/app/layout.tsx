@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "./globals.css";
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v14-appRouter";
+import Navbar from "@/app/NavBar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,7 +13,10 @@ export const metadata: Metadata = {
 const RootLayout = ({ children }: { children: React.ReactNode }) => (
   <html lang="en">
     <body className={inter.className}>
-      <AppRouterCacheProvider>{children}</AppRouterCacheProvider>
+      <AppRouterCacheProvider>
+        <Navbar />
+        {children}
+      </AppRouterCacheProvider>
     </body>
   </html>
 );
