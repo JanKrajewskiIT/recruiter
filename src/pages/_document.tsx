@@ -1,8 +1,14 @@
-import { Html, Head, Main, NextScript, DocumentProps } from "next/document";
+import {
+  Html,
+  Head,
+  Main,
+  NextScript,
+  type DocumentProps,
+} from "next/document";
 import {
   DocumentHeadTags,
   documentGetInitialProps,
-  DocumentHeadTagsProps,
+  type DocumentHeadTagsProps,
 } from "@mui/material-nextjs/v14-pagesRouter";
 
 const MyDocument = (props: DocumentProps & DocumentHeadTagsProps) => (

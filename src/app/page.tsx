@@ -1,5 +1,4 @@
-import { styled } from "@mui/material";
-import { PropsWithClassName } from "@/app/models/props";
+import { type PropsWithClassName } from "@/models/props";
 
 const Home = ({ className }: PropsWithClassName) => (
   <main className={className}>
@@ -7,7 +6,4 @@ const Home = ({ className }: PropsWithClassName) => (
   </main>
 );
 
-export default styled(Home)`
-  & {
-  }
-`;
+export default Home;
