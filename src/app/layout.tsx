@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v14-appRouter";
-import Navbar from "@/components/navigation/NavBar";
 import "../styles/globals.css";
+import Navigation from "@/components/navigation/Navigation";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,7 +15,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => (
   <html lang="en">
     <body className={inter.className}>
       <AppRouterCacheProvider>
-        <Navbar />
+        <Navigation />
         {children}
       </AppRouterCacheProvider>
     </body>

@@ -4,6 +4,12 @@
   margin: 0;
 }
 
+:root {
+  --clr: #262433;
+  --nav-background: #8b0036e6;
+  --body-background: #fff;
+}
+
 /*:root {
   --max-width: 1100px;
   --border-radius: 12px;
