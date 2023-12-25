@@ -8,6 +8,21 @@
   --clr: #262433;
   --nav-background: #8b0036e6;
   --body-background: #fff;
+  --color-gray-0: #ffffff;
+  --color-gray-10: #eeeff1;
+  --color-gray-20: #d4d7dc;
+  --color-gray-30: #b8bcc5;
+  --color-gray-40: #9ba2af;
+  --color-gray-50: #858d9d;
+  --color-gray-60: #707a8c;
+  --color-gray-70: #626b7b;
+  --color-gray-80: #515865;
+  --color-gray-90: #404550;
+  --color-gray-100: #2d3138;
+}
+
+body {
+  background-color: var(--color-gray-10);
 }
 
 /*:root {

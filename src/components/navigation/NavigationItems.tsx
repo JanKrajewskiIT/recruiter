@@ -78,23 +78,24 @@ export default styled(NavigationItems)`
       transition: 0.5s;
       color: var(--body-background);
       opacity: 0.75;
+      margin-left: 1px;
     }
 
     li.active a .icon {
-      transform: translateY(-6px);
+      transform: translateY(7px);
       opacity: 1;
       color: var(--nav-background);
     }
 
     .indicator {
+      top: 6px;
       position: absolute;
-      top: -10px;
       width: 72px;
       height: 72px;
-      border-bottom-left-radius: 35px;
-      border-bottom-right-radius: 35px;
-      border: 6px solid var(--body-background);
-      background: var(--body-background);
+      border-top-left-radius: 35px;
+      border-top-right-radius: 35px;
+      border: 6px solid var(--color-gray-10);
+      background: var(--color-gray-10);
       cursor: pointer;
       transition: 0.5s;
     }
@@ -102,23 +103,24 @@ export default styled(NavigationItems)`
     .indicator::before {
       content: "";
       position: absolute;
-      top: 4px;
+      top: 39px;
       left: -24.75px;
       width: 20px;
       height: 20px;
-      border-top-right-radius: 20px;
-      box-shadow: 4px -6px 0 2px var(--body-background);
+      border-bottom-right-radius: 20px;
+      box-shadow: 5px 8px 4px 2px var(--color-gray-10);
+      z-index: -1;
     }
 
     .indicator::after {
       content: "";
       position: absolute;
-      top: 4px;
+      top: 39px;
       right: -24.75px;
       width: 20px;
       height: 20px;
-      border-top-left-radius: 20px;
-      box-shadow: -4px -6px 0 2px var(--body-background);
+      border-bottom-left-radius: 20px;
+      box-shadow: -5px 8px 4px 2px var(--color-gray-10);
       z-index: -1;
     }
 
@@ -140,10 +142,10 @@ export default styled(NavigationItems)`
 
     .indicator span {
       position: absolute;
-      bottom: 2px;
-      left: 4px;
-      width: 52px;
-      height: 52px;
+      bottom: 6.5px;
+      left: 5px;
+      width: 50px;
+      height: 50px;
       border: 3.5px solid var(--nav-background);
       background: var(--body-background);
       border-radius: 50%;

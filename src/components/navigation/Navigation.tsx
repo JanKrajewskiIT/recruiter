@@ -39,7 +39,7 @@ export default styled(Navigation)`
     background: var(--nav-background);
     position: relative;
     z-index: 1;
-    box-shadow: 0px 0px 10px var(--nav-background);
+    box-shadow: 0px 0px 2px var(--nav-background);
     color: var(--body-background);
 
     .logo-icon {
