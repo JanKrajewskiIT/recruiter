@@ -1,15 +1,7 @@
-import { type ReactNode } from "react";
+import { type PropsWithChildren } from "react";
 
-export type PropsWithClassName<P = unknown> = P &
-  IWithTestTag & {
-    className?: string;
-    disabled?: boolean;
-  };
-
-export type PropsWithChildren<P = unknown> = PropsWithClassName<P> & {
-  children?: ReactNode;
-};
-
-export interface IWithTestTag {
+export type Props<P = unknown> = PropsWithChildren<P> & {
+  className?: string;
+  disabled?: boolean;
   testTag?: string;
-}
+};

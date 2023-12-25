@@ -1,25 +1,19 @@
-"use client";
-
-import { type NavigationItem, elements } from "@/components/navigation/items";
-import { type PropsWithClassName } from "@/models/props";
+import { type NavItem, navItems } from "@/components/navigation/NavItem";
+import { type Props } from "@/models/props";
 import styled from "@emotion/styled";
 import { useRouter } from "next/navigation";
 import { useCallback } from "react";
 
-interface INavigationItemsProps {
-  active: NavigationItem;
-  setActive: (active: NavigationItem) => void;
+interface INavItemsProps {
+  active: NavItem;
+  setActive: (active: NavItem) => void;
 }
 
-const NavigationItems = ({
-  className,
-  active,
-  setActive,
-}: PropsWithClassName<INavigationItemsProps>) => {
+const NavItems = ({ className, active, setActive }: Props<INavItemsProps>) => {
   const router = useRouter();
 
   const handleActiveChange = useCallback(
-    (active: NavigationItem) => () => {
+    (active: NavItem) => () => {
       setActive(active);
       router.push(active.href);
     },
@@ -28,7 +22,7 @@ const NavigationItems = ({
 
   return (
     <ul className={className}>
-      {elements.map(({ name, href, icon: Icon }) => (
+      {navItems.map(({ name, href, icon: Icon }) => (
         <li
           key={name}
           className={`list ${active?.name === name ? "active" : ""}`}
@@ -48,7 +42,7 @@ const NavigationItems = ({
   );
 };
 
-export default styled(NavigationItems)`
+export default styled(NavItems)`
   & {
     display: flex;
     width: 350px;

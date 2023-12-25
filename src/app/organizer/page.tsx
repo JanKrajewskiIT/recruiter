@@ -1,10 +1,10 @@
 "use client";
 
-import { type PropsWithClassName } from "@/models/props";
+import { type Props } from "@/models/props";
 import styled from "@emotion/styled";
 import { Typography } from "@mui/material";
 
-const Organizer = ({ className }: PropsWithClassName) => (
+const Organizer = ({ className }: Props) => (
   <main className={className}>
     <Typography>Organizer</Typography>
   </main>

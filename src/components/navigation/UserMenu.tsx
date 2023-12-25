@@ -1,7 +1,4 @@
-"use client";
-
-import { type PropsWithClassName } from "@/models/props";
-import styled from "@emotion/styled";
+import { type Props } from "@/models/props";
 import {
   Avatar,
   Box,
@@ -15,7 +12,7 @@ import { useState } from "react";
 
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
-const UserMenu = ({ className }: PropsWithClassName) => {
+const UserMenu = ({ className }: Props) => {
   const [anchorElUser, setAnchorElUser] = useState<null | HTMLElement>(null);
 
   const handleOpenUserMenu = (event: React.MouseEvent<HTMLElement>) => {
@@ -59,7 +56,4 @@ const UserMenu = ({ className }: PropsWithClassName) => {
   );
 };
 
-export default styled(UserMenu)`
-  & {
-  }
-`;
+export default UserMenu;

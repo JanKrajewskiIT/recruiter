@@ -1,10 +1,10 @@
 "use client";
 
-import { type PropsWithClassName } from "@/models/props";
+import { type Props } from "@/models/props";
 import styled from "@emotion/styled";
 import { Typography } from "@mui/material";
 
-const Materials = ({ className }: PropsWithClassName) => (
+const Materials = ({ className }: Props) => (
   <main className={className}>
     <Typography>Materials</Typography>
   </main>

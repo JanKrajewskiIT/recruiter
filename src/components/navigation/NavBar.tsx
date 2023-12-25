@@ -1,19 +1,27 @@
-"use client";
-
-import { type PropsWithClassName } from "@/models/props";
+import { type Props } from "@/models/props";
 import styled from "@emotion/styled";
 import { BiLogoReact } from "react-icons/bi";
-import NavigationItems from "@/components/navigation/NavigationItems";
+import NavigationItems from "@/components/navigation/NavItems";
 import UserMenu from "@/components/navigation/UserMenu";
 import { useState } from "react";
 import { Typography } from "@mui/material";
-import { type NavigationItem, elements } from "@/components/navigation/items";
+import { type NavItem, navItems } from "@/components/navigation/NavItem";
 import { usePathname } from "next/navigation";
+import ThemeSwitch from "@/components/navigation/ThemeSwitch";
 
-const Navigation = ({ className }: PropsWithClassName) => {
+interface INavBarProps {
+  isDarkMode: boolean;
+  setDarkMode: (isDarkMode: boolean) => void;
+}
+
+const NavBar = ({
+  className,
+  isDarkMode,
+  setDarkMode,
+}: Props<INavBarProps>) => {
   const pathname = usePathname();
-  const [active, setActive] = useState<NavigationItem>(
-    elements.find((e) => e.href === pathname) ?? elements[0],
+  const [active, setActive] = useState<NavItem>(
+    navItems.find((e) => e.href === pathname) ?? navItems[0],
   );
 
   return (
@@ -21,15 +29,16 @@ const Navigation = ({ className }: PropsWithClassName) => {
       <BiLogoReact className="logo-icon" />
       <Typography className="item-name">{active.name}</Typography>
       <NavigationItems active={active} setActive={setActive} />
+      <ThemeSwitch isDarkMode={isDarkMode} setDarkMode={setDarkMode} />
       <UserMenu className="user-menu" />
     </div>
   );
 };
 
-export default styled(Navigation)`
+export default styled(NavBar)`
   & {
     display: grid;
-    grid-template-columns: 60px 60px auto 120px;
+    grid-template-columns: 60px 60px auto 40px 60px;
     justify-items: center;
     column-gap: 15px;
     align-items: center;

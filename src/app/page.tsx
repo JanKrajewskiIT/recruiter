@@ -1,6 +1,6 @@
 "use client";
 
-import { type PropsWithClassName } from "@/models/props";
+import { type Props } from "@/models/props";
 import styled from "@emotion/styled";
 import {
   Box,
@@ -22,7 +22,7 @@ const bull = (
   </Box>
 );
 
-const Home = ({ className }: PropsWithClassName) => (
+const Home = ({ className }: Props) => (
   <main className={className}>
     {array.map((a) => (
       <Card key={a} sx={{ minWidth: 275 }}>

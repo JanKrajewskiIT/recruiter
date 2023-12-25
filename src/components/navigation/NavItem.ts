@@ -3,13 +3,13 @@ import { FaThList, FaHome, FaQuestion } from "react-icons/fa";
 import { IoCalendar } from "react-icons/io5";
 import { IoMdSettings } from "react-icons/io";
 
-export interface NavigationItem {
+export interface NavItem {
   name: string;
   href: string;
   icon: IconType;
 }
 
-export const elements = [
+export const navItems = [
   {
     name: "Home",
     href: "/",
@@ -35,4 +35,4 @@ export const elements = [
     href: "/settings",
     icon: IoMdSettings,
   },
-] as NavigationItem[];
+] as NavItem[];
