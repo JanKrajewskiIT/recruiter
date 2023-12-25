@@ -5,22 +5,22 @@ import styled from "@emotion/styled";
 import { BiLogoReact } from "react-icons/bi";
 import NavigationItems from "@/components/navigation/NavigationItems";
 import UserMenu from "@/components/navigation/UserMenu";
-import { useCallback, useState } from "react";
+import { useState } from "react";
 import { Typography } from "@mui/material";
-import { elements } from "@/components/navigation/items";
+import { type NavigationItem, elements } from "@/components/navigation/items";
+import { usePathname } from "next/navigation";
 
 const Navigation = ({ className }: PropsWithClassName) => {
-  const [header, setHeader] = useState(elements?.[0]?.name);
-
-  const handleItemChange = useCallback((header: string) => {
-    setHeader(header);
-  }, []);
+  const pathname = usePathname();
+  const [active, setActive] = useState<NavigationItem>(
+    elements.find((e) => e.href === pathname) ?? elements[0],
+  );
 
   return (
     <div className={className}>
       <BiLogoReact className="logo-icon" />
-      <Typography className="item-name">{header}</Typography>
-      <NavigationItems onItemChange={handleItemChange} />
+      <Typography className="item-name">{active.name}</Typography>
+      <NavigationItems active={active} setActive={setActive} />
       <UserMenu className="user-menu" />
     </div>
   );
@@ -34,7 +34,7 @@ export default styled(Navigation)`
     column-gap: 15px;
     align-items: center;
     width: 100%;
-    height: 70px;
+    height: var(--header-height);
     padding: 0 10px;
     background: var(--nav-background);
     position: relative;

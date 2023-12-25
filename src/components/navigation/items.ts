@@ -5,28 +5,34 @@ import { IoMdSettings } from "react-icons/io";
 
 export interface NavigationItem {
   name: string;
+  href: string;
   icon: IconType;
 }
 
 export const elements = [
   {
     name: "Home",
+    href: "/",
     icon: FaHome,
   },
   {
     name: "Questions",
+    href: "/questions",
     icon: FaQuestion,
   },
   {
     name: "Organizer",
+    href: "/organizer",
     icon: IoCalendar,
   },
   {
     name: "Materials",
+    href: "/materials",
     icon: FaThList,
   },
   {
     name: "Settings",
+    href: "/settings",
     icon: IoMdSettings,
   },
 ] as NavigationItem[];

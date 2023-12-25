@@ -3,35 +3,38 @@
 import { type NavigationItem, elements } from "@/components/navigation/items";
 import { type PropsWithClassName } from "@/models/props";
 import styled from "@emotion/styled";
-import { useCallback, useState } from "react";
+import { useRouter } from "next/navigation";
+import { useCallback } from "react";
 
 interface INavigationItemsProps {
-  onItemChange: (header: string) => void;
+  active: NavigationItem;
+  setActive: (active: NavigationItem) => void;
 }
 
 const NavigationItems = ({
   className,
-  onItemChange,
+  active,
+  setActive,
 }: PropsWithClassName<INavigationItemsProps>) => {
-  const [active, setActive] = useState<NavigationItem>(elements?.[0]);
+  const router = useRouter();
 
   const handleActiveChange = useCallback(
     (active: NavigationItem) => () => {
       setActive(active);
-      onItemChange(active.name);
+      router.push(active.href);
     },
-    [onItemChange],
+    [router, setActive],
   );
 
   return (
     <ul className={className}>
-      {elements.map(({ name, icon: Icon }) => (
+      {elements.map(({ name, href, icon: Icon }) => (
         <li
           key={name}
           className={`list ${active?.name === name ? "active" : ""}`}
-          onClick={handleActiveChange({ name, icon: Icon })}
+          onClick={handleActiveChange({ name, href, icon: Icon })}
         >
-          <a href="#">
+          <a>
             <span className="icon">
               <Icon />
             </span>
@@ -53,8 +56,8 @@ export default styled(NavigationItems)`
     li {
       position: relative;
       list-style: none;
-      width: 70px;
-      height: 70px;
+      width: var(--header-height);
+      height: var(--header-height);
       z-index: 1;
     }
 
@@ -125,19 +128,19 @@ export default styled(NavigationItems)`
     }
 
     li:nth-child(2).active ~ .indicator {
-      transform: translateX(calc(70px * 1));
+      transform: translateX(calc(var(--header-height) * 1));
     }
 
     li:nth-child(3).active ~ .indicator {
-      transform: translateX(calc(70px * 2));
+      transform: translateX(calc(var(--header-height) * 2));
     }
 
     li:nth-child(4).active ~ .indicator {
-      transform: translateX(calc(70px * 3));
+      transform: translateX(calc(var(--header-height) * 3));
     }
 
     li:nth-child(5).active ~ .indicator {
-      transform: translateX(calc(70px * 4));
+      transform: translateX(calc(var(--header-height) * 4));
     }
 
     .indicator span {
