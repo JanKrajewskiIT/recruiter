@@ -2,6 +2,7 @@
   "cSpell.enabled": true,
   "cSpell.language": "pl,en",
   "cSpell.words": [
+    "appbar",
     "nextjs",
     "recrutation"
   ],
@@ -34,5 +35,8 @@
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
   },
 }
