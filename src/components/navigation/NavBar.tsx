@@ -38,7 +38,7 @@ const NavBar = ({
 export default styled(NavBar)`
   & {
     display: grid;
-    grid-template-columns: 45px 50px auto 45px 50px;
+    grid-template-columns: 45px 50px auto 100px 50px;
     justify-items: center;
     column-gap: 15px;
     align-items: center;

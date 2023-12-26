@@ -1,5 +1,5 @@
 import { MdDarkMode, MdLightMode } from "react-icons/md";
-import { styled, Switch } from "@mui/material";
+import { styled } from "@mui/material";
 import { type Props } from "@/models/props";
 
 interface IThemeSwitchProps {
@@ -12,45 +12,87 @@ const ThemeSwitch = ({
   isDarkMode,
   setDarkMode,
 }: Props<IThemeSwitchProps>) => {
-  const handleChange = (_: unknown, checked: boolean) => {
+  const handleChange = (checked: boolean) => () => {
     setDarkMode(checked);
   };
 
   return (
-    <Switch
-      className={className}
-      checked={isDarkMode}
-      icon={<MdLightMode fontSize="small" />}
-      checkedIcon={<MdDarkMode fontSize="small" />}
-      onChange={handleChange}
-    />
+    <div className={className}>
+      <div
+        className={`switch ${isDarkMode ? "" : "active"}`}
+        onClick={handleChange(false)}
+      >
+        <MdLightMode />
+      </div>
+      <div className="spacer" />
+      <div
+        className={`switch ${isDarkMode ? "active" : ""}`}
+        onClick={handleChange(true)}
+      >
+        <MdDarkMode />
+      </div>
+    </div>
   );
 };
 
 export default styled(ThemeSwitch)`
   & {
-    width: 52px;
-    height: 32px;
-    padding: 6px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 
-    .MuiButtonBase-root,
-    .MuiButtonBase-root:hover,
-    .MuiButtonBase-root.Mui-checked:hover {
-      background-color: ${({ theme }) =>
-        theme.palette.mode === "dark" ? "#003892" : "#001e3c"};
-      width: 32px;
-      height: 32px;
+    .switch {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 28px;
+      height: 28px;
+      background-color: var(--nav-background);
+      border: 1.5px solid white;
+      border-radius: 30px;
+      transition: 1s;
+      z-index: 1;
     }
 
-    .MuiSwitch-track {
-      opacity: 1;
-      background-color: ${({ theme }) =>
-        theme.palette.mode === "dark" ? "#8796A5" : "#aab4be"};
+    .switch.active {
+      transform: scale(1.5);
+      background-color: white;
+      color: var(--nav-background);
+      transition: 1s;
+      z-index: -1;
+    }
+
+    .spacer {
+      display: flex;
+      z-index: -1;
+    }
+
+    .spacer::before {
+      content: "";
+      position: absolute;
       border-radius: 15px;
+      margin-top: -21.5px;
+      margin-left: ${(props) => (props.isDarkMode ? "-10px" : "-0px")};
+      width: 10px;
+      height: 10px;
+      border-bottom: 2px solid white;
+      transform: rotate(${(props) => (props.isDarkMode ? "-12deg" : "12deg")});
+      transition: 1s;
+      z-index: -1;
     }
 
-    .MuiSvgIcon-root {
-      color: white;
+    .spacer::after {
+      content: "";
+      position: absolute;
+      border-radius: 15px;
+      margin-top: 10px;
+      margin-left: ${(props) => (props.isDarkMode ? "-10px" : "-0px")};
+      width: 10px;
+      height: 10px;
+      border-top: 2px solid white;
+      transform: rotate(${(props) => (props.isDarkMode ? "12deg" : "-12deg")});
+      transition: 1s;
+      z-index: -1;
     }
   }
 `;
