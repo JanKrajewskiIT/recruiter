@@ -38,7 +38,7 @@ const NavBar = ({
 export default styled(NavBar)`
   & {
     display: grid;
-    grid-template-columns: 60px 60px auto 40px 60px;
+    grid-template-columns: 45px 50px auto 45px 50px;
     justify-items: center;
     column-gap: 15px;
     align-items: center;
@@ -53,7 +53,7 @@ export default styled(NavBar)`
 
     .logo-icon {
       justify-self: start;
-      font-size: 60px;
+      font-size: 50px;
       margin-top: 2px;
     }
 

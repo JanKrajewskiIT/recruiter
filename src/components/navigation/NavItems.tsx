@@ -69,13 +69,12 @@ export default styled(NavItems)`
     li a .icon {
       position: relative;
       display: block;
-      line-height: 75px;
+      line-height: 65px;
       font-size: 1.5em;
       text-align: center;
       transition: 0.5s;
       color: var(--body-background);
       opacity: 0.75;
-      margin-left: 1px;
     }
 
     li.active a .icon {
@@ -87,8 +86,8 @@ export default styled(NavItems)`
     .indicator {
       top: 6px;
       position: absolute;
-      width: 72px;
-      height: 72px;
+      width: var(--header-height);
+      height: var(--header-height);
       border-top-left-radius: 35px;
       border-top-right-radius: 35px;
       border: 6px solid var(--color-gray-10);
@@ -100,7 +99,7 @@ export default styled(NavItems)`
     .indicator::before {
       content: "";
       position: absolute;
-      top: 39px;
+      top: 29px;
       left: -24.75px;
       width: 20px;
       height: 20px;
@@ -112,7 +111,7 @@ export default styled(NavItems)`
     .indicator::after {
       content: "";
       position: absolute;
-      top: 39px;
+      top: 29px;
       right: -24.75px;
       width: 20px;
       height: 20px;
@@ -139,11 +138,11 @@ export default styled(NavItems)`
 
     .indicator span {
       position: absolute;
-      bottom: 6.5px;
-      left: 5px;
-      width: 50px;
-      height: 50px;
-      border: 3.5px solid var(--nav-background);
+      bottom: 2px;
+      left: 2px;
+      width: 44px;
+      height: 44px;
+      border: 2.5px solid var(--nav-background);
       background: var(--body-background);
       border-radius: 50%;
       transform-origin: bottom;
