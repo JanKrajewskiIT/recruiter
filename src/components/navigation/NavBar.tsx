@@ -38,7 +38,7 @@ const NavBar = ({
 export default styled(NavBar)`
   & {
     display: grid;
-    grid-template-columns: 45px 50px auto 100px 50px;
+    grid-template-columns: 45px 50px auto 50px 50px;
     justify-items: center;
     column-gap: 15px;
     align-items: center;
@@ -49,7 +49,7 @@ export default styled(NavBar)`
     position: relative;
     z-index: 1;
     box-shadow: 0px 0px 2px var(--nav-background);
-    color: var(--body-background);
+    color: var(--color-gray-0);
 
     .logo-icon {
       justify-self: start;

@@ -73,7 +73,7 @@ export default styled(NavItems)`
       font-size: 1.5em;
       text-align: center;
       transition: 0.5s;
-      color: var(--body-background);
+      color: var(--color-gray-0);
       opacity: 0.75;
     }
 
@@ -143,7 +143,7 @@ export default styled(NavItems)`
       width: 44px;
       height: 44px;
       border: 2.5px solid var(--nav-background);
-      background: var(--body-background);
+      background: var(--color-gray-0);
       border-radius: 50%;
       transform-origin: bottom;
     }

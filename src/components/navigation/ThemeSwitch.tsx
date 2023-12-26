@@ -48,7 +48,7 @@ export default styled(ThemeSwitch)`
       width: 28px;
       height: 28px;
       background-color: var(--nav-background);
-      border: 1.5px solid white;
+      border: 2px solid var(--color-gray-0);
       border-radius: 30px;
       transition: 1s;
       z-index: 1;
@@ -56,7 +56,7 @@ export default styled(ThemeSwitch)`
 
     .switch.active {
       transform: scale(1.5);
-      background-color: white;
+      background-color: var(--color-gray-0);
       color: var(--nav-background);
       transition: 1s;
       z-index: -1;
@@ -71,12 +71,12 @@ export default styled(ThemeSwitch)`
       content: "";
       position: absolute;
       border-radius: 15px;
-      margin-top: -21.5px;
-      margin-left: ${(props) => (props.isDarkMode ? "-10px" : "-0px")};
-      width: 10px;
-      height: 10px;
-      border-bottom: 2px solid white;
-      transform: rotate(${(props) => (props.isDarkMode ? "-12deg" : "12deg")});
+      margin-top: -18.3px;
+      margin-left: ${(props) => (props.isDarkMode ? "-7.8px" : "2.1px")};
+      width: 6px;
+      height: 6px;
+      border-bottom: 2.2px solid var(--color-gray-0);
+      transform: rotate(${(props) => (props.isDarkMode ? "-10deg" : "12deg")});
       transition: 1s;
       z-index: -1;
     }
@@ -85,12 +85,12 @@ export default styled(ThemeSwitch)`
       content: "";
       position: absolute;
       border-radius: 15px;
-      margin-top: 10px;
-      margin-left: ${(props) => (props.isDarkMode ? "-10px" : "-0px")};
-      width: 10px;
-      height: 10px;
-      border-top: 2px solid white;
-      transform: rotate(${(props) => (props.isDarkMode ? "12deg" : "-12deg")});
+      margin-top: 10.3px;
+      margin-left: ${(props) => (props.isDarkMode ? "-7.8px" : "2.1px")};
+      width: 6px;
+      height: 6px;
+      border-top: 2.2px solid var(--color-gray-0);
+      transform: rotate(${(props) => (props.isDarkMode ? "10deg" : "-12deg")});
       transition: 1s;
       z-index: -1;
     }
