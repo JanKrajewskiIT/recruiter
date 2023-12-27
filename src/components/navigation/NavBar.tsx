@@ -35,9 +35,9 @@ export default styled(NavBar)`
     column-gap: 15px;
     justify-items: center;
     align-items: center;
-    // height: var(--header-height);
+    height: var(--header-height);
     padding: 0 10px;
-    // box-shadow: 0px 0px 2px var(--nav-background);
+    box-shadow: 0px 0px 2px var(--nav-background);
 
     .item-name {
       justify-self: start;

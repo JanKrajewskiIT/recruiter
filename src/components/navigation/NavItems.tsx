@@ -105,7 +105,6 @@ export default styled(NavItems)`
       height: 20px;
       border-bottom-right-radius: 20px;
       box-shadow: 5px 8px 4px 2px var(--color-gray-10);
-      z-index: -1;
     }
 
     .indicator::after {
@@ -117,7 +116,6 @@ export default styled(NavItems)`
       height: 20px;
       border-bottom-left-radius: 20px;
       box-shadow: -5px 8px 4px 2px var(--color-gray-10);
-      z-index: -1;
     }
 
     li:nth-child(2).active ~ .indicator {
