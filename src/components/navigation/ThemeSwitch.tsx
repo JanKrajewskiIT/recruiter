@@ -38,7 +38,6 @@ const ThemeSwitch = ({
 export default styled(ThemeSwitch)`
   & {
     display: flex;
-    flex-direction: row;
     align-items: center;
 
     .switch {
@@ -50,49 +49,39 @@ export default styled(ThemeSwitch)`
       background-color: var(--nav-background);
       border: 2px solid var(--color-gray-0);
       border-radius: 30px;
-      transition: 1s;
       z-index: 1;
+      transition: transform 1s;
     }
 
     .switch.active {
-      transform: scale(1.5);
+      transform: scale(1.4);
       background-color: var(--color-gray-0);
       color: var(--nav-background);
-      transition: 1s;
-      z-index: -1;
+      z-index: 0;
+      transition: transform 1s;
     }
 
-    .spacer {
-      display: flex;
-      z-index: -1;
-    }
-
-    .spacer::before {
-      content: "";
-      position: absolute;
-      border-radius: 15px;
-      margin-top: -18.3px;
-      margin-left: ${(props) => (props.isDarkMode ? "-7.8px" : "2.1px")};
-      width: 6px;
-      height: 6px;
-      border-bottom: 2.2px solid var(--color-gray-0);
-      transform: rotate(${(props) => (props.isDarkMode ? "-10deg" : "12deg")});
-      transition: 1s;
-      z-index: -1;
-    }
-
+    .spacer::before,
     .spacer::after {
       content: "";
       position: absolute;
+      width: 10px;
+      height: 10px;
       border-radius: 15px;
-      margin-top: 10.3px;
-      margin-left: ${(props) => (props.isDarkMode ? "-7.8px" : "2.1px")};
-      width: 6px;
-      height: 6px;
-      border-top: 2.2px solid var(--color-gray-0);
-      transform: rotate(${(props) => (props.isDarkMode ? "10deg" : "-12deg")});
+      margin-left: ${(props) => (props.isDarkMode ? "-9px" : "-1px")};
       transition: 1s;
-      z-index: -1;
+    }
+
+    .spacer::before {
+      border-bottom: 2px solid var(--color-gray-0);
+      margin-top: -18.4px;
+      transform: rotate(${(props) => (props.isDarkMode ? "-10deg" : "10deg")});
+    }
+
+    .spacer::after {
+      border-top: 2px solid var(--color-gray-0);
+      margin-top: 8.6px;
+      transform: rotate(${(props) => (props.isDarkMode ? "10deg" : "-10deg")});
     }
   }
 `;

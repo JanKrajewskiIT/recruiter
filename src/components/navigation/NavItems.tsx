@@ -1,6 +1,6 @@
 import { type NavItem, navItems } from "@/components/navigation/NavItem";
 import { type Props } from "@/models/props";
-import styled from "@emotion/styled";
+import { styled } from "@mui/material";
 import { useRouter } from "next/navigation";
 import { useCallback } from "react";
 

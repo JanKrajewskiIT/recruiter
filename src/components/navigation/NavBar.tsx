@@ -1,69 +1,46 @@
+"use client";
+
 import { type Props } from "@/models/props";
-import styled from "@emotion/styled";
-import { BiLogoReact } from "react-icons/bi";
 import NavigationItems from "@/components/navigation/NavItems";
-import UserMenu from "@/components/navigation/UserMenu";
 import { useState } from "react";
-import { Typography } from "@mui/material";
+import { AppBar, Typography, styled } from "@mui/material";
 import { type NavItem, navItems } from "@/components/navigation/NavItem";
 import { usePathname } from "next/navigation";
 import ThemeSwitch from "@/components/navigation/ThemeSwitch";
+import NavIcon from "@/components/navigation/NavIcon";
+import { useAtom } from "jotai";
+import { isDarkModeAtom } from "@/store/theme";
 
-interface INavBarProps {
-  isDarkMode: boolean;
-  setDarkMode: (isDarkMode: boolean) => void;
-}
-
-const NavBar = ({
-  className,
-  isDarkMode,
-  setDarkMode,
-}: Props<INavBarProps>) => {
+const NavBar = ({ className }: Props) => {
   const pathname = usePathname();
+  const [isDarkMode, setDarkMode] = useAtom(isDarkModeAtom);
   const [active, setActive] = useState<NavItem>(
     navItems.find((e) => e.href === pathname) ?? navItems[0],
   );
 
   return (
-    <div className={className}>
-      <BiLogoReact className="logo-icon" />
+    <AppBar className={className} position="static">
+      <NavIcon />
       <Typography className="item-name">{active.name}</Typography>
       <NavigationItems active={active} setActive={setActive} />
       <ThemeSwitch isDarkMode={isDarkMode} setDarkMode={setDarkMode} />
-      <UserMenu className="user-menu" />
-    </div>
+    </AppBar>
   );
 };
 
 export default styled(NavBar)`
   & {
     display: grid;
-    grid-template-columns: 45px 50px auto 50px 50px;
-    justify-items: center;
+    grid-template-columns: 45px 50px auto 80px;
     column-gap: 15px;
+    justify-items: center;
     align-items: center;
-    width: 100%;
-    height: var(--header-height);
+    // height: var(--header-height);
     padding: 0 10px;
-    background: var(--nav-background);
-    position: relative;
-    z-index: 1;
-    box-shadow: 0px 0px 2px var(--nav-background);
-    color: var(--color-gray-0);
-
-    .logo-icon {
-      justify-self: start;
-      font-size: 50px;
-      margin-top: 2px;
-    }
+    // box-shadow: 0px 0px 2px var(--nav-background);
 
     .item-name {
       justify-self: start;
-    }
-
-    .user-menu {
-      justify-self: end;
-      margin-right: 6px;
     }
   }
 `;
