@@ -2,9 +2,9 @@ import { type Props } from "@/models/props";
 import { BiLogoReact } from "react-icons/bi";
 import { styled } from "@mui/material";
 
-const NavIcon = ({ className }: Props) => <BiLogoReact className={className} />;
+const NavLogo = ({ className }: Props) => <BiLogoReact className={className} />;
 
-export default styled(NavIcon)`
+export default styled(NavLogo)`
   & {
     justify-self: start;
     font-size: 50px;

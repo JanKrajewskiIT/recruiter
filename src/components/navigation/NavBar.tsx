@@ -7,13 +7,11 @@ import { AppBar, Typography, styled } from "@mui/material";
 import { type NavItem, navItems } from "@/components/navigation/NavItem";
 import { usePathname } from "next/navigation";
 import ThemeSwitch from "@/components/navigation/ThemeSwitch";
-import NavIcon from "@/components/navigation/NavIcon";
-import { useAtom } from "jotai";
-import { isDarkModeAtom } from "@/store/theme";
+import NavIcon from "@/components/navigation/NavLogo";
+import { palette } from "@/components/theme/theme";
 
 const NavBar = ({ className }: Props) => {
   const pathname = usePathname();
-  const [isDarkMode, setDarkMode] = useAtom(isDarkModeAtom);
   const [active, setActive] = useState<NavItem>(
     navItems.find((e) => e.href === pathname) ?? navItems[0],
   );
@@ -23,7 +21,7 @@ const NavBar = ({ className }: Props) => {
       <NavIcon />
       <Typography className="item-name">{active.name}</Typography>
       <NavigationItems active={active} setActive={setActive} />
-      <ThemeSwitch isDarkMode={isDarkMode} setDarkMode={setDarkMode} />
+      <ThemeSwitch />
     </AppBar>
   );
 };
@@ -37,7 +35,8 @@ export default styled(NavBar)`
     align-items: center;
     height: var(--header-height);
     padding: 0 10px;
-    box-shadow: 0px 0px 2px var(--nav-background);
+    box-shadow: 0px 0px 4px
+      ${(props) => (props.theme.isDarkMode ? "none" : palette.brand)};
 
     .item-name {
       justify-self: start;

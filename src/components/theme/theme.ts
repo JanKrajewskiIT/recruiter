@@ -7,12 +7,14 @@ const roboto = Roboto({
   display: "swap",
 });
 
+const palette = {
+  brand: "#8b0036",
+};
+
 const lightTheme = createTheme({
+  isDarkMode: false,
   palette: {
     mode: "light",
-    primary: {
-      main: "#8b0036",
-    },
     background: {
       default: "#eeeff1",
     },
@@ -20,15 +22,35 @@ const lightTheme = createTheme({
   typography: {
     fontFamily: roboto.style.fontFamily,
   },
+  components: {
+    MuiAppBar: {
+      styleOverrides: {
+        colorPrimary: {
+          background: palette.brand,
+          color: "#ffffff",
+        },
+      },
+    },
+  },
 });
 
 const darkTheme = createTheme({
+  isDarkMode: true,
   palette: {
     mode: "dark",
   },
   typography: {
     fontFamily: roboto.style.fontFamily,
   },
+  components: {
+    MuiAppBar: {
+      styleOverrides: {
+        colorPrimary: {
+          border: "#8b0036",
+        },
+      },
+    },
+  },
 });
 
-export { lightTheme, darkTheme };
+export { palette, lightTheme, darkTheme };

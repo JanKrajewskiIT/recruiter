@@ -1,4 +1,5 @@
 import { type NavItem, navItems } from "@/components/navigation/NavItem";
+import { palette } from "@/components/theme/theme";
 import { type Props } from "@/models/props";
 import { styled } from "@mui/material";
 import { useRouter } from "next/navigation";
@@ -25,14 +26,10 @@ const NavItems = ({ className, active, setActive }: Props<INavItemsProps>) => {
       {navItems.map(({ name, href, icon: Icon }) => (
         <li
           key={name}
-          className={`list ${active?.name === name ? "active" : ""}`}
+          className={active?.name === name ? "active" : ""}
           onClick={handleActiveChange({ name, href, icon: Icon })}
         >
-          <a>
-            <span className="icon">
-              <Icon />
-            </span>
-          </a>
+          <Icon className="icon" />
         </li>
       ))}
       <div className="indicator">
@@ -44,78 +41,82 @@ const NavItems = ({ className, active, setActive }: Props<INavItemsProps>) => {
 
 export default styled(NavItems)`
   & {
+    --background-color: ${(props) => props.theme.palette.background.default};
+    --indicator-color: ${(props) =>
+      props.theme.isDarkMode ? "#b8bcc5" : palette.brand};
+
     display: flex;
-    width: 350px;
+    height: 100%;
 
     li {
-      position: relative;
-      list-style: none;
-      width: var(--header-height);
-      height: var(--header-height);
-      z-index: 1;
-    }
-
-    li a {
-      position: relative;
       display: flex;
       justify-content: center;
       align-items: center;
-      flex-direction: column;
-      width: 100%;
-      text-align: center;
-      font-weight: 500;
-    }
+      list-style: none;
+      width: var(--header-height);
+      cursor: pointer;
+      z-index: 1;
+      transition: margin 0.5s;
 
-    li a .icon {
-      position: relative;
-      display: block;
-      line-height: 65px;
-      font-size: 1.5em;
-      text-align: center;
-      transition: 0.5s;
-      color: var(--color-gray-0);
-      opacity: 0.75;
-    }
+      .icon {
+        font-size: 1.5em;
+        color: var(--background-color);
+        opacity: 0.75;
+        transition: color 0.5s;
+      }
 
-    li.active a .icon {
-      transform: translateY(7px);
-      opacity: 1;
-      color: var(--nav-background);
+      &.active {
+        margin-top: 12px;
+
+        .icon {
+          color: var(--indicator-color);
+          opacity: 1;
+        }
+      }
     }
 
     .indicator {
       top: 6px;
       position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       width: var(--header-height);
       height: var(--header-height);
       border-top-left-radius: 35px;
       border-top-right-radius: 35px;
-      border: 6px solid var(--color-gray-10);
-      background: var(--color-gray-10);
-      cursor: pointer;
-      transition: 0.5s;
+      background: var(--background-color);
+      transition: transform 0.5s;
     }
 
-    .indicator::before {
-      content: "";
-      position: absolute;
-      top: 29px;
-      left: -24.75px;
-      width: 20px;
-      height: 20px;
-      border-bottom-right-radius: 20px;
-      box-shadow: 5px 8px 4px 2px var(--color-gray-10);
-    }
-
+    .indicator::before,
     .indicator::after {
       content: "";
       position: absolute;
-      top: 29px;
-      right: -24.75px;
+      top: 35px;
       width: 20px;
       height: 20px;
+    }
+
+    .indicator::before {
+      left: -19.2px;
+      border-bottom-right-radius: 20px;
+      box-shadow: 6px 8px 4px 2px var(--background-color);
+    }
+
+    .indicator::after {
+      right: -19.2px;
       border-bottom-left-radius: 20px;
-      box-shadow: -5px 8px 4px 2px var(--color-gray-10);
+      box-shadow: -6px 8px 4px 2px var(--background-color);
+    }
+
+    .indicator span {
+      width: 44px;
+      height: 44px;
+      border: 2.5px solid var(--indicator-color);
+      background: var(--background-color);
+      border-radius: 50%;
+      transform-origin: bottom;
     }
 
     li:nth-child(2).active ~ .indicator {
@@ -132,18 +133,6 @@ export default styled(NavItems)`
 
     li:nth-child(5).active ~ .indicator {
       transform: translateX(calc(var(--header-height) * 4));
-    }
-
-    .indicator span {
-      position: absolute;
-      bottom: 2px;
-      left: 2px;
-      width: 44px;
-      height: 44px;
-      border: 2.5px solid var(--nav-background);
-      background: var(--color-gray-0);
-      border-radius: 50%;
-      transform-origin: bottom;
     }
   }
 `;

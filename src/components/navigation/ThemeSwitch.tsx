@@ -1,17 +1,11 @@
 import { MdDarkMode, MdLightMode } from "react-icons/md";
 import { styled } from "@mui/material";
+import { isDarkModeAtom } from "@/store/theme";
+import { useAtom } from "jotai";
 import { type Props } from "@/models/props";
 
-interface IThemeSwitchProps {
-  isDarkMode: boolean;
-  setDarkMode: (isDarkMode: boolean) => void;
-}
-
-const ThemeSwitch = ({
-  className,
-  isDarkMode,
-  setDarkMode,
-}: Props<IThemeSwitchProps>) => {
+const ThemeSwitch = ({ className }: Props) => {
+  const [isDarkMode, setDarkMode] = useAtom(isDarkModeAtom);
   const handleChange = (checked: boolean) => () => {
     setDarkMode(checked);
   };
@@ -37,6 +31,10 @@ const ThemeSwitch = ({
 
 export default styled(ThemeSwitch)`
   & {
+    --background-color: ${(props) =>
+      props.theme.components?.MuiAppBar?.styleOverrides
+        ?.colorPrimary as string};
+
     display: flex;
     align-items: center;
 
@@ -46,9 +44,10 @@ export default styled(ThemeSwitch)`
       justify-content: center;
       width: 28px;
       height: 28px;
-      background-color: var(--nav-background);
+      background-color: var(--background-color);
       border: 2px solid var(--color-gray-0);
       border-radius: 30px;
+      cursor: pointer;
       z-index: 1;
       transition: transform 1s;
     }
@@ -68,20 +67,24 @@ export default styled(ThemeSwitch)`
       width: 10px;
       height: 10px;
       border-radius: 15px;
-      margin-left: ${(props) => (props.isDarkMode ? "-9px" : "-1px")};
+      margin-left: ${(props) => (props.theme.isDarkMode ? "-9px" : "-1px")};
       transition: 1s;
     }
 
     .spacer::before {
       border-bottom: 2px solid var(--color-gray-0);
       margin-top: -18.4px;
-      transform: rotate(${(props) => (props.isDarkMode ? "-10deg" : "10deg")});
+      transform: rotate(
+        ${(props) => (props.theme.isDarkMode ? "-10deg" : "10deg")}
+      );
     }
 
     .spacer::after {
       border-top: 2px solid var(--color-gray-0);
       margin-top: 8.6px;
-      transform: rotate(${(props) => (props.isDarkMode ? "10deg" : "-10deg")});
+      transform: rotate(
+        ${(props) => (props.theme.isDarkMode ? "10deg" : "-10deg")}
+      );
     }
   }
 `;
