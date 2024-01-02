@@ -1,7 +1,7 @@
 "use client";
 
 import { type Props } from "@/models/props";
-import NavigationItems from "@/components/navigation/NavItems";
+import NavigationItems from "@/components/navigation/MenuItems";
 import { useState } from "react";
 import { AppBar, Typography, styled } from "@mui/material";
 import { type NavItem, navItems } from "@/components/navigation/NavItem";

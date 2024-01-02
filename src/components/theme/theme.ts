@@ -9,6 +9,17 @@ const roboto = Roboto({
 
 const palette = {
   brand: "#8b0036",
+  colorGray0: "#ffffff",
+  colorGray10: "#eeeff1",
+  colorGray20: "#d4d7dc",
+  colorGray30: "#b8bcc5",
+  colorGray40: "#9ba2af",
+  colorGray50: "#858d9d",
+  colorGray60: "#707a8c",
+  colorGray70: "#626b7b",
+  colorGray80: "#515865",
+  colorGray90: "#404550",
+  colorGray100: "#2d3138",
 };
 
 const lightTheme = createTheme({

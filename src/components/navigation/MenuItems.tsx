@@ -1,36 +1,37 @@
+import MenuItem from "@/components/navigation/MenuItem";
 import { type NavItem, navItems } from "@/components/navigation/NavItem";
 import { palette } from "@/components/theme/theme";
 import { type Props } from "@/models/props";
 import { styled } from "@mui/material";
-import { useRouter } from "next/navigation";
 import { useCallback } from "react";
 
-interface INavItemsProps {
+interface IMenuItemsProps {
   active: NavItem;
   setActive: (active: NavItem) => void;
 }
 
-const NavItems = ({ className, active, setActive }: Props<INavItemsProps>) => {
-  const router = useRouter();
-
+const MenuItems = ({
+  className,
+  active,
+  setActive,
+}: Props<IMenuItemsProps>) => {
   const handleActiveChange = useCallback(
     (active: NavItem) => () => {
       setActive(active);
-      router.push(active.href);
     },
-    [router, setActive],
+    [setActive],
   );
 
   return (
     <ul className={className}>
-      {navItems.map(({ name, href, icon: Icon }) => (
-        <li
+      {navItems.map(({ name, href, icon }) => (
+        <MenuItem
           key={name}
           className={active?.name === name ? "active" : ""}
-          onClick={handleActiveChange({ name, href, icon: Icon })}
-        >
-          <Icon className="icon" />
-        </li>
+          href={href}
+          icon={icon}
+          onClick={handleActiveChange({ name, href, icon })}
+        />
       ))}
       <div className="indicator">
         <span></span>
@@ -39,7 +40,7 @@ const NavItems = ({ className, active, setActive }: Props<INavItemsProps>) => {
   );
 };
 
-export default styled(NavItems)`
+export default styled(MenuItems)`
   & {
     --background-color: ${(props) => props.theme.palette.background.default};
     --indicator-color: ${(props) =>
@@ -49,19 +50,10 @@ export default styled(NavItems)`
     height: 100%;
 
     li {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      list-style: none;
-      width: var(--header-height);
-      cursor: pointer;
       z-index: 1;
       transition: margin 0.5s;
 
       .icon {
-        font-size: 1.5em;
-        color: var(--background-color);
-        opacity: 0.75;
         transition: color 0.5s;
       }
 
