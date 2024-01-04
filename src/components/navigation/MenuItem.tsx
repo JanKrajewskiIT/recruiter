@@ -10,6 +10,7 @@ interface IMenuItemProps extends Pick<NavItem, "href" | "icon"> {
 
 const MenuItem = ({
   className,
+  children,
   href,
   icon: Icon,
   onClick,
@@ -24,6 +25,7 @@ const MenuItem = ({
   return (
     <li className={className} onClick={handleChange}>
       <Icon className="icon" />
+      {children}
     </li>
   );
 };
