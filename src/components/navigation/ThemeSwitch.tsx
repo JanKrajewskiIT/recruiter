@@ -3,6 +3,7 @@ import { styled } from "@mui/material";
 import { isDarkModeAtom } from "@/store/theme";
 import { useAtom } from "jotai";
 import { type Props } from "@/models/props";
+import { palette } from "@/components/theme/theme";
 
 const ThemeSwitch = ({ className }: Props) => {
   const [isDarkMode, setDarkMode] = useAtom(isDarkModeAtom);
@@ -31,9 +32,10 @@ const ThemeSwitch = ({ className }: Props) => {
 
 export default styled(ThemeSwitch)`
   & {
-    --background-color: ${(props) =>
-      props.theme.components?.MuiAppBar?.styleOverrides
-        ?.colorPrimary as string};
+    --icon-color: ${(props) =>
+      props.theme.isDarkMode
+        ? props.theme.palette.background.default
+        : palette.brand};
 
     display: flex;
     align-items: center;
@@ -44,19 +46,19 @@ export default styled(ThemeSwitch)`
       justify-content: center;
       width: 28px;
       height: 28px;
-      background-color: var(--background-color);
-      border: 2px solid var(--color-gray-0);
-      border-radius: 30px;
+      background-color: var(--icon-color);
+      border: 2px solid var(--color-gray-10);
+      border-radius: 50%;
       cursor: pointer;
-      z-index: 1;
+      z-index: 2;
       transition: transform 1s;
     }
 
     .switch.active {
       transform: scale(1.4);
-      background-color: var(--color-gray-0);
-      color: var(--nav-background);
-      z-index: 0;
+      background-color: var(--color-gray-10);
+      color: var(--icon-color);
+      z-index: 1;
       transition: transform 1s;
     }
 
@@ -64,26 +66,29 @@ export default styled(ThemeSwitch)`
     .spacer::after {
       content: "";
       position: absolute;
-      width: 10px;
-      height: 10px;
-      border-radius: 15px;
-      margin-left: ${(props) => (props.theme.isDarkMode ? "-9px" : "-1px")};
+      width: 5px;
+      height: 5px;
+      z-index: 0;
       transition: 1s;
     }
 
     .spacer::before {
-      border-bottom: 2px solid var(--color-gray-0);
-      margin-top: -18.4px;
+      margin-top: -15.5px;
+      margin-left: ${(props) => (props.theme.isDarkMode ? "-6.2px" : "1.2px")};
+      border-bottom-left-radius: 50%;
+      box-shadow: -4px 4px 1px 3px var(--color-gray-10);
       transform: rotate(
-        ${(props) => (props.theme.isDarkMode ? "-10deg" : "10deg")}
+        ${(props) => (props.theme.isDarkMode ? "-60deg" : "-30deg")}
       );
     }
 
     .spacer::after {
-      border-top: 2px solid var(--color-gray-0);
-      margin-top: 8.6px;
+      margin-top: 11px;
+      margin-left: ${(props) => (props.theme.isDarkMode ? "-6.2px" : "1.2px")};
+      border-top-left-radius: 50%;
+      box-shadow: -4px -4px 1px 3px var(--color-gray-10);
       transform: rotate(
-        ${(props) => (props.theme.isDarkMode ? "10deg" : "-10deg")}
+        ${(props) => (props.theme.isDarkMode ? "60deg" : "30deg")}
       );
     }
   }

@@ -41,7 +41,7 @@ export default styled(MenuItem)`
 
     .icon {
       font-size: 1.5em;
-      color: var(--color-gray-20);
+      color: var(--color-gray-10);
     }
   }
 `;

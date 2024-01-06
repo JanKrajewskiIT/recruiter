@@ -42,7 +42,7 @@ const MenuBar = ({
 export default styled(MenuBar)`
   & {
     --indicator-color: ${(props) =>
-      props.theme.isDarkMode ? palette.colorGray20 : palette.brand};
+      props.theme.isDarkMode ? palette.colorGray10 : palette.brand};
 
     display: flex;
     height: 100%;

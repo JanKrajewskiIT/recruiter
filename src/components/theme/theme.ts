@@ -27,7 +27,7 @@ const lightTheme = createTheme({
   palette: {
     mode: "light",
     background: {
-      default: "#eeeff1",
+      default: palette.colorGray10,
     },
   },
   typography: {
@@ -38,7 +38,6 @@ const lightTheme = createTheme({
       styleOverrides: {
         colorPrimary: {
           background: palette.brand,
-          color: "#ffffff",
         },
       },
     },
@@ -52,15 +51,6 @@ const darkTheme = createTheme({
   },
   typography: {
     fontFamily: roboto.style.fontFamily,
-  },
-  components: {
-    MuiAppBar: {
-      styleOverrides: {
-        colorPrimary: {
-          border: "#8b0036",
-        },
-      },
-    },
   },
 });
 

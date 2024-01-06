@@ -16,7 +16,7 @@ export default styled(MenuIndicator)`
   & {
     --background-color: ${(props) => props.theme.palette.background.default};
     --indicator-color: ${(props) =>
-      props.theme.isDarkMode ? palette.colorGray20 : palette.brand};
+      props.theme.isDarkMode ? palette.colorGray10 : palette.brand};
 
     top: 6px;
     position: absolute;

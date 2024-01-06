@@ -6,7 +6,6 @@ const NavLogo = ({ className }: Props) => <BiLogoReact className={className} />;
 
 export default styled(NavLogo)`
   & {
-    justify-self: start;
     font-size: 50px;
     margin-top: 2px;
   }

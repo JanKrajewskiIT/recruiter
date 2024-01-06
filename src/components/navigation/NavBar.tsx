@@ -18,7 +18,7 @@ const NavBar = ({ className }: Props) => {
 
   return (
     <AppBar className={className} position="static">
-      <NavIcon />
+      <NavIcon className="logo-icon" />
       <Typography className="item-name">
         {navItems[activeIndex].name}
       </Typography>
@@ -45,6 +45,7 @@ export default styled(NavBar)`
     padding: 0 10px;
     box-shadow: 0px 0px 4px var(--shadow-color);
 
+    .logo-icon,
     .item-name {
       justify-self: start;
     }
