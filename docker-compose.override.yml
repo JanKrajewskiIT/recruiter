@@ -38,14 +38,12 @@ services:
     ports:
       - 9004:5432
 
-#  questions.api:
-#    environment:
-#      - ASPNETCORE_ENVIRONMENT=${APP_ENVIRONMENT:-Development}
-#      - ConnectionString=${QUESTIONS_DB:-Host=my_host;Database=my_db;Username=my_user;Password=my_pw}
-#    expose:
-#      - 80
-#    ports:
-#      - 9005:80
+  questions.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=${APP_ENVIRONMENT:-Development}
+      - ConnectionString=${QUESTIONS_DB:-Host=my_host;Database=my_db;Username=my_user;Password=my_pw}
+    ports:
+      - 9005:8080
 
   webapp:
     env_file:
