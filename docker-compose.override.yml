@@ -1,0 +1,58 @@
+# networks:
+#  nat:
+#    driver: bridge
+#    ipam:
+#      driver: default
+#      config:
+#        - subnet: 178.80.0.0/16
+# services:
+#  portainer:
+#    ports:
+#      - "9002:9000"
+#    networks:
+#     nat:
+#       ipv4_address: 178.80.0.2
+
+services:
+  portainer:
+    ports:
+      - "9002:9000"
+
+  pgadmin:
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ${DEFAULT_EMAIL:-email@gmail.com}
+      PGADMIN_DEFAULT_PASSWORD: ${DEFAULT_PASSWORD:-password}
+    ports:
+      - "9003:80"
+
+  keycloak:
+    command: start-dev
+    environment:
+      DB_VENDOR: POSTGRES
+      DB_ADDR: sql.keycloak
+      DB_DATABASE: keycloak
+      DB_USER: ${DEFAULT_USER:-user}
+      DB_SCHEMA: public
+      DB_PASSWORD: ${DEFAULT_PASSWORD:-password}
+      KEYCLOAK_USER: ${DEFAULT_USER:-user}
+      KEYCLOAK_PASSWORD: ${DEFAULT_PASSWORD:-password}
+      KEYCLOAK_ADMIN: ${DEFAULT_USER:-user}
+      KEYCLOAK_ADMIN_PASSWORD: ${DEFAULT_PASSWORD:-password}
+    ports:
+      - 9004:8080
+
+  sql.keycloak:
+    environment:
+      POSTGRES_DB: keycloak
+      POSTGRES_USER: ${DEFAULT_USER:-user}
+      POSTGRES_PASSWORD: ${DEFAULT_PASSWORD:-password}
+    ports:
+      - 5432:5432
+
+  sql.recruiter:
+    environment:
+      POSTGRES_DB: postgres
+      POSTGRES_USER: ${DEFAULT_USER:-user}
+      POSTGRES_PASSWORD: ${DEFAULT_PASSWORD:-password}
+    ports:
+      - 5433:5432

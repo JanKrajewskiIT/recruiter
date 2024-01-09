@@ -1,0 +1,45 @@
+services:
+  portainer:
+    image: portainer/portainer-ce
+    restart: always
+    command: -H unix:///var/run/docker.sock
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - portainer_data:/data
+
+  pgadmin:
+    image: dpage/pgadmin4
+    restart: always
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+    depends_on:
+      - sql.keycloak
+      - sql.recruiter
+
+  keycloak:
+    image: quay.io/keycloak/keycloak:23.0.4
+    restart: always
+    depends_on:
+      - sql.keycloak
+
+  sql.keycloak:
+    image: postgres
+    restart: always
+    volumes:
+      - keycloak_data:/var/lib/postgresql/data
+
+  sql.recruiter:
+    image: postgres
+    restart: always
+    volumes:
+      - recruiter_data:/var/lib/postgresql/data
+
+volumes:
+  portainer_data:
+    driver: local
+  pgadmin_data:
+    driver: local
+  keycloak_data:
+    driver: local
+  recruiter_data:
+    driver: local
