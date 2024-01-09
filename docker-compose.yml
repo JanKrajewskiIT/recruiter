@@ -1,7 +1,7 @@
 services:
   portainer:
     image: portainer/portainer-ce
-    restart: always
+    restart: unless-stopped
     command: -H unix:///var/run/docker.sock
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
@@ -9,7 +9,7 @@ services:
 
   pgadmin:
     image: dpage/pgadmin4
-    restart: always
+    restart: unless-stopped
     volumes:
       - pgadmin_data:/var/lib/pgadmin
     depends_on:
@@ -17,7 +17,7 @@ services:
       - sql.recruiter
 
   keycloak:
-    image: quay.io/keycloak/keycloak:23.0.4
+    image: quay.io/keycloak/keycloak
     restart: always
     depends_on:
       - sql.keycloak
@@ -33,6 +33,27 @@ services:
     restart: always
     volumes:
       - recruiter_data:/var/lib/postgresql/data
+
+#  questions.api:
+#    image: recruiter/questions.api:${TAG:-latest}
+#    build:
+#      context: ./questions
+#      dockerfile: Questions.Api/Dockerfile
+#    restart: always
+#    depends_on:
+#      - sql.recruiter
+
+  webapp:
+    image: recruiter/webapp:${TAG:-latest}
+    build:
+      context: ./webapp
+      dockerfile: Dockerfile
+    restart: always
+    volumes:
+      - ./webapp/src:/src
+      - ./webapp/public:/public
+    # depends_on:
+    #  - questions.api
 
 volumes:
   portainer_data:

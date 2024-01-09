@@ -1,45 +1,26 @@
-# networks:
-#  nat:
-#    driver: bridge
-#    ipam:
-#      driver: default
-#      config:
-#        - subnet: 178.80.0.0/16
-# services:
-#  portainer:
-#    ports:
-#      - "9002:9000"
-#    networks:
-#     nat:
-#       ipv4_address: 178.80.0.2
-
 services:
   portainer:
     ports:
-      - "9002:9000"
+      - "9000:9000"
 
   pgadmin:
     environment:
       PGADMIN_DEFAULT_EMAIL: ${DEFAULT_EMAIL:-email@gmail.com}
       PGADMIN_DEFAULT_PASSWORD: ${DEFAULT_PASSWORD:-password}
     ports:
-      - "9003:80"
+      - "9001:80"
 
   keycloak:
     command: start-dev
     environment:
-      DB_VENDOR: POSTGRES
-      DB_ADDR: sql.keycloak
-      DB_DATABASE: keycloak
-      DB_USER: ${DEFAULT_USER:-user}
-      DB_SCHEMA: public
-      DB_PASSWORD: ${DEFAULT_PASSWORD:-password}
-      KEYCLOAK_USER: ${DEFAULT_USER:-user}
-      KEYCLOAK_PASSWORD: ${DEFAULT_PASSWORD:-password}
+      KC_DB: postgres
+      KC_DB_URL: jdbc:postgresql://sql.keycloak/keycloak
+      KC_DB_USERNAME: ${DEFAULT_USER:-user}
+      KC_DB_PASSWORD: ${DEFAULT_PASSWORD:-password}
       KEYCLOAK_ADMIN: ${DEFAULT_USER:-user}
       KEYCLOAK_ADMIN_PASSWORD: ${DEFAULT_PASSWORD:-password}
     ports:
-      - 9004:8080
+      - 9002:8080
 
   sql.keycloak:
     environment:
@@ -47,7 +28,7 @@ services:
       POSTGRES_USER: ${DEFAULT_USER:-user}
       POSTGRES_PASSWORD: ${DEFAULT_PASSWORD:-password}
     ports:
-      - 5432:5432
+      - 9003:5432
 
   sql.recruiter:
     environment:
@@ -55,4 +36,19 @@ services:
       POSTGRES_USER: ${DEFAULT_USER:-user}
       POSTGRES_PASSWORD: ${DEFAULT_PASSWORD:-password}
     ports:
-      - 5433:5432
+      - 9004:5432
+
+#  questions.api:
+#    environment:
+#      - ASPNETCORE_ENVIRONMENT=${APP_ENVIRONMENT:-Development}
+#      - ConnectionString=${QUESTIONS_DB:-Host=my_host;Database=my_db;Username=my_user;Password=my_pw}
+#    expose:
+#      - 80
+#    ports:
+#      - 9005:80
+
+  webapp:
+    env_file:
+      - .env
+    ports:
+      - 9006:3000
