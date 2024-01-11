@@ -1,4 +1,7 @@
-using System.Text.Json.Serialization;
+using MediatR;
+using Questions.Api;
+using Questions.Application;
+using Questions.Application.Queries;
 
 var builder = WebApplication.CreateSlimBuilder( args );
 
@@ -7,6 +10,11 @@ builder.Services.ConfigureHttpJsonOptions( options =>
     options.SerializerOptions.TypeInfoResolverChain.Insert( 0, AppJsonSerializerContext.Default );
 } );
 
+/*var connectionString = builder.Configuration.GetConnectionString( "Questions" ) 
+    ?? throw new NullReferenceException("");
+
+builder.Services.AddInfrastructure( connectionString );*/
+builder.Services.AddApplication();
 var app = builder.Build();
 
 var sampleTodos = new Todo[] {
@@ -24,12 +32,8 @@ todosApi.MapGet( "/{id}", ( int id ) =>
         ? Results.Ok( todo )
         : Results.NotFound() );
 
+var categoriesApi = app.MapGroup( "/categories" );
+categoriesApi.MapGet( "/", async ( IMediator mediator ) =>
+    await mediator.Send( new GetCategoriesQuery() ) );
+
 app.Run();
-
-public record Todo( int Id, string? Title, DateOnly? DueBy = null, bool IsComplete = false );
-
-[JsonSerializable( typeof( Todo[] ) )]
-internal partial class AppJsonSerializerContext : JsonSerializerContext
-{
-
-}

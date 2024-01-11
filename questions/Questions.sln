@@ -5,11 +5,16 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Questions.Api", "Questions.Api\Questions.Api.csproj", "{2CBBFBAF-7515-4ABA-9FC5-6B3F62E41DA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Questions.Application", "Questions.Application\Questions.Application.csproj", "{A6F0DCD6-34D1-40F9-BCE5-B7B4A3AE2678}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Questions.Application", "Questions.Application\Questions.Application.csproj", "{A6F0DCD6-34D1-40F9-BCE5-B7B4A3AE2678}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Questions.Domain", "Questions.Domain\Questions.Domain.csproj", "{EDC7E8DF-E86B-42D4-B1FA-2A220FEE5EC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Questions.Domain", "Questions.Domain\Questions.Domain.csproj", "{EDC7E8DF-E86B-42D4-B1FA-2A220FEE5EC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Questions.Infrastructure", "Questions.Infrastructure\Questions.Infrastructure.csproj", "{EE22245D-4890-4F65-929C-FFC820DB1A1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Questions.Infrastructure", "Questions.Infrastructure\Questions.Infrastructure.csproj", "{EE22245D-4890-4F65-929C-FFC820DB1A1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B452BDA7-B067-4D20-8C64-6324F2CE3642}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
