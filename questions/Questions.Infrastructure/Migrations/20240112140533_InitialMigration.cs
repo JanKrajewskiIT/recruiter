@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
+#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
+
 namespace Questions.Infrastructure.Migrations
 {
     /// <inheritdoc />
@@ -54,6 +56,21 @@ namespace Questions.Infrastructure.Migrations
                         principalTable: "Categories",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.InsertData(
+                table: "Categories",
+                columns: new[] { "Id", "Description", "IconName", "Name", "Order", "ParentCategoryId" },
+                values: new object[,]
+                {
+                    { new Guid("28aec609-f96e-4ae6-8db2-358a1892502e"), null, null, "Architektura", 3, null },
+                    { new Guid("4ec57b9a-8753-4ec0-bebe-d4d361c9ecf2"), null, null, ".Net", 6, null },
+                    { new Guid("997bb095-fb04-4872-ac35-0d05cedc3de0"), null, null, "Umiejętności miękkie", 2, null },
+                    { new Guid("a16bb186-092e-440d-92c9-fe57cd96ec4f"), null, null, "Algorytmy", 4, null },
+                    { new Guid("bb1c2675-5877-4aa5-9bc6-00be8d449549"), null, null, "Przygotowanie na rozmowę", 1, null },
+                    { new Guid("e5541ffc-ed59-4f27-acb6-2b2b3da04bb2"), null, null, "C#", 5, null },
+                    { new Guid("0a07f758-355f-4796-8ab4-f5a34cfca181"), null, null, "Wielowątkowość", 1, new Guid("a16bb186-092e-440d-92c9-fe57cd96ec4f") },
+                    { new Guid("7497e8fc-80a5-42df-ac48-c09f695dc402"), null, null, "Wzorce projektowe", 1, new Guid("28aec609-f96e-4ae6-8db2-358a1892502e") }
                 });
 
             migrationBuilder.CreateIndex(

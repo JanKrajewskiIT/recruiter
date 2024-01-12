@@ -41,7 +41,7 @@ services:
   questions.api:
     environment:
       - ASPNETCORE_ENVIRONMENT=${APP_ENVIRONMENT:-Development}
-      - ConnectionStrings_Questions=Username=${DEFAULT_USER};Password=${DEFAULT_PASSWORD};Server=sql.recruiter;Database=questions;
+      - ConnectionStrings:Questions=Username=${DEFAULT_USER};Password=${DEFAULT_PASSWORD};Server=sql.recruiter;Database=questions;
     ports:
       - 9005:8080
 

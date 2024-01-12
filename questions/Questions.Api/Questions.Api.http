@@ -1,11 +1,6 @@
-@Questions.Api_HostAddress = http://localhost:5091
+@Questions.Api_HostAddress = http://localhost:5262
 
-GET {{Questions.Api_HostAddress}}/todos/
-Accept: application/json
-
-###
-
-GET {{Questions.Api_HostAddress}}/todos/1
+GET {{Questions.Api_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###

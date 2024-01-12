@@ -10,6 +10,9 @@ public class ApplicationDbContext( DbContextOptions<ApplicationDbContext> option
 
     public virtual DbSet<CategoryEntity> Categories { get; init; }
 
-    protected override void OnModelCreating( ModelBuilder modelBuilder ) =>
+    protected override void OnModelCreating( ModelBuilder modelBuilder )
+    {
+        modelBuilder.SeedData();
         modelBuilder.ApplyConfigurationsFromAssembly( typeof( QuestionConfiguration ).Assembly );
+    }
 }

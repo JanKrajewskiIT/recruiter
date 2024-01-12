@@ -12,7 +12,8 @@ internal class GetCategoriesQueryHandler( ApplicationDbContext dbContext ) : IRe
     {
         var categories = await dbContext.Categories
             .Where( x => !x.ParentCategoryId.HasValue )
-            .Include( x => x.ChildCategories )
+            .Include( x => x.ChildCategories.OrderBy( c => c.Order ) )
+            .OrderBy( x => x.Order )
             .ToListAsync( cancellationToken );
 
         return MapCategories( categories );
@@ -26,6 +27,5 @@ internal class GetCategoriesQueryHandler( ApplicationDbContext dbContext ) : IRe
             entity.Name,
             entity.Description,
             entity.IconName,
-            entity.Order,
             MapCategories( entity.ChildCategories ) );
 }

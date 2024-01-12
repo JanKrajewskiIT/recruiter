@@ -1,39 +1,70 @@
 using MediatR;
+using Microsoft.EntityFrameworkCore;
 using Questions.Api;
 using Questions.Application;
 using Questions.Application.Queries;
+using Questions.Infrastructure.Context;
 
-var builder = WebApplication.CreateSlimBuilder( args );
+var builder = WebApplication.CreateBuilder( args );
 
-builder.Services.ConfigureHttpJsonOptions( options =>
-{
-    options.SerializerOptions.TypeInfoResolverChain.Insert( 0, AppJsonSerializerContext.Default );
-} );
-
-/*var connectionString = builder.Configuration.GetConnectionString( "Questions" ) 
-    ?? throw new NullReferenceException("");
-
-builder.Services.AddInfrastructure( connectionString );*/
+// Add services to the container.
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 builder.Services.AddApplication();
+
 var app = builder.Build();
 
-var sampleTodos = new Todo[] {
-    new(1, "Walk the dog"),
-    new(2, "Do the dishes", DateOnly.FromDateTime(DateTime.Now)),
-    new(3, "Do the laundry", DateOnly.FromDateTime(DateTime.Now.AddDays(1))),
-    new(4, "Clean the bathroom"),
-    new(5, "Clean the car", DateOnly.FromDateTime(DateTime.Now.AddDays(2)))
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
+app.UseHttpsRedirection();
+
+var summaries = new[]
+{
+    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
 };
 
-var todosApi = app.MapGroup( "/todos" );
-todosApi.MapGet( "/", () => sampleTodos );
-todosApi.MapGet( "/{id}", ( int id ) =>
-    sampleTodos.FirstOrDefault( a => a.Id == id ) is { } todo
-        ? Results.Ok( todo )
-        : Results.NotFound() );
+app.MapGet( "/weatherforecast", () =>
+{
+    var forecast = Enumerable.Range( 1, 5 ).Select( index =>
+        new WeatherForecast
+        (
+            DateOnly.FromDateTime( DateTime.Now.AddDays( index ) ),
+            Random.Shared.Next( -20, 55 ),
+            summaries[ Random.Shared.Next( summaries.Length ) ]
+        ) )
+        .ToArray();
+    return forecast;
+} )
+.WithName( "GetWeatherForecast" )
+.WithOpenApi();
 
-var categoriesApi = app.MapGroup( "/categories" );
-categoriesApi.MapGet( "/", async ( IMediator mediator ) =>
-    await mediator.Send( new GetCategoriesQuery() ) );
+app.MapGroup( "/categories" )
+    .MapGet( "/", async ( IMediator mediator ) => await mediator.Send( new GetCategoriesQuery() ) )
+    .WithName( "GetCategories" )
+    .WithOpenApi();
+
+ApplyMigration();
 
 app.Run();
+
+
+void ApplyMigration()
+{
+    using (var scope = app.Services.CreateScope())
+    {
+        var _Db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+        if (_Db != null)
+        {
+            if (_Db.Database.GetPendingMigrations().Any())
+            {
+                _Db.Database.Migrate();
+            }
+        }
+    }
+}
