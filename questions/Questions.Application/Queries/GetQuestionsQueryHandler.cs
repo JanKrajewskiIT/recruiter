@@ -7,8 +7,6 @@ namespace Questions.Application.Queries;
 
 internal class GetQuestionsQueryHandler( ApplicationDbContext dbContext ) : IRequestHandler<GetQuestionsQuery, IEnumerable<Question>>
 {
-    private readonly ApplicationDbContext dbContext = dbContext;
-
     public async Task<IEnumerable<Question>> Handle( GetQuestionsQuery request, CancellationToken cancellationToken )
     {
         var questions = await dbContext.Questions

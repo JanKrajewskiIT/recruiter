@@ -1,6 +1,6 @@
 @Questions.Api_HostAddress = http://localhost:5262
 
-GET {{Questions.Api_HostAddress}}/weatherforecast/
+GET {{Questions.Api_HostAddress}}/categories/
 Accept: application/json
 
 ###

@@ -7,13 +7,13 @@ namespace Questions.Infrastructure.EntitiesConfiguration.Extensions;
 
 internal static class EntityConfigurationExtensions
 {
-    public static void ToBasicTable<T>( this EntityTypeBuilder<T> builder, string tableName ) where T : BaseEntity
+    internal static void ToBasicTable<T>( this EntityTypeBuilder<T> builder, string tableName ) where T : BaseEntity
     {
         builder.ToTable( tableName );
         builder.HasKey( e => e.Id );
     }
 
-    public static void ToAuditTable<T>( this EntityTypeBuilder<T> builder, string tableName ) where T : AuditEntity
+    internal static void ToAuditTable<T>( this EntityTypeBuilder<T> builder, string tableName ) where T : AuditEntity
     {
         builder.ToBasicTable( tableName );
 
