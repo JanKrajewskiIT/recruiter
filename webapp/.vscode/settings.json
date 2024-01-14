@@ -3,8 +3,13 @@
   "cSpell.language": "pl,en",
   "cSpell.words": [
     "appbar",
+    "cryptr",
+    "keycloak",
+    "NEXTAUTH",
     "nextjs",
-    "recrutation"
+    "oidc",
+    "recrutation",
+    "tanstack"
   ],
   "git.autofetch": true,
   "git.enableSmartCommit": true,

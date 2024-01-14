@@ -40,11 +40,17 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## For updating all packages please use
 
 ```bash
-npx npm-check-updates
+npx npm-check-updates -u
 ```
 
 ## For generating eslint from scratch
 
 ```bash
 npm init @eslint/config
+```
+
+## Generate secret key by openssl
+
+```bash
+openssl rand -base64 32
 ```

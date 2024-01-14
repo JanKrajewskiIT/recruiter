@@ -45,8 +45,8 @@ services:
     ports:
       - 9005:8080
 
-  webapp:
-    env_file:
-      - .env
-    ports:
-      - 9006:3000
+  #webapp:
+  #  env_file:
+  #    - .env
+  #  ports:
+  #    - 9006:3000

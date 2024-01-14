@@ -1,11 +1,10 @@
 "use client";
 
-import * as React from "react";
+import { type PropsWithChildren, Fragment, useState } from "react";
 import createCache from "@emotion/cache";
 import { useServerInsertedHTML } from "next/navigation";
 import { CacheProvider } from "@emotion/react";
 import type { Options } from "@emotion/cache";
-import { Fragment } from "react";
 
 export interface INextEmotionCacheProviderProps {
   options: Omit<Options, "insertionPoint">;
@@ -14,8 +13,8 @@ export interface INextEmotionCacheProviderProps {
 const NextEmotionCacheProvider = ({
   options,
   children,
-}: React.PropsWithChildren<INextEmotionCacheProviderProps>) => {
-  const [{ cache, flush }] = React.useState(() => {
+}: PropsWithChildren<INextEmotionCacheProviderProps>) => {
+  const [{ cache, flush }] = useState(() => {
     const cache = createCache(options);
     cache.compat = true;
     // eslint-disable-next-line @typescript-eslint/unbound-method

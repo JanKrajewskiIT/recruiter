@@ -1,6 +1,6 @@
 import Tiles from "@/components/questions/Tiles";
 import { type Props } from "@/models/props";
-import { categoriesAtom } from "@/store/theme";
+import { categoriesAtom } from "@/store/questions";
 import { Chip, styled } from "@mui/material";
 import { useAtom } from "jotai";
 
