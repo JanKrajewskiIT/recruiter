@@ -9,6 +9,7 @@ import { usePathname } from "next/navigation";
 import ThemeSwitch from "@/components/navigation/ThemeSwitch";
 import NavIcon from "@/components/navigation/NavLogo";
 import { palette } from "@/components/theme/theme";
+import AuthButton from "@/components/navigation/AuthButton";
 
 const NavBar = ({ className }: Props) => {
   const pathname = usePathname();
@@ -27,6 +28,7 @@ const NavBar = ({ className }: Props) => {
         setActiveIndex={setActiveIndex}
       />
       <ThemeSwitch className="theme-switch" />
+      <AuthButton />
     </AppBar>
   );
 };
@@ -37,7 +39,7 @@ export default styled(NavBar)`
       props.theme.isDarkMode ? "none" : palette.brand};
 
     display: grid;
-    grid-template-columns: 45px 50px 1fr 95px;
+    grid-template-columns: 45px 50px 1fr 45px 50px;
     column-gap: 15px;
     justify-items: center;
     align-items: center;

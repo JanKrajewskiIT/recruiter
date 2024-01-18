@@ -27,6 +27,7 @@ services:
     restart: always
     volumes:
       - keycloak_data:/var/lib/postgresql/data
+      - ./scripts/realm-export.json:/opt/keycloak/data/import/realm-export.json
 
   sql.recruiter:
     image: postgres

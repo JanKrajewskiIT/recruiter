@@ -6,6 +6,7 @@ import { Container } from "@mui/material";
 
 import "../styles/globals.css";
 import ThemeRegistry from "@/components/theme/ThemeRegistry";
+import NextAuthProvider from "@/components/auth/NextAuthProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,10 +19,12 @@ const RootLayout = ({ children }: PropsWithChildren) => (
   <html lang="en">
     <body className={inter.className}>
       <ThemeRegistry>
-        <NavBar />
-        <main>
-          <Container>{children}</Container>
-        </main>
+        <NextAuthProvider>
+          <NavBar />
+          <main>
+            <Container>{children}</Container>
+          </main>
+        </NextAuthProvider>
       </ThemeRegistry>
     </body>
   </html>
