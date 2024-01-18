@@ -1,6 +1,6 @@
 services:
   portainer:
-    image: portainer/portainer-ce
+    image: portainer/portainer-ce:latest
     restart: unless-stopped
     command: -H unix:///var/run/docker.sock
     volumes:
@@ -8,7 +8,7 @@ services:
       - portainer_data:/data
 
   pgadmin:
-    image: dpage/pgadmin4
+    image: dpage/pgadmin4:latest
     restart: unless-stopped
     volumes:
       - pgadmin_data:/var/lib/pgadmin
@@ -17,20 +17,19 @@ services:
       - sql.recruiter
 
   keycloak:
-    image: quay.io/keycloak/keycloak
+    image: quay.io/keycloak/keycloak:latest
     restart: always
     depends_on:
       - sql.keycloak
 
   sql.keycloak:
-    image: postgres
+    image: postgres:latest
     restart: always
     volumes:
       - keycloak_data:/var/lib/postgresql/data
-      - ./scripts/realm-export.json:/opt/keycloak/data/import/realm-export.json
 
   sql.recruiter:
-    image: postgres
+    image: postgres:latest
     restart: always
     volumes:
       - recruiter_data:/var/lib/postgresql/data

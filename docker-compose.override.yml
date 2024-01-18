@@ -11,7 +11,7 @@ services:
       - "9001:80"
 
   keycloak:
-    command: start-dev
+    command: start-dev --import-realm
     environment:
       KC_DB: postgres
       KC_DB_URL: jdbc:postgresql://sql.keycloak/keycloak
@@ -19,6 +19,8 @@ services:
       KC_DB_PASSWORD: ${DEFAULT_PASSWORD:-password}
       KEYCLOAK_ADMIN: ${DEFAULT_USER:-user}
       KEYCLOAK_ADMIN_PASSWORD: ${DEFAULT_PASSWORD:-password}
+    volumes:
+      - ./scripts/realm-export.json:/opt/keycloak/data/import/realm-export.json
     ports:
       - 9002:8080
 
