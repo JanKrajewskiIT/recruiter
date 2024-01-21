@@ -1,4 +1,4 @@
-﻿namespace Questions.Api.Extensions;
+﻿namespace Questions.Api.Configuration;
 
 internal static class CorsExtensions
 {

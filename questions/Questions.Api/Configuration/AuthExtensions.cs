@@ -3,25 +3,25 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using Swashbuckle.AspNetCore.SwaggerUI;
+using System.Text;
 
-namespace Questions.Api.Extensions;
+namespace Questions.Api.Configuration;
 
 internal static class AuthExtensions
 {
-    private const string Realm = "recruiter";
+    public const string KeycloakConfigurationKey = "Keycloak";
+
     private const string Audience = "account";
-    private const string ClientId = "recruiter";
-    private const string AuthorityUrl = $"http://localhost:9002/realms/{Realm}";
-    private const string AuthorizationUrl = $"{AuthorityUrl}/protocol/openid-connect/auth";
+    private const string BearerFormat = "JWT";
     private const string Scheme = JwtBearerDefaults.AuthenticationScheme;
 
-    public static IServiceCollection AddAuth( this IServiceCollection services )
+    public static IServiceCollection AddAuth( this IServiceCollection services, KeycloakOptions keycloakOptions )
     {
         services
             .AddAuthentication( Scheme )
             .AddJwtBearer( options =>
             {
-                options.Authority = AuthorityUrl;
+                options.Authority = keycloakOptions.AuthorityUrl;
                 options.Audience = Audience;
                 options.RequireHttpsMetadata = false;
                 options.TokenValidationParameters = new TokenValidationParameters
@@ -29,10 +29,11 @@ internal static class AuthExtensions
                     ValidateIssuer = true,
                     ValidateAudience = true,
                     ValidateLifetime = true,
-                    ValidateIssuerSigningKey = false,
-                    ValidIssuer = AuthorityUrl,
+                    ValidateIssuerSigningKey = true,
+                    ValidIssuer = keycloakOptions.AuthorityUrl,
                     ValidAudience = Audience,
-                    ClockSkew = TimeSpan.Zero,
+                    ClockSkew = TokenValidationParameters.DefaultClockSkew,
+                    IssuerSigningKey = new SymmetricSecurityKey( Encoding.UTF8.GetBytes( keycloakOptions.ClientSecret ) )
                 };
             } );
 
@@ -42,14 +43,14 @@ internal static class AuthExtensions
         return services;
     }
 
-    public static SwaggerGenOptions AddSwaggerAuth( this SwaggerGenOptions options )
+    public static SwaggerGenOptions AddSwaggerAuth( this SwaggerGenOptions options, KeycloakOptions keycloakOptions )
     {
         options.AddSecurityDefinition( Scheme, new OpenApiSecurityScheme
         {
             In = ParameterLocation.Header,
             Type = SecuritySchemeType.OAuth2,
             Scheme = Scheme,
-            BearerFormat = "JWT",
+            BearerFormat = BearerFormat,
             Reference = new OpenApiReference
             {
                 Type = ReferenceType.SecurityScheme,
@@ -59,7 +60,7 @@ internal static class AuthExtensions
             {
                 Implicit = new OpenApiOAuthFlow
                 {
-                    AuthorizationUrl = new Uri( AuthorizationUrl )
+                    AuthorizationUrl = keycloakOptions.AuthorizationUrl
                 }
             },
         } );
@@ -93,10 +94,11 @@ internal static class AuthExtensions
         return app;
     }
 
-    public static SwaggerUIOptions UseSwaggerAuth( this SwaggerUIOptions options )
+    public static SwaggerUIOptions UseSwaggerAuth( this SwaggerUIOptions options, KeycloakOptions keycloakOptions )
     {
-        options.OAuthClientId( ClientId );
-        options.OAuthRealm( Realm );
+        options.OAuthClientId( keycloakOptions.ClientId );
+        options.OAuthClientSecret( keycloakOptions.ClientSecret );
+        options.OAuthRealm( keycloakOptions.Realm );
 
         return options;
     }

@@ -16,6 +16,9 @@ export const keycloakConfiguration: OidcConfiguration = {
   service_worker_relative_url: "/OidcServiceWorker.js",
   service_worker_only: true,
   token_renew_mode: TokenRenewMode.access_token_invalid,
+  token_request_extras: {
+    client_secret: `${process.env.NEXT_PUBLIC_AUTH_CLIENT_SECRET}`,
+  },
 };
 
 const NextAuthProvider = ({ children }: PropsWithChildren) => (

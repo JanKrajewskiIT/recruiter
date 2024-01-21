@@ -1,13 +1,17 @@
+using Questions.Api.Configuration;
 using Questions.Api.Endopoints;
-using Questions.Api.Extensions;
 using Questions.Api.Handlers;
 using Questions.Application;
 using Questions.Infrastructure;
 
 var builder = WebApplication.CreateBuilder( args );
 
-builder.Services.AddSwagger();
-builder.Services.AddAuth();
+var keycloakOptions = builder.Configuration
+    .GetSection( AuthExtensions.KeycloakConfigurationKey )
+    .Get<KeycloakOptions>()!;
+
+builder.Services.AddSwaggerWithAuth( keycloakOptions );
+builder.Services.AddAuth( keycloakOptions );
 builder.Services.AddAllCors();
 builder.Services.AddProblemDetails();
 builder.Services.AddEndpointsApiExplorer();
@@ -19,7 +23,7 @@ var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
+    app.UseSwaggerWithAuth( keycloakOptions );
 }
 
 app.UseAuth();

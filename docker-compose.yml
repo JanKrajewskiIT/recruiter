@@ -34,14 +34,15 @@ services:
     volumes:
       - recruiter_data:/var/lib/postgresql/data
 
-  questions.api:
-    image: recruiter/questions.api:${TAG:-latest}
-    build:
-      context: ./questions
-      dockerfile: Questions.Api/Dockerfile
-    restart: always
-    depends_on:
-      - sql.recruiter
+  #questions.api:
+  #  image: recruiter/questions.api:${TAG:-latest}
+  #  build:
+  #    context: ./questions
+  #    dockerfile: Questions.Api/Dockerfile
+  #  restart: always
+  #  depends_on:
+  #    - sql.recruiter
+  #    - keycloak
 
   #webapp:
   #  image: recruiter/webapp:${TAG:-latest}

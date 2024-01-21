@@ -40,15 +40,24 @@ services:
     ports:
       - 9004:5432
 
-  questions.api:
-    environment:
-      - ASPNETCORE_ENVIRONMENT=${APP_ENVIRONMENT:-Development}
-      - ConnectionStrings:Questions=Username=${DEFAULT_USER};Password=${DEFAULT_PASSWORD};Server=sql.recruiter;Database=questions;
-    ports:
-      - 9005:8080
+  #questions.api:
+  #  environment:
+  #    - ASPNETCORE_ENVIRONMENT=${APP_ENVIRONMENT:-Development}
+  #    - ConnectionStrings:Questions=Username=${DEFAULT_USER};Password=${DEFAULT_PASSWORD};Server=sql.recruiter;Database=questions;
+  #    - Keycloak__Authority=http://host.docker.internal:9002
+  #    - Keycloak__Realm=recruiter
+  #    - Keycloak__ClientId=recruiter
+  #    - Keycloak__ClientSecret=Lzn5DMaTgnZvrIZpUiXYcVCHTRToBtNR
+  #  ports:
+  #    - 9005:8080
 
   #webapp:
-  #  env_file:
-  #    - .env
+  #  environment:
+  #    - NEXT_PUBLIC_AUTH_ISSUER=http://host.docker.internal:9002/realms/recruiter
+  #    - NEXT_PUBLIC_AUTH_CLIENT_ID=recruiter
+  #    - NEXT_PUBLIC_AUTH_CLIENT_SECRET=Lzn5DMaTgnZvrIZpUiXYcVCHTRToBtNR
+  #    - NEXT_PUBLIC_AUTH_SCOPE=openid profile email
+  #    - NEXT_PUBLIC_API_URL=http://host.docker.internal:9005
+  #    - NEXT_PUBLIC_AUTH_URL=http://host.docker.internal:3000
   #  ports:
   #    - 9006:3000
