@@ -9,7 +9,7 @@ export interface Category {
 export const categoriesAtom = atomWithQuery<Category[]>(() => ({
   queryKey: ["categories"],
   queryFn: async () => {
-    const res = await fetch(`http://localhost:9005/categories`);
+    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/categories`);
     return await res.json();
   },
 }));

@@ -5,11 +5,11 @@ VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Questions.Api", "Questions.Api\Questions.Api.csproj", "{0DE86F24-3AEF-4E3D-9614-40CBB1D7B5BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Questions.Domain", "Questions.Domain\Questions.Domain.csproj", "{F6661937-92BD-447A-993A-A0D184EAD183}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Questions.Domain", "Questions.Domain\Questions.Domain.csproj", "{F6661937-92BD-447A-993A-A0D184EAD183}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Questions.Infrastructure", "Questions.Infrastructure\Questions.Infrastructure.csproj", "{02E615BF-E120-48EB-AFB5-CDC8E35EE79E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Questions.Infrastructure", "Questions.Infrastructure\Questions.Infrastructure.csproj", "{02E615BF-E120-48EB-AFB5-CDC8E35EE79E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Questions.Application", "Questions.Application\Questions.Application.csproj", "{262C2F39-0F38-41D3-B68B-79448AEED1DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Questions.Application", "Questions.Application\Questions.Application.csproj", "{262C2F39-0F38-41D3-B68B-79448AEED1DA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{47037060-2344-4997-B724-59E1606583E3}"
 	ProjectSection(SolutionItems) = preProject

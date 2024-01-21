@@ -706,7 +706,9 @@
       "alwaysDisplayInConsole": false,
       "clientAuthenticatorType": "client-secret",
       "redirectUris": [
-        "http://localhost:3000/settings"
+        "http://localhost:3000/settings",
+        "http://localhost:5262/swagger/*",
+        "http://localhost:9005/swagger/*"
       ],
       "webOrigins": [
         "http://localhost:3000"
@@ -715,13 +717,14 @@
       "bearerOnly": false,
       "consentRequired": false,
       "standardFlowEnabled": true,
-      "implicitFlowEnabled": false,
+      "implicitFlowEnabled": true,
       "directAccessGrantsEnabled": true,
       "serviceAccountsEnabled": false,
       "publicClient": true,
       "frontchannelLogout": true,
       "protocol": "openid-connect",
       "attributes": {
+        "client.secret.creation.time": "1705670429",
         "post.logout.redirect.uris": "http://localhost:3000/",
         "oauth2.device.authorization.grant.enabled": "false",
         "backchannel.logout.revoke.offline.tokens": "false",

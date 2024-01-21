@@ -1,24 +1,18 @@
 using MediatR;
+using Questions.Api.Endopoints;
+using Questions.Api.Extensions;
+using Questions.Api.Middlewares;
 using Questions.Application;
 using Questions.Application.Queries;
 using Questions.Infrastructure;
 
-const string allCors = "allCors";
-
 var builder = WebApplication.CreateBuilder( args );
 
-builder.Services.AddCors( options =>
-{
-    options.AddPolicy( allCors, policy =>
-    {
-        policy.AllowAnyOrigin()
-            .AllowAnyHeader()
-            .AllowAnyMethod();
-    } );
-} );
-
+builder.Services.AddSwagger();
+builder.Services.AddAuth();
+builder.Services.AddAllCors();
+builder.Services.AddProblemDetails();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
 builder.Services.AddApplication();
 
 var app = builder.Build();
@@ -26,16 +20,14 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
 }
 
-app.UseCors( allCors );
+app.UseAuth();
+app.UseAllCors();
 app.UseHttpsRedirection();
+app.UseMiddleware<ExceptionMiddleware>();
 
-app.MapGroup( "/categories" )
-    .MapGet( "/", async ( IMediator mediator ) => await mediator.Send( new GetCategoriesQuery() ) )
-    .WithName( "GetCategories" )
-    .WithOpenApi();
+app.MapCategoriesEndpoints();
 
 app.Services.MigrateDatabase();
 
