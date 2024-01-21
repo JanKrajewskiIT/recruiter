@@ -9,12 +9,11 @@ namespace Questions.Api.Extensions;
 internal static class AuthExtensions
 {
     private const string Realm = "recruiter";
-    private const string Audience = "account"; 
+    private const string Audience = "account";
     private const string ClientId = "recruiter";
     private const string AuthorityUrl = $"http://localhost:9002/realms/{Realm}";
     private const string AuthorizationUrl = $"{AuthorityUrl}/protocol/openid-connect/auth";
     private const string Scheme = JwtBearerDefaults.AuthenticationScheme;
-
 
     public static IServiceCollection AddAuth( this IServiceCollection services )
     {
@@ -56,12 +55,12 @@ internal static class AuthExtensions
                 Type = ReferenceType.SecurityScheme,
                 Id = Scheme
             },
-            Flows = new OpenApiOAuthFlows 
-            { 
-                Implicit = new OpenApiOAuthFlow 
-                { 
+            Flows = new OpenApiOAuthFlows
+            {
+                Implicit = new OpenApiOAuthFlow
+                {
                     AuthorizationUrl = new Uri( AuthorizationUrl )
-                } 
+                }
             },
         } );
 
