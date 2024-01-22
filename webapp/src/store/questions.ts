@@ -20,32 +20,11 @@ export const categoriesAtom = atomWithQuery<Category[]>(() => ({
 }));
 
 export const questionsAtom = atomWithQuery<Category[]>((get) => ({
-  queryKey: ["questions", get(selectedCategoryId)] as const,
+  queryKey: ["questions", get(selectedCategoryId)],
   queryFn: async ({ queryKey: [, id] }) => {
     if (id) {
       const result = await fetch(
         `${process.env.NEXT_PUBLIC_API_URL}/questions?categoryId=${id as string}`,
-      );
-
-      return await result.json();
-    }
-
-    return [];
-  },
-}));
-
-export const questionsAtom = atomWithQuery<
-  Category[],
-  DefaultError,
-  Category[],
-  Category[],
-  [string, string | null]
->((get) => ({
-  queryKey: ["questions", get(selectedCategoryId)],
-  queryFn: async ({ queryKey: [t, id] }) => {
-    if (id) {
-      const result = await fetch(
-        `${process.env.NEXT_PUBLIC_API_URL}/questions?categoryId=${id}`,
       );
 
       return await result.json();

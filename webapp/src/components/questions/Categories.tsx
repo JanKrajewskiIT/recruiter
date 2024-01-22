@@ -104,11 +104,10 @@ export default styled(Categories)`
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 116px;
 
     .categories,
     .child-categories {
-      margin-bottom: 10px;
+      margin-bottom: 20px;
     }
 
     .child-categories {
