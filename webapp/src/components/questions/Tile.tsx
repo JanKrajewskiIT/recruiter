@@ -1,44 +1,36 @@
 import { type Props } from "@/models/props";
 import {
-  Box,
   Button,
   Card,
   CardActions,
   CardContent,
   Typography,
+  styled,
 } from "@mui/material";
 
-const bull = (
-  <Box
-    component="span"
-    sx={{ display: "inline-block", mx: "2px", transform: "scale(0.8)" }}
-  >
-    •
-  </Box>
-);
+interface ITileProps {
+  title: string;
+  description?: string;
+}
 
-const Tile = ({ className }: Props) => (
-  <Card className={className} sx={{ minWidth: 275 }}>
-    <CardContent>
-      <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-        Word of the Day
+const Tile = ({ className, title, description }: Props<ITileProps>) => (
+  <Card className={className}>
+    <CardContent sx={{ height: "80%" }}>
+      <Typography gutterBottom variant="subtitle1" noWrap={false}>
+        {title}
       </Typography>
-      <Typography variant="h5" component="div">
-        be{bull}nev{bull}o{bull}lent
-      </Typography>
-      <Typography sx={{ mb: 1 }} color="text.secondary">
-        adjective
-      </Typography>
-      <Typography variant="body2">
-        well meaning and kindly.
-        <br />
-        {'"a benevolent smile"'}
+      <Typography variant="body2" color="text.secondary">
+        {description}
       </Typography>
     </CardContent>
-    <CardActions>
+    <CardActions sx={{ height: "20%" }}>
       <Button size="small">Learn More</Button>
     </CardActions>
   </Card>
 );
 
-export default Tile;
+export default styled(Tile)`
+  & {
+    height: 200px;
+  }
+`;

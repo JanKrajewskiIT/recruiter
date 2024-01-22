@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { type PropsWithChildren } from "react";
 import NavBar from "@/components/navigation/NavBar";
-import { Container } from "@mui/material";
 
 import "../styles/globals.css";
 import ThemeRegistry from "@/components/theme/ThemeRegistry";
 import NextAuthProvider from "@/components/auth/NextAuthProvider";
+import { Container } from "@mui/material";
 
 const inter = Inter({ subsets: ["latin"] });
 

@@ -24,6 +24,7 @@ internal class GetCategoriesQueryHandler( ApplicationDbContext dbContext ) : IRe
 
     private Category MapCategory( CategoryEntity entity )
         => new(
+            entity.Id,
             entity.Name,
             entity.Description,
             entity.IconName,

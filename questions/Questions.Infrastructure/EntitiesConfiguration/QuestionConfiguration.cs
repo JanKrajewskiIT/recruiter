@@ -13,7 +13,7 @@ internal sealed class QuestionConfiguration : IEntityTypeConfiguration<QuestionE
         builder.ToAuditTable( "Questions" );
 
         builder.Property( e => e.Name )
-            .HasMaxLength( DataTypeConsts.NameLength )
+            .HasMaxLength( DataTypeConsts.TextLength )
             .IsRequired();
 
         builder.Property( e => e.Description )

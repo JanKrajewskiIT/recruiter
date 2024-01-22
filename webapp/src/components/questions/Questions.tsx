@@ -1,15 +1,12 @@
+import Categories from "@/components/questions/Categories";
 import Tiles from "@/components/questions/Tiles";
 import { type Props } from "@/models/props";
-import { categoriesAtom } from "@/store/questions";
-import { Chip, styled } from "@mui/material";
-import { useAtom } from "jotai";
+import { styled } from "@mui/material";
 
 const Questions = ({ className }: Props) => {
-  const [{ data }] = useAtom(categoriesAtom);
-
   return (
     <div className={className}>
-      {data?.map((a) => <Chip key={a.name} label={a.name} />)}
+      <Categories />
       <Tiles />
     </div>
   );
@@ -17,5 +14,9 @@ const Questions = ({ className }: Props) => {
 
 export default styled(Questions)`
   & {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
   }
 `;

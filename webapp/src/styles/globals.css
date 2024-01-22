@@ -37,3 +37,15 @@ a {
   --header-height: 60px;
   --spacer-size: 20px;
 }
+
+::-webkit-scrollbar {
+  width: 9px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background-color: var(--color-gray-30);
+}

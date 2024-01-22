@@ -31,7 +31,8 @@ app.UseAllCors();
 app.UseHttpsRedirection();
 app.UseExceptionHandler();
 
-app.MapCategoriesEndpoints();
+app.MapCategoryEndpoints();
+app.MapQuestionEndpoints();
 
 app.Services.MigrateDatabase();
 
