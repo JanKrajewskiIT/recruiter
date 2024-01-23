@@ -16,7 +16,7 @@
     "@emotion/styled": "11.11.0",
     "@mui/material": "5.15.6",
     "@tanstack/query-core": "5.17.19",
-    "@tanstack/react-query-devtools": "^5.17.21",
+    "@tanstack/react-query-devtools": "5.17.21",
     "jotai": "2.6.2",
     "jotai-tanstack-query": "0.8.2",
     "next": "14.1.0",

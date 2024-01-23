@@ -574,3503 +574,3503 @@ namespace Questions.Infrastructure.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("d976bef2-9896-4070-829f-c4095829bd83"),
+                            Id = new Guid("3a37700c-215f-464f-aeea-5fe1c3a157e3"),
                             CategoryId = new Guid("08c037f9-c4e9-48c4-a4c5-fb8e628aa792"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(1964), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3231), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2110), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3288), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jakie znasz narzędzia pracy zespołowej ? Korzystałeś z Jiry, Confluence ?"
                         },
                         new
                         {
-                            Id = new Guid("8669efd2-fb86-49b5-9728-b0e151dc49b5"),
+                            Id = new Guid("83860bbb-a802-492b-934c-341ea96858d2"),
                             CategoryId = new Guid("08c037f9-c4e9-48c4-a4c5-fb8e628aa792"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2120), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3295), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2122), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3296), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest Agile ?"
                         },
                         new
                         {
-                            Id = new Guid("860ba42c-cf5c-46c2-8a3d-525e874ecd72"),
+                            Id = new Guid("e216f010-d1f3-4888-9a6b-1c6d49281a3f"),
                             CategoryId = new Guid("08c037f9-c4e9-48c4-a4c5-fb8e628aa792"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2125), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3300), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2126), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3301), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest Scrum ?"
                         },
                         new
                         {
-                            Id = new Guid("96a8df6c-5fb4-4802-9736-4d7ca9860c39"),
+                            Id = new Guid("4bef6b47-3a71-453e-9812-3ee3b950d30c"),
                             CategoryId = new Guid("08c037f9-c4e9-48c4-a4c5-fb8e628aa792"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2129), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3304), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2131), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3306), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "W jak dużym zespole pracowałeś ? Jakie były role ?"
                         },
                         new
                         {
-                            Id = new Guid("b0cffa66-9645-449b-8264-64bfe68d9989"),
+                            Id = new Guid("803ccbb9-e9ca-425b-a99b-73bd15c7de06"),
                             CategoryId = new Guid("08c037f9-c4e9-48c4-a4c5-fb8e628aa792"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2134), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3308), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2135), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3310), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak w twojej pracy wyglądało wykorzystanie Scruma ?"
                         },
                         new
                         {
-                            Id = new Guid("3d4a267e-3593-49d3-b523-4459428810ac"),
+                            Id = new Guid("b51b273d-51d4-402f-97c2-0a8ac1b3f8a3"),
                             CategoryId = new Guid("08c037f9-c4e9-48c4-a4c5-fb8e628aa792"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2138), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3323), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2140), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3324), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jakie role są w Scrum'ie ?"
                         },
                         new
                         {
-                            Id = new Guid("cc1d9686-75ee-442a-a6b1-b622bc889b48"),
+                            Id = new Guid("f0e03db7-a274-4fbd-bd45-2bbcdb4e5897"),
                             CategoryId = new Guid("08c037f9-c4e9-48c4-a4c5-fb8e628aa792"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2142), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3327), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2144), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3329), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jakie są Scrum'owe rytuały ?"
                         },
                         new
                         {
-                            Id = new Guid("d30e38c0-20b5-4cf3-af03-fbbdd0bb2821"),
+                            Id = new Guid("91ee5ce8-4f54-44b1-811e-531c47171036"),
                             CategoryId = new Guid("08c037f9-c4e9-48c4-a4c5-fb8e628aa792"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2157), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3332), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2159), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3333), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak podchodzisz do rozpoczęcia historyjek analitycznych ?"
                         },
                         new
                         {
-                            Id = new Guid("0051ca25-42ea-40af-b7d2-abecaaa6b1c4"),
+                            Id = new Guid("ec3f63cc-7505-46bf-a57d-75d0d56fea55"),
                             CategoryId = new Guid("0ed03359-a7dc-4eb4-a616-044557143b43"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2162), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3336), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2164), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3337), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Po co stosowana jest dokumentacja ?"
                         },
                         new
                         {
-                            Id = new Guid("c447f2b6-5325-4229-b1bf-211c4a9f74d3"),
+                            Id = new Guid("863bdc00-9802-4859-8e81-c3f44676ffb3"),
                             CategoryId = new Guid("0ed03359-a7dc-4eb4-a616-044557143b43"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2167), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3340), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2168), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3342), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Preferujesz dokumentowanie bezpośrednio w kodzie czy obok ?"
                         },
                         new
                         {
-                            Id = new Guid("d1cbd8f8-5dcb-449f-bc18-1fbe809ded0a"),
+                            Id = new Guid("85bb9619-bb86-4767-85eb-b9e61a7beed7"),
                             CategoryId = new Guid("0ed03359-a7dc-4eb4-a616-044557143b43"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2171), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3345), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2173), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3347), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jakie rodzaje dokumentacji stosuje się dla logiki biznesowej ?"
                         },
                         new
                         {
-                            Id = new Guid("e8ce897f-64c4-4ee7-9bbf-4a48ff73c18a"),
+                            Id = new Guid("b6071aab-09c4-4935-801f-887d30aacd90"),
                             CategoryId = new Guid("0faca7b4-e59d-483b-82a9-785d960c5760"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2176), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3349), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2177), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3351), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czy różni się argument od parametru ?"
                         },
                         new
                         {
-                            Id = new Guid("1bd68d06-302d-4dd7-b621-f6418d98485b"),
+                            Id = new Guid("a0a8af23-a283-4484-bc94-4b398efafec9"),
                             CategoryId = new Guid("0faca7b4-e59d-483b-82a9-785d960c5760"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2180), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3354), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2182), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3355), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest deklaracja vs definicja vs inicjalizacja ?"
                         },
                         new
                         {
-                            Id = new Guid("17262015-2bf4-4294-8cc3-c6d38c0962b5"),
+                            Id = new Guid("b1566873-86d6-4a8b-a505-80321bd50be5"),
                             CategoryId = new Guid("0faca7b4-e59d-483b-82a9-785d960c5760"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2185), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3360), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2187), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3362), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Której generacji językiem jest C# ?"
                         },
                         new
                         {
-                            Id = new Guid("2ace9f6f-0fd3-436c-99f2-c8f50baa2c5f"),
+                            Id = new Guid("83f43d82-85a6-46be-86ca-5ac51e41778d"),
                             CategoryId = new Guid("638331a1-9858-4f2c-86a3-5f27d757f2fa"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2189), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3365), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2191), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3366), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest refaktoryzacja ?"
                         },
                         new
                         {
-                            Id = new Guid("01c45d24-c099-4830-9da1-e080327f27e1"),
+                            Id = new Guid("5cebee79-0f6f-41e9-aa60-ea227996f420"),
                             CategoryId = new Guid("638331a1-9858-4f2c-86a3-5f27d757f2fa"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2197), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3369), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2198), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3370), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jakie problemy mogą pojawić się po refaktoryzacji ? Jak im zapobiec ?"
                         },
                         new
                         {
-                            Id = new Guid("0dc7e8f4-8f56-4688-9e8c-b17d4369c0b8"),
+                            Id = new Guid("f119f995-499c-496e-ba6d-4e427658fb9c"),
                             CategoryId = new Guid("638331a1-9858-4f2c-86a3-5f27d757f2fa"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2201), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3373), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2203), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3375), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "W jaki sposób dbasz o jakość kodu ? Jakie znasz standardy i drogi do uzyskania wysokiej jakości kodu ?"
                         },
                         new
                         {
-                            Id = new Guid("5174867f-5d36-4b5e-99d0-8c92eddb24c8"),
+                            Id = new Guid("96124b8c-ff66-4deb-8742-fb321b1c8af5"),
                             CategoryId = new Guid("638331a1-9858-4f2c-86a3-5f27d757f2fa"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2206), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3377), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2207), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3379), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest Clean Code ? Jakie znasz przykładowe zasady ?"
                         },
                         new
                         {
-                            Id = new Guid("b92c79f7-0ae8-48ea-a4c3-5d5ba329421f"),
+                            Id = new Guid("be283363-ef42-4b4b-b0bf-746ac484e933"),
                             CategoryId = new Guid("638331a1-9858-4f2c-86a3-5f27d757f2fa"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2210), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3382), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2212), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3383), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czy przeprowadzałeś Code Review ? Jak to wyglądało ?"
                         },
                         new
                         {
-                            Id = new Guid("423454eb-0e08-4c78-9e86-4fc218c148a5"),
+                            Id = new Guid("987426a1-f7cf-4861-be78-411f36cc6cf2"),
                             CategoryId = new Guid("7497e8fc-80a5-42df-ac48-c09f695dc402"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2215), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3443), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2216), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3447), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jakie znasz wzorce projektowe i architektoniczne ? Z których i jak korzystałeś ? Najważniejsze wzorce z GOF Gang of Four."
                         },
                         new
                         {
-                            Id = new Guid("9caeed11-eef1-4c14-8b7d-07d49ec63f8d"),
+                            Id = new Guid("1c1c88e9-20bc-41f0-b346-505f56be9e1a"),
                             CategoryId = new Guid("7497e8fc-80a5-42df-ac48-c09f695dc402"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2219), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3450), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2221), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3452), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Singleton (dlaczego to czasem antypatern)"
                         },
                         new
                         {
-                            Id = new Guid("645344da-30ca-498d-8c9a-4a5b379c8316"),
+                            Id = new Guid("b9c2b963-9ca0-4603-b971-ccfbaef73422"),
                             CategoryId = new Guid("7497e8fc-80a5-42df-ac48-c09f695dc402"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2256), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3457), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2258), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3459), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Zaimplementuj singleton z bezpiecznym dostępem wielowątkowym (pamiętać o synchronizacji / double checking pattern / ew. SingletonHolder z bezpiecznym dostępem bez konieczności synchronizacji)."
                         },
                         new
                         {
-                            Id = new Guid("ec7cc642-506b-4eaf-b7f5-555807cf65a9"),
+                            Id = new Guid("987f9ed4-f664-4ccf-9df2-79d60e7458c5"),
                             CategoryId = new Guid("7497e8fc-80a5-42df-ac48-c09f695dc402"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2261), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3461), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2263), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3463), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Metoda fabryki"
                         },
                         new
                         {
-                            Id = new Guid("52c5de44-0263-4677-a01d-626afeb417a7"),
+                            Id = new Guid("7996e4a4-7ee1-4a32-ae77-08efddeb99b5"),
                             CategoryId = new Guid("7497e8fc-80a5-42df-ac48-c09f695dc402"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2268), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3466), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2269), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3467), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Fabryka abstrakcyjna"
                         },
                         new
                         {
-                            Id = new Guid("babaf16e-d9bb-476e-87a3-778c858ffe32"),
+                            Id = new Guid("f67b71e3-7900-46d7-aed4-a87833f97d07"),
                             CategoryId = new Guid("7497e8fc-80a5-42df-ac48-c09f695dc402"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2272), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3470), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2274), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3472), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym różną się wzorce fabryki abstrakcyjnej i metody fabryki ?"
                         },
                         new
                         {
-                            Id = new Guid("057cb58b-dc82-41ba-9e33-b2c810785f12"),
+                            Id = new Guid("55ab7650-8886-48d8-b00b-6e7d013ffe74"),
                             CategoryId = new Guid("7497e8fc-80a5-42df-ac48-c09f695dc402"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2276), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3475), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2278), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3476), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Dekorator"
                         },
                         new
                         {
-                            Id = new Guid("c520d554-472c-4741-8b72-1827502afa78"),
+                            Id = new Guid("d7192224-4acf-4a60-870d-302d7aba2c4d"),
                             CategoryId = new Guid("7497e8fc-80a5-42df-ac48-c09f695dc402"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2281), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3479), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2282), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3481), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Obserwator"
                         },
                         new
                         {
-                            Id = new Guid("4d9d7bd6-8fb7-47cb-841e-6b2c804632e8"),
+                            Id = new Guid("796cf1be-5d95-4cae-a241-7bf50488e6e3"),
                             CategoryId = new Guid("7497e8fc-80a5-42df-ac48-c09f695dc402"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2285), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3483), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2287), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3485), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Facade pattern (bardzo ważny wzorzec)"
                         },
                         new
                         {
-                            Id = new Guid("d8e85871-8d55-44d4-84cc-ba45494b6bf1"),
+                            Id = new Guid("afa003bd-aae0-450e-960a-f44ded259644"),
                             CategoryId = new Guid("7497e8fc-80a5-42df-ac48-c09f695dc402"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2290), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3488), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2291), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3490), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Adapter"
                         },
                         new
                         {
-                            Id = new Guid("bbe1d296-9c26-4bb4-8e5f-6cba0694d58e"),
+                            Id = new Guid("11be1c79-e91c-45fc-8b56-8c5fe9dc323c"),
                             CategoryId = new Guid("7497e8fc-80a5-42df-ac48-c09f695dc402"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2294), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3495), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2296), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3496), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Strategia"
                         },
                         new
                         {
-                            Id = new Guid("ebededed-7acd-484b-9d40-0db6ca8538b5"),
+                            Id = new Guid("b19dfaa4-9bd8-4c4f-838f-ae79fc200f9c"),
                             CategoryId = new Guid("7497e8fc-80a5-42df-ac48-c09f695dc402"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2299), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3499), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2300), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3500), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Template method"
                         },
                         new
                         {
-                            Id = new Guid("31f39ec8-95d2-4a81-a787-8883c6f95b94"),
+                            Id = new Guid("17ff39ed-ed3a-45e9-bfde-0e3cf9217812"),
                             CategoryId = new Guid("7497e8fc-80a5-42df-ac48-c09f695dc402"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2305), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3503), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2307), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3505), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Builder"
                         },
                         new
                         {
-                            Id = new Guid("345fcd52-9371-4003-ae1c-262eb755c526"),
+                            Id = new Guid("cbf6e2e3-e616-4621-b6a1-59b94390a9eb"),
                             CategoryId = new Guid("7497e8fc-80a5-42df-ac48-c09f695dc402"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2310), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3508), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2312), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3509), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czy StringBuilder jest realizacją wzorca Builder ?"
                         },
                         new
                         {
-                            Id = new Guid("dfffec75-eaf3-48be-87cc-e6d5484b05c0"),
+                            Id = new Guid("a6c7f56c-b98a-46e8-8a94-80dd2d0bea6b"),
                             CategoryId = new Guid("7497e8fc-80a5-42df-ac48-c09f695dc402"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2314), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3512), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2316), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3513), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Mediator"
                         },
                         new
                         {
-                            Id = new Guid("ff9800e5-f64a-405e-b8df-a165aa4291d0"),
+                            Id = new Guid("592d7026-05d8-4a3d-b49a-a0f4f0539cad"),
                             CategoryId = new Guid("7497e8fc-80a5-42df-ac48-c09f695dc402"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2319), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3516), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2321), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3518), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Na czym polega wzorzec CQS i CQRS (command, action)?"
                         },
                         new
                         {
-                            Id = new Guid("b8e541bb-6aa3-4bd3-84ef-6b8489ca168b"),
+                            Id = new Guid("ca74946b-2208-46d1-b509-111033aa124d"),
                             CategoryId = new Guid("7497e8fc-80a5-42df-ac48-c09f695dc402"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2323), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3521), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2325), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3522), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "MVC"
                         },
                         new
                         {
-                            Id = new Guid("fcdec7bf-daa7-4f2b-9022-89f62dce8325"),
+                            Id = new Guid("d5635c5c-7a76-47fe-91e5-b95c8fcd1104"),
                             CategoryId = new Guid("7497e8fc-80a5-42df-ac48-c09f695dc402"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2328), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3525), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2330), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3526), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "MVVM"
                         },
                         new
                         {
-                            Id = new Guid("45fac73d-f42e-426d-bc6b-74ba6f4fe289"),
+                            Id = new Guid("fac8c74a-c954-4ed1-8718-6fc5e7f01c96"),
                             CategoryId = new Guid("7497e8fc-80a5-42df-ac48-c09f695dc402"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2332), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3531), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2334), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3533), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "MVP"
                         },
                         new
                         {
-                            Id = new Guid("6503dd81-2141-424d-a060-213da7a8998b"),
+                            Id = new Guid("de905de7-583f-45cf-aa0d-f83d398bc141"),
                             CategoryId = new Guid("7497e8fc-80a5-42df-ac48-c09f695dc402"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2337), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3536), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2338), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3537), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "AOP"
                         },
                         new
                         {
-                            Id = new Guid("2198f479-343e-4bac-96e8-d1036e01aabd"),
+                            Id = new Guid("cbd09b29-4358-4a6d-a438-f9864307883f"),
                             CategoryId = new Guid("7497e8fc-80a5-42df-ac48-c09f695dc402"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2343), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3540), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2345), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3541), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "DAO"
                         },
                         new
                         {
-                            Id = new Guid("0fcef0bd-c1f0-4a80-a2df-400a51f43759"),
+                            Id = new Guid("7d6c1397-43d0-4450-b78e-4131be6c832f"),
                             CategoryId = new Guid("7497e8fc-80a5-42df-ac48-c09f695dc402"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2348), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3544), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2350), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3546), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "DTO"
                         },
                         new
                         {
-                            Id = new Guid("65e39fb2-dc80-4ff7-a399-d47424de339f"),
+                            Id = new Guid("af90191e-46e5-40a3-878d-2b2a9870cc1f"),
                             CategoryId = new Guid("7497e8fc-80a5-42df-ac48-c09f695dc402"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2352), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3548), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2354), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3550), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Repository"
                         },
                         new
                         {
-                            Id = new Guid("b0f19424-806e-4b56-b0eb-0c8a0e48abf1"),
+                            Id = new Guid("8e400b3e-d13c-44bc-a744-985c345768bc"),
                             CategoryId = new Guid("7497e8fc-80a5-42df-ac48-c09f695dc402"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2357), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3553), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2359), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3554), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Unit Of Work"
                         },
                         new
                         {
-                            Id = new Guid("c3ebcc54-5673-4c39-ba0b-344daaabe56e"),
+                            Id = new Guid("56bfdd79-b104-40f5-a11a-c34e71ea648a"),
                             CategoryId = new Guid("7497e8fc-80a5-42df-ac48-c09f695dc402"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2361), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3557), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2363), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3558), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Circuit Braker"
                         },
                         new
                         {
-                            Id = new Guid("53f48520-aa9a-4694-b4eb-0a70bab4bef2"),
+                            Id = new Guid("6fdab7b1-1bf4-4d16-8bf5-9fe28237a182"),
                             CategoryId = new Guid("7497e8fc-80a5-42df-ac48-c09f695dc402"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2366), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3561), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2368), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3562), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Retry"
                         },
                         new
                         {
-                            Id = new Guid("25dc08bf-d396-464a-af6a-16795214380f"),
+                            Id = new Guid("abc5c775-4796-4a06-ae63-2e6b7eaef1e8"),
                             CategoryId = new Guid("7497e8fc-80a5-42df-ac48-c09f695dc402"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2370), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3568), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2372), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3569), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Proxy"
                         },
                         new
                         {
-                            Id = new Guid("769f13a3-710f-4bc5-a7b8-b523f9cda1f2"),
+                            Id = new Guid("04dea875-091a-4d25-bd23-b32cb345b472"),
                             CategoryId = new Guid("7497e8fc-80a5-42df-ac48-c09f695dc402"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2375), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3574), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2377), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3575), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest Dependency Injection ? Jak to wygląda niskopoziomowo w C# ?"
                         },
                         new
                         {
-                            Id = new Guid("2dadd0e5-abb1-4279-a7b8-ca0c24042c99"),
+                            Id = new Guid("26cec3f4-02cd-4495-b540-99ae59c67b9c"),
                             CategoryId = new Guid("7497e8fc-80a5-42df-ac48-c09f695dc402"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2382), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3578), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2384), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3580), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest Dependency Inversion i jak się ma do Dependency Injection ?"
                         },
                         new
                         {
-                            Id = new Guid("23ac7efa-b559-4b40-b753-23126bf07a20"),
+                            Id = new Guid("4ebb90fe-a4ef-4cd2-b721-6b287ddce583"),
                             CategoryId = new Guid("7497e8fc-80a5-42df-ac48-c09f695dc402"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2386), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3583), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2388), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3584), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest IoC ? W jaki sposób jest powiązane z DI ?"
                         },
                         new
                         {
-                            Id = new Guid("3ef2058b-0e4b-4bf5-8eb1-290163c5c180"),
+                            Id = new Guid("cc6231b1-59d2-46f8-886f-1cf546f46a43"),
                             CategoryId = new Guid("7497e8fc-80a5-42df-ac48-c09f695dc402"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2391), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3587), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2392), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3588), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jakie są plusy stosowania DI i IoC? W jaki sposób stosowanie DI / IoC wspomaga testowanie jednostkowe?"
                         },
                         new
                         {
-                            Id = new Guid("e09b587c-592f-400a-9c3f-fa784f0727e3"),
+                            Id = new Guid("2e77bbc2-316a-4909-8edd-b8fbde571a56"),
                             CategoryId = new Guid("71c8a70b-0e81-4b79-a7f8-fb51fcbef984"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2395), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3592), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2397), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3593), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest SOLID? Opisz wszystkie zasady. Podaj przykłady."
                         },
                         new
                         {
-                            Id = new Guid("c764af9c-6174-4359-a33f-7c0f9dcaaa0a"),
+                            Id = new Guid("cf9a6790-c578-4268-93da-9ff62dd0ae75"),
                             CategoryId = new Guid("71c8a70b-0e81-4b79-a7f8-fb51fcbef984"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2400), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3596), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2402), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3598), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak w SOLID można złamać regułę L ?"
                         },
                         new
                         {
-                            Id = new Guid("570ccfe6-bcb4-4b47-b2e9-f38d8a29dc6f"),
+                            Id = new Guid("89a01c65-f656-4da3-8d5b-c59aab063b01"),
                             CategoryId = new Guid("71c8a70b-0e81-4b79-a7f8-fb51fcbef984"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2404), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3600), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2406), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3602), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest reguła KISS ?"
                         },
                         new
                         {
-                            Id = new Guid("558613fe-2483-4b05-8f2c-b186dbecdd76"),
+                            Id = new Guid("b8720969-10d7-4df2-9c97-2f399badd28d"),
                             CategoryId = new Guid("71c8a70b-0e81-4b79-a7f8-fb51fcbef984"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2409), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3607), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2411), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3608), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest reguła DRY ?"
                         },
                         new
                         {
-                            Id = new Guid("a1ca4424-2447-4166-8ce8-ab8c6c38303e"),
+                            Id = new Guid("3af9a41a-4764-4082-a2a2-dc594f0930e0"),
                             CategoryId = new Guid("71c8a70b-0e81-4b79-a7f8-fb51fcbef984"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2414), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3611), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2415), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3613), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest reguła YAGNI ?"
                         },
                         new
                         {
-                            Id = new Guid("37736a95-ca68-419a-b62d-71d05e4a8ad3"),
+                            Id = new Guid("6b0f9a64-7b3d-458b-af43-818a013540b2"),
                             CategoryId = new Guid("71c8a70b-0e81-4b79-a7f8-fb51fcbef984"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2420), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3615), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2422), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3617), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest reguła SoC ?"
                         },
                         new
                         {
-                            Id = new Guid("ba4549d1-2ee3-43a0-acc7-8e15cf202b84"),
+                            Id = new Guid("857605f8-e195-4d15-8510-b8d482be21cd"),
                             CategoryId = new Guid("71c8a70b-0e81-4b79-a7f8-fb51fcbef984"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2424), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3620), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2426), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3621), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest reguła TDA ?"
                         },
                         new
                         {
-                            Id = new Guid("92c6a6e3-4077-4b60-bb86-4ae2dd873a6a"),
+                            Id = new Guid("3fce337b-d050-482a-9685-b0c0c32df650"),
                             CategoryId = new Guid("71c8a70b-0e81-4b79-a7f8-fb51fcbef984"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2429), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3625), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2431), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3626), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest OOP ? Jakie są 4 główne zasady programowania obiektowego ?"
                         },
                         new
                         {
-                            Id = new Guid("78701a5e-4f43-427f-9d43-b58e32271eed"),
+                            Id = new Guid("f846786f-c48d-4e80-b6fd-1df28deb0704"),
                             CategoryId = new Guid("71c8a70b-0e81-4b79-a7f8-fb51fcbef984"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2433), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3629), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2435), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3630), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest polimorfizm dynaczminy i statyczny ?"
                         },
                         new
                         {
-                            Id = new Guid("ff303bf6-e99c-4e99-80c9-527a973b87de"),
+                            Id = new Guid("811ed80e-d355-4646-b9ca-4a4442b47c44"),
                             CategoryId = new Guid("71c8a70b-0e81-4b79-a7f8-fb51fcbef984"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2438), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3634), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2440), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3635), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym charakteryzują się klasa abstrakcyjna i metoda abstrakcyjna ?"
                         },
                         new
                         {
-                            Id = new Guid("d2322259-53ab-49ad-8a33-4275ed80db1e"),
+                            Id = new Guid("34111e67-1b31-4ecd-8612-52c176b2cd51"),
                             CategoryId = new Guid("71c8a70b-0e81-4b79-a7f8-fb51fcbef984"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2442), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3639), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2444), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3640), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Która zasada OOP według ciebie jest najważniejsza ?"
                         },
                         new
                         {
-                            Id = new Guid("c878ba22-ffaa-48bf-800e-6f3804e098ac"),
+                            Id = new Guid("92b56235-bda8-478b-9692-39d7dd1562b0"),
                             CategoryId = new Guid("71c8a70b-0e81-4b79-a7f8-fb51fcbef984"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2447), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3645), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2449), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3647), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Przedstaw ideę dziedziczenia na przykładzie z życia."
                         },
                         new
                         {
-                            Id = new Guid("26a5e8c7-24f8-448b-bd36-dd3e709ca576"),
+                            Id = new Guid("9447f83f-2a89-4744-aea9-3d259ebced91"),
                             CategoryId = new Guid("71c8a70b-0e81-4b79-a7f8-fb51fcbef984"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2452), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3652), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2453), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3654), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Zadania z wykorzystaniem polimorfizmu i dziedziczenia, gdzie określa się co wypisze metoda."
                         },
                         new
                         {
-                            Id = new Guid("6dbb6c6b-8e85-4fbe-9186-bd7e13f57bbf"),
+                            Id = new Guid("fd2ba524-7b18-480f-9b58-4472b9abffaf"),
                             CategoryId = new Guid("e86eb402-5cb4-4428-b77c-eddc031ca81f"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2458), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3656), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2463), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3658), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jakie znasz rodzaje testów ?"
                         },
                         new
                         {
-                            Id = new Guid("37bb3141-03a9-48d5-964a-2f7699b7dd64"),
+                            Id = new Guid("3523e780-441d-4afa-8014-c566548ba791"),
                             CategoryId = new Guid("e86eb402-5cb4-4428-b77c-eddc031ca81f"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2466), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3661), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2468), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3662), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest TDD ? Czy kiedykolwiek używałeś ? Jakie miało znaczenie ?"
                         },
                         new
                         {
-                            Id = new Guid("1e9b296d-2ae9-45ff-bace-53c1cbae6fb5"),
+                            Id = new Guid("f95341a1-b671-4453-8379-44fa14fe021b"),
                             CategoryId = new Guid("e86eb402-5cb4-4428-b77c-eddc031ca81f"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2470), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3665), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2472), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3667), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym różnią się testy jednostkowe od integracyjnych ?"
                         },
                         new
                         {
-                            Id = new Guid("988f61f2-df8c-4add-9ecd-19c16b8d5d5e"),
+                            Id = new Guid("9f4c5d89-e26d-4663-8861-dbdeb87b51e6"),
                             CategoryId = new Guid("e86eb402-5cb4-4428-b77c-eddc031ca81f"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2475), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3670), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2476), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3671), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest tzw. mokowanie ?"
                         },
                         new
                         {
-                            Id = new Guid("ec8b6469-8ea9-49b9-b948-f055b4ddfb9c"),
+                            Id = new Guid("185e4302-c0f5-42ca-8f1b-3ae1ef4dadf6"),
                             CategoryId = new Guid("e86eb402-5cb4-4428-b77c-eddc031ca81f"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2479), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3674), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2481), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3675), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym są testy jednostkowe ? Czy pisałeś ? Z jakich technologii korzystałeś ?"
                         },
                         new
                         {
-                            Id = new Guid("210260f4-b6d4-4b67-9920-31198ce4a4b6"),
+                            Id = new Guid("4393762f-7128-48ae-b6d7-98bb1213f2ff"),
                             CategoryId = new Guid("e86eb402-5cb4-4428-b77c-eddc031ca81f"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2484), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3678), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2485), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3680), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym są testy integracyjne ? Czy pisałeś ? Z jakich technologii korzystałeś ?"
                         },
                         new
                         {
-                            Id = new Guid("af31cda2-ec65-44a5-a295-f92f0aee8ce6"),
+                            Id = new Guid("68770f38-867b-41f7-b2aa-8bf4c35075b5"),
                             CategoryId = new Guid("e86eb402-5cb4-4428-b77c-eddc031ca81f"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2488), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3685), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2490), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3686), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czy według ciebie pisanie testów jest ważne ? Jakie mają zalety ?"
                         },
                         new
                         {
-                            Id = new Guid("fb03ee2f-13e3-4a45-bcd7-495b3630b94f"),
+                            Id = new Guid("4f60d59e-d5c5-4ce1-ac13-504dd87bd2eb"),
                             CategoryId = new Guid("e86eb402-5cb4-4428-b77c-eddc031ca81f"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2493), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3689), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2494), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3690), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Opisz zasady 3A i GWT."
                         },
                         new
                         {
-                            Id = new Guid("c9ca539f-dfc5-461d-b26e-6d04514ce717"),
+                            Id = new Guid("9755b54a-9f88-4a12-996a-e3ecf1e0fc92"),
                             CategoryId = new Guid("e86eb402-5cb4-4428-b77c-eddc031ca81f"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2500), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3693), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2501), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3695), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak bada się pokrycie testów jednostkowych i integracyjnych ?"
                         },
                         new
                         {
-                            Id = new Guid("25305eaa-f4dd-478f-b583-b0a1e108d016"),
+                            Id = new Guid("0b28bc16-cdbd-4448-b24f-9ee3b63e8c64"),
                             CategoryId = new Guid("24d19d8a-a8c4-4fa1-96b1-e386d33cbf98"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2504), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3697), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2506), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3699), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest podejście DDD ?"
                         },
                         new
                         {
-                            Id = new Guid("06e9241b-707c-4090-bbb4-29545191d051"),
+                            Id = new Guid("01825cb3-1eb6-4547-b995-0748c2de5ce0"),
                             CategoryId = new Guid("24d19d8a-a8c4-4fa1-96b1-e386d33cbf98"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2508), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3702), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2510), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3703), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest podejście BDD i SpecFlow ?"
                         },
                         new
                         {
-                            Id = new Guid("90a389a0-c39f-4662-90f6-a065d77a2021"),
+                            Id = new Guid("f5d570a8-07a7-4970-a270-2bac5c5039be"),
                             CategoryId = new Guid("24d19d8a-a8c4-4fa1-96b1-e386d33cbf98"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2513), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3706), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2515), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3707), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czy kiedykolwiek używałeś DDD ? Podaj przykład z życia. Jak korzystałeś z tego w projekcie ?"
                         },
                         new
                         {
-                            Id = new Guid("b27a1eef-4fa0-4c3d-bfd5-830bc4ab8f6b"),
+                            Id = new Guid("83686c5c-85cf-4130-8187-90081e780ab5"),
                             CategoryId = new Guid("24d19d8a-a8c4-4fa1-96b1-e386d33cbf98"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2517), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3710), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2519), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3711), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak wygląda analiza w standardzie DDD i jak ma się ona do kodu ?"
                         },
                         new
                         {
-                            Id = new Guid("393ea3e9-7493-4a4a-ae16-1eb064b56c1d"),
+                            Id = new Guid("6388f1c8-7355-4cdc-b4c2-5939ff22d954"),
                             CategoryId = new Guid("24d19d8a-a8c4-4fa1-96b1-e386d33cbf98"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2522), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3714), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2523), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3716), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym różni się Entity od Value Object ?"
                         },
                         new
                         {
-                            Id = new Guid("8945be47-30c2-4d13-a4c2-e57dfefe67a9"),
+                            Id = new Guid("1ea18fe5-9cb4-4904-9d17-f60d1c74fd8f"),
                             CategoryId = new Guid("5bc813e3-f490-4f6e-98a9-e378c07a0d74"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2526), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3721), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2528), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3722), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest Continous Integration ?"
                         },
                         new
                         {
-                            Id = new Guid("f1dd8908-73bc-47a7-a069-095d6a8cf208"),
+                            Id = new Guid("b878c962-882f-403a-b1fe-870bc96daf43"),
                             CategoryId = new Guid("5bc813e3-f490-4f6e-98a9-e378c07a0d74"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2531), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3725), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2532), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3727), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest Continous Delivery / Deployment ?"
                         },
                         new
                         {
-                            Id = new Guid("05befb07-31a2-4ef1-9401-c2f69f1fa5be"),
+                            Id = new Guid("151fc8bf-e962-445b-8fb4-27a9cbd6dfbd"),
                             CategoryId = new Guid("5bc813e3-f490-4f6e-98a9-e378c07a0d74"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2538), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3729), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2539), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3731), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czy wykorzystywałeś CI / CD w projekcie ? Jakich technologii użyłeś ?"
                         },
                         new
                         {
-                            Id = new Guid("c361d714-8e2f-4a3b-ba64-6143182461eb"),
+                            Id = new Guid("957f33f7-6ff1-432a-bf44-2b11e5eb63ea"),
                             CategoryId = new Guid("5bc813e3-f490-4f6e-98a9-e378c07a0d74"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2542), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3734), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2544), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3735), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Wymień poszczególne kroki CD ? Jak wyglądał Pipeline ?"
                         },
                         new
                         {
-                            Id = new Guid("da514d02-403d-4aef-be09-e87f0fd86b07"),
+                            Id = new Guid("c22d5d0b-f2de-4618-a559-e611d383a50e"),
                             CategoryId = new Guid("5bc813e3-f490-4f6e-98a9-e378c07a0d74"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2547), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3738), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2548), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3739), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak dostać się do kodu źródłowego biblioteki ? Czy korzystałeś z dekompilatorów ? Jakich ?"
                         },
                         new
                         {
-                            Id = new Guid("7b95534a-9b53-42c7-bbcd-59914ce20ebe"),
+                            Id = new Guid("7f8ada07-af27-4ce8-9cd5-0005add089e3"),
                             CategoryId = new Guid("5bc813e3-f490-4f6e-98a9-e378c07a0d74"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2551), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3742), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2553), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3743), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czy miałeś do czynienia z Elastic Search i Kibaną ?"
                         },
                         new
                         {
-                            Id = new Guid("26cec6d2-1d84-4011-bbcf-cdb0160e7b9f"),
+                            Id = new Guid("7acbc2b6-07e3-44d0-8317-d79f70785309"),
                             CategoryId = new Guid("5bc813e3-f490-4f6e-98a9-e378c07a0d74"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2555), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3768), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2557), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3770), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czy korzystałeś kiedyś z narzędzi telemetrycznych ?"
                         },
                         new
                         {
-                            Id = new Guid("a070c9ef-8b44-4f52-bea1-e4259f7b5a2d"),
+                            Id = new Guid("79d73517-0aba-472e-915f-ffaf05cce618"),
                             CategoryId = new Guid("5bc813e3-f490-4f6e-98a9-e378c07a0d74"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2560), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3773), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2561), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3775), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czy tworzyłeś kiedyś diagramy UML np. przepływów, use cases itp ?"
                         },
                         new
                         {
-                            Id = new Guid("43d9ee8d-00b9-4bee-bb77-3ad8a839e053"),
+                            Id = new Guid("4a3dff9c-3483-4024-97c7-54d5fb466db6"),
                             CategoryId = new Guid("f7e9ae2a-33e6-486c-b00c-7fde72c4f2ef"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2587), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3779), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2589), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3781), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jakie znasz narzędzia do wersjonowania kodu źródłowego ? Czym jest CVS, SVN, GIT, TFVC ?"
                         },
                         new
                         {
-                            Id = new Guid("a31a2709-b3b3-463e-9091-4df77db66df4"),
+                            Id = new Guid("b7c8413d-b3d3-4dc5-a1e2-dd8bba4a3536"),
                             CategoryId = new Guid("f7e9ae2a-33e6-486c-b00c-7fde72c4f2ef"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2593), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3784), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2595), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3785), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym się różni GIT od TFVC ?"
                         },
                         new
                         {
-                            Id = new Guid("c1c4a25a-693b-4dae-86e3-7ce3d78f49dc"),
+                            Id = new Guid("3936f093-4598-40bd-afa5-7fad1e40e96d"),
                             CategoryId = new Guid("f7e9ae2a-33e6-486c-b00c-7fde72c4f2ef"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2600), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3788), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2601), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3790), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest branch ?"
                         },
                         new
                         {
-                            Id = new Guid("4ba88c0b-c526-40fc-a090-969aa9f1d7a8"),
+                            Id = new Guid("ef57de20-4550-4258-b581-a91b78dc7e4f"),
                             CategoryId = new Guid("f7e9ae2a-33e6-486c-b00c-7fde72c4f2ef"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2604), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3792), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2606), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3794), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak merguje się branche ?"
                         },
                         new
                         {
-                            Id = new Guid("6b9aaa7a-2688-4fd5-9023-ead8ed826744"),
+                            Id = new Guid("ea3fc980-c573-4d46-87a4-55d33e4369cc"),
                             CategoryId = new Guid("f7e9ae2a-33e6-486c-b00c-7fde72c4f2ef"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2608), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3797), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2610), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3799), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jaka sytuacja może pojawić się, gdy na dwóch branch'ach zmieniany jest kod ?"
                         },
                         new
                         {
-                            Id = new Guid("b1368602-abd5-4258-8cb1-438c53ef563c"),
+                            Id = new Guid("ce424230-ea0d-4488-91a1-a33d9e42d66d"),
                             CategoryId = new Guid("f7e9ae2a-33e6-486c-b00c-7fde72c4f2ef"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2613), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3801), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2614), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3803), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Opisz poszczególne operacje systemu kontroli wersji GIT takie jak np. push, rebase"
                         },
                         new
                         {
-                            Id = new Guid("0e8ec9a9-c05f-4c57-b433-03496d8dc4c8"),
+                            Id = new Guid("dbe6cd3b-fed3-41ab-ba1e-1fda722391e7"),
                             CategoryId = new Guid("f7e9ae2a-33e6-486c-b00c-7fde72c4f2ef"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2617), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3805), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2619), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3807), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jaka jest różnica między fetch a pull ?"
                         },
                         new
                         {
-                            Id = new Guid("9f6a1f9e-f75c-4a1d-ade7-76fd668aab90"),
+                            Id = new Guid("a3f5dffc-e0c8-4b29-a177-2db016214046"),
                             CategoryId = new Guid("f7e9ae2a-33e6-486c-b00c-7fde72c4f2ef"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2622), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3810), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2623), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3811), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jaka jest różnica między rebase a merge ?"
                         },
                         new
                         {
-                            Id = new Guid("4b786655-2a24-42a0-9ac0-2707fe896a48"),
+                            Id = new Guid("c1a3ec73-c2bb-4351-ba60-68f8e7657d50"),
                             CategoryId = new Guid("f7e9ae2a-33e6-486c-b00c-7fde72c4f2ef"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2626), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3816), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2628), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3818), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest cherry pick ?"
                         },
                         new
                         {
-                            Id = new Guid("e541943c-040d-4337-a86c-7d1a09f82c30"),
+                            Id = new Guid("6b5c2686-7ad6-4759-88ad-51fc2ce3f989"),
                             CategoryId = new Guid("f7e9ae2a-33e6-486c-b00c-7fde72c4f2ef"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2631), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3821), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2632), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3822), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym są submoduły w GIT ?"
                         },
                         new
                         {
-                            Id = new Guid("70f4f6c4-e916-40a5-930a-2ead1b800132"),
+                            Id = new Guid("514a238d-6e77-45b4-860b-205c4607648a"),
                             CategoryId = new Guid("a5f70f89-5b51-408f-b336-90ff049a1b59"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2638), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3825), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2639), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3826), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak zaimplementować dziedziczenie w bazie danych ?"
                         },
                         new
                         {
-                            Id = new Guid("85cc0a21-abf0-4e28-8a05-ed67902d8fbb"),
+                            Id = new Guid("d534aaa6-58c3-432b-a437-b21e7fcd7f52"),
                             CategoryId = new Guid("a5f70f89-5b51-408f-b336-90ff049a1b59"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2642), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3829), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2644), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3831), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jakie są trzy sposoby na realizację dziedziczenia encji ?"
                         },
                         new
                         {
-                            Id = new Guid("baef6fb2-10d2-4cb3-be3b-3f25d08f88a7"),
+                            Id = new Guid("6a23ad75-f6d8-410b-935a-665236db38e7"),
                             CategoryId = new Guid("a5f70f89-5b51-408f-b336-90ff049a1b59"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2646), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3833), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2648), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3835), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak uzyskać relację wiele do wielu w relacyjnej bazie danych ?"
                         },
                         new
                         {
-                            Id = new Guid("67327df3-d9b2-484c-9a5e-b8d1629e6a4e"),
+                            Id = new Guid("c84e1581-db93-4a0b-8257-d141130ff00c"),
                             CategoryId = new Guid("a5f70f89-5b51-408f-b336-90ff049a1b59"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2651), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3838), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2652), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3839), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak zrealizować relacje agregacji i kompozycji w bazie ?"
                         },
                         new
                         {
-                            Id = new Guid("7ffe5055-1d74-4f5d-a895-1f9ed51e07ba"),
+                            Id = new Guid("29b9459b-26af-4c88-9e9c-1345ba1cd24c"),
                             CategoryId = new Guid("a5f70f89-5b51-408f-b336-90ff049a1b59"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2655), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3842), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2657), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3844), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Z jakich technologii ORM korzystałeś ? Podaj wady i zalety poszczególnych."
                         },
                         new
                         {
-                            Id = new Guid("384ddd0c-ebef-4a1f-b14d-6462e86c26cf"),
+                            Id = new Guid("eff05300-8e7b-4e06-b0f7-e929b9178bad"),
                             CategoryId = new Guid("a5f70f89-5b51-408f-b336-90ff049a1b59"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2660), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3846), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2661), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3848), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Podaj różnice między EntityFramework i NHibernate ?"
                         },
                         new
                         {
-                            Id = new Guid("24b49006-1ab7-4907-9fd8-ed4822938041"),
+                            Id = new Guid("781d1537-755a-405f-af05-f6a9d3dbf0d2"),
                             CategoryId = new Guid("a5f70f89-5b51-408f-b336-90ff049a1b59"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2665), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3854), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2666), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3855), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Opisz blokowanie optymistyczne."
                         },
                         new
                         {
-                            Id = new Guid("c40a9c60-8dd6-4069-8873-b5784d8e0f0c"),
+                            Id = new Guid("366a54a5-1c25-45bf-af4e-46747b2bd550"),
                             CategoryId = new Guid("a5f70f89-5b51-408f-b336-90ff049a1b59"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2669), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3858), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2671), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3859), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Opisz blokowanie pesymistyczne."
                         },
                         new
                         {
-                            Id = new Guid("7fb40f57-6dde-447b-beaf-a55decd22260"),
+                            Id = new Guid("9735d3d2-fb7f-41fd-a0d4-134e2e588ea4"),
                             CategoryId = new Guid("a5f70f89-5b51-408f-b336-90ff049a1b59"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2676), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3862), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2678), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3864), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Na czym polega code-first ?"
                         },
                         new
                         {
-                            Id = new Guid("44d19d35-e514-4e02-a8e1-c284aebe1d20"),
+                            Id = new Guid("e1edd0fd-5f60-4e7d-aa2b-e4d6bafdc772"),
                             CategoryId = new Guid("a5f70f89-5b51-408f-b336-90ff049a1b59"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2680), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3867), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2682), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3868), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Na czym polega database-first ?"
                         },
                         new
                         {
-                            Id = new Guid("cd40378d-297d-43ae-84a1-a8cd57b1c17e"),
+                            Id = new Guid("07f8d757-6167-406c-a8bd-054e837ebca9"),
                             CategoryId = new Guid("a5f70f89-5b51-408f-b336-90ff049a1b59"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2685), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3871), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2686), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3872), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym różni się code-first od database-first ? Które z rozwiązań wykorzystywałeś ? Które preferujesz i dlaczego ?"
                         },
                         new
                         {
-                            Id = new Guid("1bfc913a-5677-4095-97ae-e75f30e67131"),
+                            Id = new Guid("2e0d282e-d72b-4f24-a2a6-8165da8c98f7"),
                             CategoryId = new Guid("12d9bda6-2b20-4876-ab72-51498913f01a"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2689), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3876), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2691), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3877), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czy korzystałeś kiedyś z kontenerów Docker'owych ? Jak działają ?"
                         },
                         new
                         {
-                            Id = new Guid("9f15a8b2-144e-404b-9817-d1b1b5d2d9d1"),
+                            Id = new Guid("55a4f214-f964-4e60-878e-d3e6bf2255b4"),
                             CategoryId = new Guid("12d9bda6-2b20-4876-ab72-51498913f01a"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2694), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3880), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2695), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3881), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest Load Balancing ?"
                         },
                         new
                         {
-                            Id = new Guid("dce0bc0d-bf25-4ab4-9127-2f89127c5039"),
+                            Id = new Guid("fa2bee50-3bb4-48d8-96c2-a1c1cff901cb"),
                             CategoryId = new Guid("12d9bda6-2b20-4876-ab72-51498913f01a"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2698), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3884), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2700), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3886), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak na poziomie infrastruktury poprawić działanie wolno działającego serwisu ?"
                         },
                         new
                         {
-                            Id = new Guid("ab944c82-e1a1-4ac7-8288-da5bdb58f800"),
+                            Id = new Guid("510a2e9e-64e6-4607-965a-6ae15b843c94"),
                             CategoryId = new Guid("12d9bda6-2b20-4876-ab72-51498913f01a"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2703), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3891), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2704), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3892), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest Chmura ? Jakie znasz rozwiązania ? Czy masz z tym doświadczenie ?"
                         },
                         new
                         {
-                            Id = new Guid("e4e43f06-e9f8-44c3-b9df-d6c2fe12eed1"),
+                            Id = new Guid("80507646-7cee-4be3-8d72-b184cff48eab"),
                             CategoryId = new Guid("12d9bda6-2b20-4876-ab72-51498913f01a"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2707), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3895), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2709), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3896), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jakie usługi dostarcza AzureS i Azure DevOps ?"
                         },
                         new
                         {
-                            Id = new Guid("6a695729-b491-4f3d-b28d-39c728b78451"),
+                            Id = new Guid("7a5ee9eb-9ff0-4546-8386-20168a0471d1"),
                             CategoryId = new Guid("12d9bda6-2b20-4876-ab72-51498913f01a"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2714), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3899), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2716), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3901), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest IoT ?"
                         },
                         new
                         {
-                            Id = new Guid("79e88085-fd6e-43c0-b16b-fff068aeef32"),
+                            Id = new Guid("39a53bdc-ba8c-47f2-a682-7af67275fa32"),
                             CategoryId = new Guid("273643d2-b005-4a1f-83ff-9ce823c4b418"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2718), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3903), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2720), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3905), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest HTTP ?"
                         },
                         new
                         {
-                            Id = new Guid("f1787c4d-51e4-42cd-83f9-973b114252dc"),
+                            Id = new Guid("cf89f5cd-701e-4dac-8c42-b995e7a43823"),
                             CategoryId = new Guid("273643d2-b005-4a1f-83ff-9ce823c4b418"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2723), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3908), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2725), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3909), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czy HTTP jest stanowy ?"
                         },
                         new
                         {
-                            Id = new Guid("ea88a793-93b8-4999-a229-88f715c485cd"),
+                            Id = new Guid("ae4ffd82-5cb4-41ca-9520-c7215aa9e53f"),
                             CategoryId = new Guid("273643d2-b005-4a1f-83ff-9ce823c4b418"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2728), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3912), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2729), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3914), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak zasymulować stanowość HTTP ?"
                         },
                         new
                         {
-                            Id = new Guid("310afa4c-1239-4c5f-95c0-016516e966c8"),
+                            Id = new Guid("afd0a5cb-1960-4e97-9cce-f87d9c98e574"),
                             CategoryId = new Guid("273643d2-b005-4a1f-83ff-9ce823c4b418"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2732), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3917), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2734), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3918), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak wygląda state management w .NET ?"
                         },
                         new
                         {
-                            Id = new Guid("15a1533c-05d7-4ce7-930e-cc833ae7f41f"),
+                            Id = new Guid("9f8afab2-255c-4d81-86ef-060c61497192"),
                             CategoryId = new Guid("273643d2-b005-4a1f-83ff-9ce823c4b418"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2737), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3921), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2738), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3922), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jakie znasz metody HTTP ? Opisz."
                         },
                         new
                         {
-                            Id = new Guid("e84fd973-6ae1-493c-b30e-3c742a33ce4b"),
+                            Id = new Guid("c686f554-314d-46fd-acb1-9f070d7bac50"),
                             CategoryId = new Guid("273643d2-b005-4a1f-83ff-9ce823c4b418"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2741), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3928), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2743), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3929), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Które z podanych to metody HTTP (get, post, put, patch, insert, update, input, delete) ?"
                         },
                         new
                         {
-                            Id = new Guid("ad6dd982-4c38-4954-84c7-8d44d99b36be"),
+                            Id = new Guid("a6210895-c0b1-4977-a3d3-f3de6d0c9c49"),
                             CategoryId = new Guid("273643d2-b005-4a1f-83ff-9ce823c4b418"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2745), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3932), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2747), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3933), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym się różni POST / GET / PUT ? Jak przekazywane są atrybuty do tych metod ?"
                         },
                         new
                         {
-                            Id = new Guid("7d7f08e3-d003-4a54-ba6f-bf688cd218d4"),
+                            Id = new Guid("2a9f8f3c-4585-4f1c-9c7e-5ad0afc5cb1f"),
                             CategoryId = new Guid("273643d2-b005-4a1f-83ff-9ce823c4b418"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2752), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3937), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2754), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3938), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Co zawiera ramka HTTP ?"
                         },
                         new
                         {
-                            Id = new Guid("42538fc4-661d-4bbb-8977-f5ecccbb689a"),
+                            Id = new Guid("2a05adb7-82e6-4b67-8fcf-9cc3eff28cf9"),
                             CategoryId = new Guid("273643d2-b005-4a1f-83ff-9ce823c4b418"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2757), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3942), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2758), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3943), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Podejście wywołania GET w rezultacie wywolania PUT. Dlaczego jest tak ważne ?"
                         },
                         new
                         {
-                            Id = new Guid("48911cad-8fd8-42b4-8ad1-a66577a4c021"),
+                            Id = new Guid("4cbc5655-06af-4954-a97c-34552d6e7165"),
                             CategoryId = new Guid("273643d2-b005-4a1f-83ff-9ce823c4b418"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2761), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3946), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2763), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3948), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Wymień kody błędów HTTP ew. grupy kodów  ?"
                         },
                         new
                         {
-                            Id = new Guid("858fae3d-5c08-489c-9f84-467362508751"),
+                            Id = new Guid("af016a8f-23cc-41bb-97a2-130af11e9c88"),
                             CategoryId = new Guid("273643d2-b005-4a1f-83ff-9ce823c4b418"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2766), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3951), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2767), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3953), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym różnią się szyfrowania symetryczne od asymetrycznych ? Podaj przykłady algorytmów i protokołów, które są na nich oparte."
                         },
                         new
                         {
-                            Id = new Guid("8b67bc9d-795b-4d9d-b762-f6c1598462b3"),
+                            Id = new Guid("925bfe13-c090-4190-b486-4b39acf910a8"),
                             CategoryId = new Guid("e04edc71-f477-4ca6-9482-2a019bd8d5e9"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2771), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3955), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2772), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3957), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Kiedy w REST wywoływana jest autoryzacja ?"
                         },
                         new
                         {
-                            Id = new Guid("114a0000-b9fa-41d1-9a8f-0e18512ec52b"),
+                            Id = new Guid("bc5505ab-dc6f-44c8-86a9-249eff59c5f1"),
                             CategoryId = new Guid("e04edc71-f477-4ca6-9482-2a019bd8d5e9"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2775), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3959), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2777), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3961), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak w REST można wpływać na domyślny parser JSONa ?"
                         },
                         new
                         {
-                            Id = new Guid("a18bfe32-374d-40fb-842d-e3cdbb46b929"),
+                            Id = new Guid("f03ceacd-b96a-4f6d-82de-01b4af070b02"),
                             CategoryId = new Guid("e04edc71-f477-4ca6-9482-2a019bd8d5e9"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2779), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3966), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2781), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3968), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak działa parsowanie ?"
                         },
                         new
                         {
-                            Id = new Guid("bc4dc63a-76b2-4c97-879a-5eb31787fa2f"),
+                            Id = new Guid("be295c4b-bf25-4173-b105-a8b4482b6a7c"),
                             CategoryId = new Guid("e04edc71-f477-4ca6-9482-2a019bd8d5e9"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2784), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3970), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2786), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3972), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest SOA ?"
                         },
                         new
                         {
-                            Id = new Guid("4a3d0002-934a-489b-9340-ad70d94443f8"),
+                            Id = new Guid("4ed7d10c-acab-48bd-b397-759c0369e8eb"),
                             CategoryId = new Guid("e04edc71-f477-4ca6-9482-2a019bd8d5e9"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2791), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3975), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2792), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3977), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Opisz podejście mikroserwisowe. Jakie mają zalety ?"
                         },
                         new
                         {
-                            Id = new Guid("d9d341da-7bc9-4b2b-ab4b-26150fefeb56"),
+                            Id = new Guid("90f4e474-99d4-4691-a574-a1c7a1bebd26"),
                             CategoryId = new Guid("e04edc71-f477-4ca6-9482-2a019bd8d5e9"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2795), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3980), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2797), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3981), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jaka jest różnica między SOA a mikroserwisami ?"
                         },
                         new
                         {
-                            Id = new Guid("c2eef656-1eec-447b-a5e8-749198681708"),
+                            Id = new Guid("03cb1894-24ee-466b-941a-e9936c869e03"),
                             CategoryId = new Guid("e04edc71-f477-4ca6-9482-2a019bd8d5e9"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2800), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3984), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2801), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3986), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest REST ?"
                         },
                         new
                         {
-                            Id = new Guid("e1d26477-fadf-486a-9c59-70359fe6a289"),
+                            Id = new Guid("845e783b-2619-4721-a32a-34bac9982c66"),
                             CategoryId = new Guid("e04edc71-f477-4ca6-9482-2a019bd8d5e9"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2804), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3989), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2806), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3990), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest SOAP ?"
                         },
                         new
                         {
-                            Id = new Guid("be6e1536-9afc-4a8c-9ef9-c0645a50b026"),
+                            Id = new Guid("d99df344-25e7-4389-a74f-67d94d1b5753"),
                             CategoryId = new Guid("e04edc71-f477-4ca6-9482-2a019bd8d5e9"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2808), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3993), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2810), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3994), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jaka jest różnica między REST a SOAP ?"
                         },
                         new
                         {
-                            Id = new Guid("e67ac04b-124c-4eef-84a6-8d904d3b4f05"),
+                            Id = new Guid("89a11523-d0ad-4f11-87cd-45ae2f7a70dd"),
                             CategoryId = new Guid("e04edc71-f477-4ca6-9482-2a019bd8d5e9"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2813), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3997), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2815), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(3999), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czy REST realizowany jest tylko z pomocą protokołu HTTP ?"
                         },
                         new
                         {
-                            Id = new Guid("56e951cb-37e9-4068-8da2-d51511efb79a"),
+                            Id = new Guid("9b0c4843-3edb-47a8-9284-c8710188df8b"),
                             CategoryId = new Guid("e04edc71-f477-4ca6-9482-2a019bd8d5e9"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2817), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4004), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2819), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4005), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Z jakimi problemami możemy spotkać się w przypadku RESTa ? Czy to zastosowanie nadaje się np. dla banków ?"
                         },
                         new
                         {
-                            Id = new Guid("01cc04aa-f339-4da0-b6dd-ce1fb2e5457b"),
+                            Id = new Guid("89b1f74e-0eb0-4c5b-b85c-114620631b6c"),
                             CategoryId = new Guid("e04edc71-f477-4ca6-9482-2a019bd8d5e9"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2822), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4009), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2823), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4010), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak wygląda obsługa zapytania i odpowiedzi w przypadku REST ? Opisz poszczególne operacje."
                         },
                         new
                         {
-                            Id = new Guid("1fdce86b-1e52-46ed-83ce-459da8837acc"),
+                            Id = new Guid("8066b502-a297-4416-a625-340e05d7de60"),
                             CategoryId = new Guid("e04edc71-f477-4ca6-9482-2a019bd8d5e9"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2828), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4013), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2830), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4014), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak działa pipeline wywołania dla REST?"
                         },
                         new
                         {
-                            Id = new Guid("cf720951-b8aa-45ab-8094-0ffb4f0ad343"),
+                            Id = new Guid("917d5318-ed1c-4f2a-ba8c-a387ff7c2683"),
                             CategoryId = new Guid("e04edc71-f477-4ca6-9482-2a019bd8d5e9"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2833), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4017), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2835), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4019), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak wygląda flow zapytanie-odpowiedź dla REST ? Kiedy i jak odbywa się autoryzacja ? Jak działa parsowanie ? Jak można wpływać na domyślny parser jsona ?"
                         },
                         new
                         {
-                            Id = new Guid("ac85330f-2e3f-4279-895f-fdeb136a9c2a"),
+                            Id = new Guid("a6571691-ea92-49ed-9e0c-d9d27cc3e07b"),
                             CategoryId = new Guid("e04edc71-f477-4ca6-9482-2a019bd8d5e9"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2837), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4021), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2839), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4023), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest bindowanie ?"
                         },
                         new
                         {
-                            Id = new Guid("97fbe909-a91a-4e5d-a0aa-dc772a0dda93"),
+                            Id = new Guid("f8d22568-ae3d-4ad5-805b-8d4f699da5ee"),
                             CategoryId = new Guid("e04edc71-f477-4ca6-9482-2a019bd8d5e9"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2842), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4026), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2844), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4027), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jakie są kolejne działania przy bindowaniu w REST ?"
                         },
                         new
                         {
-                            Id = new Guid("ad22ef2a-dc48-4c02-970d-e53ae765cda8"),
+                            Id = new Guid("310bdf68-6040-403f-b985-55571010f231"),
                             CategoryId = new Guid("e04edc71-f477-4ca6-9482-2a019bd8d5e9"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2847), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4030), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2848), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4032), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jakie zasady spełnia dobrze zaprojektowane URI ?"
                         },
                         new
                         {
-                            Id = new Guid("2ce1bc7e-1143-4dfa-bd90-3bfbc8a44a8a"),
+                            Id = new Guid("948ed825-4649-4f5a-9056-355d1ce4034c"),
                             CategoryId = new Guid("995f25e7-5cb8-4b3e-a6bb-cd125857a332"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2851), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4034), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2853), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4036), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest autentykacja ?"
                         },
                         new
                         {
-                            Id = new Guid("75fae71d-b6e8-4762-80a1-6395c2da53ac"),
+                            Id = new Guid("4de15257-8984-441d-8101-85416c610686"),
                             CategoryId = new Guid("995f25e7-5cb8-4b3e-a6bb-cd125857a332"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2856), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4041), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2857), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4042), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest autoryzacja ?"
                         },
                         new
                         {
-                            Id = new Guid("a5da390c-217b-48ba-b3b6-c621ec3b3a5f"),
+                            Id = new Guid("20e33446-8b0f-4a80-bea0-fe6a01ad77e3"),
                             CategoryId = new Guid("995f25e7-5cb8-4b3e-a6bb-cd125857a332"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2860), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4045), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2861), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4047), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jakie rodzaje autoryzacji znasz ? Jakie implementowałeś ?"
                         },
                         new
                         {
-                            Id = new Guid("63aa099a-6902-4fa8-a1bd-2ffbbfef78a5"),
+                            Id = new Guid("244bcb6a-62e4-4075-bd4a-299de638ead6"),
                             CategoryId = new Guid("995f25e7-5cb8-4b3e-a6bb-cd125857a332"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2867), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4049), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2868), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4051), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak działa oAuth 2 ?"
                         },
                         new
                         {
-                            Id = new Guid("0f5b5d4e-1006-4258-9640-bcbb44ed6a43"),
+                            Id = new Guid("ae355f06-3940-439c-9da1-e68c3ad0a7b0"),
                             CategoryId = new Guid("995f25e7-5cb8-4b3e-a6bb-cd125857a332"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2871), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4054), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2872), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4055), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest token ? Co zawiera i na co pozwala ?"
                         },
                         new
                         {
-                            Id = new Guid("5eb36e61-15b8-449c-9815-de01be7191af"),
+                            Id = new Guid("8af4dd39-5a0d-4f80-9076-10c98b421ffa"),
                             CategoryId = new Guid("995f25e7-5cb8-4b3e-a6bb-cd125857a332"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2875), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4058), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2877), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4059), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Wymień i opisz różne typy tokenów w tym czas ich życia."
                         },
                         new
                         {
-                            Id = new Guid("dc34abd4-08f6-4392-a05f-cc3a609d4441"),
+                            Id = new Guid("5cce578e-f04c-47fe-a9c3-3bd619048bbc"),
                             CategoryId = new Guid("995f25e7-5cb8-4b3e-a6bb-cd125857a332"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2880), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4062), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2881), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4064), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Co to jest reference token ?"
                         },
                         new
                         {
-                            Id = new Guid("174b888b-70c1-4d08-8911-a880b073dd87"),
+                            Id = new Guid("630adf6d-952c-4f65-9b30-2c4f7eba19f0"),
                             CategoryId = new Guid("995f25e7-5cb8-4b3e-a6bb-cd125857a332"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2884), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4086), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2885), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4088), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak przekazywany jest token ? Jak to związane jest z zawartością ramki HTTP ?"
                         },
                         new
                         {
-                            Id = new Guid("866b6fa5-3838-4333-b3b5-d7741e6214d2"),
+                            Id = new Guid("a8b6cdf7-8bae-4412-a89a-3cdd1e947ce5"),
                             CategoryId = new Guid("995f25e7-5cb8-4b3e-a6bb-cd125857a332"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2888), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4091), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2890), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4093), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym są Claimsy ? Coś o ich przesyłaniu ?"
                         },
                         new
                         {
-                            Id = new Guid("6e06238d-2dae-4acd-9707-e4351aeabe69"),
+                            Id = new Guid("e76eadcf-2c52-4dda-b9ff-d1d4500684cb"),
                             CategoryId = new Guid("995f25e7-5cb8-4b3e-a6bb-cd125857a332"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2914), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4098), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2917), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4099), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest mutual TLS ?"
                         },
                         new
                         {
-                            Id = new Guid("7b5b3853-4abf-4fef-9e92-d58dfc32e588"),
+                            Id = new Guid("63b2965c-5dff-46b9-842d-a70d3e8707a5"),
                             CategoryId = new Guid("0a07f758-355f-4796-8ab4-f5a34cfca181"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2920), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4102), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2922), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4104), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest wielowątkowość ?"
                         },
                         new
                         {
-                            Id = new Guid("6d21727e-8237-44a2-8483-f22d4a0eb97a"),
+                            Id = new Guid("ab146ac9-530c-4259-a96b-ca39967639f0"),
                             CategoryId = new Guid("0a07f758-355f-4796-8ab4-f5a34cfca181"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2926), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4106), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2928), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4108), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "W jakich sytuacjach warto zastosować wielowątkowość a w jakich nie ? Z jakimi problemami wiąże się takie podejście ?"
                         },
                         new
                         {
-                            Id = new Guid("01e4e571-20e3-4ddb-b9b9-9857174989d1"),
+                            Id = new Guid("e0ca18aa-f565-47b2-bd46-23d72e266c6a"),
                             CategoryId = new Guid("0a07f758-355f-4796-8ab4-f5a34cfca181"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2931), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4111), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2932), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4112), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym różni się wywołanie synchroniczne od asynchronicznego ?"
                         },
                         new
                         {
-                            Id = new Guid("c9b26f8e-8d20-4269-ae75-25235d3d0b58"),
+                            Id = new Guid("c3089a93-03bf-49ea-a9fa-5939031d6b3a"),
                             CategoryId = new Guid("0a07f758-355f-4796-8ab4-f5a34cfca181"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2935), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4115), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2937), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4116), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym różni się proces od wątku ? Jak to się je z dostępem do zasobów ?"
                         },
                         new
                         {
-                            Id = new Guid("e7603769-d10f-467d-8bb6-30757502d550"),
+                            Id = new Guid("1e67dde8-f98f-479e-800c-2c7e0d274acc"),
                             CategoryId = new Guid("0a07f758-355f-4796-8ab4-f5a34cfca181"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2940), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4119), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2942), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4121), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jakie znasz mechanizmy synchronizacji wątków i z jakich korzystałeś ?"
                         },
                         new
                         {
-                            Id = new Guid("6d9a5f8f-aaaf-4846-940d-3bd5b489660e"),
+                            Id = new Guid("c4477ffe-c2e4-472d-adac-a513d1575e2a"),
                             CategoryId = new Guid("0a07f758-355f-4796-8ab4-f5a34cfca181"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2945), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4123), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2947), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4125), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak działa lock ?"
                         },
                         new
                         {
-                            Id = new Guid("4ca6abf4-a8fb-45d0-9bc3-ac139f2bb2c6"),
+                            Id = new Guid("28b64938-ada0-4e3c-9629-62b7de189d46"),
                             CategoryId = new Guid("0a07f758-355f-4796-8ab4-f5a34cfca181"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2950), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4128), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2951), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4129), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak działa Monitor ?"
                         },
                         new
                         {
-                            Id = new Guid("fde9841c-19fc-4103-b2cc-17eda05c3117"),
+                            Id = new Guid("707c9f28-fabd-48dc-b592-282e88b4f0e8"),
                             CategoryId = new Guid("0a07f758-355f-4796-8ab4-f5a34cfca181"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2955), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4136), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2956), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4137), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak działa Semafor"
                         },
                         new
                         {
-                            Id = new Guid("1f5159b8-c3d5-4e3c-b085-899836683266"),
+                            Id = new Guid("c0276f10-830d-42eb-89d1-3f14c3483009"),
                             CategoryId = new Guid("0a07f758-355f-4796-8ab4-f5a34cfca181"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2959), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4140), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2961), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4141), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak działa Mutex ?"
                         },
                         new
                         {
-                            Id = new Guid("6964f254-40f9-4b46-9974-22447275f019"),
+                            Id = new Guid("d9f5881b-3d7b-447e-a616-8bdf6b6d852e"),
                             CategoryId = new Guid("0a07f758-355f-4796-8ab4-f5a34cfca181"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2966), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4144), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2968), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4146), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym różni się lock od monitora ?"
                         },
                         new
                         {
-                            Id = new Guid("55c7d4c7-74a8-4c05-a914-6eaa1366cc92"),
+                            Id = new Guid("d4f5a03a-5eae-4525-a3ab-690fa3a9210e"),
                             CategoryId = new Guid("0a07f758-355f-4796-8ab4-f5a34cfca181"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2970), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4148), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2972), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4150), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym są wątki foreground i background ?"
                         },
                         new
                         {
-                            Id = new Guid("dcf5fcef-a997-4553-8e5d-12df24b774e3"),
+                            Id = new Guid("d9803e60-410e-4dfd-9c07-0a156de8172b"),
                             CategoryId = new Guid("0a07f758-355f-4796-8ab4-f5a34cfca181"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2975), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4153), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2977), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4154), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest deadlock ?"
                         },
                         new
                         {
-                            Id = new Guid("fbfb4011-39dd-4d2a-9491-bf6750f20ad2"),
+                            Id = new Guid("1e06072e-17ca-4807-b5e1-cfcd4adb215a"),
                             CategoryId = new Guid("0a07f758-355f-4796-8ab4-f5a34cfca181"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2980), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4157), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2981), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4158), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest Event Bus ? Jakie znasz rodzaje ESB ?"
                         },
                         new
                         {
-                            Id = new Guid("44970d6a-0b3d-4b5c-b307-2576b6326b40"),
+                            Id = new Guid("8641e3aa-c8b1-4b21-962a-47f38c0d1299"),
                             CategoryId = new Guid("0a07f758-355f-4796-8ab4-f5a34cfca181"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2984), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4161), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2986), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4163), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jeśli uderzasz requestami do serwisu bankowego i on przestanie działać - jak temu zapobiec ?"
                         },
                         new
                         {
-                            Id = new Guid("8b5cb507-1eba-4063-a2d1-58633f5845fb"),
+                            Id = new Guid("6f72880d-63b3-4928-b6c7-fd26fec07438"),
                             CategoryId = new Guid("0a07f758-355f-4796-8ab4-f5a34cfca181"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2988), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4165), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2990), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4167), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czy każdy wątek ma swój oddzielny stos ? Ile stosów mamy w aplikacji ?"
                         },
                         new
                         {
-                            Id = new Guid("70d786d2-8c2e-4b8a-a20e-5a4804cd11f4"),
+                            Id = new Guid("07146f54-de79-4410-8654-fa5e723c7966"),
                             CategoryId = new Guid("0a07f758-355f-4796-8ab4-f5a34cfca181"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2993), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4172), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2994), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4173), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Co to znaczy, że coś jest thread safe ?"
                         },
                         new
                         {
-                            Id = new Guid("9b9bd6e5-5235-4d02-a749-266d16d81c43"),
+                            Id = new Guid("ec84bac3-5f8e-4524-8ce7-15b6d7f14fe9"),
                             CategoryId = new Guid("2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2997), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4176), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(2999), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4178), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest C# ? Jakie są jego zalety i najważniejsze cechy ?"
                         },
                         new
                         {
-                            Id = new Guid("3ec1e4dc-bcb0-4f03-a56d-37088a86c714"),
+                            Id = new Guid("a9ebb02f-acad-4b0b-9895-3a12021dde59"),
                             CategoryId = new Guid("2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3004), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4181), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3006), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4182), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czy string jest typem wartości czy referencyjnym ?"
                         },
                         new
                         {
-                            Id = new Guid("e8a237f8-1bc6-4c1d-bd84-b8188b9127b3"),
+                            Id = new Guid("1feb4f01-4325-4958-8818-de4b2d150fbe"),
                             CategoryId = new Guid("2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3008), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4185), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3010), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4186), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Zadanie, w którym robiony jest Replace() na stringu ale nigdzie nie jest przypisywany rezultat i co zwróci zmienna ? Łatwo się złapać."
                         },
                         new
                         {
-                            Id = new Guid("87b18f85-fd25-4713-9f79-593643a24e13"),
+                            Id = new Guid("b0fffc63-eb84-48dc-b7c9-c3e97623b72e"),
                             CategoryId = new Guid("2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3013), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4189), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3015), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4190), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym różni się pole const od static readonly ?"
                         },
                         new
                         {
-                            Id = new Guid("a77e3528-123f-4dca-ac0c-da729c007907"),
+                            Id = new Guid("d40a8464-35f5-405f-a44a-d9939a815c5d"),
                             CategoryId = new Guid("2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3017), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4193), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3019), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4195), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jaka jest różnica między var a dynamic ?"
                         },
                         new
                         {
-                            Id = new Guid("b1fe23d5-587c-44bf-b603-f7e6d6fe9d8f"),
+                            Id = new Guid("bd9b983e-c92a-468b-9794-b0c42d0f4246"),
                             CategoryId = new Guid("2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3022), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4198), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3023), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4199), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest delegat ?"
                         },
                         new
                         {
-                            Id = new Guid("bf592399-668a-49e5-9e2d-dd7a71414fa1"),
+                            Id = new Guid("6f2efbf7-496e-4d97-ba0b-bf180cc80484"),
                             CategoryId = new Guid("2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3026), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4203), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3028), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4204), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest extension i w jakim celu się stosuje ?"
                         },
                         new
                         {
-                            Id = new Guid("4cd66fb8-f249-4e25-b853-d6ab5f0d47fb"),
+                            Id = new Guid("682f2850-3cdd-45d6-8f2f-7963e87e8782"),
                             CategoryId = new Guid("2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3031), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4209), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3032), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4211), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czy można wywoływać extension method na obiektach null ?"
                         },
                         new
                         {
-                            Id = new Guid("bda4fd83-c466-4c62-92e3-29ffea482124"),
+                            Id = new Guid("228d731f-c906-442b-9778-659cdc8cff9a"),
                             CategoryId = new Guid("2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3035), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4214), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3037), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4216), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jaka jest różnica pomiędzy ref i out ?"
                         },
                         new
                         {
-                            Id = new Guid("fc4a8b6f-6e0c-4672-b47a-c5f10e3c5b06"),
+                            Id = new Guid("d86211db-2dd6-4cdc-aff0-9e01a3cfc1a5"),
                             CategoryId = new Guid("2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3042), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4218), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3044), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4220), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Pytania o to, która definicja metody jest poprawna."
                         },
                         new
                         {
-                            Id = new Guid("e3c313de-fdce-48ac-98be-6ffe06d76160"),
+                            Id = new Guid("9af2724a-a1f0-4d27-8505-d818ca23891d"),
                             CategoryId = new Guid("2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3046), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4223), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3048), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4224), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Pytanie typu, co zwróci wyrażenie `var zmienna = new Abc<x, y, z>((a, b) => a == b)` jeśli nieznane typy to object"
                         },
                         new
                         {
-                            Id = new Guid("162fd488-a13c-477f-ae8a-98af80eac07b"),
+                            Id = new Guid("6188e49b-d8f0-4d9b-a0f9-a3ba42972bc0"),
                             CategoryId = new Guid("2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3051), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4227), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3053), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4229), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest interfejs ?"
                         },
                         new
                         {
-                            Id = new Guid("49e381da-a36a-4afb-8f83-76e5468ac495"),
+                            Id = new Guid("562c78df-a430-455d-a869-30ab1cbd9942"),
                             CategoryId = new Guid("2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3056), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4231), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3057), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4233), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jaka jest różnica między interfejsem a klasą abstrakcyjną ?"
                         },
                         new
                         {
-                            Id = new Guid("4979cc36-b80c-4b5a-a102-c5f7e1bf924e"),
+                            Id = new Guid("d0f31def-aea3-48a8-9f5a-3d79e3d0d78d"),
                             CategoryId = new Guid("2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3060), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4236), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3062), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4237), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest klasa abstrakcyjna ?"
                         },
                         new
                         {
-                            Id = new Guid("0f8e0628-82d3-4d6d-b721-f7116907c13e"),
+                            Id = new Guid("22631491-2d0b-4414-b8e9-6ea4195801e9"),
                             CategoryId = new Guid("2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3064), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4240), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3066), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4242), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Gdzie i po co stosuje się słowo kluczowe sealed ?"
                         },
                         new
                         {
-                            Id = new Guid("76b3f92d-a7be-4696-a8e6-4fca8579e508"),
+                            Id = new Guid("4e3242db-870e-4243-aefb-d70f95122793"),
                             CategoryId = new Guid("2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3069), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4247), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3070), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4248), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest klasa partial i po co się ją stosuje ?"
                         },
                         new
                         {
-                            Id = new Guid("16beb49b-9a4a-4601-a306-0ab6660d66e6"),
+                            Id = new Guid("661a6879-666c-4a78-a023-ff49b31a573f"),
                             CategoryId = new Guid("2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3073), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4251), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3075), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4252), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest struct ? Czy jest typem prostym czy złożonym ?"
                         },
                         new
                         {
-                            Id = new Guid("5a11497c-323c-49b8-9ac4-7140a6cc37a0"),
+                            Id = new Guid("a1bbb438-c8bb-4439-95c1-162de5d8b938"),
                             CategoryId = new Guid("2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3080), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4255), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3082), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4257), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czy jeśli zmienisz struct przesyłany w parametrze metody to zmiana będzie widoczna poza tą metodą ? Jak na to wpłynąć ?"
                         },
                         new
                         {
-                            Id = new Guid("d0a4f1a4-5ee3-4081-8a9e-c42d779d0953"),
+                            Id = new Guid("2039b627-57ad-4a67-a347-0f0c95c65b6e"),
                             CategoryId = new Guid("2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3085), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4260), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3086), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4262), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "W jaki sposób można rzutować wartości na inne typy ?"
                         },
                         new
                         {
-                            Id = new Guid("1c25426c-03ba-4cb3-94de-5b391092c74f"),
+                            Id = new Guid("d6536736-ed83-43f2-b90f-5f41501a7ceb"),
                             CategoryId = new Guid("2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3089), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4265), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3091), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4266), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest boxing i unboxing ?"
                         },
                         new
                         {
-                            Id = new Guid("90127e7c-4e73-41c8-8cea-83a90edcaaac"),
+                            Id = new Guid("bd457a4c-1dd8-4f8a-ad31-c6c5481497cd"),
                             CategoryId = new Guid("2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3094), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4269), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3095), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4271), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym się różni rzutowanie bezpośrednie od wykorzystania \"as\" ?"
                         },
                         new
                         {
-                            Id = new Guid("50f39c12-32e9-4e3c-ae6b-c53e2988de00"),
+                            Id = new Guid("4f293ff9-46a3-44d8-bd6d-99749f249eb9"),
                             CategoryId = new Guid("2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3098), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4274), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3100), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4275), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym są generyki ? Na co pozwalają ?"
                         },
                         new
                         {
-                            Id = new Guid("6b222e1b-5d44-4316-86de-9568444bc705"),
+                            Id = new Guid("59ecba95-7388-46b5-a630-7de84d95222e"),
                             CategoryId = new Guid("2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3103), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4278), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3104), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4279), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "W jakich sytuacjach wykorzystujemy słowo kluczowe using ?"
                         },
                         new
                         {
-                            Id = new Guid("df2f97df-bc1f-46fc-adb4-d35c69a75304"),
+                            Id = new Guid("43967ced-a8b2-4456-842b-d8d0e1e93d76"),
                             CategoryId = new Guid("2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3107), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4284), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3109), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4286), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czy można zastąpić IDisposable poprzez try/catch/finally ? Dlaczego się z tego w takim razie korzysta?"
                         },
                         new
                         {
-                            Id = new Guid("e1ab612a-d804-4b78-8697-565049d3696b"),
+                            Id = new Guid("22daf1c9-6072-4ffe-b158-1ce07246ae71"),
                             CategoryId = new Guid("2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3112), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4289), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3113), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4290), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Gdzie w mechanizmie wywoływana jest metoda Dispose() ?"
                         },
                         new
                         {
-                            Id = new Guid("1ffbbc50-709d-4b12-84b0-e2c581fe2b80"),
+                            Id = new Guid("bba90a66-d690-41b9-bdb7-b924c50c5cd4"),
                             CategoryId = new Guid("2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3118), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4293), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3120), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4295), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Zaimplementuj rozszerzoną wersję klasy implementującej IDisposable."
                         },
                         new
                         {
-                            Id = new Guid("f9621ad4-4fe6-4f53-aded-9f4ac49e59d2"),
+                            Id = new Guid("026330c4-cd85-48b4-8043-0df0a6896e1f"),
                             CategoryId = new Guid("2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3123), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4297), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3125), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4299), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest atrybut ?"
                         },
                         new
                         {
-                            Id = new Guid("dbc2bd16-b2dc-4799-a51a-28bedf3025c3"),
+                            Id = new Guid("c98ba7b7-a0ee-42e2-a2fc-d282ee183dc1"),
                             CategoryId = new Guid("2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3128), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4302), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3129), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4303), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czy tworzyłeś kiedyś customowy atrybut ? Jaki?"
                         },
                         new
                         {
-                            Id = new Guid("d8841a6f-5c61-4a46-9488-eafe428de042"),
+                            Id = new Guid("28b18e80-d850-4287-81ca-ae6a709fad3a"),
                             CategoryId = new Guid("2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3132), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4306), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3134), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4307), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest parsowanie ?"
                         },
                         new
                         {
-                            Id = new Guid("5e17f76c-efea-4fcd-b1ba-f48c9813dcaf"),
+                            Id = new Guid("33b448c3-140b-4ed8-a7be-f758727256a0"),
                             CategoryId = new Guid("2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3136), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4310), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3138), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4312), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym różni się metoda Parse od TryParse ? Jak zwracane są typy i błędy ?"
                         },
                         new
                         {
-                            Id = new Guid("99668908-826e-4dbc-897e-5549c859db67"),
+                            Id = new Guid("4cab9dfc-f7d1-4d03-b939-530fbddad6d6"),
                             CategoryId = new Guid("2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3141), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4314), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3143), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4316), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jaki typ zwraca GetHashCode() ? Czy jest możliwe, że zwróci tę samą wartość dla dwóch różnych obiektów ?"
                         },
                         new
                         {
-                            Id = new Guid("37ee4dbe-0dbe-47cd-9aa4-3f1ff6959f0c"),
+                            Id = new Guid("3e905724-3faf-4c8e-8035-25c20d35fb17"),
                             CategoryId = new Guid("2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3145), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4321), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3147), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4322), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Gdzie wykorzystywany jest GetHashCode ? Czy w HashMapie dodanie dwóch różnych elementów z tym samym hashCodem nadpisze je ?"
                         },
                         new
                         {
-                            Id = new Guid("fd1f6b99-fbd1-42ee-a234-c8d5357fb216"),
+                            Id = new Guid("65b4cd0b-3fb1-498f-ac60-d0fef257323c"),
                             CategoryId = new Guid("2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3150), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4325), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3151), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4327), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jakie mamy typy zmiennych w C# ? Jak są przechowywane w pamięci ?"
                         },
                         new
                         {
-                            Id = new Guid("79bc658f-4e20-4d87-9436-ebd5384b09c9"),
+                            Id = new Guid("49dfbada-d287-408c-9cd6-9dfc207b799d"),
                             CategoryId = new Guid("2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3157), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4329), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3158), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4331), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak działają operatory \"is\", nameof i typeof ?"
                         },
                         new
                         {
-                            Id = new Guid("ebdbc4b5-6296-4739-95ef-5227c48739d9"),
+                            Id = new Guid("d7aa7522-d7b2-4287-9827-6ece3a19c660"),
                             CategoryId = new Guid("2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3161), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4334), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3163), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4335), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jaka jest różnica między typami string i String ?"
                         },
                         new
                         {
-                            Id = new Guid("f8f09a40-5c88-4638-8576-a8af29a0cb68"),
+                            Id = new Guid("7a5fc587-5407-41e7-88b6-ce669066e50f"),
                             CategoryId = new Guid("77540274-e44d-47a5-94d3-86ccdacedb0c"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3166), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4338), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3167), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4340), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Opisz blok try/catch/finally ? Co kiedy jest wywoływane ?"
                         },
                         new
                         {
-                            Id = new Guid("4bfd469f-7b45-4951-b67e-41eb93f45f46"),
+                            Id = new Guid("85ed43ba-4315-4571-b4c5-6d9405e8a271"),
                             CategoryId = new Guid("77540274-e44d-47a5-94d3-86ccdacedb0c"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3170), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4342), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3172), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4344), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak wygląda multicatch ?"
                         },
                         new
                         {
-                            Id = new Guid("1bf3d4a7-d225-40db-a30d-71573f394758"),
+                            Id = new Guid("b1a91396-d9cd-42d0-aada-a5ad82c850c9"),
                             CategoryId = new Guid("77540274-e44d-47a5-94d3-86ccdacedb0c"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3175), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4347), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3176), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4348), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jaki jest porządek wywoływania kolejnych bloków catch ? Jak to wygląda przy wyjątkach dziedziczonych ?"
                         },
                         new
                         {
-                            Id = new Guid("06aa7204-e12b-497d-91f7-e0d2f6bfb877"),
+                            Id = new Guid("db3b4514-a878-4824-b7b1-70fe26b8f5e6"),
                             CategoryId = new Guid("77540274-e44d-47a5-94d3-86ccdacedb0c"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3179), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4351), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3181), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4353), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jaka jest kolejność wywoływania bloków catch w obsłudze wyjątków ? Zwrócić uwagę na dziedziczenie wyjątków."
                         },
                         new
                         {
-                            Id = new Guid("44a03c5b-6903-4753-81b3-9587b103e309"),
+                            Id = new Guid("798d80e7-e182-468b-a602-39b36c940f07"),
                             CategoryId = new Guid("77540274-e44d-47a5-94d3-86ccdacedb0c"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3183), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4358), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3185), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4359), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Co jeśli w bloku finally pojawi się wyjątek ?"
                         },
                         new
                         {
-                            Id = new Guid("0cdf6947-75aa-4ac7-a313-9d863f55c758"),
+                            Id = new Guid("095988e5-22bf-476a-bf96-287ce0e138af"),
                             CategoryId = new Guid("77540274-e44d-47a5-94d3-86ccdacedb0c"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3188), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4362), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3190), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4364), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jaka jest różnica w wywołaniu \"throw e\" od \"throw\" ? Który standard jest lepszy ?"
                         },
                         new
                         {
-                            Id = new Guid("74bf38a6-4ba0-42cd-ae2d-d0a973111619"),
+                            Id = new Guid("bf597626-ef5c-4fdb-8877-57ed52bd22c8"),
                             CategoryId = new Guid("23441e50-8dbc-4d2c-90a2-d623104fb37b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3195), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4367), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3196), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4368), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czy korzystałeś z mechanizmów wielowątkowych w .NET ? Jeśli tak to z jakich ?"
                         },
                         new
                         {
-                            Id = new Guid("02cc8a4d-fb9b-4e9f-924e-651a6d25610a"),
+                            Id = new Guid("fb9bb340-5826-498f-8ca2-b702d6f4cfaa"),
                             CategoryId = new Guid("23441e50-8dbc-4d2c-90a2-d623104fb37b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3199), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4371), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3201), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4372), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Z czym związane są słowa async i await ?"
                         },
                         new
                         {
-                            Id = new Guid("5ba11e65-2873-40d4-91a4-4495473e6d44"),
+                            Id = new Guid("90a7cf00-681b-4487-b67f-31ad7d6c624b"),
                             CategoryId = new Guid("23441e50-8dbc-4d2c-90a2-d623104fb37b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3204), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4375), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3205), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4377), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Co musi posiadać metoda opisana słowem kluczowym async?"
                         },
                         new
                         {
-                            Id = new Guid("4ce8bf54-2f2e-44ae-8446-278af90e0b72"),
+                            Id = new Guid("b9647918-bec4-4926-9894-280c7207a24f"),
                             CategoryId = new Guid("23441e50-8dbc-4d2c-90a2-d623104fb37b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3208), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4380), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3210), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4381), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Kiedy warto korzystać z async-ów ?"
                         },
                         new
                         {
-                            Id = new Guid("b127ede9-9bda-42cc-b8d0-d4998c853246"),
+                            Id = new Guid("dd4c439d-c603-4b22-a6c7-180440231c4a"),
                             CategoryId = new Guid("23441e50-8dbc-4d2c-90a2-d623104fb37b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3212), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4405), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3214), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4407), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czy można zadeklarować Task zwracający void ? Czy jest to preferowane podejście ?"
                         },
                         new
                         {
-                            Id = new Guid("4cc928b5-30f7-478f-9d3c-bf33d9a239af"),
+                            Id = new Guid("fbbc45c8-51f2-43d8-af71-918b02b40957"),
                             CategoryId = new Guid("23441e50-8dbc-4d2c-90a2-d623104fb37b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3218), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4410), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3219), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4411), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym różni się typ Thread od Task ?"
                         },
                         new
                         {
-                            Id = new Guid("0a9dbdcd-518c-48e5-bcb3-bb8e094511e1"),
+                            Id = new Guid("39c5e763-e0ab-4897-bbbf-16eb4754d399"),
                             CategoryId = new Guid("23441e50-8dbc-4d2c-90a2-d623104fb37b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3246), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4416), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3248), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4418), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest klasa BackgroundWorker ?"
                         },
                         new
                         {
-                            Id = new Guid("11560d63-ede0-4f29-bf57-9c6fcca5cd72"),
+                            Id = new Guid("545ea66c-3f30-416f-b007-ff3dcfbf591e"),
                             CategoryId = new Guid("23441e50-8dbc-4d2c-90a2-d623104fb37b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3251), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4420), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3253), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4422), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Wymień dwa wielowątkowe typy w .NET."
                         },
                         new
                         {
-                            Id = new Guid("3a96b1ac-cb5d-412e-86ef-5254580b38c5"),
+                            Id = new Guid("0884924b-225b-44fc-a61e-39fd36fc7a2d"),
                             CategoryId = new Guid("8c0ad679-b40d-4db3-8c2b-ef59204005ae"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3258), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4425), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3259), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4426), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest refleksja ?"
                         },
                         new
                         {
-                            Id = new Guid("1ca0973b-1782-4836-8581-5ac674ffe9bf"),
+                            Id = new Guid("5597b5fe-eee8-4c7d-907b-101c9b39635c"),
                             CategoryId = new Guid("8c0ad679-b40d-4db3-8c2b-ef59204005ae"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3262), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4429), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3265), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4431), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czy można wywołać metodę prywatną za pomocą refleksji ?"
                         },
                         new
                         {
-                            Id = new Guid("c48b3efc-1318-44dc-8a75-884d47abd2be"),
+                            Id = new Guid("4a000a41-8635-4a36-a308-692262c27f5f"),
                             CategoryId = new Guid("8c0ad679-b40d-4db3-8c2b-ef59204005ae"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3268), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4434), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3269), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4436), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czy za pomocą refleksji można dodać nowy typ ?"
                         },
                         new
                         {
-                            Id = new Guid("e000c8b2-3dcb-4e75-886b-c726601763e3"),
+                            Id = new Guid("663dba21-538c-42a8-b616-83499cd459cb"),
                             CategoryId = new Guid("8c0ad679-b40d-4db3-8c2b-ef59204005ae"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3272), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4438), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3274), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4440), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czy za pomocą refleksji można dodać property do istniejącego typu ?"
                         },
                         new
                         {
-                            Id = new Guid("86f252cf-8ebe-4977-9539-87ae9406a243"),
+                            Id = new Guid("3c131be8-a0d8-48cc-a2cf-9cd5f9d8fb5e"),
                             CategoryId = new Guid("36defef5-c34e-40be-b461-d217bb255566"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3276), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4443), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3278), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4444), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest .Net Framework ?"
                         },
                         new
                         {
-                            Id = new Guid("8bec399d-03bf-43f1-bbee-7b914f3c144b"),
+                            Id = new Guid("a242bdde-350d-4fd1-9ca3-42ab2f3ab995"),
                             CategoryId = new Guid("36defef5-c34e-40be-b461-d217bb255566"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3281), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4447), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3282), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4448), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest .Net Core ?"
                         },
                         new
                         {
-                            Id = new Guid("d47e5c51-c3cb-4108-a853-6ea745d90bb4"),
+                            Id = new Guid("af9da067-d210-494c-8eef-60c87fef1c4c"),
                             CategoryId = new Guid("36defef5-c34e-40be-b461-d217bb255566"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3285), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4453), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3287), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4455), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest .Net Standard ?"
                         },
                         new
                         {
-                            Id = new Guid("ba848a7d-986e-42eb-ad4e-bc361b4727d3"),
+                            Id = new Guid("fe5b69d3-c712-4188-a66b-f8ccbea1a8ab"),
                             CategoryId = new Guid("36defef5-c34e-40be-b461-d217bb255566"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3290), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4458), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3291), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4460), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Co nowego wprowadza technologia .Net Core w porównaniu do .Net Framework ?"
                         },
                         new
                         {
-                            Id = new Guid("ce6f8d29-e920-4166-8118-d4bf9acbfe79"),
+                            Id = new Guid("a4ffb8b6-144f-41fd-be6e-906ba642c623"),
                             CategoryId = new Guid("36defef5-c34e-40be-b461-d217bb255566"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3296), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4462), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3298), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4464), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Dlaczego korzystając z .NET Core można tworzyć aplikacje na serwery Linuxowe ?"
                         },
                         new
                         {
-                            Id = new Guid("6464064f-6df5-4ce5-9354-c247729c8196"),
+                            Id = new Guid("815e56a2-08c3-41b1-8837-fb4cc6c2ba15"),
                             CategoryId = new Guid("36defef5-c34e-40be-b461-d217bb255566"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3301), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4467), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3303), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4468), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Kiedy warto wykorzystać technologie .Net Core ?"
                         },
                         new
                         {
-                            Id = new Guid("d607c451-2fcb-40c3-9541-2240ef47e961"),
+                            Id = new Guid("a7149196-7a97-4b05-9a80-16e394308a05"),
                             CategoryId = new Guid("36defef5-c34e-40be-b461-d217bb255566"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3306), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4471), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3307), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4473), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Ile języków funkcjonuje na platformie .Net ?"
                         },
                         new
                         {
-                            Id = new Guid("e9dd18fd-4ca6-4a6b-acb7-a23c0c1e72b7"),
+                            Id = new Guid("e24e3bfe-2264-4051-ad9b-3d8de884cc85"),
                             CategoryId = new Guid("36defef5-c34e-40be-b461-d217bb255566"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3310), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4476), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3312), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4477), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jakie są różnice między Javą a .NET ? Który język wydaje ci się fajniejszy ?"
                         },
                         new
                         {
-                            Id = new Guid("407f6147-2162-46e8-8e7c-0a110917e806"),
+                            Id = new Guid("0a9561f9-5997-48c9-887b-f382cd018fb1"),
                             CategoryId = new Guid("7dad0a17-08f5-4396-a4dc-784c427f9320"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3315), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4480), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3316), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4481), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest CLI ?"
                         },
                         new
                         {
-                            Id = new Guid("ee6f4eeb-5c79-4253-bc89-83e3356c23ca"),
+                            Id = new Guid("0d88abb0-90b0-4db6-8c74-a03970da6f7b"),
                             CategoryId = new Guid("7dad0a17-08f5-4396-a4dc-784c427f9320"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3319), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4485), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3321), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4486), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest  CLS ?"
                         },
                         new
                         {
-                            Id = new Guid("8d551968-e7f9-4db3-a899-691814a39d45"),
+                            Id = new Guid("ff062233-ae42-432c-aa4f-c227cea54b17"),
                             CategoryId = new Guid("7dad0a17-08f5-4396-a4dc-784c427f9320"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3324), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4491), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3325), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4493), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest CLR ?"
                         },
                         new
                         {
-                            Id = new Guid("f8ee0e58-7539-4118-8e2d-827f8beedfc4"),
+                            Id = new Guid("b2cb9556-eed3-488d-874e-83c6fc4d4037"),
                             CategoryId = new Guid("7dad0a17-08f5-4396-a4dc-784c427f9320"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3329), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4495), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3330), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4497), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest JIT ? Kiedy się wykonuje ?"
                         },
                         new
                         {
-                            Id = new Guid("27197b63-987a-464c-94f0-d0c5c7a7ef04"),
+                            Id = new Guid("59c85ac9-c83b-41f5-adcc-e86bb9f4dff7"),
                             CategoryId = new Guid("e28039da-8c48-4fcf-ab57-09196b612864"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3336), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4500), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3337), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4501), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest IIS ?"
                         },
                         new
                         {
-                            Id = new Guid("709974d5-5c87-45c5-935a-b0df1ca3c5e2"),
+                            Id = new Guid("1fc16d1f-3904-4a9e-a41a-b5ac72760f75"),
                             CategoryId = new Guid("e28039da-8c48-4fcf-ab57-09196b612864"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3340), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4504), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3342), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4506), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest pula w IIS ?"
                         },
                         new
                         {
-                            Id = new Guid("edf4f4ca-3cb7-4215-a8c3-8e3b9c97dca1"),
+                            Id = new Guid("f75b3226-6105-42ff-b82c-c094ff6ccf1b"),
                             CategoryId = new Guid("e28039da-8c48-4fcf-ab57-09196b612864"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3345), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4508), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3346), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4510), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jaki jest cykl życia obiektów zarejestrowanych jako singleton, scoped i transient ?"
                         },
                         new
                         {
-                            Id = new Guid("23337652-61c3-4bae-a009-cff1447db68e"),
+                            Id = new Guid("e859648f-1319-4eec-b5d6-beff178eb94c"),
                             CategoryId = new Guid("e28039da-8c48-4fcf-ab57-09196b612864"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3349), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4513), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3351), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4515), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jakie znasz realizacje kontenerów DI w .NET ?"
                         },
                         new
                         {
-                            Id = new Guid("0f3d67e8-c6b7-49de-9b8f-ec521d2d70ec"),
+                            Id = new Guid("6e1dc003-f528-463b-b15a-8408e084677c"),
                             CategoryId = new Guid("e28039da-8c48-4fcf-ab57-09196b612864"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3354), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4517), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3355), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4519), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Porównaj dwa wybrane kontenery DI np. Autofac, Unity, Ninject."
                         },
                         new
                         {
-                            Id = new Guid("93e6312a-5b90-4364-9a46-74ddbfafa82e"),
+                            Id = new Guid("a68ab2bf-4b2a-40ff-9445-2dcee1a5bd20"),
                             CategoryId = new Guid("e28039da-8c48-4fcf-ab57-09196b612864"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3358), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4522), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3360), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4523), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak w DI można obsłużyć interfejsy generyczne ?"
                         },
                         new
                         {
-                            Id = new Guid("16a4c894-cf61-4dcc-9a43-b8259aac9dbd"),
+                            Id = new Guid("1d8774cf-c6bd-4b89-8532-71379d8249bb"),
                             CategoryId = new Guid("e28039da-8c48-4fcf-ab57-09196b612864"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3362), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4528), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3364), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4530), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jakie poczynić kroki aby wyzbyć sie circular dependencies ?"
                         },
                         new
                         {
-                            Id = new Guid("d01ade4f-11dd-4000-99d5-2b20a8effc1b"),
+                            Id = new Guid("1c5f486a-1f06-44d3-b63a-ce6dd1670d59"),
                             CategoryId = new Guid("2a736d5a-1c48-4515-bdcb-f93bbad77db3"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3367), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4533), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3368), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4534), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak działa GC ? Kiedy wywoływany jest GC ?"
                         },
                         new
                         {
-                            Id = new Guid("e852c39f-b7b1-4f45-ba75-dbbb99b447cf"),
+                            Id = new Guid("8ecadb8e-38b1-461d-b2f1-a25a70b73d89"),
                             CategoryId = new Guid("2a736d5a-1c48-4515-bdcb-f93bbad77db3"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3374), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4537), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3375), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4539), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czy można manualnie wywołać GC ? Jak ? Jeśli można wywołać manualnie GC to czy czyszczenie wykona się od razu ?"
                         },
                         new
                         {
-                            Id = new Guid("2ade53cf-08b4-45f2-b8cd-337ebf4478d3"),
+                            Id = new Guid("da626a96-1adf-44dc-9a81-2b0aa9b77110"),
                             CategoryId = new Guid("2a736d5a-1c48-4515-bdcb-f93bbad77db3"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3378), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4541), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3380), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4543), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czy GC wywołuje metodę Dispose ? A może Finalize() ? Jaka jest różnica między Disposable a Finalize."
                         },
                         new
                         {
-                            Id = new Guid("ce6cdbc4-a061-4a69-bc8e-f0a561ee734f"),
+                            Id = new Guid("50d200f1-3986-4a80-9573-23e3d3b1dfa4"),
                             CategoryId = new Guid("2a736d5a-1c48-4515-bdcb-f93bbad77db3"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3383), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4546), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3384), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4547), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym są generacje w GC ?"
                         },
                         new
                         {
-                            Id = new Guid("eb6503bb-42fb-4d90-984e-ab319b51c1d3"),
+                            Id = new Guid("c9e0a732-bcec-4378-8bdb-e70c34d89e4b"),
                             CategoryId = new Guid("2a736d5a-1c48-4515-bdcb-f93bbad77db3"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3387), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4550), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3388), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4551), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czy GC dotyka typów value podczas czyszczenia ?"
                         },
                         new
                         {
-                            Id = new Guid("a7d222e1-55f0-40d7-9274-3c8d646b8fca"),
+                            Id = new Guid("a4ffffeb-e21d-4c03-94e7-074a1535ecb0"),
                             CategoryId = new Guid("caa6e3b0-8e5a-4bd2-b36d-3114201e7be1"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3391), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4554), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3393), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4556), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Wymień i opisz kolekcje występujące w technologii .Net."
                         },
                         new
                         {
-                            Id = new Guid("2fd1cbc0-a5b5-4231-bb32-8dd3a07794c3"),
+                            Id = new Guid("56597d84-ccb0-4083-91b1-d050cb5d98a4"),
                             CategoryId = new Guid("caa6e3b0-8e5a-4bd2-b36d-3114201e7be1"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3396), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4558), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3397), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4560), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jaka jest różnica między listą a hashsetem ?"
                         },
                         new
                         {
-                            Id = new Guid("9335716f-3247-4cda-8777-3b2f6ce2ee9d"),
+                            Id = new Guid("5611ba6a-14d3-4ca3-8c65-8c0e0234573a"),
                             CategoryId = new Guid("caa6e3b0-8e5a-4bd2-b36d-3114201e7be1"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3400), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4565), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3402), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4566), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym są interfejsy IEnumerable oraz IQueryable ?"
                         },
                         new
                         {
-                            Id = new Guid("4b9e179c-caac-43a2-8ee7-f14451d4d16a"),
+                            Id = new Guid("10cf6b38-b79d-4954-a35c-4f7db6e32982"),
                             CategoryId = new Guid("caa6e3b0-8e5a-4bd2-b36d-3114201e7be1"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3405), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4569), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3406), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4571), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym różnią się od siebie IEnumerable od IQueryable ?"
                         },
                         new
                         {
-                            Id = new Guid("3a727677-9c73-409c-a014-ed081291c77c"),
+                            Id = new Guid("0bf6495d-bcde-40fb-9c96-1f32661ec133"),
                             CategoryId = new Guid("caa6e3b0-8e5a-4bd2-b36d-3114201e7be1"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3412), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4574), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3413), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4575), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Co się stanie po wywołaniu np. query.ToArray().Skip(20) w przypadku IEnumerable i IQueryable ?"
                         },
                         new
                         {
-                            Id = new Guid("29299587-35e5-499e-ae04-f13bc3bb5c74"),
+                            Id = new Guid("719738b1-1312-40b7-af33-355a4b799784"),
                             CategoryId = new Guid("caa6e3b0-8e5a-4bd2-b36d-3114201e7be1"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3416), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4578), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3418), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4579), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak działa wykonywanie operacji Ling na IEnumerable ? Czy wykonywana jest operacja yield ? Na co to wpływa ?"
                         },
                         new
                         {
-                            Id = new Guid("5bcf9025-063f-4530-b039-b3dd990049d4"),
+                            Id = new Guid("34abdcbc-4fbb-488a-92ee-bdfe73cc38f2"),
                             CategoryId = new Guid("d3157372-95f8-4b34-a836-2538a87162c3"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3421), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4582), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3422), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4584), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym są filtry w WebAPI i MVC."
                         },
                         new
                         {
-                            Id = new Guid("f9e4200a-2fa2-4696-9dd9-b81b7fc38ffe"),
+                            Id = new Guid("b8024ac1-98d9-4951-9903-331d5b722d48"),
                             CategoryId = new Guid("d3157372-95f8-4b34-a836-2538a87162c3"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3425), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4586), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3427), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4588), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest WebAPI ?"
                         },
                         new
                         {
-                            Id = new Guid("174300af-f168-4535-bc0b-9ba00be67ba8"),
+                            Id = new Guid("01dd7c03-9b33-4398-aa3b-a9f9786aef4d"),
                             CategoryId = new Guid("d3157372-95f8-4b34-a836-2538a87162c3"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3429), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4591), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3431), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4592), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Napisz przykładowy kontroler WebAPI."
                         },
                         new
                         {
-                            Id = new Guid("2932ec3c-826f-4db3-830e-4c959155cc32"),
+                            Id = new Guid("6216b1c0-240c-4b5a-b660-d96931d7f52c"),
                             CategoryId = new Guid("d3157372-95f8-4b34-a836-2538a87162c3"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3434), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4595), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3435), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4596), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak można zaimplementować skalowalną architekturę ? Co jest kluczowe w API ?"
                         },
                         new
                         {
-                            Id = new Guid("fe613131-9a0e-4820-b964-708d7bbd378f"),
+                            Id = new Guid("72a52b2c-cdb7-4a44-9446-a2d961dfe3f5"),
                             CategoryId = new Guid("d3157372-95f8-4b34-a836-2538a87162c3"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3438), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4601), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3440), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4603), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Do czego służy WebHostBuilder ?"
                         },
                         new
                         {
-                            Id = new Guid("d7d4fe90-a008-4ded-a780-6cf1c74e3ae5"),
+                            Id = new Guid("2376ae50-022f-4791-a1d5-bd62346a32aa"),
                             CategoryId = new Guid("d3157372-95f8-4b34-a836-2538a87162c3"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3443), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4606), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3444), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4607), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym są middleware ?"
                         },
                         new
                         {
-                            Id = new Guid("32aa2267-cbdc-4903-840f-446198d77091"),
+                            Id = new Guid("07375818-dd55-4e0e-9dfd-dc2c47c52d45"),
                             CategoryId = new Guid("d3157372-95f8-4b34-a836-2538a87162c3"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3450), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4610), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3451), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4612), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak globalnie dla usług ustawić mechanizm pobierania odpowiedniego zasobu języka, czyli .resx w danym języku ?"
                         },
                         new
                         {
-                            Id = new Guid("b512be30-bb65-47e9-9113-8f4facc893eb"),
+                            Id = new Guid("b6f6af38-c5f4-4445-b4ce-cfa4d2489f02"),
                             CategoryId = new Guid("d3157372-95f8-4b34-a836-2538a87162c3"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3454), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4614), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3456), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4616), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak ustawić CultureInfo dla głównego wątku ?"
                         },
                         new
                         {
-                            Id = new Guid("f104e4ca-6404-4ddc-ac3b-fa649f7979f5"),
+                            Id = new Guid("0dc447ca-09da-452d-8f05-e88a516a5a89"),
                             CategoryId = new Guid("209537e5-fdc0-4a4c-8c4b-851021855c53"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3458), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4618), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3460), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4620), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak działa routing w .Net MVC ?"
                         },
                         new
                         {
-                            Id = new Guid("2d7bd076-0aa2-4c98-9c02-4db7a4f07a90"),
+                            Id = new Guid("1e343037-e0da-472a-9d19-a263286c85ce"),
                             CategoryId = new Guid("209537e5-fdc0-4a4c-8c4b-851021855c53"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3463), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4623), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3465), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4624), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Co się stanie, gdy jeden routing naprowadza na dwie różne akcje ?"
                         },
                         new
                         {
-                            Id = new Guid("3664b1ea-d596-4218-aa94-889411b5961f"),
+                            Id = new Guid("54352ff1-2572-4c35-bc97-0c9d46fa5f73"),
                             CategoryId = new Guid("209537e5-fdc0-4a4c-8c4b-851021855c53"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3467), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4627), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3469), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4628), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Co robi atrybut UIHint ?"
                         },
                         new
                         {
-                            Id = new Guid("ebe272b6-b111-42b4-b54b-43a6e5fbdf3e"),
+                            Id = new Guid("60bfc478-8c83-49c4-a1b7-97c08810497b"),
                             CategoryId = new Guid("209537e5-fdc0-4a4c-8c4b-851021855c53"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3472), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4631), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3473), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4633), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Co robi atrybut FromUri ?"
                         },
                         new
                         {
-                            Id = new Guid("5ccaa497-6fb2-40f0-94a3-8ed96be5b3ea"),
+                            Id = new Guid("f70d9819-bf30-4ff1-a51e-998285a2f9d7"),
                             CategoryId = new Guid("209537e5-fdc0-4a4c-8c4b-851021855c53"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3476), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4638), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3478), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4639), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Co posiada typowy kontroler MVC ? Jakie można nadać atrybuty? Jakie posiada akcje i co one zwracają ?"
                         },
                         new
                         {
-                            Id = new Guid("03c70d90-0aac-4de2-bc1c-2435c02ca5a4"),
+                            Id = new Guid("d6a013d9-f68d-47ce-b3e5-4f637155f56e"),
                             CategoryId = new Guid("209537e5-fdc0-4a4c-8c4b-851021855c53"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3480), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4642), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3482), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4643), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym w budowie różni się partial od widoku i jak to się ma do layoutu ?"
                         },
                         new
                         {
-                            Id = new Guid("86e61fe8-8ddb-44fd-86ff-231b661a1175"),
+                            Id = new Guid("ba9e4dc6-4810-47ac-aafa-3120d9afa4b7"),
                             CategoryId = new Guid("a483b653-422d-41bb-a2ba-c8793bf1cd6d"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3487), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4646), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3489), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4648), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest WCF ?"
                         },
                         new
                         {
-                            Id = new Guid("911494fb-291c-4ae1-bcb9-24fe8c81d6ca"),
+                            Id = new Guid("a547a104-0d2b-420c-9bba-bf9362cc7e59"),
                             CategoryId = new Guid("a483b653-422d-41bb-a2ba-c8793bf1cd6d"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3492), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4650), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3493), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4652), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Co to jest WCF ABC ?"
                         },
                         new
                         {
-                            Id = new Guid("02675f57-fa84-4513-8a79-be090412eeef"),
+                            Id = new Guid("6ed3dcfb-2f04-47e9-b98b-71831ae7de2c"),
                             CategoryId = new Guid("b74d05ea-7d83-4989-b1c5-a28d0a0af4d3"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3496), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4655), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3498), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4656), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jakie rodzaje kolekcji występują w ADO.Net ?"
                         },
                         new
                         {
-                            Id = new Guid("022de402-b693-4ba2-884f-eb7e6bf65312"),
+                            Id = new Guid("6e3ad414-a0e4-462f-9d45-afbb7e077e19"),
                             CategoryId = new Guid("b74d05ea-7d83-4989-b1c5-a28d0a0af4d3"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3501), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4659), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3502), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4660), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym różnią się DataTables, DataViews, DataSets ?"
                         },
                         new
                         {
-                            Id = new Guid("481cc80a-e1c4-473e-b55d-62655822a5ac"),
+                            Id = new Guid("6b14477e-c50c-49c4-ae92-ad59fc7e3526"),
                             CategoryId = new Guid("7cab840f-a28a-4681-a294-6c13d4441221"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3506), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4663), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3507), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4665), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest complex type w EF?"
                         },
                         new
                         {
-                            Id = new Guid("46144920-956a-4cf8-9213-6c0ea92418d3"),
+                            Id = new Guid("f274626f-4fd5-4494-b598-4179c905abc6"),
                             CategoryId = new Guid("7cab840f-a28a-4681-a294-6c13d4441221"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3510), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4667), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3512), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4669), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jakie są zalety i wady generycznych repozytoriów ? Jak można zaradzić wadom ?"
                         },
                         new
                         {
-                            Id = new Guid("3783869a-551b-4c12-86cc-77043dd424ac"),
+                            Id = new Guid("30c7d6e1-faaf-4026-b40e-475f320dd0a1"),
                             CategoryId = new Guid("7cab840f-a28a-4681-a294-6c13d4441221"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3514), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4674), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3516), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4675), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak zastosujesz EF Projects ?"
                         },
                         new
                         {
-                            Id = new Guid("830768a9-bf14-4440-876e-b873cfe0aa85"),
+                            Id = new Guid("e6c73181-f3c0-4c75-aaa1-9ccbbb3a4bc0"),
                             CategoryId = new Guid("7cab840f-a28a-4681-a294-6c13d4441221"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3519), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4678), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3521), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4680), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Stworzyć repozytorium z kontekstem. Przprowadzić operacje pobrania i zapisania danych."
                         },
                         new
                         {
-                            Id = new Guid("ca48972e-ee90-4161-94b5-ebd1e370f7e1"),
+                            Id = new Guid("1173a566-3311-44dd-9cc4-719a88935987"),
                             CategoryId = new Guid("7cab840f-a28a-4681-a294-6c13d4441221"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3526), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4682), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3527), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4684), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jakie są rodzaje konfiguracji w Entity Framework ?"
                         },
                         new
                         {
-                            Id = new Guid("0293e2f0-7b12-4ee7-8ac7-1212f89fa8ac"),
+                            Id = new Guid("8407ffa1-d948-43c8-aa19-29493dc1f10c"),
                             CategoryId = new Guid("7cab840f-a28a-4681-a294-6c13d4441221"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3530), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4687), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3532), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4688), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jaka jest domyślna konfiguracja w Entity Framework ?"
                         },
                         new
                         {
-                            Id = new Guid("3a1b65d3-4677-4b02-96de-8583717f8ece"),
+                            Id = new Guid("7f6990ee-4a82-4a0f-8227-25dc4187fbb4"),
                             CategoryId = new Guid("7cab840f-a28a-4681-a294-6c13d4441221"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3535), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4691), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3536), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4692), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Która konfiguracja jest brana pod uwagę jako nadrzędna ?"
                         },
                         new
                         {
-                            Id = new Guid("74fd7ed4-58ce-44d5-810c-bd659e149bff"),
+                            Id = new Guid("002b6557-2644-47e8-add2-f8608e387a61"),
                             CategoryId = new Guid("7cab840f-a28a-4681-a294-6c13d4441221"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3539), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4695), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3541), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4697), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest lazy loading?"
                         },
                         new
                         {
-                            Id = new Guid("5fd50bd0-b78c-4ee3-b09f-62e14d97d3a2"),
+                            Id = new Guid("cbab2f8b-2e68-4610-83ca-e40e727d4162"),
                             CategoryId = new Guid("7cab840f-a28a-4681-a294-6c13d4441221"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3544), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4713), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3545), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4715), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest eager loading ?"
                         },
                         new
                         {
-                            Id = new Guid("ae8e3085-58a1-4a90-acd0-cdffdc24f7eb"),
+                            Id = new Guid("52c488d2-8be3-4d6b-a37a-fe2d68f47acd"),
                             CategoryId = new Guid("7cab840f-a28a-4681-a294-6c13d4441221"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3548), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4718), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3550), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4719), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Która konfiguracja jest domyślna eager czy lazy ?"
                         },
                         new
                         {
-                            Id = new Guid("1438204e-6b9a-43b9-8ae5-92da38f8d0b6"),
+                            Id = new Guid("8b45b71f-3b49-486f-a8b8-691734082bd1"),
                             CategoryId = new Guid("7cab840f-a28a-4681-a294-6c13d4441221"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3575), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4724), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3578), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4726), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jakie ryzyko związane jest z lazy loadingiem ?"
                         },
                         new
                         {
-                            Id = new Guid("0c5d5d5e-712b-4f80-846c-b0c1ce6648c3"),
+                            Id = new Guid("9504765a-15f3-4e23-ae80-4bef4b158c0c"),
                             CategoryId = new Guid("7cab840f-a28a-4681-a294-6c13d4441221"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3581), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4729), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3582), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4730), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest problem n+1 i czy dotyczy to Lazy Loadingu ?"
                         },
                         new
                         {
-                            Id = new Guid("01f8f3c5-78d3-4e28-9bf2-a210185c34db"),
+                            Id = new Guid("e356434a-7dda-48cc-b1e8-1a3aa05c041e"),
                             CategoryId = new Guid("7cab840f-a28a-4681-a294-6c13d4441221"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3587), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4733), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3588), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4734), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Mają wywołanie w pętli obiektu uruchamiającego lazy loading, jak to zmienić aby było wykonane pojedynczym zapytaniem ?"
                         },
                         new
                         {
-                            Id = new Guid("c1bcdc52-35f2-4b31-94fc-1ba3b7f880ea"),
+                            Id = new Guid("75be0264-e8da-4680-babb-d3a7ea7b4293"),
                             CategoryId = new Guid("7cab840f-a28a-4681-a294-6c13d4441221"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3591), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4737), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3593), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4739), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak realizuje się wersjonowanie w EF ?"
                         },
                         new
                         {
-                            Id = new Guid("24da753f-f2e6-4df5-af7e-b1090f8af2de"),
+                            Id = new Guid("0cf7d2dd-bfdb-4408-9828-a3851bbb967d"),
                             CategoryId = new Guid("7cab840f-a28a-4681-a294-6c13d4441221"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3596), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4741), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3597), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4743), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jakie są podejścia do definiowania struktur danych w EF (3 może 5, jak w poniższych pytaniach)?"
                         },
                         new
                         {
-                            Id = new Guid("41e0f6c3-1fe5-4ea1-8dd4-57b1cddf34ef"),
+                            Id = new Guid("bf2ff636-c5da-44ba-a7d3-7f1386623782"),
                             CategoryId = new Guid("7cab840f-a28a-4681-a294-6c13d4441221"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3600), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4746), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3602), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4747), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak wygląda definiowanie tabel w .edmx ?"
                         },
                         new
                         {
-                            Id = new Guid("de412ca4-4ba9-403f-96c8-d0b51f536857"),
+                            Id = new Guid("af97edd8-8812-45b0-ac0e-01c519b4d1a3"),
                             CategoryId = new Guid("7cab840f-a28a-4681-a294-6c13d4441221"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3605), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4750), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3606), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4751), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest tracking w EF ? Jak działa ?"
                         },
                         new
                         {
-                            Id = new Guid("5743f0b8-27db-4cb2-bebc-f058b0fa1a61"),
+                            Id = new Guid("7d366373-27ae-42d4-9506-7881e1d22391"),
                             CategoryId = new Guid("7cab840f-a28a-4681-a294-6c13d4441221"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3609), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4754), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3611), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4755), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym różni się First od Single ?"
                         },
                         new
                         {
-                            Id = new Guid("d9f01ee0-84c0-41d7-a2e1-1d541045c910"),
+                            Id = new Guid("3e9be02d-4d9d-4d16-bdfc-cdfa99ba4020"),
                             CategoryId = new Guid("7cab840f-a28a-4681-a294-6c13d4441221"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3614), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4760), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3615), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4762), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak działa SelectMany ?"
                         },
                         new
                         {
-                            Id = new Guid("454ce22f-1b0b-4a31-bc15-b0fb46b0fe8f"),
+                            Id = new Guid("6a12eef7-7d39-4cd0-b624-78a8863757cb"),
                             CategoryId = new Guid("7cab840f-a28a-4681-a294-6c13d4441221"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3618), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4765), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3620), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4766), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak implementuje się HAVING w EF/LINQ ?"
                         },
                         new
                         {
-                            Id = new Guid("4c50d469-b711-482b-83e0-adb7c5606540"),
+                            Id = new Guid("35183fb5-2c4e-4ec4-b670-d3df4de6ea64"),
                             CategoryId = new Guid("7cab840f-a28a-4681-a294-6c13d4441221"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3625), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4769), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3626), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4770), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Mamy kawałek kodu. Kolekcja \"lista\" zawiera duplikaty. Co wyświetli operacja ?"
                         },
                         new
                         {
-                            Id = new Guid("7e503961-c74f-49f8-a950-9a18181d7aa1"),
+                            Id = new Guid("3c4851cb-81c6-4af0-aa82-9577ba552928"),
                             CategoryId = new Guid("7cab840f-a28a-4681-a294-6c13d4441221"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3629), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4774), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3631), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4775), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak można zbadać problemy wydajnościowe z EF ?"
                         },
                         new
                         {
-                            Id = new Guid("c81aa398-64ba-4a9d-839c-57c3a487759e"),
+                            Id = new Guid("5cac575d-7add-4447-917a-b39c4882b136"),
                             CategoryId = new Guid("7cab840f-a28a-4681-a294-6c13d4441221"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3634), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4778), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3635), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4779), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak testować zapytania EF ?"
                         },
                         new
                         {
-                            Id = new Guid("1408052e-e59f-4504-af0b-845d465eac7a"),
+                            Id = new Guid("2aa2d024-7871-487e-8b59-f80c59843f0e"),
                             CategoryId = new Guid("7cab840f-a28a-4681-a294-6c13d4441221"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3638), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4782), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3640), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4784), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak można podać wartości domyślne dla metod ?"
                         },
                         new
                         {
-                            Id = new Guid("c7a4b37e-82a9-47a2-aba2-bda4a3ae8be3"),
+                            Id = new Guid("625baaf7-8513-4201-b758-677d8e46409c"),
                             CategoryId = new Guid("7cab840f-a28a-4681-a294-6c13d4441221"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3643), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4787), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3644), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4788), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czy DbContext jest thread safe ?"
                         },
                         new
                         {
-                            Id = new Guid("d0dcbdb7-4286-4dd8-8360-7d8245df1182"),
+                            Id = new Guid("8264f354-58da-4544-81cc-2823db26040c"),
                             CategoryId = new Guid("4f6935de-3749-4151-a94f-172f9cd2b582"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3648), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4791), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3650), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4792), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest zasada ACID ?"
                         },
                         new
                         {
-                            Id = new Guid("f691b410-9ee7-4d01-af5c-826f2e903e2a"),
+                            Id = new Guid("dc86b4a2-0a3c-4c57-ace4-26f29d0aadba"),
                             CategoryId = new Guid("4f6935de-3749-4151-a94f-172f9cd2b582"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3652), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4797), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3654), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4799), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jakie są 4 poziomy izolacji transakcji ?"
                         },
                         new
                         {
-                            Id = new Guid("b3feae13-cf1a-4685-a7d1-3a3240f875cb"),
+                            Id = new Guid("4eb23d0b-277d-4cd2-b828-ba1ad0c8683d"),
                             CategoryId = new Guid("4f6935de-3749-4151-a94f-172f9cd2b582"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3657), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4802), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3658), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4803), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak wygląda full scan i index scan tabeli ?"
                         },
                         new
                         {
-                            Id = new Guid("c98dbd0a-dbab-4b61-850e-36b2d8c9ae49"),
+                            Id = new Guid("0f712a13-12a7-4e87-9e0a-72c920dafcf2"),
                             CategoryId = new Guid("93f38474-2faa-4cc6-962e-1a91bd41ed1b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3665), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4806), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3666), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4807), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym są profilery ? Jak działają ? Z jakich korzystałeś ?"
                         },
                         new
                         {
-                            Id = new Guid("249ec25b-f63c-47d3-b4eb-9f33a478be10"),
+                            Id = new Guid("e32b5959-6925-4dcc-8997-39c85c68be0c"),
                             CategoryId = new Guid("93f38474-2faa-4cc6-962e-1a91bd41ed1b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3669), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4810), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3671), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4812), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jakie znasz języki SQL ? Z jakimi rozwiązaniami miałeś do czynienia ?"
                         },
                         new
                         {
-                            Id = new Guid("682a68eb-ae5d-45cd-9fe6-b8801fe44863"),
+                            Id = new Guid("43e976dc-4a77-44c3-ae96-bf7a87aabd71"),
                             CategoryId = new Guid("93f38474-2faa-4cc6-962e-1a91bd41ed1b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3674), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4814), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3675), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4816), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym są bazy noSQL ? Jak działają ? Z jakich rozwiązań korzystałeś ?"
                         },
                         new
                         {
-                            Id = new Guid("b16154e3-4424-4744-b16e-fc02b0628900"),
+                            Id = new Guid("2e308fe2-e4c2-4c92-9775-0a3ac4d1ecd1"),
                             CategoryId = new Guid("93f38474-2faa-4cc6-962e-1a91bd41ed1b"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3678), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4819), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3679), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4820), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym różnią się bazy SQL od noSQL ?"
                         },
                         new
                         {
-                            Id = new Guid("bb461e1f-796b-4685-8343-d4c440e022b0"),
+                            Id = new Guid("1aef4a48-f26b-434a-aaac-52aaa5d92755"),
                             CategoryId = new Guid("12300f34-a179-429c-859b-aa587001a67c"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3682), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4823), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3684), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4824), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym się różni WHERE od HAVING ?"
                         },
                         new
                         {
-                            Id = new Guid("551ccbea-0d36-4fc1-a04e-6f8c46b41982"),
+                            Id = new Guid("2d607202-9b15-4a4b-8d86-a49a6961e8b8"),
                             CategoryId = new Guid("12300f34-a179-429c-859b-aa587001a67c"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3687), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4827), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3688), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4829), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Opisz instrukcję Having."
                         },
                         new
                         {
-                            Id = new Guid("6973a80a-d776-47e5-834c-fefd6d622166"),
+                            Id = new Guid("44090ddb-0f3b-4509-841c-22f5c13a37e9"),
                             CategoryId = new Guid("12300f34-a179-429c-859b-aa587001a67c"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3691), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4834), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3693), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4835), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jakiego typu znakowego użyłbyś do tekstu z różnymi międzynarodowymi znakami ?"
                         },
                         new
                         {
-                            Id = new Guid("71783630-f072-42c1-98d3-712df5d8d1e7"),
+                            Id = new Guid("7b8b10c6-a02c-4e99-9c01-138c0c80a9d3"),
                             CategoryId = new Guid("12300f34-a179-429c-859b-aa587001a67c"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3696), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4838), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3698), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4839), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak dodać sprawdzenie do kolumny np. wstawiana wartość ma być mniejsza od 1000 (check albo trigger)?"
                         },
                         new
                         {
-                            Id = new Guid("1e83d60b-d913-4239-8976-fce83cf3764e"),
+                            Id = new Guid("78cc7ee0-9ee5-4f64-806d-5538eade7093"),
                             CategoryId = new Guid("12300f34-a179-429c-859b-aa587001a67c"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3703), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4842), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3704), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4844), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Co zrobić żeby zapewnić unikatowość danych w kolumnie ?"
                         },
                         new
                         {
-                            Id = new Guid("0c100b72-8b10-4c2c-a133-943880653cb9"),
+                            Id = new Guid("5496e05e-429a-42ae-ac85-e0cfddf455cb"),
                             CategoryId = new Guid("12300f34-a179-429c-859b-aa587001a67c"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3707), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4846), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3709), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4848), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym są klucz główny i klucz obcy ?"
                         },
                         new
                         {
-                            Id = new Guid("752c0a5f-bef4-4132-8bd0-b1b0bec56455"),
+                            Id = new Guid("43cb2aa1-2f44-4a4c-9511-7bd62b0e2ef1"),
                             CategoryId = new Guid("12300f34-a179-429c-859b-aa587001a67c"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3712), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4851), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3713), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4852), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym są i czym się różnią UNION od UNION ALL ?"
                         },
                         new
                         {
-                            Id = new Guid("83320b70-e235-4b6f-bf45-08d40b2ac7c9"),
+                            Id = new Guid("8b20d753-bca4-4844-b648-e008f24eca7e"),
                             CategoryId = new Guid("12300f34-a179-429c-859b-aa587001a67c"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3716), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4855), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3718), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4856), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jakie znasz rodzaje JOINów ?"
                         },
                         new
                         {
-                            Id = new Guid("5a1911ee-8d20-4e68-ac58-afd3e96e03c5"),
+                            Id = new Guid("e64524c9-1d5a-4d84-8f6a-ed816823e490"),
                             CategoryId = new Guid("12300f34-a179-429c-859b-aa587001a67c"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3721), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4859), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3722), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4861), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym różni się INNER JOIN od OUTER JOIN ?"
                         },
                         new
                         {
-                            Id = new Guid("5fc976a5-42e7-49a3-a80f-3a759463b6d9"),
+                            Id = new Guid("e1e9defa-c119-438b-95bc-c737ef614f06"),
                             CategoryId = new Guid("12300f34-a179-429c-859b-aa587001a67c"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3725), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4863), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3727), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4865), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest transakcja ?"
                         },
                         new
                         {
-                            Id = new Guid("7962827a-446f-440e-86c1-bd7fa6f98a09"),
+                            Id = new Guid("e347aa05-debf-46fe-8b03-cef3be185d50"),
                             CategoryId = new Guid("12300f34-a179-429c-859b-aa587001a67c"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3730), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4870), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3731), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4871), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest sekwencja np. w PL/SQL ?"
                         },
                         new
                         {
-                            Id = new Guid("cb089a77-19f7-42c4-9177-dd414f39d971"),
+                            Id = new Guid("acafce0d-f48f-478d-91e0-5c64fc49e6be"),
                             CategoryId = new Guid("12300f34-a179-429c-859b-aa587001a67c"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3734), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4874), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3736), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4876), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym różnią się procedury SQL od funkcji ?"
                         },
                         new
                         {
-                            Id = new Guid("248cd669-00dd-44af-bb69-2e108b83b3b9"),
+                            Id = new Guid("de9f1d34-f799-4b45-a4b3-20a18e3b692e"),
                             CategoryId = new Guid("97208387-3936-4b0a-bfc6-cf8fdaa9b772"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3741), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4878), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3743), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4880), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym są ideksy i jak działają ?"
                         },
                         new
                         {
-                            Id = new Guid("33f43113-b983-4409-98ef-8419bfa4be0f"),
+                            Id = new Guid("9c15cdcb-0f0b-4c4a-9c61-73e4e437b79d"),
                             CategoryId = new Guid("97208387-3936-4b0a-bfc6-cf8fdaa9b772"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3746), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4883), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3747), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4884), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jakie znasz rodzaje indeksów ?"
                         },
                         new
                         {
-                            Id = new Guid("fd11855a-a334-4310-8a62-e84c843b69f8"),
+                            Id = new Guid("cfa16fd2-bee8-48bf-b2c1-fe20b4043750"),
                             CategoryId = new Guid("97208387-3936-4b0a-bfc6-cf8fdaa9b772"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3750), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4887), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3752), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4889), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym różni się indeks klastrowy od nieklastrowego ?"
                         },
                         new
                         {
-                            Id = new Guid("6f8df0d0-2db5-439a-a057-8dde0548fcc1"),
+                            Id = new Guid("eda95e9a-0151-4f13-bef2-012d2ee1d0cf"),
                             CategoryId = new Guid("97208387-3936-4b0a-bfc6-cf8fdaa9b772"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3755), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4891), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3756), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4893), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak zbudowane są poszczególne indeksy ?"
                         },
                         new
                         {
-                            Id = new Guid("e9bea540-58cc-420b-ba07-759182c60059"),
+                            Id = new Guid("608def24-15ce-4b9e-953a-2b3c5c267187"),
                             CategoryId = new Guid("97208387-3936-4b0a-bfc6-cf8fdaa9b772"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3759), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4896), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3761), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4897), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Co przyspieszają indeksy a co spowalniają ?"
                         },
                         new
                         {
-                            Id = new Guid("08d2200e-5f0d-4d74-a666-2fb71894f430"),
+                            Id = new Guid("82a515c5-ddcf-4f15-b484-dbad07e8ab4e"),
                             CategoryId = new Guid("97208387-3936-4b0a-bfc6-cf8fdaa9b772"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3763), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4900), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3765), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4901), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Kiedy indeks nie zadziała ?"
                         },
                         new
                         {
-                            Id = new Guid("2f5a0b07-a861-46dc-a05f-9eef8f1e8bc4"),
+                            Id = new Guid("603ae170-da45-48a6-9c86-d05a98e44cf3"),
                             CategoryId = new Guid("fc2f8cc9-1024-42eb-a1c7-df1270090675"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3768), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4906), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3769), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4908), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym różni się var / let / const ?"
                         },
                         new
                         {
-                            Id = new Guid("4832a094-8101-4da1-b112-4f056549f1f6"),
+                            Id = new Guid("9dae054a-2c23-42ed-b5b4-15f19f107f48"),
                             CategoryId = new Guid("fc2f8cc9-1024-42eb-a1c7-df1270090675"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3772), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4911), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3774), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4912), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Do czego odwołuje się instrukcja this ?"
                         },
                         new
                         {
-                            Id = new Guid("86be3b0c-7593-461e-92d3-0d1ceecf133e"),
+                            Id = new Guid("e23e6f5e-7b21-4379-a520-7796e59fbff1"),
                             CategoryId = new Guid("fc2f8cc9-1024-42eb-a1c7-df1270090675"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3779), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4915), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3781), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4916), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest bubbling eventów ?"
                         },
                         new
                         {
-                            Id = new Guid("4d723cca-bf08-4c37-bb10-dee10e1abb6c"),
+                            Id = new Guid("6099d72d-9301-467d-98e5-d0465b8d0b96"),
                             CategoryId = new Guid("fc2f8cc9-1024-42eb-a1c7-df1270090675"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3783), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4919), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3785), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4921), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest DOM ?"
                         },
                         new
                         {
-                            Id = new Guid("6941e1f9-0999-4f64-bf00-2a4069b9395b"),
+                            Id = new Guid("11c16aec-1c05-4184-8c20-0dcc22811c27"),
                             CategoryId = new Guid("fc2f8cc9-1024-42eb-a1c7-df1270090675"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3788), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4923), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3789), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4925), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest AJAX ? Jakie technologie wchodzą w jego skład ?"
                         },
                         new
                         {
-                            Id = new Guid("ffb9b1ed-d994-4be9-898f-74df03b53f82"),
+                            Id = new Guid("20bae0a7-274a-4818-8a38-928f898a66df"),
                             CategoryId = new Guid("fc2f8cc9-1024-42eb-a1c7-df1270090675"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3792), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4928), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3794), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4929), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak można optymalizować DOM w przypadkach responsywnych ?"
                         },
                         new
                         {
-                            Id = new Guid("be7270af-4522-4a30-87b9-79115e0cbbc1"),
+                            Id = new Guid("4dff5d76-4dc6-4ea8-8bc9-bd190f5a4312"),
                             CategoryId = new Guid("fc2f8cc9-1024-42eb-a1c7-df1270090675"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3797), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4933), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3798), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4934), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak osiąga się responsywność w bootstrapie ?"
                         },
                         new
                         {
-                            Id = new Guid("a7abd5a7-828d-4288-b609-2757e36c790c"),
+                            Id = new Guid("79cc192a-d8b9-4b14-b630-7980cb694a8a"),
                             CategoryId = new Guid("fc2f8cc9-1024-42eb-a1c7-df1270090675"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3801), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4937), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3803), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4939), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jaka jest różnica między JS a TS ?"
                         },
                         new
                         {
-                            Id = new Guid("f03a2bfe-c46e-48ec-934c-514d6c672e62"),
+                            Id = new Guid("fc9904b2-fa87-4d4c-8004-9e2846ff26da"),
                             CategoryId = new Guid("fc2f8cc9-1024-42eb-a1c7-df1270090675"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3806), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4944), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3808), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4945), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Wymień wszystkie możliwości zapisu document.ready ."
                         },
                         new
                         {
-                            Id = new Guid("342ce447-b67a-43b7-bd98-25e63e333628"),
+                            Id = new Guid("944549fa-43e6-47b0-9de1-362a72c85d06"),
                             CategoryId = new Guid("fc2f8cc9-1024-42eb-a1c7-df1270090675"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3810), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4948), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3812), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4949), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym różni się instrukcja przyrównania == od === ?"
                         },
                         new
                         {
-                            Id = new Guid("f3ba0740-3f44-48c5-91fd-11349ff6632e"),
+                            Id = new Guid("f7c9984b-6830-4980-8835-fade1b76c8cb"),
                             CategoryId = new Guid("fc2f8cc9-1024-42eb-a1c7-df1270090675"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3817), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4952), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3819), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4954), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Co wyświetli for(var i in lista) console.log() (zwrócić uwagę na znaki nowej linii) ?"
                         },
                         new
                         {
-                            Id = new Guid("3fd7681f-095a-447a-816c-382aa0778131"),
+                            Id = new Guid("22418574-b1ca-4f50-acbe-6dacc9d8e4bf"),
                             CategoryId = new Guid("fc2f8cc9-1024-42eb-a1c7-df1270090675"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3821), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4956), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3823), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4958), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym różni się wartość null / undefined / undeclared ?"
                         },
                         new
                         {
-                            Id = new Guid("adacbcca-34e4-4099-9665-f438bf125499"),
+                            Id = new Guid("ee72380a-b17f-409b-98ce-f9e5a5f57129"),
                             CategoryId = new Guid("cd173f96-0533-4be8-bdfc-d58cdb9579d0"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3826), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4961), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3828), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4962), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak wywołujemy zapytania asynchroniczne po stronie klienta ?"
                         },
                         new
                         {
-                            Id = new Guid("244fa13d-f0bd-4246-88e1-4831ff74fdcd"),
+                            Id = new Guid("576a4e78-94d5-4493-bf6a-fb2438ed5ff4"),
                             CategoryId = new Guid("cd173f96-0533-4be8-bdfc-d58cdb9579d0"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3830), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4965), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3832), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4966), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym różni się Promise od Observable ? Co jest wydajniejsze ?"
                         },
                         new
                         {
-                            Id = new Guid("aad5a1fa-756f-47da-a2dc-cf0017c40fc8"),
+                            Id = new Guid("8e3de0fc-5007-4364-b64e-7ba736e2bc71"),
                             CategoryId = new Guid("cd173f96-0533-4be8-bdfc-d58cdb9579d0"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3835), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4969), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3836), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4970), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest Observable ?"
                         },
                         new
                         {
-                            Id = new Guid("16145d6d-eb99-49ec-abd1-5727ddd88f9d"),
+                            Id = new Guid("8b427d81-44c6-4347-b669-ec016238ff4c"),
                             CategoryId = new Guid("cd173f96-0533-4be8-bdfc-d58cdb9579d0"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3839), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4973), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3841), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4975), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest Promise ?"
                         },
                         new
                         {
-                            Id = new Guid("50a777c0-e359-4cad-a0c5-5f7a98b650fd"),
+                            Id = new Guid("6927eb22-db85-46fb-97f6-fa2a175c2b9d"),
                             CategoryId = new Guid("cd173f96-0533-4be8-bdfc-d58cdb9579d0"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3844), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4980), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3845), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4981), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Ilu wątkowy jest JS ?"
                         },
                         new
                         {
-                            Id = new Guid("eb5b2bde-b791-4fa0-b1a6-da58ea74c1ef"),
+                            Id = new Guid("434f5d29-1813-47d2-9e0b-7e7872275c7d"),
                             CategoryId = new Guid("b4b43c3d-7373-4799-89ff-f79f6c213f98"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3848), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4984), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3850), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4985), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak można przechować zmienną w Angularze ?"
                         },
                         new
                         {
-                            Id = new Guid("de7e6071-32b7-40f1-8549-0c639f4424e5"),
+                            Id = new Guid("93ee3dda-0847-4731-988a-155320f2a1a5"),
                             CategoryId = new Guid("b4b43c3d-7373-4799-89ff-f79f6c213f98"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3855), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4988), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3857), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4989), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Co wykona się pierwsze: konstruktor czy metoda OnInit ?"
                         },
                         new
                         {
-                            Id = new Guid("53b27347-f2ad-4a15-a155-b3eaab77cec5"),
+                            Id = new Guid("a20bcc69-980c-4b4c-9bf6-1973b586288a"),
                             CategoryId = new Guid("b4b43c3d-7373-4799-89ff-f79f6c213f98"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3859), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4992), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3861), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4994), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym różni się setValue od patchValue ?"
                         },
                         new
                         {
-                            Id = new Guid("267a9612-4924-4363-ad7e-cb02c3520d91"),
+                            Id = new Guid("4fba3591-c055-4bff-afc0-c510273ffe27"),
                             CategoryId = new Guid("b4b43c3d-7373-4799-89ff-f79f6c213f98"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3864), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(5032), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3866), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(5035), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak osiągnąć uwierzytelnianie na poziomie Angulara ?"
                         },
                         new
                         {
-                            Id = new Guid("ee8c4bdb-c7f6-4985-bbea-356c9a5c4ff3"),
+                            Id = new Guid("febbbeb4-c888-4113-b52c-d767b56ed681"),
                             CategoryId = new Guid("b4b43c3d-7373-4799-89ff-f79f6c213f98"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3868), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(5038), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3870), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(5039), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest Auth Guard  ? Jak działa ? Z czego się składa ?"
                         },
                         new
                         {
-                            Id = new Guid("651181c3-e0f1-4db4-b91b-61346637bdd5"),
+                            Id = new Guid("204b718e-cf05-43b0-9654-031603f0d12d"),
                             CategoryId = new Guid("b4b43c3d-7373-4799-89ff-f79f6c213f98"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3873), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(5042), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3874), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(5044), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak działa routing w Angularze ?"
                         },
                         new
                         {
-                            Id = new Guid("0491b354-3620-4faf-882a-890ef0859c1d"),
+                            Id = new Guid("d45f98e1-9ac4-4a59-9481-b4f4728b4d92"),
                             CategoryId = new Guid("b4b43c3d-7373-4799-89ff-f79f6c213f98"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3877), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(5046), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3879), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(5048), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak działają serwisy w Angularze ?"
                         },
                         new
                         {
-                            Id = new Guid("0f824f1d-ec09-44d8-82cc-abec8cd9b611"),
+                            Id = new Guid("3c156c12-5925-4ecd-a086-2be7721df8e3"),
                             CategoryId = new Guid("b4b43c3d-7373-4799-89ff-f79f6c213f98"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3897), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(5053), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3899), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(5055), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Wymień i opisz modyfikatory w serwisach Angularowych np. Inject ?"
                         },
                         new
                         {
-                            Id = new Guid("4d86560d-d59e-4883-a6e3-324bc3821c7c"),
+                            Id = new Guid("2c388413-ef6f-4487-a0fb-f00c70bf9c30"),
                             CategoryId = new Guid("b4b43c3d-7373-4799-89ff-f79f6c213f98"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3902), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(5057), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3904), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(5059), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jaką funkcję wywołujesz jeśli chcesz przefiltrować dane ? Którą z nich : pipe, filter, search itp. ?"
                         },
                         new
                         {
-                            Id = new Guid("e599c38c-7ee6-4f03-9a6f-b67c4a2e7a10"),
+                            Id = new Guid("1ade7a6e-86f6-4b7a-8edd-ec6e94496827"),
                             CategoryId = new Guid("0795a628-69e2-411b-bbc9-eb805f9fe72d"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3908), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(5062), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3910), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(5063), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jakie są trzy metody dodania CCS-a do strony ? Opisz wady i zalety każdej z nich."
                         },
                         new
                         {
-                            Id = new Guid("75285bb7-bcae-40e1-8f2e-b2ad1a0a11c9"),
+                            Id = new Guid("f57bca04-efec-4b4f-b357-456911ea23a1"),
                             CategoryId = new Guid("0795a628-69e2-411b-bbc9-eb805f9fe72d"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3913), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(5066), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3914), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(5067), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym są zapytania o media CSS i do czego się je wykorzystuje ?"
                         },
                         new
                         {
-                            Id = new Guid("ed6e565a-8aba-448f-9067-b6cc48df261b"),
+                            Id = new Guid("a8ab28bb-cc05-4af5-bb66-c52a4328d920"),
                             CategoryId = new Guid("0795a628-69e2-411b-bbc9-eb805f9fe72d"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3917), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(5070), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3919), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(5071), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest CSS preprocessor ? Korzystałeś kiedyś z tego ?"
                         },
                         new
                         {
-                            Id = new Guid("f8b130d7-2590-4d98-9225-33c772122cd4"),
+                            Id = new Guid("aa57fd6e-c45f-4e7d-85a2-e31070e4a404"),
                             CategoryId = new Guid("0795a628-69e2-411b-bbc9-eb805f9fe72d"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3922), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(5074), new TimeSpan(0, 1, 0, 0, 0)),
                             Description = "https://www.upwork.com/hire/css-developers/interview-questions/",
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3924), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(5076), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Zbiór Upwork"
                         },
                         new
                         {
-                            Id = new Guid("5d34a193-28f7-4d54-803c-54cd863011c7"),
+                            Id = new Guid("3166454c-8291-4bc7-9789-d6977d18ccf1"),
                             CategoryId = new Guid("0795a628-69e2-411b-bbc9-eb805f9fe72d"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3927), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(5078), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3928), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(5080), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest flexbox ?"
                         },
                         new
                         {
-                            Id = new Guid("dd87782f-98c0-46ae-bb41-3dde64eb6b97"),
+                            Id = new Guid("f64db943-23d3-47f1-9d35-b88ce8da9cd1"),
                             CategoryId = new Guid("0795a628-69e2-411b-bbc9-eb805f9fe72d"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3931), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(5083), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3933), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(5084), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Czym jest Media Query ?"
                         },
                         new
                         {
-                            Id = new Guid("63554ff9-a0a3-490a-b2eb-fa486c26e081"),
+                            Id = new Guid("ff4114d8-70e2-48a2-86e6-031eca6d3486"),
                             CategoryId = new Guid("347e971f-8443-4dfd-aadd-36a06c4d5bf2"),
                             CreatedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3935), new TimeSpan(0, 1, 0, 0, 0)),
+                            CreatedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(5089), new TimeSpan(0, 1, 0, 0, 0)),
                             ModifiedBy = new Guid("00000000-0000-0000-0000-000000000000"),
-                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 23, 22, 14, 29, 148, DateTimeKind.Unspecified).AddTicks(3937), new TimeSpan(0, 1, 0, 0, 0)),
+                            ModifiedOn = new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(5091), new TimeSpan(0, 1, 0, 0, 0)),
                             Name = "Jak wylistować w linuxie : pliki, foldery, procesy ?"
                         });
                 });
