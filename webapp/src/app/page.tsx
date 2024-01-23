@@ -1,8 +1,19 @@
 "use client";
 
-import Questions from "@/components/questions/Questions";
 import { type Props } from "@/models/props";
+import { Typography, styled } from "@mui/material";
 
-const Home = ({ className }: Props) => <Questions className={className} />;
+const HomePage = ({ className }: Props) => (
+  <div className={className}>
+    <Typography>Home</Typography>
+  </div>
+);
 
-export default Home;
+export default styled(HomePage)`
+  & {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+`;

@@ -1,116 +1,135 @@
+import { type Props } from "@/models/props";
 import {
-  OidcSecure,
   type OidcUserInfo,
   OidcUserStatus,
   useOidcAccessToken,
   useOidcIdToken,
   useOidcUser,
 } from "@axa-fr/react-oidc";
+import { Button, Divider, Typography } from "@mui/material";
 import React from "react";
+import { IoMdRefresh } from "react-icons/io";
 
 interface OidcUserRoleInfo extends OidcUserInfo {
   role?: string[];
 }
 
-const DisplayUserInfo = () => {
+const DisplayUserInfo = ({ className }: Props) => {
   const { oidcUser, oidcUserLoadingState, reloadOidcUser } =
     useOidcUser<OidcUserRoleInfo>();
 
-  console.log(oidcUserLoadingState, oidcUser);
-
   switch (oidcUserLoadingState) {
     case OidcUserStatus.Loading:
-      return <p>User Information are loading</p>;
+      return (
+        <Typography className={className} variant="subtitle2">
+          User Information are loading
+        </Typography>
+      );
     case OidcUserStatus.Unauthenticated:
-      return <p>you are not authenticated</p>;
+      return (
+        <Typography className={className} variant="subtitle2">
+          You are not authenticated
+        </Typography>
+      );
     case OidcUserStatus.LoadingError:
-      return <p>Fail to load user information</p>;
+      return (
+        <Typography className={className} variant="subtitle2">
+          Failed to load user information
+        </Typography>
+      );
     default:
       return (
-        <div className="card text-white bg-success mb-3">
-          <div className="card-body">
-            <h5 className="card-title">User information</h5>
-            <p className="card-text">{JSON.stringify(oidcUser)}</p>
-            <p>
-              <button
-                type="button"
-                className="btn btn-primary"
-                onClick={reloadOidcUser}
-              >
-                Reload user
-              </button>
-            </p>
-          </div>
+        <div className={className}>
+          <Typography variant="subtitle2">User information</Typography>
+          <Typography variant="caption" color="text.secondary">
+            {JSON.stringify(oidcUser)}
+          </Typography>
+
+          <Button
+            variant="outlined"
+            startIcon={<IoMdRefresh />}
+            onClick={reloadOidcUser}
+          >
+            Reload user
+          </Button>
         </div>
       );
   }
 };
 
-export const Profile = () => {
-  return (
-    <div className="container mt-3">
-      <DisplayAccessToken />
-      <DisplayIdToken />
-      <DisplayUserInfo />
-    </div>
-  );
-};
-
-const DisplayAccessToken = () => {
+const DisplayAccessToken = ({ className }: Props) => {
   const { accessToken, accessTokenPayload } = useOidcAccessToken();
 
   if (!accessToken) {
-    return <p>you are not authenticated</p>;
+    return (
+      <Typography variant="subtitle2">You are not authenticated</Typography>
+    );
   }
+
   return (
-    <div className="card text-white bg-info mb-3">
-      <div className="card-body">
-        <h5 className="card-title">Access Token</h5>
-        <p style={{ color: "red", backgroundColor: "white" }}>
-          Please consider to configure the ServiceWorker in order to protect
-          your application from XSRF attacks. &quot;access_token&quot; and
-          &quot;refresh_token&quot; will never be accessible from your client
-          side javascript.
-        </p>
-        {
-          <p className="card-text">
-            Access Token: {JSON.stringify(accessToken)}
-          </p>
-        }
-        {accessTokenPayload != null && (
-          <p className="card-text">
-            Access Token Payload: {JSON.stringify(accessTokenPayload)}
-          </p>
-        )}
-      </div>
+    <div className={className}>
+      <Typography variant="subtitle1" color="error.main">
+        Please consider to configure the ServiceWorker in order to protect your
+        application from XSRF attacks. &quot;access_token&quot; and
+        &quot;refresh_token&quot; will never be accessible from your client side
+        javascript.
+      </Typography>
+
+      <Divider />
+
+      <Typography variant="subtitle2">Access Token</Typography>
+      <Typography variant="caption" color="text.secondary">
+        {JSON.stringify(accessToken)}
+      </Typography>
+
+      <Divider />
+
+      <Typography variant="subtitle2">Access Token Payload</Typography>
+      <Typography variant="caption" color="text.secondary">
+        {JSON.stringify(accessTokenPayload)}
+      </Typography>
     </div>
   );
 };
 
-const DisplayIdToken = () => {
+const DisplayIdToken = ({ className }: Props) => {
   const { idToken, idTokenPayload } = useOidcIdToken();
 
   if (!idToken) {
-    return <p>you are not authenticated</p>;
+    return (
+      <Typography variant="subtitle2">You are not authenticated</Typography>
+    );
   }
 
   return (
-    <div className="card text-white bg-info mb-3">
-      <div className="card-body">
-        <h5 className="card-title">ID Token</h5>
-        {<p className="card-text">IdToken: {JSON.stringify(idToken)}</p>}
-        {idTokenPayload != null && (
-          <p className="card-text">
-            IdToken Payload: {JSON.stringify(idTokenPayload)}
-          </p>
-        )}
-      </div>
+    <div className={className}>
+      <Typography variant="subtitle2">Id Token</Typography>
+      <Typography variant="caption" color="text.secondary">
+        {JSON.stringify(idToken)}
+      </Typography>
+
+      <Divider />
+
+      {idTokenPayload != null && (
+        <>
+          <Typography variant="subtitle2">Id Token Payload</Typography>
+          <Typography variant="caption" color="text.secondary">
+            {JSON.stringify(idTokenPayload)}
+          </Typography>
+        </>
+      )}
     </div>
   );
 };
 
-export const SecureProfile = () => (
-  <OidcSecure>
-    <Profile />
-  </OidcSecure>
+const Profile = ({ className }: Props) => (
+  <div className={className}>
+    <DisplayAccessToken />
+    <Divider />
+    <DisplayIdToken />
+    <Divider />
+    <DisplayUserInfo />
+  </div>
 );
+
+export default Profile;

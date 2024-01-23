@@ -3,14 +3,12 @@ import Tiles from "@/components/questions/Tiles";
 import { type Props } from "@/models/props";
 import { styled } from "@mui/material";
 
-const Questions = ({ className }: Props) => {
-  return (
-    <div className={className}>
-      <Categories />
-      <Tiles />
-    </div>
-  );
-};
+const Questions = ({ className }: Props) => (
+  <div className={className}>
+    <Categories />
+    <Tiles />
+  </div>
+);
 
 export default styled(Questions)`
   & {

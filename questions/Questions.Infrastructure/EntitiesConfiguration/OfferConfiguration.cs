@@ -1,0 +1,38 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using PGPlatform.ManagementPortal.Infrastructure.Database.Consts;
+using Questions.Domain.Entities;
+using Questions.Domain.Enums;
+using Questions.Infrastructure.EntitiesConfiguration.Extensions;
+
+namespace Questions.Infrastructure.EntitiesConfiguration;
+
+internal sealed class OfferConfiguration : IEntityTypeConfiguration<OfferEntity>
+{
+    public void Configure( EntityTypeBuilder<OfferEntity> builder )
+    {
+        builder.ToAuditTable( "Offers" );
+
+        builder.Property( e => e.Name )
+            .HasMaxLength( DataTypeConsts.NameLength )
+            .IsRequired();
+
+        builder.Property( e => e.CompanyName )
+            .HasMaxLength( DataTypeConsts.NameLength )
+            .IsRequired();
+
+        builder.Property( e => e.Link )
+            .HasMaxLength( DataTypeConsts.NameLength )
+            .IsRequired();
+
+        builder.Property( e => e.Status )
+            .HasMaxLength( DataTypeConsts.TextLength )
+            .HasConversion<string>()
+            .HasDefaultValue(OfferStatus.New)
+            .IsRequired();
+
+        builder.Property( e => e.Description )
+            .HasMaxLength( DataTypeConsts.TextLength )
+            .IsRequired( false );
+    }
+}

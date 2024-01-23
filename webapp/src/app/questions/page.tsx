@@ -1,19 +1,13 @@
 "use client";
 
+import Questions from "@/components/questions/Questions";
 import { type Props } from "@/models/props";
-import { Typography, styled } from "@mui/material";
+import { OidcSecure } from "@axa-fr/react-oidc";
 
-const Questions = ({ className }: Props) => (
-  <div className={className}>
-    <Typography>Questions</Typography>
-  </div>
+const QuestionsPage = ({ className }: Props) => (
+  <OidcSecure>
+    <Questions className={className} />
+  </OidcSecure>
 );
 
-export default styled(Questions)`
-  & {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-`;
+export default QuestionsPage;

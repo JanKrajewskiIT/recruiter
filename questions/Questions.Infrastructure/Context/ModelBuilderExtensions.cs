@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Questions.Domain.Entities;
+using Questions.Domain.Enums;
 
 namespace Questions.Infrastructure.Context;
 
@@ -10,19 +11,36 @@ internal static class ModelBuilderExtensions
         modelBuilder.Entity<CategoryEntity>().HasData(
             CreateCategory( "bb1c2675-5877-4aa5-9bc6-00be8d449549", "Przygotowanie na rozmowę", "CiCircleList", 1 ),
             CreateCategory( "997bb095-fb04-4872-ac35-0d05cedc3de0", "Umiejętności miękkie", "BsPersonFillCheck", 2 ),
-            CreateCategory( "28aec609-f96e-4ae6-8db2-358a1892502e", "Architektura", "BsDiagram3Fill", 3 ),
-            CreateCategory( "a16bb186-092e-440d-92c9-fe57cd96ec4f", "Algorytmy", "VscServerProcess", 4 ),
-            CreateCategory( "4ec57b9a-8753-4ec0-bebe-d4d361c9ecf2", "C#", "SiCsharp", 5 ),
-            CreateCategory( "6c5cf69c-c674-4fc0-b613-c45daa8633c0", ".Net", "SiDotnet", 6 ),
-            CreateCategory( "d5dfef6e-6be4-42b2-a5b8-4852c733bcf8", "SQL", "SiMysql", 7 ),
-            CreateCategory( "3bb831ec-69aa-4a75-a71e-5079dc06ac26", "React", "SiReact", 8 ),
-            CreateCategory( "c13e9522-2b62-433a-9bd6-365e49233508", "Type Script", "SiTypescript", 9 ),
-            CreateCategory( "9dd3c14f-3685-4370-bc0c-42ee8bf2b2e8", "CSS3", "SiCss3", 10 ),
-            CreateCategory( "db7d3eaa-d153-48d4-b000-383a8cf1fc6f", "HTML5", "SiHtml5", 11 ),
+            CreateCategory( "ea2b1671-9f9e-4130-a152-75acdfddcfe3", "Praca Zespołowa", "VscOrganization", 3 ),
+            CreateCategory( "28aec609-f96e-4ae6-8db2-358a1892502e", "Architektura", "BsDiagram3Fill", 4 ),
+            CreateCategory( "a16bb186-092e-440d-92c9-fe57cd96ec4f", "Algorytmy", "VscServerProcess", 5 ),
+            CreateCategory( "4ec57b9a-8753-4ec0-bebe-d4d361c9ecf2", "C#", "SiCsharp", 6 ),
+            CreateCategory( "6c5cf69c-c674-4fc0-b613-c45daa8633c0", ".Net", "SiDotnet", 7 ),
+            CreateCategory( "d5dfef6e-6be4-42b2-a5b8-4852c733bcf8", "SQL", "SiMysql", 8 ),
+            CreateCategory( "3bb831ec-69aa-4a75-a71e-5079dc06ac26", "React", "SiReact", 9 ),
+            CreateCategory( "cf22a2a9-5a75-46ff-94c9-fc20c521020d", "Angular", "SiAngular", 10 ),
+            CreateCategory( "d43a7e0c-28b1-420c-9b83-c755c220c76b", "Java Script", "SiJavascript", 11 ),
+            CreateCategory( "c13e9522-2b62-433a-9bd6-365e49233508", "Type Script", "SiTypescript", 12 ),
+            CreateCategory( "9dd3c14f-3685-4370-bc0c-42ee8bf2b2e8", "CSS3", "SiCss3", 13 ),
+            CreateCategory( "db7d3eaa-d153-48d4-b000-383a8cf1fc6f", "HTML5", "SiHtml5", 14 ),
+            CreateCategory( "26d552b9-d1ea-4c2f-bef3-0ef7c4b36912", "Linux", "SiLinux", 15 ),
+
+            CreateCategory( "08c037f9-c4e9-48c4-a4c5-fb8e628aa792", "Agile", string.Empty, 1, "ea2b1671-9f9e-4130-a152-75acdfddcfe3" ),
+            CreateCategory( "0ed03359-a7dc-4eb4-a616-044557143b43", "Dokumentacja", string.Empty, 2, "ea2b1671-9f9e-4130-a152-75acdfddcfe3" ),
 
             CreateCategory( "0faca7b4-e59d-483b-82a9-785d960c5760", "Pojęcia", string.Empty, 1, "28aec609-f96e-4ae6-8db2-358a1892502e" ),
-            CreateCategory( "7497e8fc-80a5-42df-ac48-c09f695dc402", "Wzorce projektowe", string.Empty, 2, "28aec609-f96e-4ae6-8db2-358a1892502e" ),
-            CreateCategory( "71c8a70b-0e81-4b79-a7f8-fb51fcbef984", "OOP", string.Empty, 3, "28aec609-f96e-4ae6-8db2-358a1892502e" ),
+            CreateCategory( "638331a1-9858-4f2c-86a3-5f27d757f2fa", "Jakość", string.Empty, 2, "28aec609-f96e-4ae6-8db2-358a1892502e" ),
+            CreateCategory( "7497e8fc-80a5-42df-ac48-c09f695dc402", "Wzorce projektowe", string.Empty, 3, "28aec609-f96e-4ae6-8db2-358a1892502e" ),
+            CreateCategory( "71c8a70b-0e81-4b79-a7f8-fb51fcbef984", "OOP", string.Empty, 4, "28aec609-f96e-4ae6-8db2-358a1892502e" ),
+            CreateCategory( "e86eb402-5cb4-4428-b77c-eddc031ca81f", "TDD", string.Empty, 5, "28aec609-f96e-4ae6-8db2-358a1892502e" ),
+            CreateCategory( "24d19d8a-a8c4-4fa1-96b1-e386d33cbf98", "DDD", string.Empty, 6, "28aec609-f96e-4ae6-8db2-358a1892502e" ),
+            CreateCategory( "5bc813e3-f490-4f6e-98a9-e378c07a0d74", "Narzędzia", string.Empty, 7, "28aec609-f96e-4ae6-8db2-358a1892502e" ),
+            CreateCategory( "f7e9ae2a-33e6-486c-b00c-7fde72c4f2ef", "Wersjonowanie", string.Empty, 8, "28aec609-f96e-4ae6-8db2-358a1892502e" ),
+            CreateCategory( "a5f70f89-5b51-408f-b336-90ff049a1b59", "ORM", string.Empty, 9, "28aec609-f96e-4ae6-8db2-358a1892502e" ),
+            CreateCategory( "12d9bda6-2b20-4876-ab72-51498913f01a", "Infrastruktura", string.Empty, 10, "28aec609-f96e-4ae6-8db2-358a1892502e" ),
+            CreateCategory( "273643d2-b005-4a1f-83ff-9ce823c4b418", "Protokoły", string.Empty, 11, "28aec609-f96e-4ae6-8db2-358a1892502e" ),
+            CreateCategory( "e04edc71-f477-4ca6-9482-2a019bd8d5e9", "Usługi", string.Empty, 12, "28aec609-f96e-4ae6-8db2-358a1892502e" ),
+            CreateCategory( "995f25e7-5cb8-4b3e-a6bb-cd125857a332", "oAuth", string.Empty, 13, "28aec609-f96e-4ae6-8db2-358a1892502e" ),
 
             CreateCategory( "0a07f758-355f-4796-8ab4-f5a34cfca181", "Wielowątkowość", string.Empty, 1, "a16bb186-092e-440d-92c9-fe57cd96ec4f" ),
 
@@ -38,13 +56,48 @@ internal static class ModelBuilderExtensions
             CreateCategory( "caa6e3b0-8e5a-4bd2-b36d-3114201e7be1", "Kolekcje", string.Empty, 5, "6c5cf69c-c674-4fc0-b613-c45daa8633c0" ),
             CreateCategory( "d3157372-95f8-4b34-a836-2538a87162c3", "WebAPI", string.Empty, 6, "6c5cf69c-c674-4fc0-b613-c45daa8633c0" ),
             CreateCategory( "209537e5-fdc0-4a4c-8c4b-851021855c53", "MVC", string.Empty, 7, "6c5cf69c-c674-4fc0-b613-c45daa8633c0" ),
-            CreateCategory( "a483b653-422d-41bb-a2ba-c8793bf1cd6d", "WCF", string.Empty, 8, "6c5cf69c-c674-4fc0-b613-c45daa8633c0" )
+            CreateCategory( "a483b653-422d-41bb-a2ba-c8793bf1cd6d", "WCF", string.Empty, 8, "6c5cf69c-c674-4fc0-b613-c45daa8633c0" ),
+            CreateCategory( "b74d05ea-7d83-4989-b1c5-a28d0a0af4d3", "ADO.Net", string.Empty, 9, "6c5cf69c-c674-4fc0-b613-c45daa8633c0" ),
+            CreateCategory( "7cab840f-a28a-4681-a294-6c13d4441221", "Entity Framework", string.Empty, 10, "6c5cf69c-c674-4fc0-b613-c45daa8633c0" ),
+
+            CreateCategory( "4f6935de-3749-4151-a94f-172f9cd2b582", "Teoria", string.Empty, 1, "d5dfef6e-6be4-42b2-a5b8-4852c733bcf8" ),
+            CreateCategory( "93f38474-2faa-4cc6-962e-1a91bd41ed1b", "Narzędzia", string.Empty, 2, "d5dfef6e-6be4-42b2-a5b8-4852c733bcf8" ),
+            CreateCategory( "12300f34-a179-429c-859b-aa587001a67c", "Instrukcje", string.Empty, 3, "d5dfef6e-6be4-42b2-a5b8-4852c733bcf8" ),
+            CreateCategory( "97208387-3936-4b0a-bfc6-cf8fdaa9b772", "Indeksy", string.Empty, 4, "d5dfef6e-6be4-42b2-a5b8-4852c733bcf8" ),
+            
+            CreateCategory( "b4b43c3d-7373-4799-89ff-f79f6c213f98", "Ogólne", string.Empty, 1, "cf22a2a9-5a75-46ff-94c9-fc20c521020d" ),
+
+            CreateCategory( "fc2f8cc9-1024-42eb-a1c7-df1270090675", "Ogólne", string.Empty, 1, "d43a7e0c-28b1-420c-9b83-c755c220c76b" ),
+            CreateCategory( "cd173f96-0533-4be8-bdfc-d58cdb9579d0", "Async", string.Empty, 2, "d43a7e0c-28b1-420c-9b83-c755c220c76b" ),
+
+            CreateCategory( "0795a628-69e2-411b-bbc9-eb805f9fe72d", "Ogólne", string.Empty, 1, "9dd3c14f-3685-4370-bc0c-42ee8bf2b2e8" ),
+
+            CreateCategory( "347e971f-8443-4dfd-aadd-36a06c4d5bf2", "Komendy", string.Empty, 1, "26d552b9-d1ea-4c2f-bef3-0ef7c4b36912" )
         );
 
         modelBuilder.Entity<QuestionEntity>().HasData(
+            CreateQuestion( "08c037f9-c4e9-48c4-a4c5-fb8e628aa792", "Jakie znasz narzędzia pracy zespołowej ? Korzystałeś z Jiry, Confluence ?" ),
+            CreateQuestion( "08c037f9-c4e9-48c4-a4c5-fb8e628aa792", "Czym jest Agile ?" ),
+            CreateQuestion( "08c037f9-c4e9-48c4-a4c5-fb8e628aa792", "Czym jest Scrum ?" ),
+            CreateQuestion( "08c037f9-c4e9-48c4-a4c5-fb8e628aa792", "W jak dużym zespole pracowałeś ? Jakie były role ?" ),
+            CreateQuestion( "08c037f9-c4e9-48c4-a4c5-fb8e628aa792", "Jak w twojej pracy wyglądało wykorzystanie Scruma ?" ),
+            CreateQuestion( "08c037f9-c4e9-48c4-a4c5-fb8e628aa792", "Jakie role są w Scrum'ie ?" ),
+            CreateQuestion( "08c037f9-c4e9-48c4-a4c5-fb8e628aa792", "Jakie są Scrum'owe rytuały ?" ),
+            CreateQuestion( "08c037f9-c4e9-48c4-a4c5-fb8e628aa792", "Jak podchodzisz do rozpoczęcia historyjek analitycznych ?" ),
+
+            CreateQuestion( "0ed03359-a7dc-4eb4-a616-044557143b43", "Po co stosowana jest dokumentacja ?" ),
+            CreateQuestion( "0ed03359-a7dc-4eb4-a616-044557143b43", "Preferujesz dokumentowanie bezpośrednio w kodzie czy obok ?" ),
+            CreateQuestion( "0ed03359-a7dc-4eb4-a616-044557143b43", "Jakie rodzaje dokumentacji stosuje się dla logiki biznesowej ?" ),
+
             CreateQuestion( "0faca7b4-e59d-483b-82a9-785d960c5760", "Czy różni się argument od parametru ?" ),
             CreateQuestion( "0faca7b4-e59d-483b-82a9-785d960c5760", "Czym jest deklaracja vs definicja vs inicjalizacja ?" ),
             CreateQuestion( "0faca7b4-e59d-483b-82a9-785d960c5760", "Której generacji językiem jest C# ?" ),
+
+            CreateQuestion( "638331a1-9858-4f2c-86a3-5f27d757f2fa", "Czym jest refaktoryzacja ?" ),
+            CreateQuestion( "638331a1-9858-4f2c-86a3-5f27d757f2fa", "Jakie problemy mogą pojawić się po refaktoryzacji ? Jak im zapobiec ?" ),
+            CreateQuestion( "638331a1-9858-4f2c-86a3-5f27d757f2fa", "W jaki sposób dbasz o jakość kodu ? Jakie znasz standardy i drogi do uzyskania wysokiej jakości kodu ?" ),
+            CreateQuestion( "638331a1-9858-4f2c-86a3-5f27d757f2fa", "Czym jest Clean Code ? Jakie znasz przykładowe zasady ?" ),
+            CreateQuestion( "638331a1-9858-4f2c-86a3-5f27d757f2fa", "Czy przeprowadzałeś Code Review ? Jak to wyglądało ?" ),
 
             CreateQuestion( "7497e8fc-80a5-42df-ac48-c09f695dc402", "Jakie znasz wzorce projektowe i architektoniczne ? Z których i jak korzystałeś ? Najważniejsze wzorce z GOF Gang of Four." ),
             CreateQuestion( "7497e8fc-80a5-42df-ac48-c09f695dc402", "Singleton (dlaczego to czasem antypatern)" ),
@@ -91,6 +144,102 @@ internal static class ModelBuilderExtensions
             CreateQuestion( "71c8a70b-0e81-4b79-a7f8-fb51fcbef984", "Która zasada OOP według ciebie jest najważniejsza ?" ),
             CreateQuestion( "71c8a70b-0e81-4b79-a7f8-fb51fcbef984", "Przedstaw ideę dziedziczenia na przykładzie z życia." ),
             CreateQuestion( "71c8a70b-0e81-4b79-a7f8-fb51fcbef984", "Zadania z wykorzystaniem polimorfizmu i dziedziczenia, gdzie określa się co wypisze metoda." ),
+
+            CreateQuestion( "e86eb402-5cb4-4428-b77c-eddc031ca81f", "Jakie znasz rodzaje testów ?" ),
+            CreateQuestion( "e86eb402-5cb4-4428-b77c-eddc031ca81f", "Czym jest TDD ? Czy kiedykolwiek używałeś ? Jakie miało znaczenie ?" ),
+            CreateQuestion( "e86eb402-5cb4-4428-b77c-eddc031ca81f", "Czym różnią się testy jednostkowe od integracyjnych ?" ),
+            CreateQuestion( "e86eb402-5cb4-4428-b77c-eddc031ca81f", "Czym jest tzw. mokowanie ?" ),
+            CreateQuestion( "e86eb402-5cb4-4428-b77c-eddc031ca81f", "Czym są testy jednostkowe ? Czy pisałeś ? Z jakich technologii korzystałeś ?" ),
+            CreateQuestion( "e86eb402-5cb4-4428-b77c-eddc031ca81f", "Czym są testy integracyjne ? Czy pisałeś ? Z jakich technologii korzystałeś ?" ),
+            CreateQuestion( "e86eb402-5cb4-4428-b77c-eddc031ca81f", "Czy według ciebie pisanie testów jest ważne ? Jakie mają zalety ?" ),
+            CreateQuestion( "e86eb402-5cb4-4428-b77c-eddc031ca81f", "Opisz zasady 3A i GWT." ),
+            CreateQuestion( "e86eb402-5cb4-4428-b77c-eddc031ca81f", "Jak bada się pokrycie testów jednostkowych i integracyjnych ?" ),
+
+            CreateQuestion( "24d19d8a-a8c4-4fa1-96b1-e386d33cbf98", "Czym jest podejście DDD ?" ),
+            CreateQuestion( "24d19d8a-a8c4-4fa1-96b1-e386d33cbf98", "Czym jest podejście BDD i SpecFlow ?" ),
+            CreateQuestion( "24d19d8a-a8c4-4fa1-96b1-e386d33cbf98", "Czy kiedykolwiek używałeś DDD ? Podaj przykład z życia. Jak korzystałeś z tego w projekcie ?" ),
+            CreateQuestion( "24d19d8a-a8c4-4fa1-96b1-e386d33cbf98", "Jak wygląda analiza w standardzie DDD i jak ma się ona do kodu ?" ),
+            CreateQuestion( "24d19d8a-a8c4-4fa1-96b1-e386d33cbf98", "Czym różni się Entity od Value Object ?" ),
+
+            CreateQuestion( "5bc813e3-f490-4f6e-98a9-e378c07a0d74", "Czym jest Continous Integration ?" ),
+            CreateQuestion( "5bc813e3-f490-4f6e-98a9-e378c07a0d74", "Czym jest Continous Delivery / Deployment ?" ),
+            CreateQuestion( "5bc813e3-f490-4f6e-98a9-e378c07a0d74", "Czy wykorzystywałeś CI / CD w projekcie ? Jakich technologii użyłeś ?" ),
+            CreateQuestion( "5bc813e3-f490-4f6e-98a9-e378c07a0d74", "Wymień poszczególne kroki CD ? Jak wyglądał Pipeline ?" ),
+            CreateQuestion( "5bc813e3-f490-4f6e-98a9-e378c07a0d74", "Jak dostać się do kodu źródłowego biblioteki ? Czy korzystałeś z dekompilatorów ? Jakich ?" ),
+            CreateQuestion( "5bc813e3-f490-4f6e-98a9-e378c07a0d74", "Czy miałeś do czynienia z Elastic Search i Kibaną ?" ),
+            CreateQuestion( "5bc813e3-f490-4f6e-98a9-e378c07a0d74", "Czy korzystałeś kiedyś z narzędzi telemetrycznych ?" ),
+            CreateQuestion( "5bc813e3-f490-4f6e-98a9-e378c07a0d74", "Czy tworzyłeś kiedyś diagramy UML np. przepływów, use cases itp ?" ),
+
+            CreateQuestion( "f7e9ae2a-33e6-486c-b00c-7fde72c4f2ef", "Jakie znasz narzędzia do wersjonowania kodu źródłowego ? Czym jest CVS, SVN, GIT, TFVC ?" ),
+            CreateQuestion( "f7e9ae2a-33e6-486c-b00c-7fde72c4f2ef", "Czym się różni GIT od TFVC ?" ),
+            CreateQuestion( "f7e9ae2a-33e6-486c-b00c-7fde72c4f2ef", "Czym jest branch ?" ),
+            CreateQuestion( "f7e9ae2a-33e6-486c-b00c-7fde72c4f2ef", "Jak merguje się branche ?" ),
+            CreateQuestion( "f7e9ae2a-33e6-486c-b00c-7fde72c4f2ef", "Jaka sytuacja może pojawić się, gdy na dwóch branch'ach zmieniany jest kod ?" ),
+            CreateQuestion( "f7e9ae2a-33e6-486c-b00c-7fde72c4f2ef", "Opisz poszczególne operacje systemu kontroli wersji GIT takie jak np. push, rebase" ),
+            CreateQuestion( "f7e9ae2a-33e6-486c-b00c-7fde72c4f2ef", "Jaka jest różnica między fetch a pull ?" ),
+            CreateQuestion( "f7e9ae2a-33e6-486c-b00c-7fde72c4f2ef", "Jaka jest różnica między rebase a merge ?" ),
+            CreateQuestion( "f7e9ae2a-33e6-486c-b00c-7fde72c4f2ef", "Czym jest cherry pick ?" ),
+            CreateQuestion( "f7e9ae2a-33e6-486c-b00c-7fde72c4f2ef", "Czym są submoduły w GIT ?" ),
+
+            CreateQuestion( "a5f70f89-5b51-408f-b336-90ff049a1b59", "Jak zaimplementować dziedziczenie w bazie danych ?" ),
+            CreateQuestion( "a5f70f89-5b51-408f-b336-90ff049a1b59", "Jakie są trzy sposoby na realizację dziedziczenia encji ?" ),
+            CreateQuestion( "a5f70f89-5b51-408f-b336-90ff049a1b59", "Jak uzyskać relację wiele do wielu w relacyjnej bazie danych ?" ),
+            CreateQuestion( "a5f70f89-5b51-408f-b336-90ff049a1b59", "Jak zrealizować relacje agregacji i kompozycji w bazie ?" ),
+            CreateQuestion( "a5f70f89-5b51-408f-b336-90ff049a1b59", "Z jakich technologii ORM korzystałeś ? Podaj wady i zalety poszczególnych." ),
+            CreateQuestion( "a5f70f89-5b51-408f-b336-90ff049a1b59", "Podaj różnice między EntityFramework i NHibernate ?" ),
+            CreateQuestion( "a5f70f89-5b51-408f-b336-90ff049a1b59", "Opisz blokowanie optymistyczne." ),
+            CreateQuestion( "a5f70f89-5b51-408f-b336-90ff049a1b59", "Opisz blokowanie pesymistyczne." ),
+            CreateQuestion( "a5f70f89-5b51-408f-b336-90ff049a1b59", "Na czym polega code-first ?" ),
+            CreateQuestion( "a5f70f89-5b51-408f-b336-90ff049a1b59", "Na czym polega database-first ?" ),
+            CreateQuestion( "a5f70f89-5b51-408f-b336-90ff049a1b59", "Czym różni się code-first od database-first ? Które z rozwiązań wykorzystywałeś ? Które preferujesz i dlaczego ?" ),
+
+            CreateQuestion( "12d9bda6-2b20-4876-ab72-51498913f01a", "Czy korzystałeś kiedyś z kontenerów Docker'owych ? Jak działają ?" ),
+            CreateQuestion( "12d9bda6-2b20-4876-ab72-51498913f01a", "Czym jest Load Balancing ?" ),
+            CreateQuestion( "12d9bda6-2b20-4876-ab72-51498913f01a", "Jak na poziomie infrastruktury poprawić działanie wolno działającego serwisu ?" ),
+            CreateQuestion( "12d9bda6-2b20-4876-ab72-51498913f01a", "Czym jest Chmura ? Jakie znasz rozwiązania ? Czy masz z tym doświadczenie ?" ),
+            CreateQuestion( "12d9bda6-2b20-4876-ab72-51498913f01a", "Jakie usługi dostarcza AzureS i Azure DevOps ?" ),
+            CreateQuestion( "12d9bda6-2b20-4876-ab72-51498913f01a", "Czym jest IoT ?" ),
+
+            CreateQuestion( "273643d2-b005-4a1f-83ff-9ce823c4b418", "Czym jest HTTP ?" ),
+            CreateQuestion( "273643d2-b005-4a1f-83ff-9ce823c4b418", "Czy HTTP jest stanowy ?" ),
+            CreateQuestion( "273643d2-b005-4a1f-83ff-9ce823c4b418", "Jak zasymulować stanowość HTTP ?" ),
+            CreateQuestion( "273643d2-b005-4a1f-83ff-9ce823c4b418", "Jak wygląda state management w .NET ?" ),
+            CreateQuestion( "273643d2-b005-4a1f-83ff-9ce823c4b418", "Jakie znasz metody HTTP ? Opisz." ),
+            CreateQuestion( "273643d2-b005-4a1f-83ff-9ce823c4b418", "Które z podanych to metody HTTP (get, post, put, patch, insert, update, input, delete) ?" ),
+            CreateQuestion( "273643d2-b005-4a1f-83ff-9ce823c4b418", "Czym się różni POST / GET / PUT ? Jak przekazywane są atrybuty do tych metod ?" ),
+            CreateQuestion( "273643d2-b005-4a1f-83ff-9ce823c4b418", "Co zawiera ramka HTTP ?" ),
+            CreateQuestion( "273643d2-b005-4a1f-83ff-9ce823c4b418", "Podejście wywołania GET w rezultacie wywolania PUT. Dlaczego jest tak ważne ?" ),
+            CreateQuestion( "273643d2-b005-4a1f-83ff-9ce823c4b418", "Wymień kody błędów HTTP ew. grupy kodów  ?" ),
+            CreateQuestion( "273643d2-b005-4a1f-83ff-9ce823c4b418", "Czym różnią się szyfrowania symetryczne od asymetrycznych ? Podaj przykłady algorytmów i protokołów, które są na nich oparte." ),
+
+            CreateQuestion( "e04edc71-f477-4ca6-9482-2a019bd8d5e9", "Kiedy w REST wywoływana jest autoryzacja ?" ),
+            CreateQuestion( "e04edc71-f477-4ca6-9482-2a019bd8d5e9", "Jak w REST można wpływać na domyślny parser JSONa ?" ),
+            CreateQuestion( "e04edc71-f477-4ca6-9482-2a019bd8d5e9", "Jak działa parsowanie ?" ),
+            CreateQuestion( "e04edc71-f477-4ca6-9482-2a019bd8d5e9", "Czym jest SOA ?" ),
+            CreateQuestion( "e04edc71-f477-4ca6-9482-2a019bd8d5e9", "Opisz podejście mikroserwisowe. Jakie mają zalety ?" ),
+            CreateQuestion( "e04edc71-f477-4ca6-9482-2a019bd8d5e9", "Jaka jest różnica między SOA a mikroserwisami ?" ),
+            CreateQuestion( "e04edc71-f477-4ca6-9482-2a019bd8d5e9", "Czym jest REST ?" ),
+            CreateQuestion( "e04edc71-f477-4ca6-9482-2a019bd8d5e9", "Czym jest SOAP ?" ),
+            CreateQuestion( "e04edc71-f477-4ca6-9482-2a019bd8d5e9", "Jaka jest różnica między REST a SOAP ?" ),
+            CreateQuestion( "e04edc71-f477-4ca6-9482-2a019bd8d5e9", "Czy REST realizowany jest tylko z pomocą protokołu HTTP ?" ),
+            CreateQuestion( "e04edc71-f477-4ca6-9482-2a019bd8d5e9", "Z jakimi problemami możemy spotkać się w przypadku RESTa ? Czy to zastosowanie nadaje się np. dla banków ?" ),
+            CreateQuestion( "e04edc71-f477-4ca6-9482-2a019bd8d5e9", "Jak wygląda obsługa zapytania i odpowiedzi w przypadku REST ? Opisz poszczególne operacje." ),
+            CreateQuestion( "e04edc71-f477-4ca6-9482-2a019bd8d5e9", "Jak działa pipeline wywołania dla REST?" ),
+            CreateQuestion( "e04edc71-f477-4ca6-9482-2a019bd8d5e9", "Jak wygląda flow zapytanie-odpowiedź dla REST ? Kiedy i jak odbywa się autoryzacja ? Jak działa parsowanie ? Jak można wpływać na domyślny parser jsona ?" ),
+            CreateQuestion( "e04edc71-f477-4ca6-9482-2a019bd8d5e9", "Czym jest bindowanie ?" ),
+            CreateQuestion( "e04edc71-f477-4ca6-9482-2a019bd8d5e9", "Jakie są kolejne działania przy bindowaniu w REST ?" ),
+            CreateQuestion( "e04edc71-f477-4ca6-9482-2a019bd8d5e9", "Jakie zasady spełnia dobrze zaprojektowane URI ?" ),
+
+            CreateQuestion( "995f25e7-5cb8-4b3e-a6bb-cd125857a332", "Czym jest autentykacja ?" ),
+            CreateQuestion( "995f25e7-5cb8-4b3e-a6bb-cd125857a332", "Czym jest autoryzacja ?" ),
+            CreateQuestion( "995f25e7-5cb8-4b3e-a6bb-cd125857a332", "Jakie rodzaje autoryzacji znasz ? Jakie implementowałeś ?" ),
+            CreateQuestion( "995f25e7-5cb8-4b3e-a6bb-cd125857a332", "Jak działa oAuth 2 ?" ),
+            CreateQuestion( "995f25e7-5cb8-4b3e-a6bb-cd125857a332", "Czym jest token ? Co zawiera i na co pozwala ?" ),
+            CreateQuestion( "995f25e7-5cb8-4b3e-a6bb-cd125857a332", "Wymień i opisz różne typy tokenów w tym czas ich życia." ),
+            CreateQuestion( "995f25e7-5cb8-4b3e-a6bb-cd125857a332", "Co to jest reference token ?" ),
+            CreateQuestion( "995f25e7-5cb8-4b3e-a6bb-cd125857a332", "Jak przekazywany jest token ? Jak to związane jest z zawartością ramki HTTP ?" ),
+            CreateQuestion( "995f25e7-5cb8-4b3e-a6bb-cd125857a332", "Czym są Claimsy ? Coś o ich przesyłaniu ?" ),
+            CreateQuestion( "995f25e7-5cb8-4b3e-a6bb-cd125857a332", "Czym jest mutual TLS ?" ),
 
             CreateQuestion( "0a07f758-355f-4796-8ab4-f5a34cfca181", "Czym jest wielowątkowość ?" ),
             CreateQuestion( "0a07f758-355f-4796-8ab4-f5a34cfca181", "W jakich sytuacjach warto zastosować wielowątkowość a w jakich nie ? Z jakimi problemami wiąże się takie podejście ?" ),
@@ -199,7 +348,130 @@ internal static class ModelBuilderExtensions
             CreateQuestion( "caa6e3b0-8e5a-4bd2-b36d-3114201e7be1", "Czym są interfejsy IEnumerable oraz IQueryable ?" ),
             CreateQuestion( "caa6e3b0-8e5a-4bd2-b36d-3114201e7be1", "Czym różnią się od siebie IEnumerable od IQueryable ?" ),
             CreateQuestion( "caa6e3b0-8e5a-4bd2-b36d-3114201e7be1", "Co się stanie po wywołaniu np. query.ToArray().Skip(20) w przypadku IEnumerable i IQueryable ?" ),
-            CreateQuestion( "caa6e3b0-8e5a-4bd2-b36d-3114201e7be1", "Jak działa wykonywanie operacji Ling na IEnumerable ? Czy wykonywana jest operacja yield ? Na co to wpływa ?" )
+            CreateQuestion( "caa6e3b0-8e5a-4bd2-b36d-3114201e7be1", "Jak działa wykonywanie operacji Ling na IEnumerable ? Czy wykonywana jest operacja yield ? Na co to wpływa ?" ),
+
+            CreateQuestion( "d3157372-95f8-4b34-a836-2538a87162c3", "Czym są filtry w WebAPI i MVC." ),
+            CreateQuestion( "d3157372-95f8-4b34-a836-2538a87162c3", "Czym jest WebAPI ?" ),
+            CreateQuestion( "d3157372-95f8-4b34-a836-2538a87162c3", "Napisz przykładowy kontroler WebAPI." ),
+            CreateQuestion( "d3157372-95f8-4b34-a836-2538a87162c3", "Jak można zaimplementować skalowalną architekturę ? Co jest kluczowe w API ?" ),
+            CreateQuestion( "d3157372-95f8-4b34-a836-2538a87162c3", "Do czego służy WebHostBuilder ?" ),
+            CreateQuestion( "d3157372-95f8-4b34-a836-2538a87162c3", "Czym są middleware ?" ),
+            CreateQuestion( "d3157372-95f8-4b34-a836-2538a87162c3", "Jak globalnie dla usług ustawić mechanizm pobierania odpowiedniego zasobu języka, czyli .resx w danym języku ?" ),
+            CreateQuestion( "d3157372-95f8-4b34-a836-2538a87162c3", "Jak ustawić CultureInfo dla głównego wątku ?" ),
+
+            CreateQuestion( "209537e5-fdc0-4a4c-8c4b-851021855c53", "Jak działa routing w .Net MVC ?" ),
+            CreateQuestion( "209537e5-fdc0-4a4c-8c4b-851021855c53", "Co się stanie, gdy jeden routing naprowadza na dwie różne akcje ?" ),
+            CreateQuestion( "209537e5-fdc0-4a4c-8c4b-851021855c53", "Co robi atrybut UIHint ?" ),
+            CreateQuestion( "209537e5-fdc0-4a4c-8c4b-851021855c53", "Co robi atrybut FromUri ?" ),
+            CreateQuestion( "209537e5-fdc0-4a4c-8c4b-851021855c53", "Co posiada typowy kontroler MVC ? Jakie można nadać atrybuty? Jakie posiada akcje i co one zwracają ?" ),
+            CreateQuestion( "209537e5-fdc0-4a4c-8c4b-851021855c53", "Czym w budowie różni się partial od widoku i jak to się ma do layoutu ?" ),
+
+            CreateQuestion( "a483b653-422d-41bb-a2ba-c8793bf1cd6d", "Czym jest WCF ?" ),
+            CreateQuestion( "a483b653-422d-41bb-a2ba-c8793bf1cd6d", "Co to jest WCF ABC ?" ),
+
+            CreateQuestion( "b74d05ea-7d83-4989-b1c5-a28d0a0af4d3", "Jakie rodzaje kolekcji występują w ADO.Net ?" ),
+            CreateQuestion( "b74d05ea-7d83-4989-b1c5-a28d0a0af4d3", "Czym różnią się DataTables, DataViews, DataSets ?" ),
+
+            CreateQuestion( "7cab840f-a28a-4681-a294-6c13d4441221", "Czym jest complex type w EF?" ),
+            CreateQuestion( "7cab840f-a28a-4681-a294-6c13d4441221", "Jakie są zalety i wady generycznych repozytoriów ? Jak można zaradzić wadom ?" ),
+            CreateQuestion( "7cab840f-a28a-4681-a294-6c13d4441221", "Jak zastosujesz EF Projects ?" ),
+            CreateQuestion( "7cab840f-a28a-4681-a294-6c13d4441221", "Stworzyć repozytorium z kontekstem. Przprowadzić operacje pobrania i zapisania danych." ),
+            CreateQuestion( "7cab840f-a28a-4681-a294-6c13d4441221", "Jakie są rodzaje konfiguracji w Entity Framework ?" ),
+            CreateQuestion( "7cab840f-a28a-4681-a294-6c13d4441221", "Jaka jest domyślna konfiguracja w Entity Framework ?" ),
+            CreateQuestion( "7cab840f-a28a-4681-a294-6c13d4441221", "Która konfiguracja jest brana pod uwagę jako nadrzędna ?" ),
+            CreateQuestion( "7cab840f-a28a-4681-a294-6c13d4441221", "Czym jest lazy loading?" ),
+            CreateQuestion( "7cab840f-a28a-4681-a294-6c13d4441221", "Czym jest eager loading ?" ),
+            CreateQuestion( "7cab840f-a28a-4681-a294-6c13d4441221", "Która konfiguracja jest domyślna eager czy lazy ?" ),
+            CreateQuestion( "7cab840f-a28a-4681-a294-6c13d4441221", "Jakie ryzyko związane jest z lazy loadingiem ?" ),
+            CreateQuestion( "7cab840f-a28a-4681-a294-6c13d4441221", "Czym jest problem n+1 i czy dotyczy to Lazy Loadingu ?" ),
+            CreateQuestion( "7cab840f-a28a-4681-a294-6c13d4441221", "Mają wywołanie w pętli obiektu uruchamiającego lazy loading, jak to zmienić aby było wykonane pojedynczym zapytaniem ?" ),
+            CreateQuestion( "7cab840f-a28a-4681-a294-6c13d4441221", "Jak realizuje się wersjonowanie w EF ?" ),
+            CreateQuestion( "7cab840f-a28a-4681-a294-6c13d4441221", "Jakie są podejścia do definiowania struktur danych w EF (3 może 5, jak w poniższych pytaniach)?" ),
+            CreateQuestion( "7cab840f-a28a-4681-a294-6c13d4441221", "Jak wygląda definiowanie tabel w .edmx ?" ),
+            CreateQuestion( "7cab840f-a28a-4681-a294-6c13d4441221", "Czym jest tracking w EF ? Jak działa ?" ),
+            CreateQuestion( "7cab840f-a28a-4681-a294-6c13d4441221", "Czym różni się First od Single ?" ),
+            CreateQuestion( "7cab840f-a28a-4681-a294-6c13d4441221", "Jak działa SelectMany ?" ),
+            CreateQuestion( "7cab840f-a28a-4681-a294-6c13d4441221", "Jak implementuje się HAVING w EF/LINQ ?" ),
+            CreateQuestion( "7cab840f-a28a-4681-a294-6c13d4441221", "Mamy kawałek kodu. Kolekcja \"lista\" zawiera duplikaty. Co wyświetli operacja ?" ),
+            CreateQuestion( "7cab840f-a28a-4681-a294-6c13d4441221", "Jak można zbadać problemy wydajnościowe z EF ?" ),
+            CreateQuestion( "7cab840f-a28a-4681-a294-6c13d4441221", "Jak testować zapytania EF ?" ),
+            CreateQuestion( "7cab840f-a28a-4681-a294-6c13d4441221", "Jak można podać wartości domyślne dla metod ?" ),
+            CreateQuestion( "7cab840f-a28a-4681-a294-6c13d4441221", "Czy DbContext jest thread safe ?" ),
+            
+            CreateQuestion( "4f6935de-3749-4151-a94f-172f9cd2b582", "Czym jest zasada ACID ?" ),
+            CreateQuestion( "4f6935de-3749-4151-a94f-172f9cd2b582", "Jakie są 4 poziomy izolacji transakcji ?" ),
+            CreateQuestion( "4f6935de-3749-4151-a94f-172f9cd2b582", "Jak wygląda full scan i index scan tabeli ?" ),
+
+            CreateQuestion( "93f38474-2faa-4cc6-962e-1a91bd41ed1b", "Czym są profilery ? Jak działają ? Z jakich korzystałeś ?" ),
+            CreateQuestion( "93f38474-2faa-4cc6-962e-1a91bd41ed1b", "Jakie znasz języki SQL ? Z jakimi rozwiązaniami miałeś do czynienia ?" ),
+            CreateQuestion( "93f38474-2faa-4cc6-962e-1a91bd41ed1b", "Czym są bazy noSQL ? Jak działają ? Z jakich rozwiązań korzystałeś ?" ),
+            CreateQuestion( "93f38474-2faa-4cc6-962e-1a91bd41ed1b", "Czym różnią się bazy SQL od noSQL ?" ),
+
+            CreateQuestion( "12300f34-a179-429c-859b-aa587001a67c", "Czym się różni WHERE od HAVING ?" ),
+            CreateQuestion( "12300f34-a179-429c-859b-aa587001a67c", "Opisz instrukcję Having." ),
+            CreateQuestion( "12300f34-a179-429c-859b-aa587001a67c", "Jakiego typu znakowego użyłbyś do tekstu z różnymi międzynarodowymi znakami ?" ),
+            CreateQuestion( "12300f34-a179-429c-859b-aa587001a67c", "Jak dodać sprawdzenie do kolumny np. wstawiana wartość ma być mniejsza od 1000 (check albo trigger)?" ),
+            CreateQuestion( "12300f34-a179-429c-859b-aa587001a67c", "Co zrobić żeby zapewnić unikatowość danych w kolumnie ?" ),
+            CreateQuestion( "12300f34-a179-429c-859b-aa587001a67c", "Czym są klucz główny i klucz obcy ?" ),
+            CreateQuestion( "12300f34-a179-429c-859b-aa587001a67c", "Czym są i czym się różnią UNION od UNION ALL ?" ),
+            CreateQuestion( "12300f34-a179-429c-859b-aa587001a67c", "Jakie znasz rodzaje JOINów ?" ),
+            CreateQuestion( "12300f34-a179-429c-859b-aa587001a67c", "Czym różni się INNER JOIN od OUTER JOIN ?" ),
+            CreateQuestion( "12300f34-a179-429c-859b-aa587001a67c", "Czym jest transakcja ?" ),
+            CreateQuestion( "12300f34-a179-429c-859b-aa587001a67c", "Czym jest sekwencja np. w PL/SQL ?" ),
+            CreateQuestion( "12300f34-a179-429c-859b-aa587001a67c", "Czym różnią się procedury SQL od funkcji ?" ),
+            
+            CreateQuestion( "97208387-3936-4b0a-bfc6-cf8fdaa9b772", "Czym są ideksy i jak działają ?" ),
+            CreateQuestion( "97208387-3936-4b0a-bfc6-cf8fdaa9b772", "Jakie znasz rodzaje indeksów ?" ),
+            CreateQuestion( "97208387-3936-4b0a-bfc6-cf8fdaa9b772", "Czym różni się indeks klastrowy od nieklastrowego ?" ),
+            CreateQuestion( "97208387-3936-4b0a-bfc6-cf8fdaa9b772", "Jak zbudowane są poszczególne indeksy ?" ),
+            CreateQuestion( "97208387-3936-4b0a-bfc6-cf8fdaa9b772", "Co przyspieszają indeksy a co spowalniają ?" ),
+            CreateQuestion( "97208387-3936-4b0a-bfc6-cf8fdaa9b772", "Kiedy indeks nie zadziała ?" ),
+
+            CreateQuestion( "fc2f8cc9-1024-42eb-a1c7-df1270090675", "Czym różni się var / let / const ?" ),
+            CreateQuestion( "fc2f8cc9-1024-42eb-a1c7-df1270090675", "Do czego odwołuje się instrukcja this ?" ),
+            CreateQuestion( "fc2f8cc9-1024-42eb-a1c7-df1270090675", "Czym jest bubbling eventów ?" ),
+            CreateQuestion( "fc2f8cc9-1024-42eb-a1c7-df1270090675", "Czym jest DOM ?" ),
+            CreateQuestion( "fc2f8cc9-1024-42eb-a1c7-df1270090675", "Czym jest AJAX ? Jakie technologie wchodzą w jego skład ?" ),
+            CreateQuestion( "fc2f8cc9-1024-42eb-a1c7-df1270090675", "Jak można optymalizować DOM w przypadkach responsywnych ?" ),
+            CreateQuestion( "fc2f8cc9-1024-42eb-a1c7-df1270090675", "Jak osiąga się responsywność w bootstrapie ?" ),
+            CreateQuestion( "fc2f8cc9-1024-42eb-a1c7-df1270090675", "Jaka jest różnica między JS a TS ?" ),
+            CreateQuestion( "fc2f8cc9-1024-42eb-a1c7-df1270090675", "Wymień wszystkie możliwości zapisu document.ready ." ),
+            CreateQuestion( "fc2f8cc9-1024-42eb-a1c7-df1270090675", "Czym różni się instrukcja przyrównania == od === ?" ),
+            CreateQuestion( "fc2f8cc9-1024-42eb-a1c7-df1270090675", "Co wyświetli for(var i in lista) console.log() (zwrócić uwagę na znaki nowej linii) ?" ),
+            CreateQuestion( "fc2f8cc9-1024-42eb-a1c7-df1270090675", "Czym różni się wartość null / undefined / undeclared ?" ),
+
+            CreateQuestion( "cd173f96-0533-4be8-bdfc-d58cdb9579d0", "Jak wywołujemy zapytania asynchroniczne po stronie klienta ?" ),
+            CreateQuestion( "cd173f96-0533-4be8-bdfc-d58cdb9579d0", "Czym różni się Promise od Observable ? Co jest wydajniejsze ?" ),
+            CreateQuestion( "cd173f96-0533-4be8-bdfc-d58cdb9579d0", "Czym jest Observable ?" ),
+            CreateQuestion( "cd173f96-0533-4be8-bdfc-d58cdb9579d0", "Czym jest Promise ?" ),
+            CreateQuestion( "cd173f96-0533-4be8-bdfc-d58cdb9579d0", "Ilu wątkowy jest JS ?" ),
+
+            CreateQuestion( "b4b43c3d-7373-4799-89ff-f79f6c213f98", "Jak można przechować zmienną w Angularze ?" ),
+            CreateQuestion( "b4b43c3d-7373-4799-89ff-f79f6c213f98", "Co wykona się pierwsze: konstruktor czy metoda OnInit ?" ),
+            CreateQuestion( "b4b43c3d-7373-4799-89ff-f79f6c213f98", "Czym różni się setValue od patchValue ?" ),
+            CreateQuestion( "b4b43c3d-7373-4799-89ff-f79f6c213f98", "Jak osiągnąć uwierzytelnianie na poziomie Angulara ?" ),
+            CreateQuestion( "b4b43c3d-7373-4799-89ff-f79f6c213f98", "Czym jest Auth Guard  ? Jak działa ? Z czego się składa ?" ),
+            CreateQuestion( "b4b43c3d-7373-4799-89ff-f79f6c213f98", "Jak działa routing w Angularze ?" ),
+            CreateQuestion( "b4b43c3d-7373-4799-89ff-f79f6c213f98", "Jak działają serwisy w Angularze ?" ),
+            CreateQuestion( "b4b43c3d-7373-4799-89ff-f79f6c213f98", "Wymień i opisz modyfikatory w serwisach Angularowych np. Inject ?" ),
+            CreateQuestion( "b4b43c3d-7373-4799-89ff-f79f6c213f98", "Jaką funkcję wywołujesz jeśli chcesz przefiltrować dane ? Którą z nich : pipe, filter, search itp. ?" ),
+
+            CreateQuestion( "0795a628-69e2-411b-bbc9-eb805f9fe72d", "Jakie są trzy metody dodania CCS-a do strony ? Opisz wady i zalety każdej z nich." ),
+            CreateQuestion( "0795a628-69e2-411b-bbc9-eb805f9fe72d", "Czym są zapytania o media CSS i do czego się je wykorzystuje ?" ),
+            CreateQuestion( "0795a628-69e2-411b-bbc9-eb805f9fe72d", "Czym jest CSS preprocessor ? Korzystałeś kiedyś z tego ?" ),
+            CreateQuestion( "0795a628-69e2-411b-bbc9-eb805f9fe72d", "Zbiór Upwork", "https://www.upwork.com/hire/css-developers/interview-questions/" ),
+            CreateQuestion( "0795a628-69e2-411b-bbc9-eb805f9fe72d", "Czym jest flexbox ?" ),
+            CreateQuestion( "0795a628-69e2-411b-bbc9-eb805f9fe72d", "Czym jest Media Query ?" ),
+
+            CreateQuestion( "347e971f-8443-4dfd-aadd-36a06c4d5bf2", "Jak wylistować w linuxie : pliki, foldery, procesy ?" )
+        );
+
+
+        modelBuilder.Entity<OfferEntity>().HasData(
+            CreateOffer( "Technical Architect", "Objectivity", "https://justjoin.it/offers/objectivity-technical-architect-azure-and-net-warszawa", OfferStatus.New, "Nowa" ),
+            CreateOffer( ".NET Developer", "appsgarden", "https://justjoin.it/offers/appsgarden-net-developer-warszawa", OfferStatus.Sent, "Ciekawa" ),
+            CreateOffer( "Engineering Manager", "Sea", "https://justjoin.it/offers/sea-engineering-manager-warszawa", OfferStatus.Rejected, "Pozycja" ),
+            CreateOffer( "Software Engineer", "Octavawe", "https://justjoin.it/offers/oktawave-software-engineer", OfferStatus.Accepted, "Wygląda ciekawie" )
         );
     }
 
@@ -225,5 +497,20 @@ internal static class ModelBuilderExtensions
             Description = description,
             CategoryId = Guid.Parse( categoryId )
         };
-    
+
+    private static OfferEntity CreateOffer( string name, string companyName, string link, OfferStatus status, string? description )
+        => new()
+        {
+            Id = Guid.NewGuid(),
+            CreatedBy = Guid.Empty,
+            CreatedOn = DateTimeOffset.Now,
+            ModifiedBy = Guid.Empty,
+            ModifiedOn = DateTimeOffset.Now,
+            Name = name,
+            CompanyName = companyName,
+            Link = link,
+            Status = status,
+            Description = description
+        };
+
 }

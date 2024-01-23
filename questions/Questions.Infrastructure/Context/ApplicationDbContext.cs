@@ -10,6 +10,8 @@ public class ApplicationDbContext( DbContextOptions<ApplicationDbContext> option
 
     public virtual DbSet<CategoryEntity> Categories { get; init; }
 
+    public virtual DbSet<OfferEntity> Offers { get; init; }
+
     protected override void OnModelCreating( ModelBuilder modelBuilder )
     {
         modelBuilder.SeedData();

@@ -33,6 +33,7 @@ app.UseExceptionHandler();
 
 app.MapCategoryEndpoints();
 app.MapQuestionEndpoints();
+app.MapOfferEndpoints();
 
 app.Services.MigrateDatabase();
 

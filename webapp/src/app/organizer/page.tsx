@@ -1,19 +1,13 @@
 "use client";
 
+import Organizer from "@/components/organizer/Organizer";
 import { type Props } from "@/models/props";
-import { Typography, styled } from "@mui/material";
+import { OidcSecure } from "@axa-fr/react-oidc";
 
-const Organizer = ({ className }: Props) => (
-  <div className={className}>
-    <Typography>Organizer</Typography>
-  </div>
+const OrganizerPage = ({ className }: Props) => (
+  <OidcSecure>
+    <Organizer className={className} />
+  </OidcSecure>
 );
 
-export default styled(Organizer)`
-  & {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-`;
+export default OrganizerPage;

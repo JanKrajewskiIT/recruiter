@@ -14,29 +14,36 @@ import { BsDiagram3Fill, BsPersonFillCheck } from "react-icons/bs";
 import { CiCircleList } from "react-icons/ci";
 import { MdOutlineDisabledByDefault } from "react-icons/md";
 import {
+  SiAngular,
   SiCsharp,
   SiCss3,
   SiDotnet,
   SiHtml5,
+  SiJavascript,
+  SiLinux,
   SiMysql,
   SiReact,
   SiTypescript,
 } from "react-icons/si";
-import { VscServerProcess } from "react-icons/vsc";
+import { VscOrganization, VscServerProcess } from "react-icons/vsc";
 
 const Icons: Record<string, IconType> = {
-  CiCircleList,
-  BsPersonFillCheck,
   BsDiagram3Fill,
-  VscServerProcess,
+  BsPersonFillCheck,
+  CiCircleList,
+  MdOutlineDisabledByDefault,
+  SiAngular,
   SiCsharp,
+  SiCss3,
   SiDotnet,
+  SiHtml5,
+  SiJavascript,
+  SiLinux,
   SiMysql,
   SiReact,
   SiTypescript,
-  SiCss3,
-  SiHtml5,
-  MdOutlineDisabledByDefault,
+  VscOrganization,
+  VscServerProcess,
 };
 
 const Categories = ({ className }: Props) => {
@@ -103,6 +110,7 @@ export default styled(Categories)`
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 100%;
 
     .categories,
@@ -111,11 +119,12 @@ export default styled(Categories)`
     }
 
     .child-categories {
-      width: 100%;
       display: flex;
+      flex-direction: row;
+      align-items: center;
       justify-content: center;
 
-      > * {
+      > div {
         margin-right: 4px;
       }
     }
