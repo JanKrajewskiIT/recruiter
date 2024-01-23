@@ -5,7 +5,7 @@ using Questions.Infrastructure.Context;
 
 namespace Questions.Application.Queries;
 
-internal class GetOffersQueryHandler( ApplicationDbContext dbContext ) : IRequestHandler<GetOffersQuery, IEnumerable<Offer>>
+internal sealed class GetOffersQueryHandler( ApplicationDbContext dbContext ) : IRequestHandler<GetOffersQuery, IEnumerable<Offer>>
 {
     public async Task<IEnumerable<Offer>> Handle( GetOffersQuery request, CancellationToken cancellationToken )
     {
@@ -14,7 +14,7 @@ internal class GetOffersQueryHandler( ApplicationDbContext dbContext ) : IReques
             .ToListAsync( cancellationToken );
 
         return questions
-            .Select( x => new Offer( x.Name, x.CompanyName, x.Link, x.Description ) )
+            .Select( x => new Offer( x.Id, x.Name, x.Link, x.Company, x.City, x.Description ) )
             .ToList();
     }
 }

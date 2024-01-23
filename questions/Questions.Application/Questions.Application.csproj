@@ -16,8 +16,4 @@
     <ProjectReference Include="..\Questions.Infrastructure\Questions.Infrastructure.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Command\" />
-  </ItemGroup>
-
 </Project>

@@ -17,11 +17,15 @@ internal sealed class OfferConfiguration : IEntityTypeConfiguration<OfferEntity>
             .HasMaxLength( DataTypeConsts.NameLength )
             .IsRequired();
 
-        builder.Property( e => e.CompanyName )
+        builder.Property( e => e.Link )
             .HasMaxLength( DataTypeConsts.NameLength )
             .IsRequired();
 
-        builder.Property( e => e.Link )
+        builder.Property( e => e.Company )
+            .HasMaxLength( DataTypeConsts.NameLength )
+            .IsRequired();
+
+        builder.Property( e => e.City )
             .HasMaxLength( DataTypeConsts.NameLength )
             .IsRequired();
 

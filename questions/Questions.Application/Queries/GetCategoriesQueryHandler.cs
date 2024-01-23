@@ -6,7 +6,7 @@ using Questions.Infrastructure.Context;
 
 namespace Questions.Application.Queries;
 
-internal class GetCategoriesQueryHandler( ApplicationDbContext dbContext ) : IRequestHandler<GetCategoriesQuery, IEnumerable<Category>>
+internal sealed class GetCategoriesQueryHandler( ApplicationDbContext dbContext ) : IRequestHandler<GetCategoriesQuery, IEnumerable<Category>>
 {
     public async Task<IEnumerable<Category>> Handle( GetCategoriesQuery request, CancellationToken cancellationToken )
     {

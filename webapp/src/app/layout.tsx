@@ -7,6 +7,7 @@ import "../styles/globals.css";
 import ThemeRegistry from "@/components/theme/ThemeRegistry";
 import NextAuthProvider from "@/components/auth/NextAuthProvider";
 import { Container } from "@mui/material";
+import { JotaiProvider } from "@/store/JotaiProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,10 +21,12 @@ const RootLayout = ({ children }: PropsWithChildren) => (
     <body className={inter.className}>
       <ThemeRegistry>
         <NextAuthProvider>
-          <NavBar />
-          <main>
-            <Container>{children}</Container>
-          </main>
+          <JotaiProvider>
+            <NavBar />
+            <main>
+              <Container>{children}</Container>
+            </main>
+          </JotaiProvider>
         </NextAuthProvider>
       </ThemeRegistry>
     </body>

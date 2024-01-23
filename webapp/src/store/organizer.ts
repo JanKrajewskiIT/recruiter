@@ -1,10 +1,13 @@
 import { atom } from "jotai";
 import { atomWithQuery } from "jotai-tanstack-query";
+import { useMutation, useQueryClient } from "@tanstack/react-query";
 
 export interface Offer {
+  id: string;
   name: string;
-  companyName: string;
   link: string;
+  company: string;
+  city: string;
   description: string | null;
 }
 
@@ -20,7 +23,7 @@ export const offerStatusesAtom = atomWithQuery<string[]>(() => ({
   },
 }));
 
-export const ordersAtom = atomWithQuery<Offer[]>((get) => ({
+export const offersAtom = atomWithQuery<Offer[]>((get) => ({
   queryKey: ["offers", get(selectedStatus)],
   queryFn: async ({ queryKey: [, section] }) => {
     if (section) {
@@ -34,3 +37,22 @@ export const ordersAtom = atomWithQuery<Offer[]>((get) => ({
     return [];
   },
 }));
+
+export const useOffersMutation = () => {
+  const queryClient = useQueryClient();
+
+  return useMutation({
+    mutationKey: ["addOffer"],
+    mutationFn: async (offer: Offer) => {
+      const result = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/offers`, {
+        method: "POST",
+        headers: { "Content-type": "application/json; charset=UTF-8" },
+        body: JSON.stringify(offer),
+      });
+
+      await queryClient.invalidateQueries({ queryKey: ["offers"] });
+
+      return await result.json();
+    },
+  });
+};

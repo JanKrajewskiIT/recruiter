@@ -465,14 +465,6 @@ internal static class ModelBuilderExtensions
 
             CreateQuestion( "347e971f-8443-4dfd-aadd-36a06c4d5bf2", "Jak wylistować w linuxie : pliki, foldery, procesy ?" )
         );
-
-
-        modelBuilder.Entity<OfferEntity>().HasData(
-            CreateOffer( "Technical Architect", "Objectivity", "https://justjoin.it/offers/objectivity-technical-architect-azure-and-net-warszawa", OfferStatus.New, "Nowa" ),
-            CreateOffer( ".NET Developer", "appsgarden", "https://justjoin.it/offers/appsgarden-net-developer-warszawa", OfferStatus.Sent, "Ciekawa" ),
-            CreateOffer( "Engineering Manager", "Sea", "https://justjoin.it/offers/sea-engineering-manager-warszawa", OfferStatus.Rejected, "Pozycja" ),
-            CreateOffer( "Software Engineer", "Octavawe", "https://justjoin.it/offers/oktawave-software-engineer", OfferStatus.Accepted, "Wygląda ciekawie" )
-        );
     }
 
     private static CategoryEntity CreateCategory( string id, string name, string iconName, int order, string? parentId = null)
@@ -496,21 +488,6 @@ internal static class ModelBuilderExtensions
             Name = name,
             Description = description,
             CategoryId = Guid.Parse( categoryId )
-        };
-
-    private static OfferEntity CreateOffer( string name, string companyName, string link, OfferStatus status, string? description )
-        => new()
-        {
-            Id = Guid.NewGuid(),
-            CreatedBy = Guid.Empty,
-            CreatedOn = DateTimeOffset.Now,
-            ModifiedBy = Guid.Empty,
-            ModifiedOn = DateTimeOffset.Now,
-            Name = name,
-            CompanyName = companyName,
-            Link = link,
-            Status = status,
-            Description = description
         };
 
 }

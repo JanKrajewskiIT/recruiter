@@ -5,7 +5,7 @@ using Questions.Infrastructure.Context;
 
 namespace Questions.Application.Queries;
 
-internal class GetQuestionsQueryHandler( ApplicationDbContext dbContext ) : IRequestHandler<GetQuestionsQuery, IEnumerable<Question>>
+internal sealed class GetQuestionsQueryHandler( ApplicationDbContext dbContext ) : IRequestHandler<GetQuestionsQuery, IEnumerable<Question>>
 {
     public async Task<IEnumerable<Question>> Handle( GetQuestionsQuery request, CancellationToken cancellationToken )
     {
