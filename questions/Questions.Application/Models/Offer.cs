@@ -2,8 +2,8 @@
 
 public record Offer(
     Guid Id,
-    string Name, 
+    string Name,
     string Link,
     string Company,
     string City,
-    string? Description);
+    string? Description );

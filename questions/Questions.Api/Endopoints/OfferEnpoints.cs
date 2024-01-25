@@ -1,5 +1,4 @@
 ﻿using MediatR;
-using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Mvc;
 using Questions.Application.Command;
 using Questions.Application.Models;
@@ -20,12 +19,21 @@ internal static class OfferEndpoints
         group.MapGet( "/statuses", () => Enum.GetNames<OfferStatus>() )
             .WithName( "GetOfferStatuses" );
 
-        group.MapGet( "/", async ( [FromQuery] OfferStatus status, IMediator mediator ) => 
+        group.MapGet( "/", async ( [FromQuery] OfferStatus status, IMediator mediator ) =>
                 await mediator.Send( new GetOffersQuery( status ) ) )
             .WithName( "GetOffers" );
 
         group.MapPost( "/", async ( Offer offer, IMediator mediator ) =>
-            await mediator.Publish( new AddOfferCommand( offer ) ) );
+                await mediator.Publish( new AddOfferCommand( offer ) ) )
+            .WithName( "AddOffer" );
+
+        group.MapPut( "/", async ( Offer offer, IMediator mediator ) =>
+                await mediator.Publish( new UpdateOfferCommand( offer ) ) )
+            .WithName( "UpdateOffer" );
+
+        group.MapDelete( "/{id}", async ( Guid id, IMediator mediator ) =>
+                await mediator.Publish( new DeleteOfferCommand( id ) ) )
+            .WithName( "DeleteOffer" );
 
         return app;
     }

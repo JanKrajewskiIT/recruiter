@@ -1,6 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Questions.Domain.Entities;
-using Questions.Domain.Enums;
 
 namespace Questions.Infrastructure.Context;
 
@@ -64,7 +63,7 @@ internal static class ModelBuilderExtensions
             CreateCategory( "93f38474-2faa-4cc6-962e-1a91bd41ed1b", "Narzędzia", string.Empty, 2, "d5dfef6e-6be4-42b2-a5b8-4852c733bcf8" ),
             CreateCategory( "12300f34-a179-429c-859b-aa587001a67c", "Instrukcje", string.Empty, 3, "d5dfef6e-6be4-42b2-a5b8-4852c733bcf8" ),
             CreateCategory( "97208387-3936-4b0a-bfc6-cf8fdaa9b772", "Indeksy", string.Empty, 4, "d5dfef6e-6be4-42b2-a5b8-4852c733bcf8" ),
-            
+
             CreateCategory( "b4b43c3d-7373-4799-89ff-f79f6c213f98", "Ogólne", string.Empty, 1, "cf22a2a9-5a75-46ff-94c9-fc20c521020d" ),
 
             CreateCategory( "fc2f8cc9-1024-42eb-a1c7-df1270090675", "Ogólne", string.Empty, 1, "d43a7e0c-28b1-420c-9b83-c755c220c76b" ),
@@ -283,7 +282,7 @@ internal static class ModelBuilderExtensions
             CreateQuestion( "2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b", "W jakich sytuacjach wykorzystujemy słowo kluczowe using ?" ),
             CreateQuestion( "2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b", "Czy można zastąpić IDisposable poprzez try/catch/finally ? Dlaczego się z tego w takim razie korzysta?" ),
             CreateQuestion( "2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b", "Gdzie w mechanizmie wywoływana jest metoda Dispose() ?" ),
-            CreateQuestion( "2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b", "Zaimplementuj rozszerzoną wersję klasy implementującej IDisposable." ),         
+            CreateQuestion( "2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b", "Zaimplementuj rozszerzoną wersję klasy implementującej IDisposable." ),
             CreateQuestion( "2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b", "Czym jest atrybut ?" ),
             CreateQuestion( "2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b", "Czy tworzyłeś kiedyś customowy atrybut ? Jaki?" ),
             CreateQuestion( "2f18dc0d-4ec4-4cc2-aba9-1af04b6fcf4b", "Czym jest parsowanie ?" ),
@@ -336,7 +335,7 @@ internal static class ModelBuilderExtensions
             CreateQuestion( "e28039da-8c48-4fcf-ab57-09196b612864", "Porównaj dwa wybrane kontenery DI np. Autofac, Unity, Ninject." ),
             CreateQuestion( "e28039da-8c48-4fcf-ab57-09196b612864", "Jak w DI można obsłużyć interfejsy generyczne ?" ),
             CreateQuestion( "e28039da-8c48-4fcf-ab57-09196b612864", "Jakie poczynić kroki aby wyzbyć sie circular dependencies ?" ),
-            
+
             CreateQuestion( "2a736d5a-1c48-4515-bdcb-f93bbad77db3", "Jak działa GC ? Kiedy wywoływany jest GC ?" ),
             CreateQuestion( "2a736d5a-1c48-4515-bdcb-f93bbad77db3", "Czy można manualnie wywołać GC ? Jak ? Jeśli można wywołać manualnie GC to czy czyszczenie wykona się od razu ?" ),
             CreateQuestion( "2a736d5a-1c48-4515-bdcb-f93bbad77db3", "Czy GC wywołuje metodę Dispose ? A może Finalize() ? Jaka jest różnica między Disposable a Finalize." ),
@@ -397,7 +396,7 @@ internal static class ModelBuilderExtensions
             CreateQuestion( "7cab840f-a28a-4681-a294-6c13d4441221", "Jak testować zapytania EF ?" ),
             CreateQuestion( "7cab840f-a28a-4681-a294-6c13d4441221", "Jak można podać wartości domyślne dla metod ?" ),
             CreateQuestion( "7cab840f-a28a-4681-a294-6c13d4441221", "Czy DbContext jest thread safe ?" ),
-            
+
             CreateQuestion( "4f6935de-3749-4151-a94f-172f9cd2b582", "Czym jest zasada ACID ?" ),
             CreateQuestion( "4f6935de-3749-4151-a94f-172f9cd2b582", "Jakie są 4 poziomy izolacji transakcji ?" ),
             CreateQuestion( "4f6935de-3749-4151-a94f-172f9cd2b582", "Jak wygląda full scan i index scan tabeli ?" ),
@@ -419,7 +418,7 @@ internal static class ModelBuilderExtensions
             CreateQuestion( "12300f34-a179-429c-859b-aa587001a67c", "Czym jest transakcja ?" ),
             CreateQuestion( "12300f34-a179-429c-859b-aa587001a67c", "Czym jest sekwencja np. w PL/SQL ?" ),
             CreateQuestion( "12300f34-a179-429c-859b-aa587001a67c", "Czym różnią się procedury SQL od funkcji ?" ),
-            
+
             CreateQuestion( "97208387-3936-4b0a-bfc6-cf8fdaa9b772", "Czym są ideksy i jak działają ?" ),
             CreateQuestion( "97208387-3936-4b0a-bfc6-cf8fdaa9b772", "Jakie znasz rodzaje indeksów ?" ),
             CreateQuestion( "97208387-3936-4b0a-bfc6-cf8fdaa9b772", "Czym różni się indeks klastrowy od nieklastrowego ?" ),
@@ -467,11 +466,11 @@ internal static class ModelBuilderExtensions
         );
     }
 
-    private static CategoryEntity CreateCategory( string id, string name, string iconName, int order, string? parentId = null)
+    private static CategoryEntity CreateCategory( string id, string name, string iconName, int order, string? parentId = null )
         => new()
         {
             Id = Guid.Parse( id ),
-            ParentCategoryId = Guid.TryParse( parentId, out var guid ) ? guid : null ,
+            ParentCategoryId = Guid.TryParse( parentId, out var guid ) ? guid : null,
             Name = name,
             IconName = iconName,
             Order = order

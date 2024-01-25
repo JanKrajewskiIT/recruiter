@@ -38,7 +38,7 @@ export const offersAtom = atomWithQuery<Offer[]>((get) => ({
   },
 }));
 
-export const useOffersMutation = () => {
+export const useAddOfferMutation = () => {
   const queryClient = useQueryClient();
 
   return useMutation({
@@ -49,6 +49,45 @@ export const useOffersMutation = () => {
         headers: { "Content-type": "application/json; charset=UTF-8" },
         body: JSON.stringify(offer),
       });
+
+      await queryClient.invalidateQueries({ queryKey: ["offers"] });
+
+      return await result.json();
+    },
+  });
+};
+
+export const useUpdateOfferMutation = () => {
+  const queryClient = useQueryClient();
+
+  return useMutation({
+    mutationKey: ["updateOffer"],
+    mutationFn: async (offer: Offer) => {
+      const result = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/offers`, {
+        method: "PUT",
+        headers: { "Content-type": "application/json; charset=UTF-8" },
+        body: JSON.stringify(offer),
+      });
+
+      await queryClient.invalidateQueries({ queryKey: ["offers"] });
+
+      return await result.json();
+    },
+  });
+};
+
+export const useDeleteOfferMutation = () => {
+  const queryClient = useQueryClient();
+
+  return useMutation({
+    mutationKey: ["deleteOffer"],
+    mutationFn: async (id: string) => {
+      const result = await fetch(
+        `${process.env.NEXT_PUBLIC_API_URL}/offers/${id}`,
+        {
+          method: "DELETE",
+        },
+      );
 
       await queryClient.invalidateQueries({ queryKey: ["offers"] });
 

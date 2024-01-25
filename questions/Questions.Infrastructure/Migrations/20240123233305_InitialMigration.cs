@@ -1,5 +1,4 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore.Migrations;
+﻿using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
@@ -11,73 +10,73 @@ namespace Questions.Infrastructure.Migrations
     public partial class InitialMigration : Migration
     {
         /// <inheritdoc />
-        protected override void Up(MigrationBuilder migrationBuilder)
+        protected override void Up( MigrationBuilder migrationBuilder )
         {
             migrationBuilder.CreateTable(
                 name: "Categories",
                 columns: table => new
                 {
-                    Id = table.Column<Guid>(type: "uuid", nullable: false),
-                    Name = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: false),
-                    Description = table.Column<string>(type: "character varying(5000)", maxLength: 5000, nullable: true),
-                    IconName = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: true),
-                    Order = table.Column<int>(type: "integer", nullable: false),
-                    ParentCategoryId = table.Column<Guid>(type: "uuid", nullable: true)
+                    Id = table.Column<Guid>( type: "uuid", nullable: false ),
+                    Name = table.Column<string>( type: "character varying(100)", maxLength: 100, nullable: false ),
+                    Description = table.Column<string>( type: "character varying(5000)", maxLength: 5000, nullable: true ),
+                    IconName = table.Column<string>( type: "character varying(100)", maxLength: 100, nullable: true ),
+                    Order = table.Column<int>( type: "integer", nullable: false ),
+                    ParentCategoryId = table.Column<Guid>( type: "uuid", nullable: true )
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Categories", x => x.Id);
+                    table.PrimaryKey( "PK_Categories", x => x.Id );
                     table.ForeignKey(
                         name: "FK_Categories_Categories_ParentCategoryId",
                         column: x => x.ParentCategoryId,
                         principalTable: "Categories",
-                        principalColumn: "Id");
-                });
+                        principalColumn: "Id" );
+                } );
 
             migrationBuilder.CreateTable(
                 name: "Offers",
                 columns: table => new
                 {
-                    Id = table.Column<Guid>(type: "uuid", nullable: false),
-                    Name = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: false),
-                    Link = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: false),
-                    Company = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: false),
-                    City = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: false),
-                    Status = table.Column<string>(type: "character varying(5000)", maxLength: 5000, nullable: false, defaultValue: "New"),
-                    Description = table.Column<string>(type: "character varying(5000)", maxLength: 5000, nullable: true),
-                    CreatedBy = table.Column<Guid>(type: "uuid", nullable: false),
-                    CreatedOn = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: false, defaultValueSql: "CURRENT_TIMESTAMP"),
-                    ModifiedBy = table.Column<Guid>(type: "uuid", nullable: false),
-                    ModifiedOn = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: false, defaultValueSql: "CURRENT_TIMESTAMP")
+                    Id = table.Column<Guid>( type: "uuid", nullable: false ),
+                    Name = table.Column<string>( type: "character varying(100)", maxLength: 100, nullable: false ),
+                    Link = table.Column<string>( type: "character varying(100)", maxLength: 100, nullable: false ),
+                    Company = table.Column<string>( type: "character varying(100)", maxLength: 100, nullable: false ),
+                    City = table.Column<string>( type: "character varying(100)", maxLength: 100, nullable: false ),
+                    Status = table.Column<string>( type: "character varying(5000)", maxLength: 5000, nullable: false, defaultValue: "New" ),
+                    Description = table.Column<string>( type: "character varying(5000)", maxLength: 5000, nullable: true ),
+                    CreatedBy = table.Column<Guid>( type: "uuid", nullable: false ),
+                    CreatedOn = table.Column<DateTimeOffset>( type: "timestamp with time zone", nullable: false, defaultValueSql: "CURRENT_TIMESTAMP" ),
+                    ModifiedBy = table.Column<Guid>( type: "uuid", nullable: false ),
+                    ModifiedOn = table.Column<DateTimeOffset>( type: "timestamp with time zone", nullable: false, defaultValueSql: "CURRENT_TIMESTAMP" )
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Offers", x => x.Id);
-                });
+                    table.PrimaryKey( "PK_Offers", x => x.Id );
+                } );
 
             migrationBuilder.CreateTable(
                 name: "Questions",
                 columns: table => new
                 {
-                    Id = table.Column<Guid>(type: "uuid", nullable: false),
-                    Name = table.Column<string>(type: "character varying(5000)", maxLength: 5000, nullable: false),
-                    Description = table.Column<string>(type: "character varying(5000)", maxLength: 5000, nullable: true),
-                    CategoryId = table.Column<Guid>(type: "uuid", nullable: false),
-                    CreatedBy = table.Column<Guid>(type: "uuid", nullable: false),
-                    CreatedOn = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: false, defaultValueSql: "CURRENT_TIMESTAMP"),
-                    ModifiedBy = table.Column<Guid>(type: "uuid", nullable: false),
-                    ModifiedOn = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: false, defaultValueSql: "CURRENT_TIMESTAMP")
+                    Id = table.Column<Guid>( type: "uuid", nullable: false ),
+                    Name = table.Column<string>( type: "character varying(5000)", maxLength: 5000, nullable: false ),
+                    Description = table.Column<string>( type: "character varying(5000)", maxLength: 5000, nullable: true ),
+                    CategoryId = table.Column<Guid>( type: "uuid", nullable: false ),
+                    CreatedBy = table.Column<Guid>( type: "uuid", nullable: false ),
+                    CreatedOn = table.Column<DateTimeOffset>( type: "timestamp with time zone", nullable: false, defaultValueSql: "CURRENT_TIMESTAMP" ),
+                    ModifiedBy = table.Column<Guid>( type: "uuid", nullable: false ),
+                    ModifiedOn = table.Column<DateTimeOffset>( type: "timestamp with time zone", nullable: false, defaultValueSql: "CURRENT_TIMESTAMP" )
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Questions", x => x.Id);
+                    table.PrimaryKey( "PK_Questions", x => x.Id );
                     table.ForeignKey(
                         name: "FK_Questions_Categories_CategoryId",
                         column: x => x.CategoryId,
                         principalTable: "Categories",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                });
+                        onDelete: ReferentialAction.Cascade );
+                } );
 
             migrationBuilder.InsertData(
                 table: "Categories",
@@ -138,7 +137,7 @@ namespace Questions.Infrastructure.Migrations
                     { new Guid("e86eb402-5cb4-4428-b77c-eddc031ca81f"), null, "", "TDD", 5, new Guid("28aec609-f96e-4ae6-8db2-358a1892502e") },
                     { new Guid("f7e9ae2a-33e6-486c-b00c-7fde72c4f2ef"), null, "", "Wersjonowanie", 8, new Guid("28aec609-f96e-4ae6-8db2-358a1892502e") },
                     { new Guid("fc2f8cc9-1024-42eb-a1c7-df1270090675"), null, "", "Ogólne", 1, new Guid("d43a7e0c-28b1-420c-9b83-c755c220c76b") }
-                });
+                } );
 
             migrationBuilder.InsertData(
                 table: "Questions",
@@ -495,30 +494,30 @@ namespace Questions.Infrastructure.Migrations
                     { new Guid("febbbeb4-c888-4113-b52c-d767b56ed681"), new Guid("b4b43c3d-7373-4799-89ff-f79f6c213f98"), new Guid("00000000-0000-0000-0000-000000000000"), new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(5038), new TimeSpan(0, 1, 0, 0, 0)), null, new Guid("00000000-0000-0000-0000-000000000000"), "Czym jest Auth Guard  ? Jak działa ? Z czego się składa ?" },
                     { new Guid("ff062233-ae42-432c-aa4f-c227cea54b17"), new Guid("7dad0a17-08f5-4396-a4dc-784c427f9320"), new Guid("00000000-0000-0000-0000-000000000000"), new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(4491), new TimeSpan(0, 1, 0, 0, 0)), null, new Guid("00000000-0000-0000-0000-000000000000"), "Czym jest CLR ?" },
                     { new Guid("ff4114d8-70e2-48a2-86e6-031eca6d3486"), new Guid("347e971f-8443-4dfd-aadd-36a06c4d5bf2"), new Guid("00000000-0000-0000-0000-000000000000"), new DateTimeOffset(new DateTime(2024, 1, 24, 0, 33, 4, 913, DateTimeKind.Unspecified).AddTicks(5089), new TimeSpan(0, 1, 0, 0, 0)), null, new Guid("00000000-0000-0000-0000-000000000000"), "Jak wylistować w linuxie : pliki, foldery, procesy ?" }
-                });
+                } );
 
             migrationBuilder.CreateIndex(
                 name: "IX_Categories_ParentCategoryId",
                 table: "Categories",
-                column: "ParentCategoryId");
+                column: "ParentCategoryId" );
 
             migrationBuilder.CreateIndex(
                 name: "IX_Questions_CategoryId",
                 table: "Questions",
-                column: "CategoryId");
+                column: "CategoryId" );
         }
 
         /// <inheritdoc />
-        protected override void Down(MigrationBuilder migrationBuilder)
+        protected override void Down( MigrationBuilder migrationBuilder )
         {
             migrationBuilder.DropTable(
-                name: "Offers");
+                name: "Offers" );
 
             migrationBuilder.DropTable(
-                name: "Questions");
+                name: "Questions" );
 
             migrationBuilder.DropTable(
-                name: "Categories");
+                name: "Categories" );
         }
     }
 }

@@ -1,5 +1,5 @@
 import { type Props } from "@/models/props";
-import { type Offer, useOffersMutation } from "@/store/organizer";
+import { useAddOfferMutation, type Offer } from "@/store/organizer";
 import {
   Button,
   Dialog,
@@ -14,7 +14,7 @@ import { IoAddSharp } from "react-icons/io5";
 
 const AddOffer = ({ className }: Props) => {
   const [open, setOpen] = useState(false);
-  const { mutate } = useOffersMutation();
+  const { mutate } = useAddOfferMutation();
 
   const handleClickOpen = useCallback(() => setOpen(true), []);
   const handleClose = useCallback(() => setOpen(false), []);

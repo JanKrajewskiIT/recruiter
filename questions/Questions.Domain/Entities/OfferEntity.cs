@@ -4,15 +4,15 @@ namespace Questions.Domain.Entities;
 
 public class OfferEntity : AuditEntity
 {
-    public required string Name { get; init; }
+    public required string Name { get; set; }
 
-    public required string Link { get; init; }
+    public required string Link { get; set; }
 
-    public required string Company { get; init; }
+    public required string Company { get; set; }
 
-    public required string City { get; init; }
+    public required string City { get; set; }
 
     public required OfferStatus Status { get; init; }
 
-    public string? Description { get; init; }
+    public string? Description { get; set; }
 }

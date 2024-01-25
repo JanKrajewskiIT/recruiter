@@ -19,7 +19,7 @@ internal sealed class AddOfferCommandHandler( ApplicationDbContext dbContext ) :
             Description = notification.Offer.Description
         };
 
-        await dbContext.AddAsync( offer, cancellationToken );
-        await dbContext.SaveChangesAsync();
+        await dbContext.Offers.AddAsync( offer, cancellationToken );
+        await dbContext.SaveChangesAsync( cancellationToken );
     }
 }
