@@ -1,5 +1,6 @@
+import ChangeStatus from "@/components/organizer/ChangeStatus";
 import DeleteOffer from "@/components/organizer/DeleteOffer";
-import EditOffer from "@/components/organizer/EditOffer";
+import UpdateOffer from "@/components/organizer/UpdateOffer";
 import RedirectToOffer from "@/components/organizer/RedirectToOffer";
 import { type Props } from "@/models/props";
 import { type Offer } from "@/store/organizer";
@@ -27,9 +28,10 @@ const OfferItem = ({ className, offer }: Props<IOfferItemProps>) => {
       <ListItemText primary={name} />
       <ListItemText primary={company} />
       <ListItemText primary={city} />
+      <ChangeStatus offerId={id} />
       <ListItemSecondaryAction>
         <RedirectToOffer link={link} />
-        <EditOffer offer={offer} />
+        <UpdateOffer offer={offer} />
         <DeleteOffer offerId={id} />
       </ListItemSecondaryAction>
     </ListItem>
@@ -39,12 +41,15 @@ const OfferItem = ({ className, offer }: Props<IOfferItemProps>) => {
 export default styled(OfferItem)`
   & {
     background-color: var(--color-gray-0);
-    padding: 5px 0;
+    padding: 2px 0;
     margin-bottom: 8px;
     display: grid;
-    grid-template-columns: 40px calc(70% - 40px) calc(15% - 40px) calc(
-        15% - 40px
-      );
+    grid-template-columns:
+      40px
+      calc(55% - 40px)
+      calc(15% - 40px)
+      calc(15% - 40px)
+      calc(15% - 40px);
 
     .MuiListItemIcon-root {
       display: flex;

@@ -76,6 +76,26 @@ export const useUpdateOfferMutation = () => {
   });
 };
 
+export const useUpdateOfferStatusMutation = () => {
+  const queryClient = useQueryClient();
+
+  return useMutation({
+    mutationKey: ["updateOfferStatus"],
+    mutationFn: async ({ id, status }: { id: string; status: string }) => {
+      const result = await fetch(
+        `${process.env.NEXT_PUBLIC_API_URL}/offers/${id}?status=${status}`,
+        {
+          method: "PATCH",
+        },
+      );
+
+      await queryClient.invalidateQueries({ queryKey: ["offers"] });
+
+      return await result.json();
+    },
+  });
+};
+
 export const useDeleteOfferMutation = () => {
   const queryClient = useQueryClient();
 

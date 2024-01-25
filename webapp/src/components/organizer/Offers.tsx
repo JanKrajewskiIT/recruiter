@@ -20,7 +20,7 @@ const Offers = ({ className }: Props) => {
               <span>Tytuł stanowiska</span>
               <span>Nazwa firmy</span>
               <span>Miasto</span>
-              <span>Akcje</span>
+              <span>Status</span>
             </ListSubheader>
           }
         >
@@ -36,7 +36,7 @@ export default styled(Offers)`
   & {
     display: flex;
     flex-direction: column;
-    align-items: end;
+    align-items: start;
 
     .MuiList-root {
       width: 100%;
@@ -44,7 +44,7 @@ export default styled(Offers)`
 
       .MuiListSubheader-root {
         display: grid;
-        grid-template-columns: 71.5% 12.5% 12% 4%;
+        grid-template-columns: 55.5% 12.5% 12% 20%;
         padding: 0 40px;
         background-color: transparent;
       }

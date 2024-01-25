@@ -11,7 +11,7 @@ const AddOffer = ({ className }: Props) => {
 
   const handleOpen = useCallback(() => setOpen(true), []);
   const handleClose = useCallback(() => setOpen(false), []);
-  const handleSubmit = useCallback((offer: Offer) => mutate(offer), [mutate]);
+  const handleAdd = useCallback((offer: Offer) => mutate(offer), [mutate]);
 
   return (
     <Fragment>
@@ -28,7 +28,7 @@ const AddOffer = ({ className }: Props) => {
         title="Dodawanie oferty"
         submitTitle="Dodaj"
         onClose={handleClose}
-        onSubmit={handleSubmit}
+        onSubmit={handleAdd}
       />
     </Fragment>
   );

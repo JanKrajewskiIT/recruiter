@@ -31,6 +31,10 @@ internal static class OfferEndpoints
                 await mediator.Publish( new UpdateOfferCommand( offer ) ) )
             .WithName( "UpdateOffer" );
 
+        group.MapPatch( "/{id}", async ( Guid id, OfferStatus status, IMediator mediator ) =>
+                await mediator.Publish( new UpdateOfferStatusCommand( id, status ) ) )
+            .WithName( "UpdateOfferStatus" );
+
         group.MapDelete( "/{id}", async ( Guid id, IMediator mediator ) =>
                 await mediator.Publish( new DeleteOfferCommand( id ) ) )
             .WithName( "DeleteOffer" );

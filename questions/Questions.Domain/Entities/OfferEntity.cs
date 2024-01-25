@@ -12,7 +12,7 @@ public class OfferEntity : AuditEntity
 
     public required string City { get; set; }
 
-    public required OfferStatus Status { get; init; }
+    public required OfferStatus Status { get; set; }
 
     public string? Description { get; set; }
 }

@@ -22,7 +22,7 @@ const DeleteOffer = ({ className, offerId }: Props<IDeleteOfferProps>) => {
 
   const handleOpen = useCallback(() => setOpen(true), []);
   const handleClose = useCallback(() => setOpen(false), []);
-  const handleRemove = useCallback(() => {
+  const handleDelete = useCallback(() => {
     mutate(offerId);
     handleClose();
   }, [handleClose, mutate, offerId]);
@@ -42,7 +42,7 @@ const DeleteOffer = ({ className, offerId }: Props<IDeleteOfferProps>) => {
         </DialogContent>
         <DialogActions>
           <Button onClick={handleClose}>Anuluj</Button>
-          <Button onClick={handleRemove} autoFocus>
+          <Button onClick={handleDelete} autoFocus>
             Usuń
           </Button>
         </DialogActions>

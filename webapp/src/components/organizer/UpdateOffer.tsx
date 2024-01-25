@@ -5,17 +5,17 @@ import { IconButton } from "@mui/material";
 import { Fragment, useCallback, useState } from "react";
 import { MdEdit } from "react-icons/md";
 
-interface IEditOfferProps {
+interface IUpdateOfferProps {
   offer: Offer;
 }
 
-const EditOffer = ({ className, offer }: Props<IEditOfferProps>) => {
+const UpdateOffer = ({ className, offer }: Props<IUpdateOfferProps>) => {
   const [open, setOpen] = useState(false);
   const { mutate } = useUpdateOfferMutation();
 
   const handleOpen = useCallback(() => setOpen(true), []);
   const handleClose = useCallback(() => setOpen(false), []);
-  const handleSubmit = useCallback(
+  const handleUpdate = useCallback(
     (newOffer: Offer) => mutate({ ...newOffer, id: offer.id }),
     [mutate, offer],
   );
@@ -31,10 +31,10 @@ const EditOffer = ({ className, offer }: Props<IEditOfferProps>) => {
         title="Edycja oferty"
         submitTitle="Edytuj"
         onClose={handleClose}
-        onSubmit={handleSubmit}
+        onSubmit={handleUpdate}
       />
     </Fragment>
   );
 };
 
-export default EditOffer;
+export default UpdateOffer;
