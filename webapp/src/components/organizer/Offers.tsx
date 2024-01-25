@@ -1,31 +1,15 @@
 import AddOffer from "@/components/organizer/AddOffer";
+import OfferItem from "@/components/organizer/OfferItem";
 import { type Props } from "@/models/props";
-import {
-  offersAtom,
-  selectedStatus,
-  useDeleteOfferMutation,
-} from "@/store/organizer";
-import {
-  IconButton,
-  List,
-  ListItem,
-  ListItemIcon,
-  ListItemSecondaryAction,
-  ListItemText,
-  ListSubheader,
-  styled,
-} from "@mui/material";
+import { offersAtom, selectedStatus } from "@/store/organizer";
+import { List, ListSubheader, styled } from "@mui/material";
 import { useAtom } from "jotai";
-import { useCallback } from "react";
-import { MdDelete, MdEdit } from "react-icons/md";
-import { RxDragHandleDots1, RxExternalLink } from "react-icons/rx";
 
 const entryStatusValue = "New";
 
 const Offers = ({ className }: Props) => {
   const [{ data }] = useAtom(offersAtom);
   const [status] = useAtom(selectedStatus);
-  const { mutate } = useDeleteOfferMutation();
 
   return (
     <div className={className}>
@@ -40,35 +24,7 @@ const Offers = ({ className }: Props) => {
             </ListSubheader>
           }
         >
-          {data?.map((o) => (
-            <ListItem key={o.id}>
-              <ListItemIcon>
-                <RxDragHandleDots1 />
-              </ListItemIcon>
-              <ListItemText primary={o.name} />
-              <ListItemText primary={o.company} />
-              <ListItemText primary={o.city} />
-              <ListItemSecondaryAction>
-                <IconButton
-                  edge="end"
-                  aria-label="link"
-                  onClick={() => window.open(o.link)}
-                >
-                  <RxExternalLink />
-                </IconButton>
-                <IconButton edge="end" aria-label="edit">
-                  <MdEdit />
-                </IconButton>
-                <IconButton
-                  edge="end"
-                  aria-label="delete"
-                  onClick={() => mutate(o.id)}
-                >
-                  <MdDelete />
-                </IconButton>
-              </ListItemSecondaryAction>
-            </ListItem>
-          ))}
+          {data?.map((o) => <OfferItem key={o.id} offer={o} />)}
         </List>
       )}
       {status === entryStatusValue && <AddOffer className="add-offer" />}
@@ -91,27 +47,6 @@ export default styled(Offers)`
         grid-template-columns: 71.5% 12.5% 12% 4%;
         padding: 0 40px;
         background-color: transparent;
-      }
-
-      .MuiListItem-root {
-        background-color: var(--color-gray-0);
-        padding: 5px 0;
-        margin-bottom: 8px;
-        display: grid;
-        grid-template-columns: 40px calc(70% - 40px) calc(15% - 40px) calc(
-            15% - 40px
-          );
-
-        .MuiListItemIcon-root {
-          display: flex;
-          justify-content: center;
-          min-width: 40px;
-          cursor: pointer;
-
-          > svg {
-            font-size: 1.5em;
-          }
-        }
       }
     }
   }

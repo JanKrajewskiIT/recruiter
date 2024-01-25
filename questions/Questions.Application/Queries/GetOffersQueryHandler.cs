@@ -11,6 +11,7 @@ internal sealed class GetOffersQueryHandler( ApplicationDbContext dbContext ) : 
     {
         var questions = await dbContext.Offers
             .Where( x => x.Status == request.Status )
+            .OrderBy( x => x.CreatedOn )
             .ToListAsync( cancellationToken );
 
         return questions
