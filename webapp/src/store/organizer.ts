@@ -1,6 +1,7 @@
 import { atom } from "jotai";
 import { atomWithQuery } from "jotai-tanstack-query";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
+import { selectAtom, splitAtom } from "jotai/utils";
 
 export interface Offer {
   id: string;
@@ -27,6 +28,10 @@ export const offersAtom = atomWithQuery<Offer[]>((get) => ({
     return [];
   },
 }));
+
+const selectedData = selectAtom(offersAtom, x => x.data ?? []);
+export const dataLength = selectAtom(offersAtom, x => x.data?.length ?? 0);
+export const splittedOffers =  splitAtom(selectedData, x => x.id)
 
 export const useAddOfferMutation = () => {
   const queryClient = useQueryClient();
