@@ -1,5 +1,12 @@
 import { type Props } from "@/models/props";
-import { Divider, IconButton, Paper, Typography, styled } from "@mui/material";
+import {
+  Divider,
+  IconButton,
+  Paper,
+  Typography,
+  dividerClasses,
+  styled,
+} from "@mui/material";
 import { AiFillLike } from "react-icons/ai";
 import { IoBug, IoExpandSharp } from "react-icons/io5";
 
@@ -55,7 +62,7 @@ export default styled(Tile)`
     padding: 10px 0 10px 10px;
 
     .tile-content {
-      .MuiDivider-root {
+      .${dividerClasses.root} {
         margin: 8px 0;
       }
 

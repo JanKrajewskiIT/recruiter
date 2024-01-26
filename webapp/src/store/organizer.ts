@@ -13,16 +13,6 @@ export interface Offer {
 
 export const selectedStatus = atom<string | null>(null);
 
-export const offerStatusesAtom = atomWithQuery<string[]>(() => ({
-  queryKey: ["offerStatuses"],
-  queryFn: async () => {
-    const result = await fetch(
-      `${process.env.NEXT_PUBLIC_API_URL}/offers/statuses`,
-    );
-    return await result.json();
-  },
-}));
-
 export const offersAtom = atomWithQuery<Offer[]>((get) => ({
   queryKey: ["offers", get(selectedStatus)],
   queryFn: async ({ queryKey: [, section] }) => {

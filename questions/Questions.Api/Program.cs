@@ -15,7 +15,7 @@ builder.Services.AddAuth( keycloakOptions );
 builder.Services.AddAllCors();
 builder.Services.AddProblemDetails();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddApplication();
+builder.Services.AddApplication( builder.Configuration );
 builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
 builder.Services.AddExceptionHandler<ValidationExceptionHandler>();
 
@@ -32,9 +32,10 @@ app.UseHttpsRedirection();
 app.UseExceptionHandler();
 
 app.MapCategoryEndpoints();
-app.MapQuestionEndpoints();
+app.MapDictionaryEndpoints();
 app.MapOfferEndpoints();
+app.MapQuestionEndpoints();
 
-app.Services.MigrateDatabase();
+await app.Services.MigrateDatabase(CancellationToken.None);
 
 app.Run();

@@ -2,7 +2,13 @@ import AddOffer from "@/components/organizer/AddOffer";
 import OfferItem from "@/components/organizer/OfferItem";
 import { type Props } from "@/models/props";
 import { offersAtom, selectedStatus } from "@/store/organizer";
-import { List, ListSubheader, styled } from "@mui/material";
+import {
+  List,
+  ListSubheader,
+  listClasses,
+  listSubheaderClasses,
+  styled,
+} from "@mui/material";
 import { useAtom } from "jotai";
 
 const entryStatusValue = "New";
@@ -38,13 +44,13 @@ export default styled(Offers)`
     flex-direction: column;
     align-items: start;
 
-    .MuiList-root {
+    .${listClasses.root} {
       width: 100%;
       padding: 0;
 
-      .MuiListSubheader-root {
+      .${listSubheaderClasses.root} {
         display: grid;
-        grid-template-columns: 55.5% 12.5% 12% 20%;
+        grid-template-columns: 1fr 1fr 120px 220px;
         padding: 0 40px;
         background-color: transparent;
       }

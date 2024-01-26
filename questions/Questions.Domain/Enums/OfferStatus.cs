@@ -5,5 +5,6 @@ public enum OfferStatus
     New,
     Sent,
     Accepted,
-    Rejected
+    Rejected,
+    All
 }

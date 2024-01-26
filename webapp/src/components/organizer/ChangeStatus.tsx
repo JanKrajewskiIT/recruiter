@@ -1,10 +1,15 @@
 import { type Props } from "@/models/props";
+import { statusesAtom } from "@/store/dictionary";
 import {
-  offerStatusesAtom,
   selectedStatus,
   useUpdateOfferStatusMutation,
 } from "@/store/organizer";
-import { MenuItem, Select, type SelectChangeEvent } from "@mui/material";
+import {
+  MenuItem,
+  Select,
+  Typography,
+  type SelectChangeEvent,
+} from "@mui/material";
 import { useAtom } from "jotai";
 import { useCallback } from "react";
 
@@ -13,7 +18,7 @@ interface IChangeStatusProps {
 }
 
 const ChangeStatus = ({ className, offerId }: Props<IChangeStatusProps>) => {
-  const [{ data }] = useAtom(offerStatusesAtom);
+  const [{ data }] = useAtom(statusesAtom);
   const [status] = useAtom(selectedStatus);
   const { mutate } = useUpdateOfferStatusMutation();
 
@@ -34,7 +39,9 @@ const ChangeStatus = ({ className, offerId }: Props<IChangeStatusProps>) => {
       >
         {data?.map((s) => (
           <MenuItem key={s} value={s}>
-            {s}
+            <Typography variant="body2" color="text.secondary">
+              {s}
+            </Typography>
           </MenuItem>
         ))}
       </Select>

@@ -1,4 +1,5 @@
 import { type Props } from "@/models/props";
+import { citiesAtom, positionsAtom } from "@/store/dictionary";
 import { type Offer } from "@/store/organizer";
 import {
   Button,
@@ -7,8 +8,11 @@ import {
   DialogContent,
   DialogContentText,
   DialogTitle,
+  MenuItem,
+  Select,
   TextField,
 } from "@mui/material";
+import { useAtom } from "jotai";
 import { type FormEvent, useCallback } from "react";
 
 interface IDefineOfferDialogProps {
@@ -29,6 +33,9 @@ const DefineOfferDialog = ({
   onClose,
   onSubmit,
 }: Props<IDefineOfferDialogProps>) => {
+  const [{ data: positions }] = useAtom(positionsAtom);
+  const [{ data: cities }] = useAtom(citiesAtom);
+
   const handleSubmit = useCallback(
     (event: FormEvent<HTMLFormElement>) => {
       event.preventDefault();
@@ -58,7 +65,7 @@ const DefineOfferDialog = ({
           oferta dotyczy. W przypadku oferty zdalnej można zamiast miasta wpisać
           &apos;Remote&apos;.
         </DialogContentText>
-        <TextField
+        <Select
           autoFocus
           required
           defaultValue={offer?.name}
@@ -69,7 +76,13 @@ const DefineOfferDialog = ({
           type="text"
           fullWidth
           variant="standard"
-        />
+        >
+          {positions?.map((p) => (
+            <MenuItem key={p} value={p}>
+              {p}
+            </MenuItem>
+          ))}
+        </Select>
         <TextField
           autoFocus
           required
@@ -94,7 +107,7 @@ const DefineOfferDialog = ({
           fullWidth
           variant="standard"
         />
-        <TextField
+        <Select
           autoFocus
           required
           defaultValue={offer?.city}
@@ -105,7 +118,13 @@ const DefineOfferDialog = ({
           type="text"
           fullWidth
           variant="standard"
-        />
+        >
+          {cities?.map((c) => (
+            <MenuItem key={c} value={c}>
+              {c}
+            </MenuItem>
+          ))}
+        </Select>
       </DialogContent>
       <DialogActions>
         <Button onClick={onClose}>Anuluj</Button>

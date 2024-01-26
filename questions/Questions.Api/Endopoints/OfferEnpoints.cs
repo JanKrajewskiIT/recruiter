@@ -16,9 +16,6 @@ internal static class OfferEndpoints
             .WithOpenApi()
             .RequireAuthorization();
 
-        group.MapGet( "/statuses", () => Enum.GetNames<OfferStatus>() )
-            .WithName( "GetOfferStatuses" );
-
         group.MapGet( "/", async ( [FromQuery] OfferStatus status, IMediator mediator ) =>
                 await mediator.Send( new GetOffersQuery( status ) ) )
             .WithName( "GetOffers" );

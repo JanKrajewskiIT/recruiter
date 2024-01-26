@@ -7,12 +7,14 @@ internal static class CategoryEndpoints
 {
     public static WebApplication MapCategoryEndpoints( this WebApplication app )
     {
-        app.MapGroup( "/categories" )
-            .MapGet( "/", async ( IMediator mediator ) =>
-                            await mediator.Send( new GetCategoriesQuery() ) )
-            .WithName( "GetCategories" )
+        var group = app
+            .MapGroup( "/categories" )
             .WithOpenApi()
             .RequireAuthorization();
+
+        group.MapGet( "/", async ( IMediator mediator ) =>
+                await mediator.Send( new GetCategoriesQuery() ) )
+            .WithName( "GetCategories" );
 
         return app;
     }

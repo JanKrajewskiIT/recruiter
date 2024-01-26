@@ -9,6 +9,7 @@ import {
   ListItemIcon,
   ListItemSecondaryAction,
   ListItemText,
+  listItemIconClasses,
   styled,
 } from "@mui/material";
 import { RxDragHandleDots1 } from "react-icons/rx";
@@ -26,8 +27,8 @@ const OfferItem = ({ className, offer }: Props<IOfferItemProps>) => {
         <RxDragHandleDots1 />
       </ListItemIcon>
       <ListItemText primary={name} />
-      <ListItemText primary={company} />
-      <ListItemText primary={city} />
+      <ListItemText secondary={company} />
+      <ListItemText secondary={city} />
       <ChangeStatus offerId={id} />
       <ListItemSecondaryAction>
         <RedirectToOffer link={link} />
@@ -44,14 +45,9 @@ export default styled(OfferItem)`
     padding: 2px 0;
     margin-bottom: 8px;
     display: grid;
-    grid-template-columns:
-      40px
-      calc(55% - 40px)
-      calc(15% - 40px)
-      calc(15% - 40px)
-      calc(15% - 40px);
+    grid-template-columns: 40px 1fr 1fr 120px 140px 120px;
 
-    .MuiListItemIcon-root {
+    .${listItemIconClasses.root} {
       display: flex;
       justify-content: center;
       min-width: 40px;
