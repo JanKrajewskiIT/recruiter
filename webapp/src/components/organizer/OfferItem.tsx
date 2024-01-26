@@ -13,14 +13,16 @@ import {
   styled,
 } from "@mui/material";
 import { RxDragHandleDots1 } from "react-icons/rx";
+import { Atom, useAtom } from "jotai";
 
 interface IOfferItemProps {
-  offer: Offer;
+  atom: Atom<Offer>;
 }
 
-const OfferItem = ({ className, offer }: Props<IOfferItemProps>) => {
+const OfferItem = ({ className, atom }: Props<IOfferItemProps>) => {
+  const [offer] = useAtom(atom);
   const { id, name, link, company, city } = offer;
-
+  console.log(offer);
   return (
     <ListItem className={className}>
       <ListItemIcon>

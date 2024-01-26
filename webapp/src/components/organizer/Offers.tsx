@@ -1,7 +1,7 @@
 import AddOffer from "@/components/organizer/AddOffer";
 import OfferItem from "@/components/organizer/OfferItem";
 import { type Props } from "@/models/props";
-import { offersAtom, selectedStatus } from "@/store/organizer";
+import { dataLength, offersAtom, selectedStatus, splittedOffers } from "@/store/organizer";
 import {
   List,
   ListSubheader,
@@ -14,12 +14,12 @@ import { useAtom } from "jotai";
 const entryStatusValue = "New";
 
 const Offers = ({ className }: Props) => {
-  const [{ data }] = useAtom(offersAtom);
+  const [offersAtom] = useAtom(splittedOffers);
   const [status] = useAtom(selectedStatus);
 
   return (
     <div className={className}>
-      {!!data?.length && (
+      {!!offersAtom.length && (
         <List
           subheader={
             <ListSubheader>
@@ -30,7 +30,7 @@ const Offers = ({ className }: Props) => {
             </ListSubheader>
           }
         >
-          {data?.map((o) => <OfferItem key={o.id} offer={o} />)}
+          {offersAtom.map((o) => <OfferItem atom={o} key={o.toString()} />)}
         </List>
       )}
       {status === entryStatusValue && <AddOffer className="add-offer" />}
