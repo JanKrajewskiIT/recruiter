@@ -1,6 +1,7 @@
 import AddOfferDialog from "@/components/organizer/DefineOfferDialog";
+import { type Offer } from "@/models/Offer";
 import { type Props } from "@/models/props";
-import { type Offer, useUpdateOfferMutation } from "@/store/organizer";
+import { useUpdateOfferMutation } from "@/store/organizer";
 import { IconButton } from "@mui/material";
 import { Fragment, useCallback, useState } from "react";
 import { MdEdit } from "react-icons/md";

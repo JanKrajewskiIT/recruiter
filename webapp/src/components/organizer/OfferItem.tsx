@@ -3,7 +3,6 @@ import DeleteOffer from "@/components/organizer/DeleteOffer";
 import UpdateOffer from "@/components/organizer/UpdateOffer";
 import RedirectToOffer from "@/components/organizer/RedirectToOffer";
 import { type Props } from "@/models/props";
-import { type Offer } from "@/store/organizer";
 import {
   ListItem,
   ListItemIcon,
@@ -13,7 +12,8 @@ import {
   styled,
 } from "@mui/material";
 import { RxDragHandleDots1 } from "react-icons/rx";
-import { Atom, useAtom } from "jotai";
+import { type Atom, useAtom } from "jotai";
+import { type Offer } from "@/models/Offer";
 
 interface IOfferItemProps {
   atom: Atom<Offer>;
@@ -22,7 +22,7 @@ interface IOfferItemProps {
 const OfferItem = ({ className, atom }: Props<IOfferItemProps>) => {
   const [offer] = useAtom(atom);
   const { id, name, link, company, city } = offer;
-  console.log(offer);
+
   return (
     <ListItem className={className}>
       <ListItemIcon>

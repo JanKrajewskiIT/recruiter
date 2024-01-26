@@ -1,5 +1,7 @@
 import { atomWithQuery } from "jotai-tanstack-query";
 
+export const defaultOfferStatus = "New";
+
 export const statusesAtom = atomWithQuery<string[]>(() => ({
   queryKey: ["statuses"],
   queryFn: async () => {

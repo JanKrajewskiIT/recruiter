@@ -1,6 +1,7 @@
 import AddOfferDialog from "@/components/organizer/DefineOfferDialog";
+import { type Offer } from "@/models/Offer";
 import { type Props } from "@/models/props";
-import { useAddOfferMutation, type Offer } from "@/store/organizer";
+import { useAddOfferMutation } from "@/store/organizer";
 import { Button } from "@mui/material";
 import { Fragment, useCallback, useState } from "react";
 import { IoAddSharp } from "react-icons/io5";

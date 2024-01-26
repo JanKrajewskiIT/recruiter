@@ -2,20 +2,12 @@ import { atom } from "jotai";
 import { atomWithQuery } from "jotai-tanstack-query";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { selectAtom, splitAtom } from "jotai/utils";
+import { type Offer } from "@/models/Offer";
 
-export interface Offer {
-  id: string;
-  name: string;
-  link: string;
-  company: string;
-  city: string;
-  description: string | null;
-}
-
-export const selectedStatus = atom<string | null>(null);
+export const selectedStatusAtom = atom<string | null>(null);
 
 export const offersAtom = atomWithQuery<Offer[]>((get) => ({
-  queryKey: ["offers", get(selectedStatus)],
+  queryKey: ["offers", get(selectedStatusAtom)],
   queryFn: async ({ queryKey: [, section] }) => {
     if (section) {
       const result = await fetch(
@@ -29,9 +21,10 @@ export const offersAtom = atomWithQuery<Offer[]>((get) => ({
   },
 }));
 
-const selectedData = selectAtom(offersAtom, x => x.data ?? []);
-export const dataLength = selectAtom(offersAtom, x => x.data?.length ?? 0);
-export const splittedOffers =  splitAtom(selectedData, x => x.id)
+export const splitOffersAtom = splitAtom(
+  selectAtom(offersAtom, (x) => x.data ?? []),
+  (x) => x.id,
+);
 
 export const useAddOfferMutation = () => {
   const queryClient = useQueryClient();

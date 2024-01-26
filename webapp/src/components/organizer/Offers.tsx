@@ -1,7 +1,8 @@
 import AddOffer from "@/components/organizer/AddOffer";
 import OfferItem from "@/components/organizer/OfferItem";
 import { type Props } from "@/models/props";
-import { dataLength, offersAtom, selectedStatus, splittedOffers } from "@/store/organizer";
+import { defaultOfferStatus } from "@/store/dictionary";
+import { selectedStatusAtom, splitOffersAtom } from "@/store/organizer";
 import {
   List,
   ListSubheader,
@@ -11,11 +12,9 @@ import {
 } from "@mui/material";
 import { useAtom } from "jotai";
 
-const entryStatusValue = "New";
-
 const Offers = ({ className }: Props) => {
-  const [offersAtom] = useAtom(splittedOffers);
-  const [status] = useAtom(selectedStatus);
+  const [offersAtom] = useAtom(splitOffersAtom);
+  const [status] = useAtom(selectedStatusAtom);
 
   return (
     <div className={className}>
@@ -30,10 +29,12 @@ const Offers = ({ className }: Props) => {
             </ListSubheader>
           }
         >
-          {offersAtom.map((o) => <OfferItem atom={o} key={o.toString()} />)}
+          {offersAtom.map((o) => (
+            <OfferItem key={o.toString()} offerAtom={o} />
+          ))}
         </List>
       )}
-      {status === entryStatusValue && <AddOffer className="add-offer" />}
+      {status === defaultOfferStatus && <AddOffer className="add-offer" />}
     </div>
   );
 };

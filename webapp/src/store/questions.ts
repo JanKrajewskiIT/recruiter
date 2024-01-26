@@ -1,13 +1,6 @@
+import { type Category } from "@/models/Category";
 import { atom } from "jotai";
 import { atomWithQuery } from "jotai-tanstack-query";
-
-export interface Category {
-  id: string;
-  name: string;
-  description: string | null;
-  iconName: string | null;
-  childCategories: Category[];
-}
 
 export const selectedCategoryId = atom<string | null>(null);
 
