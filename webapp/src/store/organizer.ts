@@ -29,9 +29,8 @@ export const offersAtom = atomWithQuery<Offer[]>((get) => ({
   },
 }));
 
-const selectedData = selectAtom(offersAtom, x => x.data ?? []);
-export const dataLength = selectAtom(offersAtom, x => x.data?.length ?? 0);
-export const splittedOffers =  splitAtom(selectedData, x => x.id)
+const offersDataAtom = selectAtom(offersAtom, x => x.data ?? []);
+export const splittedOffersAtom =  splitAtom(offersDataAtom, x => x.id)
 
 export const useAddOfferMutation = () => {
   const queryClient = useQueryClient();

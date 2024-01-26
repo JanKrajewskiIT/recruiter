@@ -1,7 +1,7 @@
 import AddOffer from "@/components/organizer/AddOffer";
 import OfferItem from "@/components/organizer/OfferItem";
 import { type Props } from "@/models/props";
-import { dataLength, offersAtom, selectedStatus, splittedOffers } from "@/store/organizer";
+import { dataLength, offersAtom, selectedStatus, splittedOffersAtom } from "@/store/organizer";
 import {
   List,
   ListSubheader,
@@ -14,7 +14,7 @@ import { useAtom } from "jotai";
 const entryStatusValue = "New";
 
 const Offers = ({ className }: Props) => {
-  const [offersAtom] = useAtom(splittedOffers);
+  const [offersAtom] = useAtom(splittedOffersAtom);
   const [status] = useAtom(selectedStatus);
 
   return (
