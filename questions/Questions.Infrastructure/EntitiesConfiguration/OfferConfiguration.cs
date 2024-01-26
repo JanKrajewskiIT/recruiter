@@ -30,8 +30,6 @@ internal sealed class OfferConfiguration : IEntityTypeConfiguration<OfferEntity>
             .IsRequired();
 
         builder.Property( e => e.Status )
-            .HasMaxLength( DataTypeConsts.TextLength )
-            .HasConversion<string>()
             .HasDefaultValue( OfferStatus.New )
             .IsRequired();
 

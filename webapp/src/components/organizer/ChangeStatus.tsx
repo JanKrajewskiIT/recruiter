@@ -1,7 +1,7 @@
 import { type Props } from "@/models/props";
 import { statusesAtom } from "@/store/dictionary";
 import {
-  selectedStatus,
+  selectedStatusAtom,
   useUpdateOfferStatusMutation,
 } from "@/store/organizer";
 import {
@@ -19,7 +19,7 @@ interface IChangeStatusProps {
 
 const ChangeStatus = ({ className, offerId }: Props<IChangeStatusProps>) => {
   const [{ data }] = useAtom(statusesAtom);
-  const [status] = useAtom(selectedStatus);
+  const [status] = useAtom(selectedStatusAtom);
   const { mutate } = useUpdateOfferStatusMutation();
 
   const handleStatusChange = useCallback(

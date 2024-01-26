@@ -16,11 +16,11 @@ import { type Atom, useAtom } from "jotai";
 import { type Offer } from "@/models/Offer";
 
 interface IOfferItemProps {
-  atom: Atom<Offer>;
+  offerAtom: Atom<Offer>;
 }
 
-const OfferItem = ({ className, atom }: Props<IOfferItemProps>) => {
-  const [offer] = useAtom(atom);
+const OfferItem = ({ className, offerAtom }: Props<IOfferItemProps>) => {
+  const [offer] = useAtom(offerAtom);
   const { id, name, link, company, city } = offer;
 
   return (

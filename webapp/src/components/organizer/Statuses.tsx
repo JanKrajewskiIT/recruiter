@@ -1,13 +1,13 @@
 import { type Props } from "@/models/props";
 import { statusesAtom } from "@/store/dictionary";
-import { selectedStatus } from "@/store/organizer";
+import { selectedStatusAtom } from "@/store/organizer";
 import { Chip, styled } from "@mui/material";
 import { useAtom } from "jotai";
 import { useCallback } from "react";
 
 const Statuses = ({ className }: Props) => {
   const [{ data }] = useAtom(statusesAtom);
-  const [status, setStatus] = useAtom(selectedStatus);
+  const [status, setStatus] = useAtom(selectedStatusAtom);
 
   const handleStatusChange = useCallback(
     (status: string) => () => setStatus(status),
