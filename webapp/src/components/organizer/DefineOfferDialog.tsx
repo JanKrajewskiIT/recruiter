@@ -1,16 +1,17 @@
+import { type Offer } from "@/models/Offer";
 import { type Props } from "@/models/props";
 import { citiesAtom, positionsAtom } from "@/store/dictionary";
-import { type Offer } from "@/store/organizer";
 import {
+  Autocomplete,
   Button,
   Dialog,
   DialogActions,
   DialogContent,
   DialogContentText,
   DialogTitle,
-  MenuItem,
-  Select,
   TextField,
+  dialogContentTextClasses,
+  styled,
 } from "@mui/material";
 import { useAtom } from "jotai";
 import { type FormEvent, useCallback } from "react";
@@ -65,24 +66,45 @@ const DefineOfferDialog = ({
           oferta dotyczy. W przypadku oferty zdalnej można zamiast miasta wpisać
           &apos;Remote&apos;.
         </DialogContentText>
-        <Select
-          autoFocus
-          required
+        <Autocomplete
+          options={positions ?? []}
+          clearOnEscape
           defaultValue={offer?.name}
-          margin="dense"
-          id="name"
-          name="name"
-          label="Tytuł stanowiska"
-          type="text"
-          fullWidth
-          variant="standard"
-        >
-          {positions?.map((p) => (
-            <MenuItem key={p} value={p}>
-              {p}
-            </MenuItem>
-          ))}
-        </Select>
+          renderInput={(params) => (
+            <TextField
+              {...params}
+              autoFocus
+              required
+              defaultValue={offer?.name}
+              margin="dense"
+              id="name"
+              name="name"
+              label="Tytuł stanowiska"
+              type="text"
+              fullWidth
+              variant="standard"
+            />
+          )}
+          componentsProps={{
+            popper: {
+              modifiers: [
+                {
+                  name: "flip",
+                  enabled: false,
+                },
+                {
+                  name: "preventOverflow",
+                  enabled: false,
+                },
+              ],
+            },
+          }}
+          ListboxProps={{
+            style: {
+              height: "190px",
+            },
+          }}
+        />
         <TextField
           autoFocus
           required
@@ -107,24 +129,45 @@ const DefineOfferDialog = ({
           fullWidth
           variant="standard"
         />
-        <Select
-          autoFocus
-          required
+        <Autocomplete
+          options={cities ?? []}
+          clearOnEscape
           defaultValue={offer?.city}
-          margin="dense"
-          id="city"
-          name="city"
-          label="Miasto"
-          type="text"
-          fullWidth
-          variant="standard"
-        >
-          {cities?.map((c) => (
-            <MenuItem key={c} value={c}>
-              {c}
-            </MenuItem>
-          ))}
-        </Select>
+          renderInput={(params) => (
+            <TextField
+              {...params}
+              autoFocus
+              required
+              defaultValue={offer?.city}
+              margin="dense"
+              id="city"
+              name="city"
+              label="Miasto"
+              type="text"
+              fullWidth
+              variant="standard"
+            />
+          )}
+          componentsProps={{
+            popper: {
+              modifiers: [
+                {
+                  name: "flip",
+                  enabled: false,
+                },
+                {
+                  name: "preventOverflow",
+                  enabled: false,
+                },
+              ],
+            },
+          }}
+          ListboxProps={{
+            style: {
+              height: "190px",
+            },
+          }}
+        />
       </DialogContent>
       <DialogActions>
         <Button onClick={onClose}>Anuluj</Button>
@@ -134,4 +177,10 @@ const DefineOfferDialog = ({
   );
 };
 
-export default DefineOfferDialog;
+export default styled(DefineOfferDialog)`
+  & {
+    .${dialogContentTextClasses.root} {
+      margin-bottom: 20px;
+    }
+  }
+`;
