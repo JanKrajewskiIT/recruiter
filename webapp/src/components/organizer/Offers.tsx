@@ -2,7 +2,11 @@ import AddOffer from "@/components/organizer/AddOffer";
 import OfferItem from "@/components/organizer/OfferItem";
 import { type Props } from "@/models/props";
 import { defaultOfferStatus } from "@/store/dictionary";
-import { selectedStatusAtom, splitOffersAtom } from "@/store/organizer";
+import {
+  offersLengthAtom,
+  selectedStatusAtom,
+  splitOffersAtom,
+} from "@/store/organizer";
 import {
   List,
   ListSubheader,
@@ -14,11 +18,12 @@ import { useAtom } from "jotai";
 
 const Offers = ({ className }: Props) => {
   const [offersAtom] = useAtom(splitOffersAtom);
+  const [offersLength] = useAtom(offersLengthAtom);
   const [status] = useAtom(selectedStatusAtom);
 
   return (
     <div className={className}>
-      {!!offersAtom.length && (
+      {!!offersLength && (
         <List
           subheader={
             <ListSubheader>

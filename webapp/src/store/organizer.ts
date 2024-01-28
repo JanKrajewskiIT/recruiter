@@ -6,7 +6,7 @@ import { type Offer } from "@/models/Offer";
 
 export const selectedStatusAtom = atom<string | null>(null);
 
-export const offersAtom = atomWithQuery<Offer[]>((get) => ({
+const offersAtom = atomWithQuery<Offer[]>((get) => ({
   queryKey: ["offers", get(selectedStatusAtom)],
   queryFn: async ({ queryKey: [, section] }) => {
     if (section) {
@@ -16,14 +16,14 @@ export const offersAtom = atomWithQuery<Offer[]>((get) => ({
 
       return await result.json();
     }
-
-    return [];
   },
 }));
 
-export const splitOffersAtom = splitAtom(
-  selectAtom(offersAtom, (x) => x.data ?? []),
-  (x) => x.id,
+const selectedOffersAtom = selectAtom(offersAtom, (x) => x.data ?? []);
+export const splitOffersAtom = splitAtom(selectedOffersAtom, (x) => x.id);
+export const offersLengthAtom = selectAtom(
+  offersAtom,
+  (x) => x.data?.length ?? 0,
 );
 
 export const useAddOfferMutation = () => {

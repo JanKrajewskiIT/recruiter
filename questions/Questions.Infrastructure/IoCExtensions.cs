@@ -4,7 +4,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Npgsql;
 using Questions.Domain.Enums;
 using Questions.Infrastructure.Context;
-using System;
 
 namespace Questions.Infrastructure;
 
@@ -12,9 +11,10 @@ public static class IoCExtensions
 {
     public static IServiceCollection AddInfrastructure( this IServiceCollection services, IConfiguration configuration )
     {
-        services.AddDbContext<ApplicationDbContext>(options => options
-            .UseNpgsql( CreateDataSource( configuration ) ) );
+        var dataSource = CreateDataSource( configuration );
 
+        services.AddDbContext<ApplicationDbContext>(options => options.UseNpgsql( dataSource ) );
+        
         return services;
     }
 
