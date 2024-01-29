@@ -1,4 +1,4 @@
-import OfferStatus from "@/models/OfferStatus";
+import OfferStatus, { OfferStatusTranslation } from "@/models/OfferStatus";
 import { type Props } from "@/models/props";
 import { selectedStatusAtom } from "@/store/organizer";
 import { Chip, styled } from "@mui/material";
@@ -15,10 +15,10 @@ const Statuses = ({ className }: Props) => {
 
   return (
     <div className={className}>
-      {Object.entries(OfferStatus).map(([value, key]) => (
+      {Object.entries(OfferStatus).map(([, key]) => (
         <Chip
           key={key}
-          label={value}
+          label={OfferStatusTranslation[key]}
           variant={status === key ? "filled" : "outlined"}
           onClick={handleStatusChange(key)}
         />

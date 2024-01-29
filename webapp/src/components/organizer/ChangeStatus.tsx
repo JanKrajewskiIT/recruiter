@@ -1,6 +1,6 @@
 import ChangeStateDialog from "@/components/organizer/ChangeStateDialog";
 import type Offer from "@/models/Offer";
-import OfferStatus from "@/models/OfferStatus";
+import OfferStatus, { OfferStatusTranslation } from "@/models/OfferStatus";
 import { type Props } from "@/models/props";
 import {
   selectedStatusAtom,
@@ -46,7 +46,7 @@ const ChangeStatus = ({ className, offer }: Props<IChangeStatusProps>) => {
           {Object.entries(OfferStatus).map(([value, key]) => (
             <MenuItem key={key} value={value}>
               <Typography variant="body2" color="text.secondary">
-                {value}
+                {OfferStatusTranslation[key]}
               </Typography>
             </MenuItem>
           ))}
