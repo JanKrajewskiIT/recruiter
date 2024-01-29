@@ -1,10 +1,14 @@
 import FormDialog from "@/components/common/FormDialog";
 import InputText from "@/components/common/InputText";
 import SingleAutocomplete from "@/components/common/SingleAutocomplete";
+import ReasonsAutocomplete from "@/components/organizer/ReasonsAutocomplete";
 import type Offer from "@/models/Offer";
+import OfferStatus from "@/models/OfferStatus";
 import { type Props } from "@/models/props";
 import { citiesAtom, positionsAtom } from "@/store/dictionary";
+import { selectedStatusAtom } from "@/store/organizer";
 import { useAtom } from "jotai";
+import { useCallback, useState } from "react";
 
 interface IDefineOfferDialogProps {
   open: boolean;
@@ -26,6 +30,13 @@ const DefineOfferDialog = ({
 }: Props<IDefineOfferDialogProps>) => {
   const [{ data: positions }] = useAtom(positionsAtom);
   const [{ data: cities }] = useAtom(citiesAtom);
+  const [selectedStatus] = useAtom(selectedStatusAtom);
+  const [reasons, setReasons] = useState(offer?.reasons ?? []);
+
+  const handleSubmit = useCallback(
+    (offer: Offer) => onSubmit({ ...offer, reasons }),
+    [onSubmit, reasons],
+  );
 
   return (
     <FormDialog
@@ -38,7 +49,7 @@ const DefineOfferDialog = ({
         W przypadku oferty zdalnej można zamiast miasta wpisać 'Remote'.`}
       submitTitle={submitTitle}
       onClose={onClose}
-      onSubmit={onSubmit}
+      onSubmit={handleSubmit}
     >
       <SingleAutocomplete
         name="name"
@@ -63,6 +74,9 @@ const DefineOfferDialog = ({
         defaultValue={offer?.city}
         options={cities ?? []}
       />
+      {selectedStatus !== OfferStatus.New && (
+        <ReasonsAutocomplete reasons={reasons} onReasonsChange={setReasons} />
+      )}
     </FormDialog>
   );
 };

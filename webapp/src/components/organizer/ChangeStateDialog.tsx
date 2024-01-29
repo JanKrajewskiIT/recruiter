@@ -1,5 +1,6 @@
 import FormDialog from "@/components/common/FormDialog";
 import MultipleAutocomplete from "@/components/common/MultipleAutocomplete";
+import ReasonsAutocomplete from "@/components/organizer/ReasonsAutocomplete";
 import type Offer from "@/models/Offer";
 import type OfferState from "@/models/OfferState";
 import type OfferStatus from "@/models/OfferStatus";
@@ -24,7 +25,6 @@ const ChangeStateDialog = ({
   onClose,
   onSubmit,
 }: Props<IChangeStateDialogProps>) => {
-  const [{ data }] = useAtom(reasonsAtom);
   const [reasons, setReasons] = useState(offer?.reasons);
 
   const handleStateChange = useCallback(
@@ -45,13 +45,7 @@ const ChangeStateDialog = ({
       onClose={onClose}
       onSubmit={handleStateChange}
     >
-      <MultipleAutocomplete
-        name="reasons"
-        label="Lista powodów"
-        options={data ?? []}
-        value={reasons}
-        onValueChange={setReasons}
-      />
+      <ReasonsAutocomplete reasons={reasons} onReasonsChange={setReasons} />
     </FormDialog>
   );
 };
