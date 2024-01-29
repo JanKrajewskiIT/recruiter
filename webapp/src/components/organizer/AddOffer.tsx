@@ -1,5 +1,5 @@
 import AddOfferDialog from "@/components/organizer/DefineOfferDialog";
-import { type Offer } from "@/models/Offer";
+import type Offer from "@/models/Offer";
 import { type Props } from "@/models/props";
 import { useAddOfferMutation } from "@/store/organizer";
 import { Button } from "@mui/material";

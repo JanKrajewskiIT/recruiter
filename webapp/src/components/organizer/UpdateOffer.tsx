@@ -1,5 +1,5 @@
-import AddOfferDialog from "@/components/organizer/DefineOfferDialog";
-import { type Offer } from "@/models/Offer";
+import DefineOfferDialog from "@/components/organizer/DefineOfferDialog";
+import type Offer from "@/models/Offer";
 import { type Props } from "@/models/props";
 import { useUpdateOfferMutation } from "@/store/organizer";
 import { IconButton } from "@mui/material";
@@ -26,7 +26,7 @@ const UpdateOffer = ({ className, offer }: Props<IUpdateOfferProps>) => {
       <IconButton className={className} edge="end" onClick={handleOpen}>
         <MdEdit />
       </IconButton>
-      <AddOfferDialog
+      <DefineOfferDialog
         open={open}
         offer={offer}
         title="Edycja oferty"

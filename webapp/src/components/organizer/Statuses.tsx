@@ -1,27 +1,26 @@
+import OfferStatus from "@/models/OfferStatus";
 import { type Props } from "@/models/props";
-import { statusesAtom } from "@/store/dictionary";
 import { selectedStatusAtom } from "@/store/organizer";
 import { Chip, styled } from "@mui/material";
 import { useAtom } from "jotai";
 import { useCallback } from "react";
 
 const Statuses = ({ className }: Props) => {
-  const [{ data }] = useAtom(statusesAtom);
   const [status, setStatus] = useAtom(selectedStatusAtom);
 
   const handleStatusChange = useCallback(
-    (status: string) => () => setStatus(status),
+    (status: OfferStatus) => () => setStatus(status),
     [setStatus],
   );
 
   return (
     <div className={className}>
-      {data?.map((s) => (
+      {Object.entries(OfferStatus).map(([value, key]) => (
         <Chip
-          key={s}
-          label={s}
-          variant={status === s ? "filled" : "outlined"}
-          onClick={handleStatusChange(s)}
+          key={key}
+          label={value}
+          variant={status === key ? "filled" : "outlined"}
+          onClick={handleStatusChange(key)}
         />
       ))}
     </div>

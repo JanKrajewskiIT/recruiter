@@ -1,7 +1,7 @@
 import AddOffer from "@/components/organizer/AddOffer";
 import OfferItem from "@/components/organizer/OfferItem";
+import OfferStatus from "@/models/OfferStatus";
 import { type Props } from "@/models/props";
-import { defaultOfferStatus } from "@/store/dictionary";
 import {
   offersLengthAtom,
   selectedStatusAtom,
@@ -39,7 +39,7 @@ const Offers = ({ className }: Props) => {
           ))}
         </List>
       )}
-      {status === defaultOfferStatus && <AddOffer className="add-offer" />}
+      {status === OfferStatus.New && <AddOffer className="add-offer" />}
     </div>
   );
 };

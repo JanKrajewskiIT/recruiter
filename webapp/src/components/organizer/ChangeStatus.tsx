@@ -1,52 +1,74 @@
+import ChangeStateDialog from "@/components/organizer/ChangeStateDialog";
+import type Offer from "@/models/Offer";
+import OfferStatus from "@/models/OfferStatus";
 import { type Props } from "@/models/props";
-import { statusesAtom } from "@/store/dictionary";
 import {
   selectedStatusAtom,
-  useUpdateOfferStatusMutation,
+  useUpdateOfferStateMutation,
 } from "@/store/organizer";
 import {
   MenuItem,
   Select,
   Typography,
   type SelectChangeEvent,
+  styled,
 } from "@mui/material";
 import { useAtom } from "jotai";
-import { useCallback } from "react";
+import { Fragment, useCallback, useState } from "react";
 
 interface IChangeStatusProps {
-  offerId: string;
+  offer: Offer;
 }
 
-const ChangeStatus = ({ className, offerId }: Props<IChangeStatusProps>) => {
-  const [{ data }] = useAtom(statusesAtom);
-  const [status] = useAtom(selectedStatusAtom);
-  const { mutate } = useUpdateOfferStatusMutation();
-
-  const handleStatusChange = useCallback(
-    (event: SelectChangeEvent) =>
-      mutate({ id: offerId, status: event.target.value }),
-    [mutate, offerId],
+const ChangeStatus = ({ className, offer }: Props<IChangeStatusProps>) => {
+  const [selectedStatus] = useAtom(selectedStatusAtom);
+  const [status, setStatus] = useState<OfferStatus>(
+    selectedStatus ?? OfferStatus.New,
   );
+  const [open, setOpen] = useState(false);
+  const { mutate } = useUpdateOfferStateMutation();
+
+  const handleClose = useCallback(() => setOpen(false), []);
+  const handleOpen = useCallback((event: SelectChangeEvent) => {
+    setStatus(event.target.value as OfferStatus);
+    setOpen(true);
+  }, []);
 
   return (
-    status && (
-      <Select
-        className={className}
-        value={status}
-        label="Age"
-        size="small"
-        onChange={handleStatusChange}
-      >
-        {data?.map((s) => (
-          <MenuItem key={s} value={s}>
-            <Typography variant="body2" color="text.secondary">
-              {s}
-            </Typography>
-          </MenuItem>
-        ))}
-      </Select>
-    )
+    <Fragment>
+      {selectedStatus && (
+        <Select
+          className={className}
+          value={selectedStatus}
+          size="small"
+          onChange={handleOpen}
+        >
+          {Object.entries(OfferStatus).map(([value, key]) => (
+            <MenuItem key={key} value={value}>
+              <Typography variant="body2" color="text.secondary">
+                {value}
+              </Typography>
+            </MenuItem>
+          ))}
+        </Select>
+      )}
+      <ChangeStateDialog
+        open={open}
+        offer={offer}
+        status={status}
+        onSubmit={mutate}
+        onClose={handleClose}
+      />
+    </Fragment>
   );
 };
 
-export default ChangeStatus;
+export default styled(ChangeStatus)`
+  & {
+    > div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+`;

@@ -13,7 +13,7 @@ import {
 } from "@mui/material";
 import { RxDragHandleDots1 } from "react-icons/rx";
 import { type Atom, useAtom } from "jotai";
-import { type Offer } from "@/models/Offer";
+import type Offer from "@/models/Offer";
 
 interface IOfferItemProps {
   offerAtom: Atom<Offer>;
@@ -31,7 +31,7 @@ const OfferItem = ({ className, offerAtom }: Props<IOfferItemProps>) => {
       <ListItemText primary={name} />
       <ListItemText secondary={company} />
       <ListItemText secondary={city} />
-      <ChangeStatus offerId={id} />
+      <ChangeStatus offer={offer} />
       <ListItemSecondaryAction>
         <RedirectToOffer link={link} />
         <UpdateOffer offer={offer} />

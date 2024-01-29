@@ -1,4 +1,4 @@
-import { type Category } from "@/models/Category";
+import type Category from "@/models/Category";
 import { atom } from "jotai";
 import { atomWithQuery } from "jotai-tanstack-query";
 

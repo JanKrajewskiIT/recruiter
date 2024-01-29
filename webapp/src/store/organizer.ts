@@ -2,9 +2,11 @@ import { atom } from "jotai";
 import { atomWithQuery } from "jotai-tanstack-query";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { selectAtom, splitAtom } from "jotai/utils";
-import { type Offer } from "@/models/Offer";
+import type Offer from "@/models/Offer";
+import type OfferStatus from "@/models/OfferStatus";
+import type OfferState from "@/models/OfferState";
 
-export const selectedStatusAtom = atom<string | null>(null);
+export const selectedStatusAtom = atom<OfferStatus | null>(null);
 
 const offersAtom = atomWithQuery<Offer[]>((get) => ({
   queryKey: ["offers", get(selectedStatusAtom)],
@@ -16,6 +18,8 @@ const offersAtom = atomWithQuery<Offer[]>((get) => ({
 
       return await result.json();
     }
+
+    return [];
   },
 }));
 
@@ -51,11 +55,14 @@ export const useUpdateOfferMutation = () => {
   return useMutation({
     mutationKey: ["updateOffer"],
     mutationFn: async (offer: Offer) => {
-      const result = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/offers`, {
-        method: "PUT",
-        headers: { "Content-type": "application/json; charset=UTF-8" },
-        body: JSON.stringify(offer),
-      });
+      const result = await fetch(
+        `${process.env.NEXT_PUBLIC_API_URL}/offers/${offer.id}`,
+        {
+          method: "PUT",
+          headers: { "Content-type": "application/json; charset=UTF-8" },
+          body: JSON.stringify(offer),
+        },
+      );
 
       await queryClient.invalidateQueries({ queryKey: ["offers"] });
 
@@ -64,16 +71,18 @@ export const useUpdateOfferMutation = () => {
   });
 };
 
-export const useUpdateOfferStatusMutation = () => {
+export const useUpdateOfferStateMutation = () => {
   const queryClient = useQueryClient();
 
   return useMutation({
-    mutationKey: ["updateOfferStatus"],
-    mutationFn: async ({ id, status }: { id: string; status: string }) => {
+    mutationKey: ["updateOfferState"],
+    mutationFn: async (state: OfferState) => {
       const result = await fetch(
-        `${process.env.NEXT_PUBLIC_API_URL}/offers/${id}?status=${status}`,
+        `${process.env.NEXT_PUBLIC_API_URL}/offers/${state.id}`,
         {
           method: "PATCH",
+          headers: { "Content-type": "application/json; charset=UTF-8" },
+          body: JSON.stringify(state),
         },
       );
 
