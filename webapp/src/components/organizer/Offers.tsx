@@ -7,14 +7,9 @@ import {
   selectedStatusAtom,
   splitOffersAtom,
 } from "@/store/organizer";
-import {
-  List,
-  ListSubheader,
-  listClasses,
-  listSubheaderClasses,
-  styled,
-} from "@mui/material";
+import { Typography, styled } from "@mui/material";
 import { useAtom } from "jotai";
+import { Fragment } from "react";
 
 const Offers = ({ className }: Props) => {
   const [offersAtom] = useAtom(splitOffersAtom);
@@ -24,20 +19,25 @@ const Offers = ({ className }: Props) => {
   return (
     <div className={className}>
       {!!offersLength && (
-        <List
-          subheader={
-            <ListSubheader>
-              <span>Tytuł stanowiska</span>
-              <span>Nazwa firmy</span>
-              <span>Miasto</span>
-              <span>Status</span>
-            </ListSubheader>
-          }
-        >
+        <Fragment>
+          <div className="list-headers">
+            <Typography variant="subtitle2" color="text.secondary">
+              Tytuł stanowiska
+            </Typography>
+            <Typography variant="subtitle2" color="text.secondary">
+              Nazwa firmy
+            </Typography>
+            <Typography variant="subtitle2" color="text.secondary">
+              Miasto
+            </Typography>
+            <Typography variant="subtitle2" color="text.secondary">
+              Status
+            </Typography>
+          </div>
           {offersAtom.map((o) => (
             <OfferItem key={o.toString()} offerAtom={o} />
           ))}
-        </List>
+        </Fragment>
       )}
       {status === OfferStatus.New && <AddOffer className="add-offer" />}
     </div>
@@ -46,20 +46,16 @@ const Offers = ({ className }: Props) => {
 
 export default styled(Offers)`
   & {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-
-    .${listClasses.root} {
+    .list-headers {
+      display: grid;
+      grid-template-columns: 1fr 1fr 136px 258px;
+      padding-left: 46px;
+      margin-bottom: 14px;
       width: 100%;
-      padding: 0;
+    }
 
-      .${listSubheaderClasses.root} {
-        display: grid;
-        grid-template-columns: 1fr 1fr 120px 220px;
-        padding: 0 40px;
-        background-color: transparent;
-      }
+    > button {
+      margin-top: 6px;
     }
   }
 `;
