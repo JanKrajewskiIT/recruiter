@@ -10,15 +10,15 @@
     "postinstall": "node ./node_modules/@axa-fr/react-oidc/bin/copy-service-worker-files.mjs public"
   },
   "dependencies": {
-    "@axa-fr/react-oidc": "7.13.15",
+    "@axa-fr/react-oidc": "7.14.1",
     "@emotion/cache": "11.11.0",
     "@emotion/react": "11.11.3",
     "@emotion/styled": "11.11.0",
     "@mui/material": "5.15.6",
     "@tanstack/query-core": "5.17.19",
     "@tanstack/react-query-devtools": "5.17.21",
-    "jotai": "2.6.2",
-    "jotai-tanstack-query": "0.8.2",
+    "jotai": "2.6.3",
+    "jotai-tanstack-query": "0.8.3",
     "next": "14.1.0",
     "react": "18",
     "react-dom": "18",

@@ -6,4 +6,5 @@ public record Offer(
     string Link,
     string Company,
     string City,
+    string []Reasons,
     string? Description );

@@ -24,13 +24,13 @@ internal static class OfferEndpoints
                 await mediator.Publish( new AddOfferCommand( offer ) ) )
             .WithName( "AddOffer" );
 
-        group.MapPut( "/", async ( Offer offer, IMediator mediator ) =>
-                await mediator.Publish( new UpdateOfferCommand( offer ) ) )
+        group.MapPut( "/{id}", async ( Guid id, Offer offer, IMediator mediator ) =>
+                await mediator.Publish( new UpdateOfferCommand(id, offer ) ) )
             .WithName( "UpdateOffer" );
 
-        group.MapPatch( "/{id}", async ( Guid id, OfferStatus status, IMediator mediator ) =>
-                await mediator.Publish( new UpdateOfferStatusCommand( id, status ) ) )
-            .WithName( "UpdateOfferStatus" );
+        group.MapPatch( "/{id}", async ( Guid id, OfferState state, IMediator mediator ) =>
+                await mediator.Publish( new UpdateOfferStateCommand(id, state ) ) )
+            .WithName( "UpdateOfferState" );
 
         group.MapDelete( "/{id}", async ( Guid id, IMediator mediator ) =>
                 await mediator.Publish( new DeleteOfferCommand( id ) ) )

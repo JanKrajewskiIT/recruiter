@@ -33,6 +33,9 @@ internal sealed class OfferConfiguration : IEntityTypeConfiguration<OfferEntity>
             .HasDefaultValue( OfferStatus.New )
             .IsRequired();
 
+        builder.Property( e => e.Reasons )
+            .IsRequired( false );
+
         builder.Property( e => e.Description )
             .HasMaxLength( DataTypeConsts.TextLength )
             .IsRequired( false );

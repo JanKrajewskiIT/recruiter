@@ -18,6 +18,11 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddApplication( builder.Configuration );
 builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
 builder.Services.AddExceptionHandler<ValidationExceptionHandler>();
+builder.Services.ConfigureHttpJsonOptions( options => options
+    .SerializerOptions
+    .Converters
+    .Add( SwaggerExtensions.JsonConverter ) );
+
 
 var app = builder.Build();
 

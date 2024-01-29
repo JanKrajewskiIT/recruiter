@@ -3,8 +3,7 @@
 public enum OfferStatus
 {
     New,
+    Considered,
     Sent,
-    Accepted,
-    Rejected,
-    All
+    Rejected
 }

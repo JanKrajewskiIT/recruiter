@@ -14,5 +14,7 @@ public class OfferEntity : AuditEntity
 
     public required OfferStatus Status { get; set; }
 
+    public IList<string> Reasons { get; set; } = [];
+
     public string? Description { get; set; }
 }

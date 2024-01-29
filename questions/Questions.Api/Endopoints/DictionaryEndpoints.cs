@@ -13,9 +13,6 @@ internal static class DictionaryEndpoints
             .WithOpenApi()
             .RequireAuthorization();
 
-        group.MapGet( "/statuses", () => Enum.GetNames<OfferStatus>() )
-            .WithName( "GetStatuses" );
-
         group.MapGet( "/positions", async ( IMediator mediator ) =>
                 await mediator.Send( new GetDictionaryQuery( DictionaryKey.Positions ) ) )
             .WithName( "GetPositions" );
@@ -23,6 +20,10 @@ internal static class DictionaryEndpoints
         group.MapGet( "/cities", async ( IMediator mediator ) =>
                 await mediator.Send( new GetDictionaryQuery( DictionaryKey.Cities ) ) )
             .WithName( "GetCities" );
+
+        group.MapGet( "/reasons", async ( IMediator mediator ) =>
+                await mediator.Send( new GetDictionaryQuery( DictionaryKey.Reasons ) ) )
+            .WithName( "GetReasons" );
 
         return app;
     }

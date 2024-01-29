@@ -3,4 +3,4 @@ using Questions.Application.Models;
 
 namespace Questions.Application.Command;
 
-public sealed record UpdateOfferCommand( Guid Id, Offer Offer ) : INotification;
+public sealed record UpdateOfferStateCommand( Guid Id, OfferState State ) : INotification;

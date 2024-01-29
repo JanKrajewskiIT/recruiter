@@ -3,5 +3,6 @@
 public enum DictionaryKey
 {
     Cities,
-    Positions
+    Positions,
+    Reasons
 }
