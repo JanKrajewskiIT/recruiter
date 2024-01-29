@@ -1,0 +1,13 @@
+@Organizer.Api_HostAddress = http://localhost:5262
+
+GET {{Organizer.Api_HostAddress}}/offers/
+Accept: application/json
+
+###
+
+# To get access token and decode it in https://jwt.io/
+POST http://localhost:9002/realms/recruiter/protocol/openid-connect/token
+Content-Type: application/x-www-form-urlencoded
+Accept: application/json
+
+grant_type=password&client_id=recruiter&client_secret=wLX2J5reyxrF0s6z85GQfApm1RBgAVII&scope=openid&username=bluebraces&password=^ffp@!EO@zAP

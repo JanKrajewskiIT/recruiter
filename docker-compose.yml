@@ -34,6 +34,12 @@ services:
     volumes:
       - recruiter_data:/var/lib/postgresql/data
 
+  sql.organizer:
+    image: postgres:latest
+    restart: always
+    volumes:
+      - recruiter_data:/var/lib/postgresql/data
+
   #questions.api:
   #  image: recruiter/questions.api:${TAG:-latest}
   #  build:

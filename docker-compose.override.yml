@@ -40,6 +40,14 @@ services:
     ports:
       - 9004:5432
 
+  sql.organizer:
+    environment:
+      POSTGRES_DB: postgres
+      POSTGRES_USER: ${DEFAULT_USER:-user}
+      POSTGRES_PASSWORD: ${DEFAULT_PASSWORD:-password}
+    ports:
+      - 9005:5432
+
   #questions.api:
   #  environment:
   #    - ASPNETCORE_ENVIRONMENT=${APP_ENVIRONMENT:-Development}
@@ -49,7 +57,7 @@ services:
   #    - Keycloak__ClientId=recruiter
   #    - Keycloak__ClientSecret=Lzn5DMaTgnZvrIZpUiXYcVCHTRToBtNR
   #  ports:
-  #    - 9005:8080
+  #    - 9006:8080
 
   #webapp:
   #  environment:
@@ -60,4 +68,4 @@ services:
   #    - NEXT_PUBLIC_API_URL=http://host.docker.internal:9005
   #    - NEXT_PUBLIC_AUTH_URL=http://host.docker.internal:3000
   #  ports:
-  #    - 9006:3000
+  #    - 9007:3000
