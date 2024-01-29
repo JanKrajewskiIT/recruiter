@@ -1,19 +1,19 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Extensions.Domain.Entities;
+using Extensions.Infrastructure.EntitiesConfiguration.Consts;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using PGPlatform.ManagementPortal.Infrastructure.Database.Consts;
-using Questions.Domain.Entities;
 
-namespace Questions.Infrastructure.EntitiesConfiguration.Extensions;
+namespace Extensions.Infrastructure.EntitiesConfiguration.Extensions;
 
-internal static class EntityConfigurationExtensions
+public static class EntityConfigurationExtensions
 {
-    internal static void ToBasicTable<T>( this EntityTypeBuilder<T> builder, string tableName ) where T : BaseEntity
+    public static void ToBasicTable<T>( this EntityTypeBuilder<T> builder, string tableName ) where T : BaseEntity
     {
         builder.ToTable( tableName );
         builder.HasKey( e => e.Id );
     }
 
-    internal static void ToAuditTable<T>( this EntityTypeBuilder<T> builder, string tableName ) where T : AuditEntity
+    public static void ToAuditTable<T>( this EntityTypeBuilder<T> builder, string tableName ) where T : AuditEntity
     {
         builder.ToBasicTable( tableName );
 

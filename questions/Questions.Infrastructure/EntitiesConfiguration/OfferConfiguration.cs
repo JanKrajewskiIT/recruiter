@@ -1,9 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Extensions.Infrastructure.EntitiesConfiguration.Consts;
+using Extensions.Infrastructure.EntitiesConfiguration.Extensions;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using PGPlatform.ManagementPortal.Infrastructure.Database.Consts;
 using Questions.Domain.Entities;
 using Questions.Domain.Enums;
-using Questions.Infrastructure.EntitiesConfiguration.Extensions;
 
 namespace Questions.Infrastructure.EntitiesConfiguration;
 

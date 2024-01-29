@@ -1,21 +1,21 @@
 ﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using Swashbuckle.AspNetCore.SwaggerUI;
 using System.Text;
 
-namespace Questions.Api.Configuration;
+namespace Extensions.Api.Configuration;
 
 internal static class AuthExtensions
 {
-    public const string KeycloakConfigurationKey = "Keycloak";
-
     private const string Audience = "account";
     private const string BearerFormat = "JWT";
     private const string Scheme = JwtBearerDefaults.AuthenticationScheme;
 
-    public static IServiceCollection AddAuth( this IServiceCollection services, KeycloakOptions keycloakOptions )
+    internal static IServiceCollection AddAuth( this IServiceCollection services, KeycloakOptions keycloakOptions )
     {
         services
             .AddAuthentication( Scheme )
@@ -43,7 +43,7 @@ internal static class AuthExtensions
         return services;
     }
 
-    public static SwaggerGenOptions AddSwaggerAuth( this SwaggerGenOptions options, KeycloakOptions keycloakOptions )
+    internal static SwaggerGenOptions AddSwaggerAuth( this SwaggerGenOptions options, KeycloakOptions keycloakOptions )
     {
         options.AddSecurityDefinition( Scheme, new OpenApiSecurityScheme
         {
@@ -86,7 +86,7 @@ internal static class AuthExtensions
         return options;
     }
 
-    public static IApplicationBuilder UseAuth( this IApplicationBuilder app )
+    internal static IApplicationBuilder UseAuth( this IApplicationBuilder app )
     {
         app.UseAuthentication();
         app.UseAuthorization();
@@ -94,7 +94,7 @@ internal static class AuthExtensions
         return app;
     }
 
-    public static SwaggerUIOptions UseSwaggerAuth( this SwaggerUIOptions options, KeycloakOptions keycloakOptions )
+    internal static SwaggerUIOptions UseSwaggerAuth( this SwaggerUIOptions options, KeycloakOptions keycloakOptions )
     {
         options.OAuthClientId( keycloakOptions.ClientId );
         options.OAuthClientSecret( keycloakOptions.ClientSecret );

@@ -9,7 +9,7 @@ internal sealed class UpdateOfferCommandHandler( ApplicationDbContext dbContext 
     public async Task Handle( UpdateOfferCommand notification, CancellationToken cancellationToken )
     {
         if (notification.Id != notification.Offer.Id)
-            throw new Exception("Data inconsistency in offer model");
+            throw new Exception( "Data inconsistency in offer model" );
 
         var offerEntity = await dbContext.Offers
             .SingleAsync( o => o.Id == notification.Id, cancellationToken );

@@ -1,10 +1,13 @@
-﻿namespace Questions.Api.Configuration;
+﻿using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.DependencyInjection;
+
+namespace Extensions.Api.Configuration;
 
 internal static class CorsExtensions
 {
     private const string allCors = "allCors";
 
-    public static IServiceCollection AddAllCors( this IServiceCollection services )
+    internal static IServiceCollection AddAllCors( this IServiceCollection services )
     {
         services.AddCors( options =>
         {
@@ -19,7 +22,7 @@ internal static class CorsExtensions
         return services;
     }
 
-    public static IApplicationBuilder UseAllCors( this IApplicationBuilder app )
+    internal static IApplicationBuilder UseAllCors( this IApplicationBuilder app )
     {
         app.UseCors( allCors );
 

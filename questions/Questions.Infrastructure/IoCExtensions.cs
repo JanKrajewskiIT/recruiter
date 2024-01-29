@@ -1,5 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
+﻿using Extensions.Infrastructure;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Npgsql;
 using Questions.Domain.Enums;
@@ -9,18 +9,17 @@ namespace Questions.Infrastructure;
 
 public static class IoCExtensions
 {
-    public static IServiceCollection AddInfrastructure( this IServiceCollection services, IConfiguration configuration )
+    public static IServiceCollection AddInfrastructure( this IServiceCollection services, string connectionString )
     {
-        var dataSource = CreateDataSource( configuration );
+        var dataSource = CreateDataSource( connectionString );
 
-        services.AddDbContext<ApplicationDbContext>(options => options.UseNpgsql( dataSource ) );
-        
+        services.AddDbContext<ApplicationDbContext>( options => options.UseNpgsql( dataSource ) );
+
         return services;
     }
 
-    private static NpgsqlDataSource CreateDataSource( IConfiguration configuration )
+    private static NpgsqlDataSource CreateDataSource( string connectionString )
     {
-        var connectionString = configuration.GetConnectionString( "Questions" )!;
         var dataSourceBuilder = new NpgsqlDataSourceBuilder( connectionString );
 
         dataSourceBuilder.EnableDynamicJson();
@@ -34,26 +33,6 @@ public static class IoCExtensions
         return dataSourceBuilder.Build();
     }
 
-    public static async Task MigrateDatabase( this IServiceProvider services, CancellationToken cancellationToken )
-    {
-        using var scope = services.CreateScope();
-        var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-
-        if (dbContext is not null && dbContext.Database.GetPendingMigrations().Any())
-        {
-            await dbContext.Database.MigrateAsync( cancellationToken );
-
-            if (dbContext.Database.GetDbConnection() is NpgsqlConnection npgsqlConnection)
-            {
-                try
-                {
-                    await npgsqlConnection.ReloadTypesAsync();
-                }
-                finally
-                {
-                    await npgsqlConnection.CloseAsync();
-                }
-            }
-        }
-    }
+    public static Task MigrateDatabase( this IServiceProvider services, CancellationToken cancellationToken )
+        => services.MigrateDatabase<ApplicationDbContext>( cancellationToken );
 }

@@ -1,9 +1,12 @@
 ﻿using FluentValidation;
 using Microsoft.AspNetCore.Diagnostics;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 using System.Net;
 
-namespace Questions.Api.Handlers;
+namespace Extensions.Api.Handlers;
 
 internal class GlobalExceptionHandler(
     IHostEnvironment env,

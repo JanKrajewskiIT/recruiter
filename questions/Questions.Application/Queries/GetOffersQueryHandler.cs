@@ -15,7 +15,7 @@ internal sealed class GetOffersQueryHandler( ApplicationDbContext dbContext ) : 
             .ToListAsync( cancellationToken );
 
         return questions
-            .Select( x => new Offer( x.Id, x.Name, x.Link, x.Company, x.City, [.. x.Reasons], x.Description ) )
+            .Select( x => new Offer( x.Id, x.Name, x.Link, x.Company, x.City, [ .. x.Reasons ], x.Description ) )
             .ToList();
     }
 }

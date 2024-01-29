@@ -1,46 +1,25 @@
-using Questions.Api.Configuration;
+using Extensions.Api;
 using Questions.Api.Endopoints;
-using Questions.Api.Handlers;
 using Questions.Application;
 using Questions.Infrastructure;
 
 var builder = WebApplication.CreateBuilder( args );
 
-var keycloakOptions = builder.Configuration
-    .GetSection( AuthExtensions.KeycloakConfigurationKey )
-    .Get<KeycloakOptions>()!;
+var keycloakSection = builder.Configuration.GetRequiredSection( "Keycloak" );
+var connectionString = builder.Configuration.GetConnectionString( "Questions" )!;
 
-builder.Services.AddSwaggerWithAuth( keycloakOptions );
-builder.Services.AddAuth( keycloakOptions );
-builder.Services.AddAllCors();
-builder.Services.AddProblemDetails();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddApplication( builder.Configuration );
-builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
-builder.Services.AddExceptionHandler<ValidationExceptionHandler>();
-builder.Services.ConfigureHttpJsonOptions( options => options
-    .SerializerOptions
-    .Converters
-    .Add( SwaggerExtensions.JsonConverter ) );
-
+builder.Services.AddCommonConfiguration( keycloakSection );
+builder.Services.AddApplication( connectionString );
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwaggerWithAuth( keycloakOptions );
-}
-
-app.UseAuth();
-app.UseAllCors();
-app.UseHttpsRedirection();
-app.UseExceptionHandler();
+app.UseCommonConfiguration( keycloakSection );
 
 app.MapCategoryEndpoints();
 app.MapDictionaryEndpoints();
 app.MapOfferEndpoints();
 app.MapQuestionEndpoints();
 
-await app.Services.MigrateDatabase(CancellationToken.None);
+await app.Services.MigrateDatabase( CancellationToken.None );
 
 app.Run();

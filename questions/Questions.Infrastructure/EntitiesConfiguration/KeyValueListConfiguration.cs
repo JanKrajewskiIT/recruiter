@@ -1,6 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using PGPlatform.ManagementPortal.Infrastructure.Database.Consts;
 using Questions.Domain.Entities;
 
 namespace Questions.Infrastructure.EntitiesConfiguration;

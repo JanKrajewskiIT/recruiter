@@ -1,4 +1,5 @@
-﻿using Questions.Domain.Enums;
+﻿using Extensions.Domain.Entities;
+using Questions.Domain.Enums;
 
 namespace Questions.Domain.Entities;
 

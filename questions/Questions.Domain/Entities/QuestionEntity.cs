@@ -1,4 +1,6 @@
-﻿namespace Questions.Domain.Entities;
+﻿using Extensions.Domain.Entities;
+
+namespace Questions.Domain.Entities;
 
 public class QuestionEntity : AuditEntity
 {
